@@ -1,0 +1,26 @@
+{
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview",
+          "Offset": 128
+        },
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill",
+          "TargetType": {
+            "$type": "RPG.GameCore.AdvGroupFetchTargetByString",
+            "Target": {
+              "Custom": false,
+              "Value": "\u0004�\u001e\u0000"
+            }
+          }
+        }
+      ]
+    },
+    {}
+  ]
+}

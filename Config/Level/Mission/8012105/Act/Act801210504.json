@@ -1,0 +1,97 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AdvNpcFaceToPlayer"
+        }
+      ]
+    },
+    {
+      "IsLoop": true,
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.AbortInsertAbility",
+          "TargetFilter": {
+            "$type": "RPG.GameCore.AdvGroupFetchTargetByStringList",
+            "Targets": {
+              "Value": [
+                "\fALL"
+              ]
+            }
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AdvByInCustomZone",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchFarmElementEntity"
+          },
+          "ReturnArtUnload": true
+        }
+      ]
+    },
+    {
+      "IsLoop": true,
+      "Order": 39,
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill",
+          "ResetToIdle": true
+        },
+        {
+          "$type": "RPG.GameCore.AbortInsertAbility",
+          "AbilityName": "ALL_TALK_END"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill",
+          "ResetToIdle": true
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
+  ]
+}

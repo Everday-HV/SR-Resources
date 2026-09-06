@@ -1,0 +1,152 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Camera01",
+  "AreaAnchorName": "LevelArea_P40531_F40531001_G11",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.SceneConfig",
+        "TagHash": 520707853
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -61.0099983215332,
+      "PosY": 9.630000114440918,
+      "PosZ": 116.2699966430664,
+      "Name": "Prop1",
+      "RotY": 269.9595031738281,
+      "PropID": 115,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Maze/Chapter01/Town/Town_Chapter01_TownExit_CameraArea.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Camera1",
+            "Value": "Chap05_MAZ_B003_LevelArea,Exit_6_Camf"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Camera2",
+            "Value": "Chap05_MAZ_B003_LevelArea,Exit_6_Camb"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Anchor",
+            "Value": "Chap05_MAZ_B003_LevelArea,Exit_6_CamRoot"
+          }
+        ]
+      },
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 10.0,
+        "DimX": 25.0,
+        "DimY": 4.0,
+        "DimZ": 10.0
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -61.0099983215332,
+      "PosY": 9.630000114440918,
+      "PosZ": 116.2699966430664,
+      "Name": "Prop2",
+      "RotY": 269.9595031738281,
+      "Scale": {
+        "x": 1.3345530033111572,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "PropID": 140,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TosatPileText",
+            "Value": "MazeText_Chap05_Common_Blockline"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "EnterTrigger": {
+          "Shape": "Box",
+          "Radius": 1.0,
+          "DimX": 11.0,
+          "DimY": 2.0,
+          "DimZ": 15.0,
+          "Offset": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        "ExitTrigger": {
+          "Shape": "Box",
+          "Radius": 1.0,
+          "DimX": 13.0,
+          "DimY": 2.0,
+          "DimZ": 17.0,
+          "Offset": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

@@ -1,0 +1,645 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "MainMission1054005_36",
+  "Category": "Mission",
+  "AreaAnchorName": "LevelArea_P20501_F20501001_G88",
+  "SaveType": "Reset",
+  "OwnerMainMissionID": 1054005,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -2.8420000076293945,
+      "PosY": 2.5999999046325684,
+      "PosZ": -43.374000549316406,
+      "Name": "Prop1",
+      "PropID": 100,
+      "ValueSource": {},
+      "Trigger": {
+        "Radius": 2.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "Dialog": {
+        "LevelGraph": "Config/Level/PropDialogue/P20501/F20501001_G88/DialogueMain_F20501001_G88_P300001.json",
+        "PackList": []
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "InteractTitle": {
+        "Hash": 278713941,
+        "Hash64": 9043410032120036605
+      },
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -28.586999893188477,
+      "PosY": 1.399999976158142,
+      "PosZ": 2.621999979019165,
+      "Name": "Prop2",
+      "PropID": 100,
+      "ValueSource": {},
+      "Trigger": {
+        "Radius": 2.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "Dialog": {
+        "LevelGraph": "Config/Level/PropDialogue/P20501/F20501001_G88/DialogueMain_F20501001_G88_P300002.json",
+        "PackList": []
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "InteractTitle": {
+        "Hash": 278713941,
+        "Hash64": 9043410032120036605
+      },
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": 1.9240000247955322,
+      "PosY": 1.600000023841858,
+      "PosZ": -20.783000946044922,
+      "Name": "Prop3",
+      "PropID": 100,
+      "ValueSource": {},
+      "Trigger": {
+        "Radius": 2.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "Dialog": {
+        "LevelGraph": "Config/Level/PropDialogue/P20501/F20501001_G88/DialogueMain_F20501001_G88_P300003.json",
+        "PackList": []
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "InteractTitle": {
+        "Hash": 278713941,
+        "Hash64": 9043410032120036605
+      },
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": -2.783000946044922,
+      "PosY": 1.0001189708709717,
+      "PosZ": -43.361000061035156,
+      "Name": "Prop_Municipal_0006",
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F20501001/MunicipalChatConfig_F20501001_0006.json"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F20501001_0006"
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "RPG.GameCore.MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400001
+              },
+              {
+                "$type": "RPG.GameCore.MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400002
+              }
+            ]
+          }
+        ]
+      },
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 5.0,
+        "DimX": 8.0,
+        "DimY": 4.0,
+        "DimZ": 6.0
+      },
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300005,
+      "PosX": -2.783000946044922,
+      "PosY": 1.0001189708709717,
+      "PosZ": -43.361000061035156,
+      "Name": "Prop_Municipal_0006_Stop",
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "StopMunicipalChatName",
+            "Value": "MunicipalChatConfig_F20501001_0006"
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 7.0
+      },
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300006,
+      "PosX": -28.625499725341797,
+      "PosY": -3.000000106112566e-6,
+      "PosZ": 2.6535000801086426,
+      "Name": "Prop_Municipal_0007",
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F20501001/MunicipalChatConfig_F20501001_0007.json"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F20501001_0007"
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "RPG.GameCore.MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400003
+              },
+              {
+                "$type": "RPG.GameCore.MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400004
+              }
+            ]
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 5.0,
+        "Offset": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": -3.0
+        }
+      },
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300007,
+      "PosX": -28.625499725341797,
+      "PosY": -3.000000106112566e-6,
+      "PosZ": 2.6535000801086426,
+      "Name": "Prop_Municipal_0007_Stop",
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "StopMunicipalChatName",
+            "Value": "MunicipalChatConfig_F20501001_0007"
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 7.0,
+        "Offset": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": -3.0
+        }
+      },
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300008,
+      "PosX": 1.8485000133514404,
+      "PosY": 6.000000212225132e-6,
+      "PosZ": -20.81399917602539,
+      "Name": "Prop_Municipal_0008",
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F20501001/MunicipalChatConfig_F20501001_0008.json"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F20501001_0008"
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "RPG.GameCore.MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400005
+              },
+              {
+                "$type": "RPG.GameCore.MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400006
+              }
+            ]
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 5.0,
+        "Offset": {
+          "x": -2.0,
+          "y": 0.0,
+          "z": -1.0
+        }
+      },
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300009,
+      "PosX": 1.8485000133514404,
+      "PosY": 6.000000212225132e-6,
+      "PosZ": -20.81399917602539,
+      "Name": "Prop_Municipal_0008_Stop",
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "StopMunicipalChatName",
+            "Value": "MunicipalChatConfig_F20501001_0008"
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 7.0,
+        "Offset": {
+          "x": -2.0,
+          "y": 0.0,
+          "z": -1.0
+        }
+      },
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": -2.4867420196533203,
+      "PosY": 1.0001189708709717,
+      "PosZ": -42.94718933105469,
+      "Name": "NPC1",
+      "RotY": 219.73629760742188,
+      "NPCID": 15119,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultBlendShapeConfigName": "Happy01",
+      "DefaultLookAtMode": "Closed",
+      "PossessionConfig": {
+        "Name": "Possession_MobilePhone_A_01"
+      },
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": -708681423,
+        "Hash64": 13633536284214328119
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100010494,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400002,
+      "PosX": -3.0792601108551025,
+      "PosY": 1.0001189708709717,
+      "PosZ": -43.774810791015625,
+      "Name": "NPC2",
+      "RotY": 49.03627014160156,
+      "NPCID": 15172,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultBlendShapeConfigName": "Surprise01",
+      "DefaultLookAtMode": "Closed",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": -708681424,
+        "Hash64": 1524061078735563265
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100010253,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400003,
+      "PosX": -28.847000122070312,
+      "PosY": -3.000000106112566e-6,
+      "PosZ": 2.259999990463257,
+      "Name": "NPC3",
+      "RotY": 41.0,
+      "NPCID": 15247,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultBlendShapeConfigName": "Happy02",
+      "DefaultLookAtMode": "Closed",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": -708681425,
+        "Hash64": 5980418075863932679
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100020268,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400004,
+      "PosX": -28.40399932861328,
+      "PosY": -3.000000106112566e-6,
+      "PosZ": 3.046999931335449,
+      "Name": "NPC4",
+      "RotY": 172.8000030517578,
+      "NPCID": 15202,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultLookAtMode": "Closed",
+      "PossessionConfig": {
+        "Name": "Possession_MobilePhone_A_01"
+      },
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": -708681426,
+        "Hash64": 18103067215613318723
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100020493,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400005,
+      "PosX": 2.059999942779541,
+      "PosY": 6.000000212225132e-6,
+      "PosZ": -21.06999969482422,
+      "Name": "NPC5",
+      "RotY": 107.4000015258789,
+      "NPCID": 15118,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultLookAtMode": "Closed",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": -708681427,
+        "Hash64": 8365272956301378620
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100010339,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400006,
+      "PosX": 1.6369999647140503,
+      "PosY": 6.000000212225132e-6,
+      "PosZ": -20.558000564575195,
+      "Name": "NPC6",
+      "RotY": 117.4000015258789,
+      "NPCID": 15176,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultLookAtMode": "Closed",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": -708681428,
+        "Hash64": 5807011321891256455
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100010222,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    }
+  ],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

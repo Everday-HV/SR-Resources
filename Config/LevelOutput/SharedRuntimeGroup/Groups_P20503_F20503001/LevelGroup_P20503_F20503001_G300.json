@@ -1,0 +1,417 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "5DCases",
+  "LevelGraph": "Config/Level/GroupGraph/F20503001/Group_F20503001_G300.json",
+  "AreaAnchorName": "LevelArea_P20503_F20503001_G300",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "GroupPropertyMap": {
+    "41": {
+      "ID": 41,
+      "Name": "LG_110001_ShowMoney_02",
+      "MaxValue": 6
+    },
+    "44": {
+      "ID": 44,
+      "Name": "LG_110001_LittleGameUIActive",
+      "MaxValue": 1
+    },
+    "40": {
+      "ID": 40,
+      "Name": "LG_110001__25_ChestStateS_Auto",
+      "Side": "ServerClient",
+      "MaxValue": 3
+    }
+  },
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Gameplay",
+        "TagHash": -141571921
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -1.7450000047683716,
+      "PosY": 9.697038650512695,
+      "PosZ": -127.9280014038086,
+      "Name": "Anchor1",
+      "RotY": 240.00010681152344
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -4.249000072479248,
+      "PosY": 9.774999618530273,
+      "PosZ": -129.54600524902344,
+      "Name": "Prop1",
+      "RotY": 0.00003199999991920777,
+      "PropID": 105006,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TargetFDLevel",
+            "Value": "110001,7"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ExitListenLevelRef",
+            "Value": "300,110001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FDPipeExitEntity",
+            "Value": "110001,7"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -1.7569999694824219,
+      "PosY": 20.604999542236328,
+      "PosZ": -138.63800048828125,
+      "Name": "Prop2",
+      "RotY": 165.52130126953125,
+      "RotX": 9.675569534301758,
+      "RotZ": 39.11252975463867,
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20503001/LG_Prop_F20503001_G300_300002.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "LitterGameEntity",
+            "Value": "300,110001"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": {
+        "BlockAlias": "Island_2_R1",
+        "PrefabAlias": "5D_FoodPoster0",
+        "UseOverridePos": false
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": -3.188999891281128,
+      "PosY": 15.734999656677246,
+      "PosZ": -130.3260040283203,
+      "Name": "Prop3",
+      "RotY": 185.42539978027344,
+      "RotX": 4.961802005767822,
+      "RotZ": 14.576419830322266,
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20503001/LG_Prop_F20503001_G300_300002.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "LitterGameEntity",
+            "Value": "300,110001"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": {
+        "BlockAlias": "Island_2_R1",
+        "PrefabAlias": "5D_FoodPoster1",
+        "UseOverridePos": false
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300005,
+      "PosX": -3.2200000286102295,
+      "PosY": 14.960000038146973,
+      "PosZ": -136.91000366210938,
+      "Name": "Prop5",
+      "RotY": 177.8184051513672,
+      "RotX": 17.675500869750977,
+      "RotZ": 28.692909240722656,
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20503001/LG_Prop_F20503001_G300_300002.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "LitterGameEntity",
+            "Value": "300,110001"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": {
+        "BlockAlias": "Island_2_R1",
+        "PrefabAlias": "5D_FoodPoster3",
+        "UseOverridePos": false
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300006,
+      "PosX": -3.244999885559082,
+      "PosY": 14.90999984741211,
+      "PosZ": -130.45799255371094,
+      "Name": "Prop6",
+      "RotY": 356.3257141113281,
+      "RotX": 10.585949897766113,
+      "RotZ": 279.42401123046875,
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20503001/LG_Prop_F20503001_G300_300002.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "LitterGameEntity",
+            "Value": "300,110001"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": {
+        "BlockAlias": "Island_2_R1",
+        "PrefabAlias": "5D_FoodPoster4",
+        "UseOverridePos": false
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300007,
+      "PosX": -1.9299999475479126,
+      "PosY": 19.81999969482422,
+      "PosZ": -138.7689971923828,
+      "Name": "Prop7",
+      "RotY": 95.5790786743164,
+      "RotX": 35.58631896972656,
+      "RotZ": 23.91659927368164,
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20503001/LG_Prop_F20503001_G300_300002.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "LitterGameEntity",
+            "Value": "300,110001"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": {
+        "BlockAlias": "Island_2_R1",
+        "PrefabAlias": "5D_FoodPoster5",
+        "UseOverridePos": false
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": -3.9600000381469727,
+      "PosY": 9.77500057220459,
+      "PosZ": -128.74000549316406,
+      "Name": "Prop4",
+      "RotY": 0.00002700000004551839,
+      "PropID": 138,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 2390,
+      "SubMapID": 205030112,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 400,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": [
+    {
+      "ID": 110001,
+      "PosX": -1.2599999904632568,
+      "PosY": 18.700000762939453,
+      "PosZ": -148.8800048828125,
+      "Name": "LittleGame1",
+      "RotY": 90.0,
+      "RotX": 6.299788951873779,
+      "RotZ": -9.999999974752427e-7,
+      "GameType": "FiveDim",
+      "LevelConfigPath": "Config/Gameplays/LittleGame/FiveDim/Level/Version_400/Map_B003/B003_Case11_House_Sub_04.json",
+      "LevelVarBinding": {
+        "Bindings": [
+          {
+            "LevelVarName": "PortalTargetOutInfo",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {
+              "GroupID": 300,
+              "InstanceID": 1
+            }
+          },
+          {
+            "LevelVarName": "ShowMoney_02",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001_ShowMoney_02"
+          },
+          {
+            "LevelVarName": "LittleGameUIActive",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001_LittleGameUIActive",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo",
+              "ResetOnExit": true
+            }
+          },
+          {
+            "LevelVarName": "_25_ChestStateS_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__25_ChestStateS_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          }
+        ]
+      },
+      "GroupsToKeepOnEnter": [],
+      "NavInfo": {
+        "LittleGameConnectList": [
+          {
+            "LevelGroupID": 300,
+            "LevelInstanceID": 300001,
+            "LittleGameEntityID": 7,
+            "ConditionInfos": []
+          }
+        ]
+      },
+      "RequireMissionInfo": {
+        "RequireSubMissionIDList": []
+      },
+      "MinimapFogIDList": [
+        300010000
+      ]
+    }
+  ]
+}

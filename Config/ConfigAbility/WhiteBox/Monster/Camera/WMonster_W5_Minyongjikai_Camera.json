@@ -1,0 +1,44 @@
+{
+  "AbilityList": [
+    {
+      "Name": "WMonster_W5_Minyongjikai_Skill01_Camera",
+      "TargetInfo": {
+        "TargetType": "Caster"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill",
+          "TargetType": {
+            "$type": "RPG.GameCore.RtBattleTargetFetchGridByTag"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AITryInsertUltra",
+          "ContinuousInsert": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvByIsInPhantomFrozen",
+          "TaskEnabled": true,
+          "Inverse": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvCreateGroupEntity"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {},
+    {},
+    {},
+    {},
+    {}
+  ]
+}

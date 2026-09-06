@@ -1,0 +1,280 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "TimeRewind Elevator",
+  "LevelGraph": "Config/Level/GroupGraph/F20481001/Group_F20481001_G57.json",
+  "AreaAnchorName": "LevelArea_P20481_F20481001_G57",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "UseCustomSaveData": true,
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "StreamingTemplateType": "UltraFar",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Connection",
+        "TagHash": -295833477
+      },
+      {
+        "Tag": "Group.Level.Gameplay",
+        "TagHash": -141571921
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 47.099998474121094,
+      "PosY": 235.11839294433594,
+      "PosZ": 203.14999389648438,
+      "Name": "Prop1",
+      "RotY": 132.7480926513672,
+      "Scale": {
+        "x": 1.149999976158142,
+        "y": 1.1019999980926514,
+        "z": 1.149999976158142
+      },
+      "PropID": 104439,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "TagOverrideComponents": {
+        "TagComponents": [
+          {
+            "$type": "RPG.GameCore.PropTagTimeRewindEntityComponent",
+            "Tag": {
+              "Tag": "Prop.Component.TimeRewindEntity",
+              "TagHash": 532483231
+            },
+            "HitPlayerWhenRewind": true,
+            "InitState": "L1_LiftUp",
+            "LookAtAttachPoint": "TR_LookPoint",
+            "LockRangeOverride": 25.0,
+            "MaxRewindTimeOverride": 10.0,
+            "SelectTargetAttachPoint": "TR_LookPoint",
+            "BackupSelectTargetAttachPoint": "BottomSelect",
+            "AnimStateOverride": [
+              {
+                "OverrideState": "Grow_To_LiftUp",
+                "OverrideClipPath": "Stages/OriginalResPos/InteractiveProp/Chapter04/Chap04_GameplayProp_Parterre_01/Animation/Chap04_GameplayProp_Anim_Parterre_01_Lod0_PhaseTwo01.fbx",
+                "OnlyOverrideController": true
+              },
+              {
+                "OverrideState": "L1_LiftUp",
+                "OverrideClipPath": "Stages/OriginalResPos/InteractiveProp/Chapter04/Chap04_GameplayProp_Parterre_01/Animation/Chap04_GameplayProp_Anim_Parterre_01_Lod0_PhaseTwoFinish01.fbx",
+                "OnlyOverrideController": true
+              }
+            ],
+            "TimeRewindAnimEventJson": "Config/Gameplays/TimeRewind/TimeRewinder_TRParterreAnimConfig_01.json",
+            "DetectColliderAttachPoint": "DetectColliderTrigger",
+            "EnableReverseRewind": true
+          }
+        ]
+      },
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -63.88999938964844,
+      "PosY": 212.03359985351562,
+      "PosZ": 285.83599853515625,
+      "Name": "Prop2",
+      "RotY": 14.243760108947754,
+      "Scale": {
+        "x": 1.1399999856948853,
+        "y": 1.2599999904632568,
+        "z": 1.1399999856948853
+      },
+      "PropID": 104439,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "TagOverrideComponents": {
+        "TagComponents": [
+          {
+            "$type": "RPG.GameCore.PropTagTimeRewindEntityComponent",
+            "Tag": {
+              "Tag": "Prop.Component.TimeRewindEntity",
+              "TagHash": 532483231
+            },
+            "HitPlayerWhenRewind": true,
+            "InitState": "L0_GrownUp",
+            "LookAtAttachPoint": "TR_LookPoint",
+            "LockRangeOverride": 25.0,
+            "MaxRewindTimeOverride": 10.0,
+            "SelectTargetAttachPoint": "TR_LookPoint",
+            "BackupSelectTargetAttachPoint": "BottomSelect",
+            "AnimStateOverride": [
+              {
+                "OverrideState": "Grow_To_LiftUp",
+                "OverrideClipPath": "Stages/OriginalResPos/InteractiveProp/Chapter04/Chap04_GameplayProp_Parterre_01/Animation/Chap04_GameplayProp_Anim_Parterre_01_Lod0_PhaseTwo01.fbx",
+                "OnlyOverrideController": true
+              },
+              {
+                "OverrideState": "L1_LiftUp",
+                "OverrideClipPath": "Stages/OriginalResPos/InteractiveProp/Chapter04/Chap04_GameplayProp_Parterre_01/Animation/Chap04_GameplayProp_Anim_Parterre_01_Lod0_PhaseTwoFinish01.fbx",
+                "OnlyOverrideController": true
+              }
+            ],
+            "TimeRewindAnimEventJson": "Config/Gameplays/TimeRewind/TimeRewinder_TRParterreAnimConfig_01.json",
+            "DetectColliderAttachPoint": "DetectColliderTrigger",
+            "EnableReverseRewind": true
+          }
+        ]
+      },
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosX": 28.34000015258789,
+      "PosY": 246.11819458007812,
+      "PosZ": 198.22000122070312,
+      "Name": "District1",
+      "RotY": 74.87684631347656,
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 36.0,
+        "DimY": 24.0,
+        "DimZ": 24.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    },
+    {
+      "ID": 500002,
+      "PosX": 85.4000015258789,
+      "PosY": 247.10169982910156,
+      "PosZ": 238.1999969482422,
+      "Name": "District2",
+      "RotY": 300.0,
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 96.0,
+        "DimY": 24.0,
+        "DimZ": 30.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    },
+    {
+      "ID": 500003,
+      "PosX": -75.23999786376953,
+      "PosY": 236.11419677734375,
+      "PosZ": 290.6099853515625,
+      "Name": "District3",
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 48.0,
+        "DimY": 12.0,
+        "DimZ": 33.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    },
+    {
+      "ID": 500004,
+      "PosX": 46.0,
+      "PosY": 247.10169982910156,
+      "PosZ": 205.8000030517578,
+      "Name": "District4",
+      "RotY": 300.0,
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 72.0,
+        "DimY": 24.0,
+        "DimZ": 66.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    },
+    {
+      "ID": 500005,
+      "PosX": -63.88999938964844,
+      "PosY": 231.1580047607422,
+      "PosZ": 290.0,
+      "Name": "District5",
+      "RotY": -0.00003899999865097925,
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 20.0,
+        "DimY": 6.0,
+        "DimZ": 30.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    },
+    {
+      "ID": 500006,
+      "PosX": 45.16925811767578,
+      "PosY": 251.8300018310547,
+      "PosZ": 202.62820434570312,
+      "Name": "District6",
+      "RotY": 74.87699127197266,
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 18.0,
+        "DimY": 6.0,
+        "DimZ": 18.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

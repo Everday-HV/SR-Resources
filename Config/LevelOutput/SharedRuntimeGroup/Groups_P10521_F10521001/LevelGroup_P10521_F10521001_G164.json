@@ -1,0 +1,119 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "TvTower",
+  "AreaAnchorName": "LevelArea_P10521_F10521001_G164",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "SavedValueName": "FSV_UnlockTvTower",
+        "Value": 1
+      }
+    ],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.SceneConfig",
+        "TagHash": 520707853
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -663.6500244140625,
+      "PosY": 14.710000038146973,
+      "PosZ": -55.970001220703125,
+      "Name": "Prop1",
+      "RotY": 22.95145034790039,
+      "Scale": {
+        "x": 1.3005000352859497,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "PropID": 114,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Maze/Chapter01/Town/Town_Chapter01_Entry.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ButtonTextFloorName",
+            "Value": "FloorName_20521001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "EnterMapEntranceID",
+            "Value": 2052101
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 2052100,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -663.6500244140625,
+      "PosY": 14.710000038146973,
+      "PosZ": -55.970001220703125,
+      "Name": "Prop2",
+      "RotY": 22.95145034790039,
+      "Scale": {
+        "x": 5.5,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "PropID": 102,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

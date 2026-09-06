@@ -1,0 +1,276 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "GoldenChenLing_GameBoy",
+  "LevelGraph": "Config/Level/GroupGraph/F20521001/Group_F20521001_G65.json",
+  "AreaAnchorName": "LevelArea_P20521_F20521001_G65",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "GroupPropertyMap": {
+    "2722": {
+      "ID": 2722,
+      "Name": "LG_110001__4_PressureSwitchState_Auto",
+      "MaxValue": 1
+    },
+    "2723": {
+      "ID": 2723,
+      "Name": "LG_110001__5_PressureSwitchState_Auto",
+      "MaxValue": 1
+    },
+    "2725": {
+      "ID": 2725,
+      "Name": "LG_110002__4_PressureSwitchState_Auto",
+      "MaxValue": 1
+    },
+    "2726": {
+      "ID": 2726,
+      "Name": "LG_110002__5_PressureSwitchState_Auto",
+      "MaxValue": 1
+    }
+  },
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedInt",
+        "Key": "ColonyID",
+        "Value": 37
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.SpecialGameplay",
+        "TagHash": 718389408
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 1.5253829956054688,
+      "PosY": 182.38900756835938,
+      "PosZ": 60.648319244384766,
+      "Name": "Anchor1",
+      "RotY": 356.8622131347656,
+      "RotX": 10.000069618225098,
+      "RotZ": -4.999999873689376e-6,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 60.0
+      }
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 1.437000036239624,
+      "PosY": 180.4980010986328,
+      "PosZ": 62.263999938964844,
+      "Name": "Prop1",
+      "RotY": 176.8623046875,
+      "PropID": 105007,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "LookatCam",
+            "Value": "LevelArea_P20521_F20521001_G65,Anchor1"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "NPCAttachedTarget",
+            "Value": "65,400001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "ChenLingGameID",
+            "Value": 8.0
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 2555,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": 1.437000036239624,
+      "PosY": 180.4980010986328,
+      "PosZ": 62.263999938964844,
+      "Name": "Prop2",
+      "RotY": 176.8623046875,
+      "PropID": 105052,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": 1.437000036239624,
+      "PosY": 180.4980010986328,
+      "PosZ": 62.263999938964844,
+      "Name": "Prop3",
+      "RotY": 176.8623046875,
+      "PropID": 103121,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap05/InitLevelGraph_Prop_Chap05_GameConsoleBGM_01.json",
+      "ValueSource": {},
+      "CampID": 4,
+      "OverrideSoundRange": 15.0,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SoundProfileOverrideID": 2,
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": 1.4500980377197266,
+      "PosY": 181.03590393066406,
+      "PosZ": 62.02149963378906,
+      "Name": "NPC1",
+      "RotY": 176.8623046875,
+      "NPCID": 3247,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "IsOverrideAtlasEmotion": true,
+      "OverrideAtlasEmotion": {
+        "EmotionIndex": 12
+      },
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": -1186674463,
+        "Hash64": 12534134304616087403
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900420000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "Dialog": {
+        "LevelGraph": "Config/Level/NPCDialogue/P20521/F20521001_G65/DialogueMain_F20521001_G65_N400001.json",
+        "PackList": [
+          {
+            "Name": "common",
+            "LevelGraph": "Config/Level/NPCDialogue/P20521/F20521001_G65/DialoguePack_common_F20521001_G65_N400001.json"
+          }
+        ]
+      },
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    }
+  ],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": [
+    {
+      "ID": 110001,
+      "PosX": -3.6500000953674316,
+      "PosY": 149.8699951171875,
+      "PosZ": 79.04000091552734,
+      "Name": "LittleGame1",
+      "RotY": 180.0,
+      "RotZ": 270.0,
+      "GameType": "FiveDim",
+      "LevelConfigPath": "Config/Gameplays/LittleGame/FiveDim/Level/Puzzle_ChenLing/20521_01.json",
+      "LoadType": "Custom",
+      "LevelVarBinding": {
+        "Bindings": []
+      },
+      "HideAllEntityOnEnter": true,
+      "GroupsToKeepOnEnter": [],
+      "NavInfo": {
+        "LittleGameConnectList": []
+      },
+      "RequireMissionInfo": {
+        "RequireSubMissionIDList": []
+      }
+    },
+    {
+      "ID": 110002,
+      "PosX": -3.6500000953674316,
+      "PosY": 149.8699951171875,
+      "PosZ": 79.04000091552734,
+      "Name": "LittleGame2",
+      "RotY": 180.0,
+      "RotZ": 270.0,
+      "GameType": "FiveDim",
+      "LevelConfigPath": "Config/Gameplays/LittleGame/FiveDim/Level/Puzzle_ChenLing/20521_02.json",
+      "LoadType": "Custom",
+      "LevelVarBinding": {
+        "Bindings": []
+      },
+      "HideAllEntityOnEnter": true,
+      "GroupsToKeepOnEnter": [],
+      "NavInfo": {
+        "LittleGameConnectList": []
+      },
+      "RequireMissionInfo": {
+        "RequireSubMissionIDList": []
+      }
+    }
+  ]
+}

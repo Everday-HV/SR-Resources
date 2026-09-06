@@ -1,0 +1,440 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "EXMonsterGroup",
+  "LevelGraph": "Config/Level/GroupGraph/F20521001/Group_F20521001_G163.json",
+  "AreaAnchorName": "LevelArea_P20521_F20521001_G163",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "SavedValueName": "SceneStateByMainMission",
+        "Value": 1
+      }
+    ],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "GroupStateList": [
+    {
+      "DstState": 1
+    },
+    {
+      "SrcState": 1
+    },
+    {
+      "SrcState": 1,
+      "DstState": 2
+    },
+    {
+      "SrcState": 2,
+      "DstState": 3
+    }
+  ],
+  "GroupPropertyMap": {
+    "2": {
+      "ID": 2,
+      "Name": "PuzzleState",
+      "Side": "ServerClient",
+      "MaxValue": 3
+    }
+  },
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "FinishCam",
+        "Value": "LevelArea_P20521_F20521001_G163,FinishCam"
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.SpecialGameplay",
+        "TagHash": 718389408
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 12.505999565124512,
+      "PosY": 0.41337499022483826,
+      "PosZ": -18.06100082397461,
+      "Name": "Anchor1",
+      "RotY": 255.95730590820312
+    },
+    {
+      "ID": 2,
+      "PosX": 11.494489669799805,
+      "PosY": 0.4354479908943176,
+      "PosZ": -20.55561065673828,
+      "Name": "Anchor2",
+      "RotY": 344.3865966796875
+    },
+    {
+      "ID": 3,
+      "PosX": 9.12399959564209,
+      "PosY": 184.177001953125,
+      "PosZ": 47.729000091552734,
+      "Name": "FinishCam",
+      "RotY": 213.51820373535156,
+      "RotX": 20.18391990661621,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 40.0
+      }
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300003,
+      "PosX": 5.9679999351501465,
+      "PosY": 180.50399780273438,
+      "PosZ": 42.9010009765625,
+      "Name": "Prop3",
+      "RotY": 39.89815139770508,
+      "PropID": 105035,
+      "LoadOnInitial": false,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "DynamicArtPrefabConfigID",
+            "Value": 10600008
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "GoalScaleRatioX",
+            "Value": 0.4000000059604645
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "GoalScaleRatioY",
+            "Value": 0.4000000059604645
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "GoalScaleRatioZ",
+            "Value": 0.4000000059604645
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": 8.681304931640625,
+      "PosY": 180.57650756835938,
+      "PosZ": 35.73637008666992,
+      "Name": "Prop4",
+      "RotY": 349.9700012207031,
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap05/InitLevelGraph_Prop_Chap05_LeopardGameTest_01.json",
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "MissionTrigger": {
+          "Radius": 1.0
+        },
+        "InteractTrigger": {
+          "Radius": 1.5
+        },
+        "EnterTrigger": {
+          "Radius": 1.0,
+          "DimX": 20.0,
+          "DimY": 5.0,
+          "DimZ": 30.0
+        },
+        "LeaveTrigger": {
+          "Radius": 1.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300005,
+      "PosX": 8.465572357177734,
+      "PosY": 180.5753936767578,
+      "PosZ": 38.706119537353516,
+      "Name": "Prop5",
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap05/InitLevelGraph_Prop_Chap05_LeopardGameRoot_01.json",
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "EnterTrigger": {
+          "Radius": 15.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300006,
+      "PosX": 5.709000110626221,
+      "PosY": 180.5753936767578,
+      "PosZ": 42.5880012512207,
+      "Name": "Prop6",
+      "RotY": 39.89815902709961,
+      "PropID": 100,
+      "LoadOnInitial": false,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap05/InitLevelGraph_Prop_Chap05_LeopardFinishTest_01.json",
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "MissionTrigger": {
+          "Radius": 1.0
+        },
+        "InteractTrigger": {
+          "Radius": 1.5
+        },
+        "EnterTrigger": {
+          "Radius": 1.0
+        },
+        "LeaveTrigger": {
+          "Radius": 1.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300007,
+      "PosX": 8.08899974822998,
+      "PosY": 180.70489501953125,
+      "PosZ": 39.14860916137695,
+      "Name": "Prop7",
+      "Scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "PropID": 138,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 391,
+      "OverrideMapStateIcons": [
+        {
+          "State": "Open",
+          "IconID": 391,
+          "Color": "#FFFFFF"
+        },
+        {
+          "Color": "#000000"
+        }
+      ],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "IsTrackRealtimePositionInMap": true
+    },
+    {
+      "ID": 300008,
+      "PosX": 8.08899974822998,
+      "PosY": 180.70489501953125,
+      "PosZ": 39.14860916137695,
+      "Name": "Prop8",
+      "Scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "PropID": 138,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 392,
+      "OverrideMapStateIcons": [
+        {
+          "State": "Open",
+          "IconID": 392,
+          "Color": "#FFFFFF"
+        },
+        {
+          "Color": "#000000"
+        }
+      ],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "IsTrackRealtimePositionInMap": true
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": 8.534077644348145,
+      "PosY": 181.2248992919922,
+      "PosZ": 35.172428131103516,
+      "Name": "NPC1",
+      "RotY": 9.93907642364502,
+      "NPCID": 2513,
+      "LevelGraph": "Config/Level/Props/Chap05/InitLevelGraph_Prop_Chap05_LeopardEntity_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TalkId",
+            "Value": "412180401"
+          }
+        ]
+      },
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "IsOverrideAtlasEmotion": true,
+      "OverrideAtlasEmotion": {
+        "MeshName": "Eye",
+        "EmotionIndex": 8
+      },
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 201160282,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {},
+      "IsClientOnly": true
+    },
+    {
+      "ID": 400002,
+      "PosX": 5.709000110626221,
+      "PosY": 180.5753936767578,
+      "PosZ": 42.5880012512207,
+      "Name": "NPC2",
+      "RotY": 39.89815902709961,
+      "NPCID": 2513,
+      "LevelGraph": "Config/Level/Props/Chap05/InitLevelGraph_Prop_Chap05_LeopardFinsih_01.json",
+      "LoadOnInitial": false,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "EndPerformanceId",
+            "Value": "401021805"
+          }
+        ]
+      },
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "IsOverrideAtlasEmotion": true,
+      "OverrideAtlasEmotion": {
+        "MeshName": "Eye",
+        "EmotionIndex": 12
+      },
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 201160286,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "OverrideSpawn": true,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": false,
+          "NeedFadeIn": false,
+          "NeedFadeOut": false
+        }
+      },
+      "ModelPresetConfig": {},
+      "IsClientOnly": true
+    }
+  ],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

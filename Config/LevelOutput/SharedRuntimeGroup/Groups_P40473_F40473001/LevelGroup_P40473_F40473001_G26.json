@@ -1,0 +1,398 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "PlayingRoom2End",
+  "LevelGraph": "Config/Level/GroupGraph/F40473001/Group_F40473001_G26.json",
+  "AreaAnchorName": "LevelArea_P40473_F40473001_G26",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "SavedValueName": "FSV_PlayingRoom2Stage",
+        "Value": 5
+      }
+    ],
+    "Operation": "And"
+  },
+  "IsPendedLoad": true,
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.SceneConfig",
+        "TagHash": 520707853
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 170.69000244140625,
+      "PosY": 199.16380310058594,
+      "PosZ": 215.94000244140625,
+      "Name": "Prop1",
+      "RotY": 74.35098266601562,
+      "PropID": 104325,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_KindlingGearAlways_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "RuneID_01",
+            "Value": 922
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfig",
+            "Key": "EffectCurve",
+            "Value": {
+              "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+              "GroupID": 26,
+              "InstanceID": 1,
+              "Type": "Curve"
+            }
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "CanInteract"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": 150.06900024414062,
+      "PosY": 195.2480010986328,
+      "PosZ": 230.93600463867188,
+      "Name": "Prop2",
+      "RotY": 74.99999237060547,
+      "PropID": 104325,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_KindlingGearAlways_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "RuneID_01",
+            "Value": 923
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfig",
+            "Key": "EffectCurve",
+            "Value": {
+              "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+              "GroupID": 26,
+              "InstanceID": 2,
+              "Type": "Curve"
+            }
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "CanInteract"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": 167.53900146484375,
+      "PosY": 196.66720581054688,
+      "PosZ": 190.8699951171875,
+      "Name": "Prop3",
+      "RotY": 300.0,
+      "Scale": {
+        "x": 1.2999999523162842,
+        "y": 1.2999999523162842,
+        "z": 1.2999999523162842
+      },
+      "PropID": 104324,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "RuneID_01",
+            "Value": 917
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "RuneID_02",
+            "Value": 915
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Locked",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "MissionTrigger": {
+          "Radius": 0.009999999776482582
+        },
+        "InteractTrigger": {
+          "Radius": 0.009999999776482582
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": 122.47799682617188,
+      "PosY": 194.5070037841797,
+      "PosZ": 210.61099243164062,
+      "Name": "Prop4",
+      "RotY": 165.0,
+      "PropID": 104325,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_KindlingGearAlways_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "RuneID_01",
+            "Value": 924
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfig",
+            "Key": "EffectCurve",
+            "Value": {
+              "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+              "GroupID": 26,
+              "InstanceID": 3,
+              "Type": "Curve"
+            }
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "CanInteract"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [
+    {
+      "ID": 1,
+      "PosX": 170.69000244140625,
+      "PosY": 199.16380310058594,
+      "PosZ": 215.94000244140625,
+      "Name": "Curve1",
+      "RotY": 254.35060119628906,
+      "PointList": [
+        {
+          "Position": {
+            "x": -23.29068946838379,
+            "y": -0.0968020036816597,
+            "z": 9.796838760375977
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -16.941490173339844,
+            "y": -6.2548370361328125,
+            "z": -8.904221534729004
+          },
+          "Control2": {
+            "x": 16.941490173339844,
+            "y": 6.2548370361328125,
+            "z": 8.904221534729004
+          }
+        },
+        {
+          "Position": {
+            "x": 0.0,
+            "y": 1.3997960090637207,
+            "z": 0.0
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 13.363120079040527,
+            "y": 9.502105712890625,
+            "z": 17.374170303344727
+          },
+          "Control2": {
+            "x": -13.363120079040527,
+            "y": -9.502105712890625,
+            "z": -17.374170303344727
+          }
+        }
+      ]
+    },
+    {
+      "ID": 2,
+      "PosX": 150.13999938964844,
+      "PosY": 195.2480010986328,
+      "PosZ": 230.6699981689453,
+      "Name": "Curve2",
+      "RotY": 300.0,
+      "PointList": [
+        {
+          "Position": {
+            "x": -25.768320083618164,
+            "y": 3.8191990852355957,
+            "z": -34.967979431152344
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -1.2530570030212402,
+            "y": -5.456450939178467,
+            "z": -16.326749801635742
+          },
+          "Control2": {
+            "x": 1.2530570030212402,
+            "y": 5.456450939178467,
+            "z": 16.326749801635742
+          }
+        },
+        {
+          "Position": {
+            "x": 0.1948689967393875,
+            "y": 1.3997960090637207,
+            "z": 0.1944900006055832
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -12.885169982910156,
+            "y": 16.125370025634766,
+            "z": -5.494997978210449
+          },
+          "Control2": {
+            "x": 12.885169982910156,
+            "y": -16.125370025634766,
+            "z": 5.494997978210449
+          }
+        }
+      ]
+    },
+    {
+      "ID": 3,
+      "PosX": 122.57499694824219,
+      "PosY": 194.5070037841797,
+      "PosZ": 210.63699340820312,
+      "Name": "Curve3",
+      "RotY": 300.0,
+      "PointList": [
+        {
+          "Position": {
+            "x": 5.363272190093994,
+            "y": 4.5601959228515625,
+            "z": -48.82347106933594
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 17.963529586791992,
+            "y": -10.109479904174805,
+            "z": -28.42180061340332
+          },
+          "Control2": {
+            "x": -17.963529586791992,
+            "y": 10.109479904174805,
+            "z": 28.42180061340332
+          }
+        },
+        {
+          "Position": {
+            "x": -0.07101800292730331,
+            "y": 1.3997960090637207,
+            "z": 0.0710040032863617
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -13.960960388183594,
+            "y": 10.949740409851074,
+            "z": -13.218939781188965
+          },
+          "Control2": {
+            "x": 13.960960388183594,
+            "y": -10.949740409851074,
+            "z": 13.218939781188965
+          }
+        }
+      ]
+    }
+  ],
+  "LittleGameList": []
+}

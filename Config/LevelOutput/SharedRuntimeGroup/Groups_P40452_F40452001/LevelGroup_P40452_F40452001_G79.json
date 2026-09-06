@@ -1,0 +1,225 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "MainMission1040609_03",
+  "Category": "Mission",
+  "LevelGraph": "Config/Level/GroupGraph/F40452001/Group_F40452001_G79.json",
+  "AreaAnchorName": "LevelArea_P40452_F40452001_G79",
+  "SaveType": "Reset",
+  "OwnerMainMissionID": 1040609,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 256.6300048828125,
+      "PosY": 101.97100067138672,
+      "PosZ": 165.6699981689453,
+      "Name": "Anchor1",
+      "RotY": 262.3599853515625
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 264.9100036621094,
+      "PosY": 101.97100067138672,
+      "PosZ": 174.3300018310547,
+      "Name": "Prop1",
+      "RotY": 317.3399963378906,
+      "PropID": 104092,
+      "ValueSource": {},
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 9.999999747378752e-6
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": 261.19000244140625,
+      "PosY": 101.98600006103516,
+      "PosZ": 166.6699981689453,
+      "Name": "Prop2",
+      "RotY": 60.0,
+      "PropID": 100,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "MissionTrigger": {
+          "Radius": 5.0,
+          "DimX": 8.0,
+          "DimY": 4.0,
+          "DimZ": 7.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosX": 272.6099853515625,
+      "PosY": 105.97100067138672,
+      "PosZ": 179.35000610351562,
+      "Name": "District1",
+      "RotY": 60.0,
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 15.0,
+        "DimX": 20.0,
+        "DimY": 10.0,
+        "DimZ": 25.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    },
+    {
+      "ID": 500002,
+      "PosX": 274.29998779296875,
+      "PosY": 105.97100067138672,
+      "PosZ": 180.32000732421875,
+      "Name": "District2",
+      "RotY": 60.0,
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 15.0,
+        "DimX": 24.0,
+        "DimY": 10.0,
+        "DimZ": 35.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": 261.6969909667969,
+      "PosY": 101.97100067138672,
+      "PosZ": 166.19700622558594,
+      "Name": "NPC1",
+      "RotY": 11.571629524230957,
+      "NPCID": 1402,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultLookAtMode": "LookTarget",
+      "DefaultLookAtTargetInfo": {
+        "GroupID": 79,
+        "InstanceID": 400002,
+        "LookAtAttachPoint": "LookAtPoint"
+      },
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 314020246,
+      "AdditiveResidentEffect": [
+        {
+          "EffectPath": "Effects/Eff_Prefab/Eff_NPC/Normal/Common/Eff_Normal_Lady_Common_StoryCrystal.prefab",
+          "AttachPoint": "Root"
+        }
+      ],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "StoryCrystal_Aglaea_00"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SFXOnLoad": "Ev_sfx_npc_common_StoryCrystal_loop",
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400002,
+      "PosX": 261.7275085449219,
+      "PosY": 101.97100067138672,
+      "PosZ": 167.18460083007812,
+      "Name": "NPC2",
+      "RotY": 171.44529724121094,
+      "NPCID": 1403,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoneEmotionName": "Trouble02",
+      "DefaultLookAtMode": "LookTarget",
+      "DefaultLookAtTargetInfo": {
+        "GroupID": 79,
+        "InstanceID": 400001,
+        "LookAtAttachPoint": "LookAtPoint"
+      },
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 314030256,
+      "AdditiveResidentEffect": [
+        {
+          "EffectPath": "Effects/Eff_Prefab/Eff_NPC/Normal/Common/Eff_Normal_Child_Common_StoryCrystal.prefab",
+          "AttachPoint": "Root"
+        }
+      ],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "StoryCrystal_Tribbie_00"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SFXOnLoad": "Ev_sfx_npc_common_StoryCrystal_loop",
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    }
+  ],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

@@ -1,0 +1,33 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AdvNpcFaceToPlayer",
+          "GroupID": 20,
+          "GroupNpcID": 400001,
+          "FinishImmadiate": true
+        }
+      ]
+    },
+    {
+      "IsLoop": true,
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview",
+          "Offset": 65218125
+        }
+      ]
+    }
+  ]
+}

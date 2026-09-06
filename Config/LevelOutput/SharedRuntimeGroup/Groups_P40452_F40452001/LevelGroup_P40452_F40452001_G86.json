@@ -1,0 +1,95 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "MainMission1040609_10",
+  "Category": "Mission",
+  "LevelGraph": "Config/Level/GroupGraph/F40452001/Group_F40452001_G86.json",
+  "AreaAnchorName": "LevelArea_P40452_F40452001_G86",
+  "SaveType": "Reset",
+  "OwnerMainMissionID": 1040609,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 75.66000366210938,
+      "PosY": -4.802999973297119,
+      "PosZ": -387.9599914550781,
+      "Name": "Prop1",
+      "PropID": 100,
+      "ValueSource": {},
+      "Trigger": {
+        "Radius": 1.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "MissionTrigger": {
+          "Radius": 4.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "Dialog": {
+        "LevelGraph": "Config/Level/PropDialogue/P40452/F40452001_G86/DialogueMain_F40452001_G86_P300001.json",
+        "PackList": [],
+        "EnableCondition": {
+          "Conditions": [
+            {
+              "Type": "SubMission",
+              "ID": 104060910
+            }
+          ]
+        }
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "InteractTitle": {
+        "Hash": 1723370687,
+        "Hash64": 18207727972302339540
+      },
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosX": 63.70000076293945,
+      "PosY": -5.979831218719482,
+      "PosZ": -393.29998779296875,
+      "Name": "District1",
+      "Trigger": {
+        "Shape": "GeometrySphere",
+        "Radius": 25.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

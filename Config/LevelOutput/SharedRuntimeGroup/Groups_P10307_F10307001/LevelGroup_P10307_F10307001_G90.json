@@ -1,0 +1,84 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Tpl_MainMission4340300_TrashBinMonster",
+  "Category": "Mission",
+  "LevelGraph": "Config/Level/GroupTemplateGraph/Puzzle/TrashBinMonster/TrashBinMonster.json",
+  "AreaAnchorName": "LevelArea_P10307_F10307001_G90",
+  "LoadSide": "Server",
+  "OwnerMainMissionID": 4340300,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 248.7519989013672,
+      "PosY": 25.441999435424805,
+      "PosZ": -150.41200256347656,
+      "Name": "Anchor1"
+    }
+  ],
+  "MonsterList": [
+    {
+      "ID": 200001,
+      "PosX": 248.7519989013672,
+      "PosY": 24.3799991607666,
+      "PosZ": -150.41200256347656,
+      "Name": "Monster1",
+      "RotY": 180.0,
+      "NPCMonsterID": 3002050,
+      "AIConfig": {
+        "PathwayList": [],
+        "SlaveConfigList": []
+      },
+      "AIVariableSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.AIVariableString",
+            "Name": "BubbleTalkSentenceID",
+            "IsPrivate": false,
+            "Value": "443000101,443000102"
+          }
+        ]
+      },
+      "ValueSource": {},
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 4294967295,
+        "ID": 2
+      },
+      "InitialAnimState": "SpecialStandBy1",
+      "EventID": 10307241,
+      "BoardShowList": [
+        2,
+        8
+      ],
+      "IsNeedFade": true,
+      "TagList": [],
+      "Dialog": {
+        "LevelGraph": "Config/Level/NPCDialogue/P10307/F10307001_G90/DialogueMain_F10307001_G90_N200001.json",
+        "PackList": []
+      },
+      "SpawnConfig": {
+        "OverrideSpawn": true,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": false
+        }
+      }
+    }
+  ],
+  "PropList": [],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

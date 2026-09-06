@@ -1,0 +1,39 @@
+{
+  "GroupsMap": {
+    "Subtract100pP_Misha_Energy": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceDynamicValue",
+            "IsTarget": false,
+            "DynamicValueKey": "EnergyBar_ExtraUltraAttack"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 6.500000000465661
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 6.500000000465661
+                },
+                "ymin": {
+                  "Value": -100.0
+                },
+                "xmax": {
+                  "Value": 10.500000000465661
+                },
+                "ymax": {
+                  "Value": -100.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

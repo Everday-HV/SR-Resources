@@ -1,0 +1,422 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "5D_B401_DevilsGate",
+  "LevelGraph": "Config/Level/GroupGraph/F20541001/Group_F20541001_G29.json",
+  "AreaAnchorName": "LevelArea_P20541_F20541001_G29",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "GroupPropertyMap": {
+    "444": {
+      "ID": 444,
+      "Name": "LG_110001_LV_AttackCount",
+      "MaxValue": 100
+    },
+    "451": {
+      "ID": 451,
+      "Name": "LG_110001_LV_DevilCry",
+      "MaxValue": 1
+    },
+    "452": {
+      "ID": 452,
+      "Name": "LG_110001_LV_ShowHP",
+      "MaxValue": 1
+    },
+    "466": {
+      "ID": 466,
+      "Name": "LG_110001__53_LeverSwitchState_Auto",
+      "MaxValue": 1
+    },
+    "467": {
+      "ID": 467,
+      "Name": "LG_110001__70_LeverSwitchState_Auto",
+      "DefaultValue": 1,
+      "MaxValue": 1
+    },
+    "432": {
+      "ID": 432,
+      "Name": "SGP_FDEntranceState",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "433": {
+      "ID": 433,
+      "Name": "LG_110001_LV_ExitDevilsGateFD",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "453": {
+      "ID": 453,
+      "Name": "LG_110001__4_BombTriggerState_Auto",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "458": {
+      "ID": 458,
+      "Name": "LG_110001_MissionTalk01",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "460": {
+      "ID": 460,
+      "Name": "LG_110001_LV_TutorialOver",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "465": {
+      "ID": 465,
+      "Name": "LG_110001_LV_TutorialOver02",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    }
+  },
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "TargetFDLevel",
+        "Value": "110001,3"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "HPBarStartAnchor",
+        "Value": "LevelArea_P20541_F20541001_G29,Anchor4"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "HPBarEndAnchor",
+        "Value": "LevelArea_P20541_F20541001_G29,Anchor5"
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "StreamingTemplateType": "None",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.SceneConfig",
+        "TagHash": 520707853
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -620.7813110351562,
+      "PosY": 332.7598876953125,
+      "PosZ": -91.31143188476562,
+      "Name": "Anchor1",
+      "RotY": 140.22900390625
+    },
+    {
+      "ID": 2,
+      "PosX": -623.2777709960938,
+      "PosY": 332.760009765625,
+      "PosZ": -93.3885498046875,
+      "Name": "Anchor2",
+      "RotY": 140.22900390625
+    },
+    {
+      "ID": 3,
+      "PosX": -626.8800048828125,
+      "PosY": 330.9643859863281,
+      "PosZ": -87.08999633789062,
+      "Name": "Anchor3",
+      "RotY": 140.22900390625
+    },
+    {
+      "ID": 4,
+      "PosX": -631.489990234375,
+      "PosY": 347.7300109863281,
+      "PosZ": -83.29000091552734,
+      "Name": "Anchor4",
+      "RotY": 110.0
+    },
+    {
+      "ID": 5,
+      "PosX": -631.489990234375,
+      "PosY": 344.7300109863281,
+      "PosZ": -83.29000091552734,
+      "Name": "Anchor5",
+      "RotY": 110.0
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300003,
+      "PosX": -619.2772216796875,
+      "PosY": 343.2030944824219,
+      "PosZ": -95.84596252441406,
+      "Name": "EvilEmoji",
+      "RotY": 319.9999084472656,
+      "RotX": 1.4030530452728271,
+      "RotZ": 9.999999974752427e-7,
+      "PropID": 105244,
+      "ValueSource": {},
+      "CampID": 4,
+      "State": "CustomState01",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": {
+        "BlockAlias": "Chap05_CloseView_MAZ_B401_R2b_BlockData",
+        "PrefabAlias": "Chap05_B401_EvilEmoji_00",
+        "UseOverridePos": false
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": -631.489990234375,
+      "PosY": 347.7300109863281,
+      "PosZ": -83.29000091552734,
+      "Name": "Prop4",
+      "RotY": 110.0,
+      "Scale": {
+        "x": 0.800000011920929,
+        "y": 0.800000011920929,
+        "z": 0.800000011920929
+      },
+      "PropID": 105121,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "HPBarID",
+            "Value": 10600183
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300001,
+      "PosX": -632.9110717773438,
+      "PosY": 330.9867858886719,
+      "PosZ": -90.0899887084961,
+      "Name": "Prop1",
+      "RotY": 320.0,
+      "PropID": 105032,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TargetFDLevel",
+            "Value": "110001,3"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ExitListenLevelRef",
+            "Value": "29,110001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "UseTransfer",
+            "Value": 1
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 377,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -632.9110717773438,
+      "PosY": 330.9867858886719,
+      "PosZ": -90.0899887084961,
+      "Name": "Prop2",
+      "RotY": 320.0,
+      "PropID": 138,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 2390,
+      "SubMapID": 20541110,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 400,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": [
+    {
+      "ID": 110001,
+      "PosX": -627.15087890625,
+      "PosY": 339.55999755859375,
+      "PosZ": -86.35466766357422,
+      "Name": "LittleGame1",
+      "RotY": 320.0,
+      "GameType": "FiveDim",
+      "LevelConfigPath": "Config/Gameplays/LittleGame/FiveDim/Level/Version_440/Map_B401/B401_DevilsGate.json",
+      "LevelVarBinding": {
+        "Bindings": [
+          {
+            "LevelVarName": "LV_ExitDevilsGateFD",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001_LV_ExitDevilsGateFD",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "LV_AttackCount",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001_LV_AttackCount",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo",
+              "ResetOnExit": true
+            }
+          },
+          {
+            "LevelVarName": "LV_DevilCry",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001_LV_DevilCry",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo",
+              "ResetOnExit": true
+            }
+          },
+          {
+            "LevelVarName": "LV_ShowHP",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001_LV_ShowHP",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo",
+              "ResetOnExit": true
+            }
+          },
+          {
+            "LevelVarName": "MissionTalk01",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001_MissionTalk01",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "LV_TutorialOver",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001_LV_TutorialOver",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "LV_TutorialOver02",
+            "BindingType": "GroupProperty",
+            "GroupPropertyName": "LG_110001_LV_TutorialOver02",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_53_LeverSwitchState_Auto",
+            "BindingType": "GroupProperty",
+            "GroupPropertyName": "LG_110001__53_LeverSwitchState_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo",
+              "ResetOnExit": true
+            }
+          },
+          {
+            "LevelVarName": "_70_LeverSwitchState_Auto",
+            "BindingType": "GroupProperty",
+            "GroupPropertyName": "LG_110001__70_LeverSwitchState_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo",
+              "ResetOnExit": true
+            }
+          }
+        ]
+      },
+      "HideAllEntityOnEnter": true,
+      "HideCurrentGroupEntityOnEnter": false,
+      "GroupsToKeepOnEnter": [],
+      "NavInfo": {
+        "LittleGameConnectList": []
+      },
+      "RequireMissionInfo": {
+        "RequireSubMissionIDList": []
+      },
+      "MinimapFogIDList": [
+        29010000
+      ]
+    }
+  ]
+}

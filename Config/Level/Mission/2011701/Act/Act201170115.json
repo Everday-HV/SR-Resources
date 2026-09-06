@@ -1,0 +1,103 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AddMazeBuffBinding"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AdaptEntityPosition",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvDestroyEntityAsync",
+          "NeedDisappear": true
+        },
+        {
+          "$type": "RPG.GameCore.AddModifier",
+          "TaskEnabled": true,
+          "ReferenceModifierName": "115_G4N400041\u0000\u0000\u0002&\u0004��\u0018\u0000\u0007\u0000\u0000\u0000\u0000\u0000\u001b\u0000 \u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0006\u001dLevelA",
+          "LifeStepImmediately": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvByRollShopResult",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvByCheckGameMode",
+          "GameModes": [
+            "-25",
+            "25",
+            "-26",
+            "-48",
+            "35",
+            "26",
+            "24",
+            "-25",
+            "25",
+            "-26",
+            "24",
+            "24",
+            "-25",
+            "-48",
+            "-36",
+            "26",
+            "Challenge",
+            "-33",
+            "55",
+            "-50",
+            "52",
+            "-56",
+            "57",
+            "25"
+          ]
+        },
+        {
+          "$type": "RPG.GameCore.AddSceneTeamMemberBuff"
+        },
+        {
+          "$type": "RPG.GameCore.AITryInsertUltra"
+        },
+        {
+          "$type": "RPG.GameCore.AddDynamicEntityParam",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvAddVisionUseCount",
+          "TaskEnabled": true,
+          "VisionType": "-49",
+          "Count": 54
+        }
+      ]
+    },
+    {}
+  ]
+}

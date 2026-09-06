@@ -1,0 +1,194 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "GoToCatsRoom",
+  "LevelGraph": "Config/Level/GroupGraph/F40473001/Group_F40473001_G27.json",
+  "AreaAnchorName": "LevelArea_P40473_F40473001_G27",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "GroupPropertyMap": {
+    "1": {
+      "ID": 1,
+      "Name": "SGP_Z0State",
+      "Side": "ServerClient",
+      "MaxValue": 5
+    },
+    "2": {
+      "ID": 2,
+      "Name": "SGP_Z0Escape",
+      "Side": "ServerClient",
+      "MaxValue": 5
+    }
+  },
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "SwordTombAnchor",
+        "Value": "LevelArea_P20481_F20481001_G121,Anchor1"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "Vcam",
+        "Value": "LevelArea_P20481_F20481001_G121,Anchor2"
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "StreamingTemplateType": "None",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.SceneConfig",
+        "TagHash": 520707853
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 105.42009735107422,
+      "PosY": 236.1215057373047,
+      "PosZ": 223.75,
+      "Name": "Anchor1",
+      "RotY": 120.0
+    },
+    {
+      "ID": 2,
+      "PosX": -32.9734992980957,
+      "PosY": 252.0688018798828,
+      "PosZ": 188.66940307617188,
+      "Name": "Anchor2",
+      "RotY": 50.43096923828125,
+      "RotX": 14.713399887084961,
+      "RotZ": 0.00002499999936844688,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 60.0
+      }
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 94.68499755859375,
+      "PosY": 236.10169982910156,
+      "PosZ": 229.87399291992188,
+      "Name": "Prop1",
+      "RotY": 300.0,
+      "PropID": 100,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 3.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -27.95400047302246,
+      "PosY": 249.43800354003906,
+      "PosZ": 190.79200744628906,
+      "IsDelete": true,
+      "Name": "Prop2",
+      "RotY": 40.85586166381836,
+      "PropID": 104102,
+      "ValueSource": {},
+      "CampID": 4,
+      "State": "Locked",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosX": 105.77999877929688,
+      "PosY": 236.10169982910156,
+      "PosZ": 223.5500030517578,
+      "Name": "District1",
+      "RotY": 120.0,
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 18.0,
+        "DimY": 8.0,
+        "DimZ": 12.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {
+        "Values": []
+      }
+    },
+    {
+      "ID": 500002,
+      "PosX": 80.37000274658203,
+      "PosY": 236.10169982910156,
+      "PosZ": 231.11000061035156,
+      "IsDelete": true,
+      "Name": "District2",
+      "RotY": 120.0,
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 12.0,
+        "DimY": 6.0,
+        "DimZ": 8.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {
+        "Values": []
+      }
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

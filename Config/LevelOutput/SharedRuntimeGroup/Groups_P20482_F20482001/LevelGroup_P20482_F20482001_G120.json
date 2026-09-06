@@ -1,0 +1,156 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "TeleportGroup",
+  "LevelGraph": "Config/Level/GroupGraph/F20482001/Group_F20482001_G120.json",
+  "AreaAnchorName": "LevelArea_P20482_F20482001_G120",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "SavedValueName": "FSV_TriggerFakePlane",
+        "Value": 3
+      }
+    ],
+    "Operation": "Or"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "AnchorUp",
+        "Value": "LevelArea_P20482_F20482001_G120,AnchorUp"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "AnchorDown",
+        "Value": "LevelArea_P20482_F20482001_G120,AnchorDown"
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "StreamingTemplateType": "None",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.SceneConfig",
+        "TagHash": 520707853
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -223.68099975585938,
+      "PosY": 734.260009765625,
+      "PosZ": 797.5682983398438,
+      "Name": "AnchorUp"
+    },
+    {
+      "ID": 2,
+      "PosX": 0.5699999928474426,
+      "PosY": -4.505973815917969,
+      "PosZ": 750.8099975585938,
+      "Name": "AnchorDown"
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 0.949999988079071,
+      "PosY": -3.859998941421509,
+      "PosZ": 733.205322265625,
+      "Name": "Prop1",
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20482001/LG_Prop_F20482001_G120_300002.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TextMap",
+            "Value": "MappingInfo_Name_2048203_0"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 5.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -217.5,
+      "PosY": 734.7546997070312,
+      "PosZ": 790.0900268554688,
+      "Name": "Prop2",
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20482001/LG_Prop_F20482001_G120_300002.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TextMap",
+            "Value": "MappingInfo_Name_2048204_0"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 7.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

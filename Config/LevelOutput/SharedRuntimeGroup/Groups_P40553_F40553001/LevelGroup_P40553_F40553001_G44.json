@@ -1,0 +1,75 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Sound_PC",
+  "AreaAnchorName": "LevelArea_P40553_F40553001_G44",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "SavedValueName": "FSV_EnablePCSound",
+        "Value": 1
+      }
+    ],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosX": 298.5,
+      "PosY": 193.47999572753906,
+      "PosZ": 703.2100219726562,
+      "Name": "District1",
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 1.0,
+        "DimX": 10.0,
+        "DimY": 5.0,
+        "DimZ": 10.0
+      },
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_vo_ambient_w5_v450_broadcast_computer",
+        "PlayEventCD": 20.0,
+        "TransformList": [
+          {
+            "Position": {
+              "x": 298.1000061035156,
+              "y": 192.49000549316406,
+              "z": 703.1099853515625
+            },
+            "Forward": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "Up": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0
+            }
+          }
+        ]
+      },
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

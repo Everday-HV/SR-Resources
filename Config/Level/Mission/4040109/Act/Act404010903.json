@@ -1,0 +1,60 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AdvEnablePropDialogMode",
+          "EnablePropCamera": false,
+          "LockPlayerControl": false,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchAdvPropEx",
+            "FetchType": "SinglePropByPropID",
+            "SinglePropID": {
+              "GroupID": {
+                "IsDynamic": false,
+                "FixedValue": {
+                  "Value": 149.0
+                }
+              },
+              "ID": {
+                "IsDynamic": false,
+                "FixedValue": {
+                  "Value": 300001.0
+                }
+              }
+            }
+          }
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview",
+          "Mode": "-205545151",
+          "Offset": 65218125
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview",
+          "Mode": "65218125",
+          "Offset": 3
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {
+      "IsLoop": false
+    }
+  ]
+}

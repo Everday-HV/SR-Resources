@@ -1,0 +1,106 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "BathroomTeleport",
+  "LevelGraph": "Config/Level/GroupGraph/F20502001/Group_F20502001_G71.json",
+  "AreaAnchorName": "LevelArea_P20502_F20502001_G71",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "Anchor_In",
+        "Value": "LevelArea_P20502_F20502001_G71,Anchor1"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "Anchor_Out",
+        "Value": "LevelArea_P20502_F20502001_G71,Anchor2"
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Gameplay",
+        "TagHash": -141571921
+      },
+      {
+        "Tag": "Group.Level.Connection",
+        "TagHash": -295833477
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -102.91999816894531,
+      "PosY": 27.013450622558594,
+      "PosZ": -91.62999725341797,
+      "Name": "Anchor1",
+      "RotY": 180.0
+    },
+    {
+      "ID": 2,
+      "PosX": -104.11000061035156,
+      "PosY": 7.9261579513549805,
+      "PosZ": -21.799999237060547,
+      "Name": "Anchor2",
+      "RotY": 179.84390258789062
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosX": -104.11699676513672,
+      "PosY": 7.918291091918945,
+      "PosZ": -18.225000381469727,
+      "Name": "District1",
+      "Trigger": {
+        "Shape": "GeometrySphere",
+        "Radius": 2.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    },
+    {
+      "ID": 500002,
+      "PosX": -102.82620239257812,
+      "PosY": 27.013450622558594,
+      "PosZ": -87.97000122070312,
+      "Name": "District2",
+      "Trigger": {
+        "Shape": "GeometrySphere",
+        "Radius": 2.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

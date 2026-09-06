@@ -1,0 +1,177 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Crowd",
+  "Category": "Atmosphere",
+  "AreaAnchorName": "LevelArea_P20501_F20501001_G393",
+  "SaveType": "Reset",
+  "AtmosphereCondition": {
+    "Conditions": [
+      {
+        "$type": "RPG.GameCore.LevelGroupAtmosphereSavedValueCondition",
+        "SavedValueName": "FSV_SubStateByMainMission",
+        "Value": 3
+      },
+      {
+        "$type": "RPG.GameCore.LevelGroupAtmosphereSavedValueCondition",
+        "SavedValueName": "FSV_HidePeopleWhenFate2"
+      }
+    ]
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.Crowd",
+        "TagHash": -581694062
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [
+    {
+      "ID": 1,
+      "PosX": 36.7315788269043,
+      "PosY": 13.000020027160645,
+      "PosZ": -53.722999572753906,
+      "Name": "Crowd1",
+      "MemberList": [
+        {
+          "Identity": "W5_School",
+          "FeatureID": "Male_Students",
+          "AssemNPCID": "W5_Male_Students_Male_02",
+          "UniqueName": "393_1_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.8933720588684082,
+            "y": 0.0,
+            "z": 0.5067710280418396
+          },
+          "LocalRotationY": 107.85379791259766,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010000
+        },
+        {
+          "Identity": "W5_School",
+          "FeatureID": "Male_Teacher",
+          "AssemNPCID": "W5_Male_Teacher_Male_02",
+          "UniqueName": "393_1_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.3440000116825104,
+            "y": 0.0,
+            "z": 0.15399999916553497
+          },
+          "LocalRotationY": 299.6003112792969,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010210
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7746859788894653,
+        "y": 0.0,
+        "z": 0.3303860127925873
+      }
+    },
+    {
+      "ID": 2,
+      "PosX": 26.413949966430664,
+      "PosY": 14.333080291748047,
+      "PosZ": -47.55569839477539,
+      "Name": "Crowd2",
+      "MemberList": [
+        {
+          "Identity": "W5_School",
+          "FeatureID": "Lady_Students",
+          "UniqueName": "393_2_01",
+          "LookAtTarget": "393_2_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 3.3369998931884766,
+            "y": -1.3330789804458618,
+            "z": -1.065000057220459
+          },
+          "LocalRotationY": 50.187889099121094,
+          "PossessionConfig": {
+            "Name": "Possession_MobilePhone_A_01"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020390
+        },
+        {
+          "Identity": "W5_School",
+          "FeatureID": "Lady_Students",
+          "UniqueName": "393_2_02",
+          "LookAtTarget": "393_2_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 2.819999933242798,
+            "y": -1.3330800533294678,
+            "z": -0.41999998688697815
+          },
+          "LocalRotationY": 206.14830017089844,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020210
+        },
+        {
+          "Identity": "W5_OfficePeole",
+          "FeatureID": "MuscleMan_Office_Oni",
+          "UniqueName": "393_2_03",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 1.555999994277954,
+            "y": -1.3330780267715454,
+            "z": -1.8180049657821655
+          },
+          "LocalRotationY": 234.4947967529297,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100050486
+        }
+      ],
+      "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F20501001/MunicipalChatConfig_F20501001_0161.json",
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "393_2_02"
+        },
+        {
+          "UniqueName": "2",
+          "CrowdUniqueName": "393_2_01"
+        }
+      ],
+      "TriggerRudius": 5.0,
+      "InteractPerformanceTriggerRadius": 2.5,
+      "CenterPos": {
+        "x": 2.571000099182129,
+        "y": -1.3330789804458618,
+        "z": -1.1010019779205322
+      }
+    }
+  ],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

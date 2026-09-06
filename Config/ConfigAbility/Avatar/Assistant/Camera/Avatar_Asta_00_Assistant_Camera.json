@@ -1,0 +1,23 @@
+{
+  "AbilityList": [
+    {
+      "Name": "Avatar_Asta_00_Assistant02_Camera",
+      "TargetInfo": {
+        "TargetType": "InherentTargetEntity"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AddFinishMissionData_PlayMessage",
+          "TaskEnabled": true,
+          "SubmissionID": 97
+        }
+      ]
+    }
+  ]
+}

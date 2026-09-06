@@ -1,0 +1,38 @@
+{
+  "AbilityList": [
+    {
+      "Name": "WMonster_Wizard_Maze_06_Skill01_Camera",
+      "TargetInfo": {
+        "TargetType": "SkillTargetEntityList"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview",
+          "Mode": "6"
+        },
+        {
+          "$type": "RPG.GameCore.AITryInsertUltra",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvCharacterSetMotionBlendTime",
+          "RunGaitLerpTime": 4.3597890872730174e+27,
+          "WalkGaitLerpTime": 1.0947944590100503e+21
+        },
+        {
+          "$type": "RPG.GameCore.AdvByRollShopResult",
+          "Inverse": true
+        }
+      ]
+    },
+    {
+      "TargetInfo": {}
+    }
+  ]
+}

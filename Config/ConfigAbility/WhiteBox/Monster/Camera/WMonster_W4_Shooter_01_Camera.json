@@ -1,0 +1,23 @@
+{
+  "AbilityList": [
+    {
+      "Name": "WMonster_W4_Shooter_01_Skill01_Camera",
+      "TargetInfo": {
+        "TargetType": "AllEnemy"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown",
+          "TaskEnabled": true,
+          "Enable": true
+        }
+      ]
+    }
+  ]
+}

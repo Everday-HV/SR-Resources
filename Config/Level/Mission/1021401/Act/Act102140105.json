@@ -1,0 +1,72 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortModifierPhasePerform"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": true
+        }
+      ]
+    },
+    {
+      "IsLoop": true,
+      "Order": 9
+    },
+    {
+      "IsLoop": true,
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {
+      "IsLoop": false,
+      "Order": 0,
+      "TaskList": []
+    },
+    {}
+  ]
+}

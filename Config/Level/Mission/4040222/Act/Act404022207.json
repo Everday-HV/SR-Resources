@@ -1,0 +1,36 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview"
+        },
+        {
+          "$type": "RPG.GameCore.AITryInsertUltra",
+          "ContinuousInsert": true
+        },
+        {
+          "$type": "RPG.GameCore.AddStreamingSource",
+          "TaskEnabled": false
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {
+      "Order": 253888
+    },
+    {
+      "Order": 19
+    },
+    {},
+    {},
+    {},
+    {}
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "NPC",
+  "Category": "Atmosphere",
+  "AreaAnchorName": "LevelArea_P20501_F20501001_G401",
+  "SaveType": "Reset",
+  "AtmosphereCondition": {
+    "Conditions": [
+      {
+        "$type": "RPG.GameCore.LevelGroupAtmosphereMainMissionCompleteCondition",
+        "MainMissionID": 1054007
+      },
+      {
+        "$type": "RPG.GameCore.LevelGroupAtmosphereSavedValueCondition",
+        "SavedValueName": "FSV_longJieNPC"
+      }
+    ]
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.NPC",
+        "TagHash": -882113524
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": -71.22000122070312,
+      "PosY": 1.0500010251998901,
+      "PosZ": -11.670000076293945,
+      "Name": "NPC1",
+      "RotY": 183.922607421875,
+      "NPCID": 15199,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [
+        1,
+        4,
+        8,
+        64
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100010231,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "Dialog": {
+        "LevelGraph": "Config/Level/NPCDialogue/P20501/F20501001_G401/DialogueMain_F20501001_G401_N400001.json",
+        "PackList": [
+          {
+            "Name": "common",
+            "LevelGraph": "Config/Level/NPCDialogue/P20501/F20501001_G401/DialoguePack_common_F20501001_G401_N400001.json"
+          }
+        ]
+      },
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    }
+  ],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

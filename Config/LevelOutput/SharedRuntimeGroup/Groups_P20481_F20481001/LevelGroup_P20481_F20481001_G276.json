@@ -1,0 +1,247 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Find_LG",
+  "LevelGraph": "Config/Level/GroupGraph/F20481001/Group_F20481001_G276.json",
+  "AreaAnchorName": "LevelArea_P20481_F20481001_G276",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "SavedValueName": "FSV_BaierEggState",
+        "Value": 1
+      }
+    ],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "GroupPropertyMap": {
+    "1": {
+      "ID": 1,
+      "Name": "SGP_FindScroll",
+      "Side": "ServerClient",
+      "MaxValue": 5
+    },
+    "2": {
+      "ID": 2,
+      "Name": "SGP_FindScroll2",
+      "Side": "ServerClient",
+      "MaxValue": 5
+    },
+    "3": {
+      "ID": 3,
+      "Name": "SGP_FindScroll3",
+      "Side": "ServerClient",
+      "MaxValue": 5
+    }
+  },
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "StreamingTemplateType": "None",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Gameplay",
+        "TagHash": -141571921
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -34.66722869873047,
+      "PosY": 647.3325805664062,
+      "PosZ": -580.873291015625,
+      "Name": "Anchor1",
+      "RotY": 346.86871337890625,
+      "RotX": 2.853066921234131,
+      "RotZ": 0.000043000000005122274,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 60.0
+      }
+    },
+    {
+      "ID": 2,
+      "PosX": -24.501230239868164,
+      "PosY": 253.78640747070312,
+      "PosZ": 192.13560485839844,
+      "Name": "Anchor2",
+      "RotY": 20.90250015258789,
+      "RotX": 9.72861099243164,
+      "RotZ": 0.00007200000254670158,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 60.0
+      }
+    },
+    {
+      "ID": 3,
+      "PosX": 44.24031066894531,
+      "PosY": -781.8480224609375,
+      "PosZ": -263.9071044921875,
+      "Name": "Anchor3",
+      "RotY": 359.2445068359375,
+      "RotX": 334.8352966308594,
+      "RotZ": 0.0000779999973019585,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 60.0
+      }
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -31.328990936279297,
+      "PosY": 638.8529052734375,
+      "PosZ": -569.3765869140625,
+      "Name": "Prop1",
+      "RotY": 200.4508056640625,
+      "PropID": 104050,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "KeyID",
+            "Value": "PropInteractTitle_568"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PerformenceID",
+            "Value": "503379901"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": true,
+      "HideInStory": true,
+      "PerformanceHideFlags": 7,
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -21.194290161132812,
+      "PosY": 248.2198944091797,
+      "PosZ": 197.2180938720703,
+      "Name": "Prop2",
+      "RotY": 186.53919982910156,
+      "PropID": 104050,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "KeyID",
+            "Value": "PropInteractTitle_569"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PerformenceID",
+            "Value": "503379902"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": true,
+      "HideInStory": true,
+      "PerformanceHideFlags": 7,
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": 41.0099983215332,
+      "PosY": -782.6763916015625,
+      "PosZ": -257.03460693359375,
+      "Name": "Prop3",
+      "RotY": 180.0,
+      "PropID": 104050,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "KeyID",
+            "Value": "PropInteractTitle_570"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PerformenceID",
+            "Value": "503379903"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": true,
+      "HideInStory": true,
+      "PerformanceHideFlags": 7,
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

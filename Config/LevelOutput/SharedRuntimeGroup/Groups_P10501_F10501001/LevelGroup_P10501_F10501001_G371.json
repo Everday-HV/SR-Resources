@@ -1,0 +1,162 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "MainMission4340511_02",
+  "Category": "Mission",
+  "LevelGraph": "Config/Level/GroupGraph/F10501001/Group_F10501001_G371.json",
+  "AreaAnchorName": "LevelArea_P10501_F10501001_G371",
+  "SaveType": "Reset",
+  "OwnerMainMissionID": 4340511,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -164.75360107421875,
+      "PosY": 51.329429626464844,
+      "PosZ": 134.70359802246094,
+      "Name": "Anchor1",
+      "RotY": 348.36370849609375,
+      "RotX": 14.724869728088379,
+      "RotZ": 0.03983300179243088,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 40.0
+      }
+    },
+    {
+      "ID": 2,
+      "PosX": -164.30760192871094,
+      "PosY": 49.61882019042969,
+      "PosZ": 133.9199981689453,
+      "Name": "Anchor2"
+    },
+    {
+      "ID": 3,
+      "PosX": -165.44000244140625,
+      "PosY": 49.700809478759766,
+      "PosZ": 136.52000427246094,
+      "Name": "Anchor3"
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -164.77699279785156,
+      "PosY": 51.0,
+      "PosZ": 135.3780059814453,
+      "Name": "TriggerSound",
+      "PropID": 100,
+      "ValueSource": {},
+      "Trigger": {
+        "Radius": 2.5,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0
+      },
+      "CampID": 4,
+      "State": "TriggerEnable",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "Dialog": {
+        "LevelGraph": "Config/Level/PropDialogue/P10501/F10501001_G371/DialogueMain_F10501001_G371_P300001.json",
+        "PackList": []
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "InteractTitle": {
+        "Hash": -1005512630,
+        "Hash64": 3865797182381952922
+      },
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -164.68699645996094,
+      "PosY": 49.99300003051758,
+      "PosZ": 135.6580047607422,
+      "Name": "TriggerInteract",
+      "PropID": 100,
+      "ValueSource": {},
+      "Trigger": {
+        "Radius": 4.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0
+      },
+      "CampID": 4,
+      "State": "TriggerEnable",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": -164.54200744628906,
+      "PosY": 49.79399871826172,
+      "PosZ": 136.8179931640625,
+      "Name": "NPC1",
+      "RotY": 177.31570434570312,
+      "NPCID": 15417,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [
+        4,
+        8,
+        1,
+        64
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100030000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "OverrideSpawn": true,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": false
+        }
+      },
+      "ModelPresetConfig": {}
+    }
+  ],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

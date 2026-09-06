@@ -1,0 +1,108 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveVirtualCamera",
+          "AreaName": "Mission_2011101_temp",
+          "AnchorName": "Camera_201130201",
+          "BlendConfig": {
+            "ExportToJson": true,
+            "BlendType": "Cut"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AdvEntityFaceTo",
+          "SourceType": {
+            "$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+            "FetchType": "SingleNpcByNpcID",
+            "SingleNpcID": {
+              "GroupID": {
+                "IsDynamic": false,
+                "FixedValue": {
+                  "Value": 16.0
+                }
+              },
+              "GroupNpcID": {
+                "IsDynamic": false,
+                "FixedValue": {
+                  "Value": 400002.0
+                }
+              }
+            }
+          },
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+            "FetchType": "SingleNpcByNpcID",
+            "SingleNpcID": {
+              "GroupID": {
+                "IsDynamic": false,
+                "FixedValue": {
+                  "Value": 5.0
+                }
+              },
+              "GroupNpcID": {
+                "IsDynamic": false,
+                "FixedValue": {
+                  "Value": 400002.0
+                }
+              }
+            }
+          },
+          "FinishImmediately": false,
+          "ForceToStandBy": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvEntityFaceTo",
+          "SourceType": {
+            "$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+            "FetchType": "SingleNpcByNpcID",
+            "SingleNpcID": {
+              "GroupID": {
+                "IsDynamic": false,
+                "FixedValue": {
+                  "Value": 5.0
+                }
+              },
+              "GroupNpcID": {
+                "IsDynamic": false,
+                "FixedValue": {
+                  "Value": 400002.0
+                }
+              }
+            }
+          },
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchAdvLocalPlayer"
+          },
+          "EnableSteer": true,
+          "ForceToStandBy": true
+        }
+      ]
+    },
+    {
+      "IsLoop": true
+    },
+    {},
+    {},
+    {
+      "Order": 327
+    }
+  ]
+}

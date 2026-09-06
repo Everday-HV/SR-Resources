@@ -1,0 +1,88 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "NPC",
+  "Category": "Atmosphere",
+  "AreaAnchorName": "LevelArea_P20321_F20321001_G194",
+  "AtmosphereCondition": {
+    "Conditions": [
+      {
+        "$type": "RPG.GameCore.LevelGroupAtmosphereSavedValueCondition",
+        "SavedValueName": "Crowd",
+        "Operation": "GreaterEqual",
+        "Value": 1
+      }
+    ]
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.NPC",
+        "TagHash": -882113524
+      },
+      {
+        "Tag": "Group.Atomsphere.Shop",
+        "TagHash": -1454131895
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": -102.9540023803711,
+      "PosY": 62.105430603027344,
+      "PosZ": 28.520000457763672,
+      "Name": "NPC1",
+      "RotY": 87.4664535522461,
+      "NPCID": 13232,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [
+        60
+      ],
+      "MappingInfoID": 2399,
+      "BoardShowList": [
+        1,
+        4
+      ],
+      "OverrideNPCName": {
+        "Hash": 101199124,
+        "Hash64": 5411527170353118007
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100020336,
+      "IsMapContent": true,
+      "MiniMapIconType": 4,
+      "InitialHiddenNodeList": [],
+      "Dialog": {
+        "LevelGraph": "Config/Level/NPCDialogue/P20321/F20321001_G194/DialogueMain_F20321001_G194_N400001.json",
+        "PackList": []
+      },
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

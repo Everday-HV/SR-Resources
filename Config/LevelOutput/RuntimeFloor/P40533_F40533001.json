@@ -1,0 +1,94 @@
+{
+  "FloorID": 40533001,
+  "StartAnchorID": 1,
+  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_X303_MainLine_01_StageData/Chap02_MAZ_X303_MainLine_01_StageData.stage",
+  "CameraType": "Maze",
+  "LayerToAreaMask": [
+    1
+  ],
+  "GroupInstanceList": [
+    {
+      "ID": 1,
+      "Name": "DefaultGroup",
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40533_F40533001/LevelGroup_P40533_F40533001_G1.json"
+    },
+    {
+      "ID": 2,
+      "Name": "Sound",
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40533_F40533001/LevelGroup_P40533_F40533001_G2.json"
+    },
+    {
+      "ID": 3,
+      "Name": "MainMission1054308_1",
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40533_F40533001/LevelGroup_P40533_F40533001_G3.json"
+    },
+    {
+      "ID": 4,
+      "Name": "MainMission1054308_2",
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40533_F40533001/LevelGroup_P40533_F40533001_G4.json"
+    },
+    {
+      "ID": 5,
+      "Name": "Tpl_MainMission1054308_New Group",
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40533_F40533001/LevelGroup_P40533_F40533001_G5.json"
+    }
+  ],
+  "DimensionList": [
+    {
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X303_MainLine_01_Day.enviroProfile.asset",
+      "CameraType": "Maze",
+      "BattleAreaList": [
+        {
+          "ID": 1,
+          "Name": "BattleArea1",
+          "Tags": [
+            "BattleArea01"
+          ],
+          "TagContainer": {},
+          "AudienceGroupIDList": [],
+          "PrefetchMainMissionList": [],
+          "PrefetchSubMissionList": []
+        }
+      ],
+      "IsExclusiveSaveMapSection": true,
+      "GroupIndexList": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "ExclusiveSavedGroupIDList": [],
+      "StartAnchorID": 1
+    }
+  ],
+  "GroupInstanceCommonMap": {
+    "1": {
+      "SaveType": "Reset",
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true
+    },
+    "2": {
+      "SaveType": "Reset",
+      "LoadOnInitial": true
+    },
+    "3": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "IsHoyoGroup": true
+    },
+    "4": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "IsHoyoGroup": true
+    },
+    "5": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "IsHoyoGroup": true,
+      "LoadSide": "Server"
+    }
+  },
+  "ValidSubmapList": [],
+  "IsRestartLevelGraph": true
+}

@@ -1,0 +1,162 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Map_Entrance",
+  "AreaAnchorName": "LevelArea_P10501_F10501001_G616",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "SavedValueName": "FSV_EntranceUnlockZX",
+        "Value": 1
+      }
+    ],
+    "Operation": "And"
+  },
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.TeleportEntrance",
+        "TagHash": -818745016
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -302.9599914550781,
+      "PosY": 49.49671173095703,
+      "PosZ": 17.68000030517578,
+      "Name": "Anchor1_FromZX",
+      "RotY": 325.9872131347656
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -301.3999938964844,
+      "PosY": 49.49681854248047,
+      "PosZ": 14.270000457763672,
+      "Name": "Prop1",
+      "RotY": 145.44369506835938,
+      "Scale": {
+        "x": 0.7099999785423279,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "PropID": 114,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Maze/Chapter01/Town/Town_Chapter01_Entry.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ButtonTextFloorName",
+            "Value": "FloorName_20513001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "EnterMapEntranceID",
+            "Value": 2051301
+          }
+        ]
+      },
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 1.0,
+        "DimX": 8.0,
+        "DimY": 6.0,
+        "DimZ": 10.0
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {
+        "CustomTrigger_OnEnter": {
+          "Radius": 6.0
+        }
+      },
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 2051300,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -301.3699951171875,
+      "PosY": 49.49681854248047,
+      "PosZ": 14.220000267028809,
+      "Name": "Prop2",
+      "RotY": 145.44369506835938,
+      "Scale": {
+        "x": 0.7099999785423279,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "PropID": 102,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": -298.92999267578125,
+      "PosY": 49.59033966064453,
+      "PosZ": 14.09000015258789,
+      "Name": "Prop3",
+      "RotY": 326.2762145996094,
+      "PropID": 105180,
+      "ValueSource": {},
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

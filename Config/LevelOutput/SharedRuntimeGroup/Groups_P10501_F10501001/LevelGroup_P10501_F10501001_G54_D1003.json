@@ -1,0 +1,145 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "SquareDoor",
+  "LevelGraph": "Config/Level/GroupGraph/F10501001/Group_F10501001_G54.json",
+  "AreaAnchorName": "LevelArea_P10501_F10501001_G54",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "GroupPropertyMap": {
+    "1": {
+      "ID": 1,
+      "Name": "GP_BatchFlag_0102",
+      "MaxValue": 1
+    }
+  },
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Connection",
+        "TagHash": -295833477
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -320.2203063964844,
+      "PosY": 47.196998596191406,
+      "PosZ": -112.83000183105469,
+      "Name": "Prop1",
+      "RotY": 90.0,
+      "PropID": 105020,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "RegionIndex"
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "RegionIndex2"
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "IsAutoDoor",
+            "Value": 1
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 1.5,
+          "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.5
+          }
+        },
+        "CloseToTrigger": {
+          "Radius": 3.0
+        },
+        "ExitTrigger": {
+          "Radius": 4.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -319.5299987792969,
+      "PosY": 47.21498107910156,
+      "PosZ": -110.60900115966797,
+      "Name": "Prop2",
+      "RotY": 90.0,
+      "PropID": 105000,
+      "ValueSource": {},
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosX": -321.010009765625,
+      "PosY": 52.529998779296875,
+      "PosZ": -87.51100158691406,
+      "Name": "District1",
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 5.0,
+        "DimY": 5.0,
+        "DimZ": 10.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

@@ -1,0 +1,78 @@
+{
+  "GroupsMap": {
+    "Add10_Sparkle_BuffBPSkill": {
+      "CombineOperator": "Mul",
+      "Factors": [
+        {
+          "CombineOperator": "Mul",
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIContainModifier",
+            "ModifilerName": "MAvatar_Sparkle_Skill02_AttackAddedRatio01"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 100.0
+                },
+                "xmax": {
+                  "Value": 0.5000000004656613
+                },
+                "ymax": {
+                  "Value": 100.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "xmax": {
+                  "Value": 1.0
+                }
+              }
+            ]
+          },
+          "PostProcess": {
+            "$type": "RPG.GameCore.ComplexSkillAIPostProcessBreak",
+            "CompareType": "Equal",
+            "IsOverrideFinalScore": true
+          }
+        }
+      ]
+    },
+    "Base_Sparkle_CompareDPT": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceIsCombatPowerWeightedRandomTarget",
+            "AITagKey": "DamageNeedNoCrit",
+            "DefaultAITagValue": {
+              "Value": 0.10000000009313226
+            },
+            "PowerOfDamageCarry": {
+              "Value": 2.0
+            },
+            "OneMinusAITag": true
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 0.10000000009313226
+                },
+                "xmax": {
+                  "Value": 1.0
+                },
+                "ymax": {
+                  "Value": 100.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

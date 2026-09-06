@@ -1,0 +1,82 @@
+{
+  "AbilityList": [
+    {
+      "Name": "Avatar_GridFight_PlayerBoy_30_PassiveSkill01",
+      "TargetInfo": {
+        "TargetType": "Caster"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.AddModifier",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
+          "ModifierName": {
+            "Value": "MAvatar_GridFight_PlayerBoy_30_PassiveSkill01"
+          }
+        }
+      ],
+      "Modifiers": {
+        "MAvatar_GridFight_PlayerBoy_30_PassiveSkill01": {
+          "_CallbackList": [
+            {
+              "Event": "OnEnterBattle",
+              "Priority": -80,
+              "CallbackConfig": [
+                {
+                  "$type": "RPG.GameCore.AddModifier",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "GridFight_AllBackEnd"
+                  },
+                  "ModifierName": {
+                    "Value": "MAvatar_GridFight_PlayerBoy_30_PassiveSkill01_SPListener"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "MAvatar_GridFight_PlayerBoy_30_PassiveSkill01_SPListener": {
+          "DynamicValues": {
+            "Floats": {
+              "{\"Hash\":879476278}": {
+                "ReadInfo": {
+                  "Type": "None",
+                  "Key": null,
+                  "Index": 0
+                }
+              },
+              "{\"Hash\":-162311059}": {
+                "ReadInfo": {
+                  "Type": "None",
+                  "Key": null,
+                  "Index": 0
+                }
+              }
+            }
+          },
+          "BehaviorFlagList": [
+            "RemoveWhenCasterDead"
+          ],
+          "_CallbackList": [
+            {
+              "Event": "OnSPChange",
+              "CallbackConfig": [
+                {
+                  "$type": "RPG.GameCore.TaskConfig"
+                },
+                {
+                  "$type": "RPG.GameCore.ActiveActionCountDown",
+                  "TaskEnabled": true,
+                  "Enable": true
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

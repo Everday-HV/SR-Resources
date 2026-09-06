@@ -1,0 +1,331 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "MainMission1054006_29",
+  "Category": "Mission",
+  "AreaAnchorName": "LevelArea_P20501_F20501001_G134",
+  "SaveType": "Reset",
+  "OwnerMainMissionID": 1054006,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -81.44300079345703,
+      "PosY": 2.200000047683716,
+      "PosZ": -7.216000080108643,
+      "Name": "Prop1",
+      "RotY": 103.94869995117188,
+      "PropID": 100,
+      "ValueSource": {},
+      "Trigger": {
+        "Radius": 3.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "Dialog": {
+        "LevelGraph": "Config/Level/PropDialogue/P20501/F20501001_G134/DialogueMain_F20501001_G134_P300001.json",
+        "PackList": []
+      },
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 7
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "InteractTitle": {
+        "Hash": 278713937,
+        "Hash64": 16304550243505668348
+      },
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -81.44300079345703,
+      "PosY": 1.0000079870224,
+      "PosZ": -7.216000080108643,
+      "Name": "Prop2",
+      "RotY": 103.94869995117188,
+      "Scale": {
+        "x": 1.2000000476837158,
+        "y": 1.2000000476837158,
+        "z": 1.2000000476837158
+      },
+      "PropID": 105147,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": -83.447998046875,
+      "PosY": 1.0000070333480835,
+      "PosZ": -5.020999908447266,
+      "Name": "Prop_Municipal_0012",
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F20501001/MunicipalChatConfig_F20501001_0012.json"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F20501001_0012"
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "RPG.GameCore.MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400004
+              }
+            ]
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 7.0
+      },
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": -83.447998046875,
+      "PosY": 1.0000070333480835,
+      "PosZ": -5.020999908447266,
+      "Name": "Prop_Municipal_0012_Stop",
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "StopMunicipalChatName",
+            "Value": "MunicipalChatConfig_F20501001_0012"
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 9.0
+      },
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": -88.1275634765625,
+      "PosY": 1.9610029458999634,
+      "PosZ": -7.827381134033203,
+      "Name": "NPC1",
+      "RotY": 84.0,
+      "NPCID": 15230,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultLookAtMode": "Closed",
+      "PossessionConfig": {
+        "Name": "Possession_MobilePhone_A_01"
+      },
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100020393,
+      "AdditiveResidentEffect": [
+        {
+          "EffectPath": "Effects/Eff_Prefab/Eff_NPC/Normal/Common/Eff_Normal_Common_TheLaughingMan.prefab",
+          "AttachPoint": "Head"
+        }
+      ],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400002,
+      "PosX": -82.2655029296875,
+      "PosY": 1.0000059604644775,
+      "PosZ": -5.235881805419922,
+      "Name": "NPC2",
+      "RotY": 156.3000030517578,
+      "NPCID": 15255,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultLookAtMode": "Closed",
+      "PossessionConfig": {
+        "Name": "P_Cheerstick_A_02"
+      },
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100020495,
+      "AdditiveResidentEffect": [
+        {
+          "EffectPath": "Effects/Eff_Prefab/Eff_NPC/Normal/Common/Eff_Normal_Common_TheLaughingMan.prefab",
+          "AttachPoint": "Head"
+        }
+      ],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400003,
+      "PosX": -83.99199676513672,
+      "PosY": 1.0000070333480835,
+      "PosZ": -5.744999885559082,
+      "Name": "NPC3",
+      "RotY": 123.30000305175781,
+      "NPCID": 15172,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultLookAtMode": "Closed",
+      "PossessionConfig": {
+        "Name": "P_Cheerstick_A_06"
+      },
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100010495,
+      "AdditiveResidentEffect": [
+        {
+          "EffectPath": "Effects/Eff_Prefab/Eff_NPC/Normal/Common/Eff_Normal_Common_TheLaughingMan.prefab",
+          "AttachPoint": "Head"
+        }
+      ],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400004,
+      "PosX": -83.447998046875,
+      "PosY": 1.0000070333480835,
+      "PosZ": -5.020999908447266,
+      "Name": "NPC4",
+      "RotY": 138.8000030517578,
+      "NPCID": 15247,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultLookAtMode": "Closed",
+      "PossessionConfig": {
+        "Name": "P_Cheerstick_A_02"
+      },
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100020495,
+      "AdditiveResidentEffect": [
+        {
+          "EffectPath": "Effects/Eff_Prefab/Eff_NPC/Normal/Common/Eff_Normal_Common_TheLaughingMan.prefab",
+          "AttachPoint": "Head"
+        }
+      ],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    }
+  ],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

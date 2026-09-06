@@ -1,0 +1,34 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortInsertAbility",
+          "TaskEnabled": true,
+          "TargetFilter": {
+            "$type": "RPG.GameCore.AdvGroupFetchTargetByStringList",
+            "Targets": {
+              "Key": "\u0001\u000bLocalPlayer\u0004\u001fLevelArea_P2033"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "IsLoop": true
+    }
+  ]
+}

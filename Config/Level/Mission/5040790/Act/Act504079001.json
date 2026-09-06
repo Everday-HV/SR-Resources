@@ -1,0 +1,62 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.ActiveFMChannelReceiver",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AddReShaReactProp",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AddMissionMenuItem",
+          "MenuItemTextID": {
+            "Hash": 24,
+            "Hash64": 48
+          },
+          "DialoguePath": "\u0007NPC_Old���/�\u000f\u0002�Ů�\u0001�\u0001\u000e\u0018\u0000\u001d\u0005\u0004\u0003\u0000�����9\u0000�������\f\u0001�\u0001\u000e"
+        },
+        {
+          "$type": "RPG.GameCore.AddClientMazeBuff",
+          "TaskEnabled": true,
+          "ID": 3
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {},
+    {},
+    {},
+    {},
+    {
+      "IsLoop": true
+    },
+    {
+      "Order": 1
+    },
+    {
+      "IsLoop": false,
+      "Order": 0,
+      "TaskList": []
+    },
+    {},
+    {
+      "Order": 0
+    }
+  ]
+}

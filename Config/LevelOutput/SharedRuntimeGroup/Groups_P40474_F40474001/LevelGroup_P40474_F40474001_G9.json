@@ -1,0 +1,112 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Tpl_MainMission1043711_DollyTrack",
+  "Category": "Mission",
+  "LevelGraph": "Config/Level/GroupTemplateGraph/01_Maze_Default/Default_TrackCamera_Template.json",
+  "AreaAnchorName": "LevelArea_P40474_F40474001_G9",
+  "SaveType": "Reset",
+  "LoadSide": "Server",
+  "OwnerMainMissionID": 1043711,
+  "GroupStateList": [
+    {
+      "DstState": 1
+    },
+    {
+      "SrcState": 1
+    }
+  ],
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "TrackCameraArea",
+        "Value": "Level/Common_Adventure/DollyTrackPrefab/Mission_DollyTrack_104371101.prefab"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "LevelAreaCameraKey",
+        "Value": "Mission_DollyTrack_104371101,VC"
+      },
+      {
+        "$type": "RPG.GameCore.SharedFloat",
+        "Key": "IsSetMoveInputToAxis",
+        "Value": 1.0
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [
+    {
+      "ID": 1,
+      "PosX": -33.900001525878906,
+      "PosY": 3.5999999046325684,
+      "PosZ": 46.599998474121094,
+      "Name": "District1",
+      "RotY": 70.0999984741211,
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 327.5,
+        "DimY": 17.899999618530273,
+        "DimZ": 26.200000762939453
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": -8.670000076293945,
+      "PosY": 0.034147001802921295,
+      "PosZ": -9.0
+    },
+    {
+      "ID": 2,
+      "PosX": -10.84000015258789,
+      "PosY": 0.034147001802921295,
+      "PosZ": -3.2799999713897705
+    },
+    {
+      "ID": 3,
+      "PosX": -68.4000015258789,
+      "PosY": 0.034147001802921295,
+      "PosZ": 140.39999389648438
+    },
+    {
+      "ID": 4,
+      "PosX": -78.69999694824219,
+      "PosY": 0.03414599969983101,
+      "PosZ": 165.89999389648438
+    }
+  ],
+  "PathwayList": [
+    {
+      "ID": 1,
+      "PosX": -26.54574966430664,
+      "PosY": 0.42890098690986633,
+      "PosZ": 68.71942138671875,
+      "Name": "Pathway1",
+      "WaypointIDList": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

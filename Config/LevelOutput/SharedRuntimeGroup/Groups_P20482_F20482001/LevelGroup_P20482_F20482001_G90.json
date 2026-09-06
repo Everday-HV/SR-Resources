@@ -1,0 +1,487 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "FlyMeToTheWindow",
+  "LevelGraph": "Config/Level/GroupGraph/F20482001/Group_F20482001_G90.json",
+  "AreaAnchorName": "LevelArea_P20482_F20482001_G90",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "SavedValueName": "FSV_TriggerFakePlane",
+        "Value": 1
+      },
+      {
+        "SavedValueName": "FSV_TriggerFakePlane",
+        "Value": 2
+      }
+    ],
+    "Operation": "Or"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "GroupPropertyMap": {
+    "1": {
+      "ID": 1,
+      "Name": "FakePlaneEnd",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    }
+  },
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "TrackCameraArea",
+        "Value": "Level/Common_Adventure/DollyTrackPrefab/Chap04_MAZ_A802_DollyTrack_01.prefab"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "LevelAreaCameraKey",
+        "Value": "Chap04_MAZ_A802_DollyTrack_01,VC"
+      },
+      {
+        "$type": "RPG.GameCore.SharedJsonConfig",
+        "Key": "RaiseCurve",
+        "Value": {
+          "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+          "GroupID": 90,
+          "InstanceID": 1,
+          "Type": "Curve"
+        }
+      },
+      {
+        "$type": "RPG.GameCore.SharedJsonConfig",
+        "Key": "RotateCurve",
+        "Value": {
+          "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+          "GroupID": 90,
+          "InstanceID": 2,
+          "Type": "Curve"
+        }
+      },
+      {
+        "$type": "RPG.GameCore.SharedJsonConfig",
+        "Key": "AimCurve",
+        "Value": {
+          "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+          "GroupID": 90,
+          "InstanceID": 3,
+          "Type": "Curve"
+        }
+      },
+      {
+        "$type": "RPG.GameCore.SharedJsonConfig",
+        "Key": "UpCurve",
+        "Value": {
+          "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+          "GroupID": 90,
+          "InstanceID": 4,
+          "Type": "Curve"
+        }
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "Move1Anchor",
+        "Value": "LevelArea_P20482_F20482001_G90,Anchor1"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "Move2Anchor",
+        "Value": "LevelArea_P20482_F20482001_G90,Anchor2"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "Move3Anchor",
+        "Value": "LevelArea_P20482_F20482001_G90,Anchor3"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "Move4Anchor",
+        "Value": "LevelArea_P20482_F20482001_G90,Anchor4"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "StableCamAnchor",
+        "Value": "LevelArea_P20482_F20482001_G90,StableCam"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "TeleportTarget",
+        "Value": "LevelArea_P20482_F20482001_G1,WindowRoom"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "PlaneFlightStaticCam1",
+        "Value": "LevelArea_P20482_F20482001_G90,AnchorStaticPlaneUp1"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "PlaneFlightStaticCam2",
+        "Value": "LevelArea_P20482_F20482001_G90,AnchorFinalStableCam"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "PlaneFlightStaticCam1S",
+        "Value": "LevelArea_P20482_F20482001_G90,AnchorStaticPlaneUp2"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "Move350Anchor",
+        "Value": "LevelArea_P20482_F20482001_G90,Anchor350"
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "StreamingTemplateType": "None",
+  "ConflictWhiteList": [],
+  "EnableGroupAI": true,
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.SceneConfig",
+        "TagHash": 520707853
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 0.9599999785423279,
+      "PosY": 3.2799999713897705,
+      "PosZ": 733.4000244140625,
+      "Name": "Anchor1",
+      "Usage": "GamePlay"
+    },
+    {
+      "ID": 2,
+      "PosX": 0.9599999785423279,
+      "PosY": 3.2799999713897705,
+      "PosZ": 733.4000244140625,
+      "Name": "Anchor2",
+      "RotX": 270.0,
+      "Usage": "GamePlay"
+    },
+    {
+      "ID": 3,
+      "PosX": 0.9599999785423279,
+      "PosY": 3.2799999713897705,
+      "PosZ": 733.4000244140625,
+      "Name": "Anchor3",
+      "RotY": 270.0,
+      "RotX": 284.2296142578125,
+      "RotZ": 90.0,
+      "Usage": "GamePlay"
+    },
+    {
+      "ID": 4,
+      "PosX": 0.9599990248680115,
+      "PosY": 3.2799999713897705,
+      "PosZ": 733.4000244140625,
+      "IsDelete": true,
+      "Name": "PlanePos1"
+    },
+    {
+      "ID": 5,
+      "PosX": 0.9599990248680115,
+      "PosY": 3.2799999713897705,
+      "PosZ": 733.4000244140625,
+      "IsDelete": true,
+      "Name": "PlanePos2"
+    },
+    {
+      "ID": 6,
+      "PosX": -27.399999618530273,
+      "PosY": 115.4000015258789,
+      "PosZ": 733.4000244140625,
+      "Name": "Anchor4",
+      "RotY": 270.0,
+      "RotX": 284.2296142578125,
+      "RotZ": 90.0,
+      "Usage": "GamePlay"
+    },
+    {
+      "ID": 7,
+      "PosX": 10.167590141296387,
+      "PosY": -4.021577835083008,
+      "PosZ": 714.448974609375,
+      "Name": "StableCam",
+      "RotY": 317.75079345703125,
+      "RotX": 316.6496887207031,
+      "RotZ": -0.0004220000118948519,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 75.0
+      }
+    },
+    {
+      "ID": 8,
+      "PosX": 9.163567543029785,
+      "PosY": 1.959388017654419,
+      "PosZ": 743.8472290039062,
+      "Name": "AnchorStaticPlaneUp1",
+      "RotY": 216.82119750976562,
+      "RotX": 14.438340187072754,
+      "RotZ": 0.002133999951183796,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 50.0
+      }
+    },
+    {
+      "ID": 9,
+      "PosX": -0.8436179757118225,
+      "PosY": 2.2965729236602783,
+      "PosZ": 730.4000854492188,
+      "Name": "AnchorFinalStableCam",
+      "RotY": 54.40861892700195,
+      "RotX": 285.6065979003906,
+      "RotZ": 304.57861328125,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 90.0
+      }
+    },
+    {
+      "ID": 10,
+      "PosX": 9.163567543029785,
+      "PosY": 1.959388017654419,
+      "PosZ": 743.8472290039062,
+      "Name": "AnchorStaticPlaneUp2",
+      "RotY": 216.82040405273438,
+      "RotX": 354.635498046875,
+      "RotZ": 0.0020759999752044678,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 50.0
+      }
+    },
+    {
+      "ID": 11,
+      "PosX": 0.9599990248680115,
+      "PosY": 3.275454044342041,
+      "PosZ": 733.4000244140625,
+      "Name": "Anchor350",
+      "RotY": 336.3998107910156,
+      "RotX": 297.26141357421875,
+      "RotZ": 23.600210189819336,
+      "Usage": "GamePlay"
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 0.9599990248680115,
+      "PosY": -2.559999942779541,
+      "PosZ": 733.4000244140625,
+      "Name": "FakePlane",
+      "PropID": 931,
+      "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": 0.5799999833106995,
+      "PosY": -3.859998941421509,
+      "PosZ": 732.969970703125,
+      "Name": "Prop2",
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20482001/LG_Prop_F20482001_G90_300002.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "text",
+            "Value": "MazeText_MazePuzzle_TravelShip_Interact"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 6.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [
+    {
+      "ID": 1,
+      "PosX": 6.663234233856201,
+      "PosY": -0.297529011964798,
+      "PosZ": 733.651611328125,
+      "Name": "Curve1",
+      "PointList": [
+        {
+          "Alias": "0",
+          "Position": {
+            "x": -5.7032341957092285,
+            "y": -3.562469959259033,
+            "z": -0.25158700346946716
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "1",
+          "Position": {
+            "x": -5.7032341957092285,
+            "y": 3.577528953552246,
+            "z": -0.25158700346946716
+          },
+          "ControlType": 1
+        }
+      ]
+    },
+    {
+      "ID": 2,
+      "PosX": 6.663234233856201,
+      "PosY": -0.297529011964798,
+      "PosZ": 733.651611328125,
+      "Name": "Curve2",
+      "PointList": [
+        {
+          "Position": {
+            "x": -5.7032341957092285,
+            "y": 3.577528953552246,
+            "z": -0.25158700346946716
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Control2": {
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Alias": "0",
+          "Position": {
+            "x": -5.7032341957092285,
+            "y": 3.577528953552246,
+            "z": -0.25158700346946716
+          },
+          "ControlType": 1
+        }
+      ]
+    },
+    {
+      "ID": 3,
+      "PosX": 6.663234233856201,
+      "PosY": -0.297529011964798,
+      "PosZ": 733.651611328125,
+      "Name": "Curve3",
+      "RotY": 269.1134033203125,
+      "PointList": [
+        {
+          "Position": {
+            "x": -0.1633100062608719,
+            "y": 3.577528953552246,
+            "z": 5.706443786621094
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Control2": {
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Alias": "0",
+          "Position": {
+            "x": -0.1633100062608719,
+            "y": 3.577528953552246,
+            "z": 5.706443786621094
+          },
+          "ControlType": 1
+        }
+      ]
+    },
+    {
+      "ID": 4,
+      "PosX": 6.663234233856201,
+      "PosY": -0.297529011964798,
+      "PosZ": 733.651611328125,
+      "Name": "Curve4",
+      "RotY": 269.1134033203125,
+      "PointList": [
+        {
+          "Alias": "0",
+          "Position": {
+            "x": -4.652985095977783,
+            "y": 0.12377899885177612,
+            "z": 4.870658874511719
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "1",
+          "Position": {
+            "x": -4.652985095977783,
+            "y": 0.12380199879407883,
+            "z": 99.17176055908203
+          },
+          "ControlType": 1
+        }
+      ]
+    }
+  ],
+  "LittleGameList": []
+}

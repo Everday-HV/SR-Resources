@@ -1,0 +1,131 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Atmosphere_Interact_randommissiontalk_3",
+  "Category": "Atmosphere",
+  "LevelGraph": "Config/Level/GroupGraph/F20502001/Group_F20502001_G186.json",
+  "AreaAnchorName": "LevelArea_P20502_F20502001_G186",
+  "SaveType": "Reset",
+  "AtmosphereCondition": {
+    "Conditions": [
+      {
+        "$type": "RPG.GameCore.LevelGroupSubMissionCompleteCondition",
+        "SubMissionID": 105400154
+      }
+    ]
+  },
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "InteractName",
+        "Value": "TalkSentenceConfig_TalkSentenceText_540999751"
+      },
+      {
+        "$type": "RPG.GameCore.SharedInt",
+        "Key": "TalkSentenceID_1",
+        "Value": 540999752
+      },
+      {
+        "$type": "RPG.GameCore.SharedInt",
+        "Key": "TalkSentenceID_2",
+        "Value": 540999753
+      },
+      {
+        "$type": "RPG.GameCore.SharedInt",
+        "Key": "TalkSentenceID_3",
+        "Value": 540999754
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "StreamingTemplateType": "None",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.Interactable",
+        "TagHash": 597667137
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -109.37999725341797,
+      "PosY": 7.4305009841918945,
+      "PosZ": -48.060001373291016,
+      "Name": "Anchor1",
+      "RotY": 177.8925018310547,
+      "Usage": "Actor"
+    },
+    {
+      "ID": 2,
+      "PosX": -109.6500015258789,
+      "PosY": 11.535499572753906,
+      "PosZ": -44.64799880981445,
+      "Name": "Anchor2",
+      "Usage": "Actor"
+    },
+    {
+      "ID": 3,
+      "PosX": -111.58000183105469,
+      "PosY": 13.510000228881836,
+      "PosZ": -49.47999954223633,
+      "Name": "Anchor3",
+      "RotY": 18.038990020751953,
+      "RotX": 14.275469779968262,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 40.0
+      }
+    },
+    {
+      "ID": 4,
+      "PosX": -110.7030029296875,
+      "PosY": 14.227999687194824,
+      "PosZ": -46.35599899291992,
+      "Name": "Anchor4",
+      "RotY": 18.038990020751953,
+      "RotX": 43.356929779052734,
+      "RotZ": 9.999999974752427e-7,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 40.0
+      }
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosX": -109.66699981689453,
+      "PosY": 12.489999771118164,
+      "PosZ": -43.47600173950195,
+      "Name": "District1",
+      "Trigger": {
+        "Shape": "GeometrySphere",
+        "Radius": 2.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

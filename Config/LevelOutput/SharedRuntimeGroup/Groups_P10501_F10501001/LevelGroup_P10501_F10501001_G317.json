@@ -1,0 +1,106 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "MainMission2054000_01",
+  "Category": "Mission",
+  "LevelGraph": "Config/Level/GroupGraph/F10501001/Group_F10501001_G317.json",
+  "AreaAnchorName": "LevelArea_P10501_F10501001_G317",
+  "SaveType": "Reset",
+  "OwnerMainMissionID": 2054000,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -335.8900146484375,
+      "PosY": 49.5909309387207,
+      "PosZ": 43.959999084472656,
+      "Name": "Prop1",
+      "PropID": 100,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "MissionTrigger": {
+          "Radius": 10.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": -335.9700012207031,
+      "PosY": 49.591880798339844,
+      "PosZ": 44.13999938964844,
+      "Name": "NPC1",
+      "RotY": 124.53990173339844,
+      "NPCID": 3015,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1388188723,
+        "Hash64": 13442442258855365591
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900030000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "Dialog": {
+        "LevelGraph": "Config/Level/NPCDialogue/P10501/F10501001_G317/DialogueMain_F10501001_G317_N400001.json",
+        "PackList": [],
+        "EnableCondition": {
+          "Conditions": [
+            {
+              "Type": "SubMission",
+              "ID": 205400001
+            }
+          ]
+        }
+      },
+      "OverrideReplaceMaterialKeyList": [
+        "StoryFury_Peppy_00"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "OverrideSpawn": true,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": false
+        }
+      },
+      "ModelPresetConfig": {}
+    }
+  ],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

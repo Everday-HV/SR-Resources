@@ -1,0 +1,123 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "WeeklyRaid",
+  "Category": "System",
+  "AreaAnchorName": "LevelArea_P20541_F20541001_G180",
+  "SystemUnlockCondition": {
+    "Conditions": [
+      24009
+    ]
+  },
+  "LoadSide": "Server",
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.SpecialEntrance",
+        "TagHash": -1446353026
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 291.9200134277344,
+      "PosY": 24.980070114135742,
+      "PosZ": 129.6699981689453,
+      "Name": "Anchor1",
+      "RotY": 245.04409790039062
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 289.8599853515625,
+      "PosY": 24.980070114135742,
+      "PosZ": 128.11000061035156,
+      "Name": "Prop1",
+      "RotY": 311.57611083984375,
+      "PropID": 113,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_WeeklyRaid_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "CocoonID",
+            "Value": 1309
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "UITextmapID",
+            "Value": "MappingInfo_Name_1309_0"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "FloorBattleAreaID",
+            "Value": 2.0
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 3.0
+      },
+      "CampID": 4,
+      "State": "CheckPointDisable",
+      "CustomTriggerMap": {
+        "CustomTrigger_Spring": {
+          "Radius": 11.0,
+          "Server": true
+        }
+      },
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "AnchorGroupID": 180,
+      "AnchorID": 1,
+      "MappingInfoID": 1309,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [
+        30
+      ],
+      "HideInCutScene": true,
+      "HideInStory": true,
+      "PerformanceHideFlags": 7,
+      "CocoonID": 1309,
+      "OverrideMapIconType": 419,
+      "OverrideMapStateIcons": [
+        {
+          "State": "CheckPointDisable",
+          "IconID": 419,
+          "Color": "#4b4b4b"
+        },
+        {
+          "State": "CheckPointEnable",
+          "IconID": 419
+        }
+      ],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

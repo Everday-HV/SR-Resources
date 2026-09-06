@@ -1,0 +1,43 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveFMChannelSource",
+          "Active": true
+        },
+        {
+          "$type": "RPG.GameCore.AddModifier",
+          "ReferenceModifierName": "05_Pam\u0012NPC_Special_Pam_00����\u0003�\u0001��\u0004\u0001�\u000f\u0002\u0002\u0006�ޛ�\u0001���",
+          "LifeStepImmediately": true
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {
+      "IsLoop": true,
+      "Order": 1
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "New Group",
+  "Category": "Atmosphere",
+  "AreaAnchorName": "LevelArea_P10501_F10501001_G444",
+  "SaveType": "Reset",
+  "AtmosphereCondition": {},
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "InteractName",
+        "Value": "TalkSentenceConfig_TalkSentenceText_540999523"
+      },
+      {
+        "$type": "RPG.GameCore.SharedInt",
+        "Key": "TalkSentenceID_1",
+        "Value": 540999524
+      },
+      {
+        "$type": "RPG.GameCore.SharedInt",
+        "Key": "TalkSentenceID_2",
+        "Value": 540999525
+      },
+      {
+        "$type": "RPG.GameCore.SharedInt",
+        "Key": "TalkSentenceID_3",
+        "Value": 540999526
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.Interactable",
+        "TagHash": 597667137
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 96.5530014038086,
+      "PosY": 21.481000900268555,
+      "PosZ": -10.027999877929688,
+      "Name": "Anchor1",
+      "RotY": 98.22754669189453,
+      "RotX": 353.5401916503906,
+      "RotZ": 359.0679931640625,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 40.0
+      }
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 108.83999633789062,
+      "PosY": 20.0,
+      "PosZ": -2.9200000762939453,
+      "Name": "Prop1",
+      "RotY": 38.189430236816406,
+      "PropID": 100,
+      "ValueSource": {
+        "Values": []
+      },
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 1.0,
+        "DimX": 2.0,
+        "DimY": 5.0,
+        "DimZ": 15.0
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "Dialog": {
+        "LevelGraph": "Config/Level/PropDialogue/P10501/F10501001_G444/DialogueMain_F10501001_G444_P300001.json",
+        "PackList": [],
+        "EnableCondition": {
+          "Conditions": [
+            {
+              "Phase": "Finish",
+              "ID": 1054007
+            }
+          ]
+        }
+      },
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 7
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "InteractTitle": {
+        "Hash": 1320086203,
+        "Hash64": 1967944325493357169
+      },
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

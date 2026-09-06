@@ -1,0 +1,51 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchCameraAnchorTargetList"
+          },
+          "ResetToIdle": true
+        },
+        {
+          "$type": "RPG.GameCore.AddMissionMenuItem",
+          "TaskEnabled": true,
+          "MenuItemTextID": {
+            "Hash": -27,
+            "Hash64": 54
+          },
+          "DialoguePath": "_opt2�\u000f\u0002\u0004\u0006�ޛ�\u0001���>\u0002�ޛ�\u0001�\u001e\u0000�\t\u0000\u0004\b�\u001d\u0002\u0004\u000e401010565_opt1�"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveTemplateVirtualCamera",
+          "TemplateName": {
+            "Value": "�ޛ�\u0001�"
+          }
+        }
+      ]
+    },
+    {
+      "IsLoop": true
+    },
+    {
+      "Order": -1954,
+      "TaskList": []
+    }
+  ]
+}

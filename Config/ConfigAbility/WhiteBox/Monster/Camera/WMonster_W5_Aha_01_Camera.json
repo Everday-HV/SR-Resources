@@ -1,0 +1,38 @@
+{
+  "AbilityList": [
+    {
+      "Name": "WMonster_W5_Aha_01_Skill01_Camera",
+      "TargetInfo": {
+        "TargetType": "AllEnemy"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveFarmElement"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveFarmElement",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AddTimelineEntity"
+        },
+        {
+          "$type": "RPG.GameCore.AdvCharacterSetMotionBlendTime",
+          "TaskEnabled": true,
+          "RunGaitLerpTime": 1.1151338398610353e-38
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {},
+    {}
+  ]
+}

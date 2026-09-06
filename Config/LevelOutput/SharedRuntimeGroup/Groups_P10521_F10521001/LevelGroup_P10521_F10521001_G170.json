@@ -1,0 +1,197 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "B301_Entrance",
+  "LevelGraph": "Config/Level/GroupGraph/F10521001/Group_F10521001_G170.json",
+  "AreaAnchorName": "LevelArea_P10521_F10521001_G170",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "SavedValueName": "FSV_UnlockB301Entrance",
+        "Value": 1
+      }
+    ],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "GroupPropertyMap": {
+    "1": {
+      "ID": 1,
+      "Name": "GP_ShipArrive",
+      "MaxValue": 1
+    }
+  },
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedJsonConfig",
+        "Key": "ShipCurve_1",
+        "Value": {
+          "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+          "GroupID": 170,
+          "InstanceID": 1,
+          "Type": "Curve"
+        }
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "Anchor1",
+        "Value": "LevelArea_P10521_F10521001_G170,Anchor1"
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Connection",
+        "TagHash": -295833477
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -523.5700073242188,
+      "PosY": 12.210000038146973,
+      "PosZ": 9.40999984741211,
+      "Name": "Anchor1",
+      "RotY": 129.6300048828125
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -552.0999755859375,
+      "PosY": 13.359999656677246,
+      "PosZ": 33.029998779296875,
+      "Name": "Prop1",
+      "RotY": 129.6300048828125,
+      "PropID": 105185,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "Colour",
+            "Value": 1
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -522.6400146484375,
+      "PosY": 13.833000183105469,
+      "PosZ": 1.809999942779541,
+      "Name": "Prop2",
+      "RotY": 38.497100830078125,
+      "PropID": 104293,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 2053100,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 11,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosX": -525.3800048828125,
+      "PosY": 14.18235969543457,
+      "PosZ": 1.8799999952316284,
+      "Name": "District1",
+      "RotY": 39.78623962402344,
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 15.0,
+        "DimY": 10.0,
+        "DimZ": 10.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [
+    {
+      "ID": 1,
+      "PosX": -523.5700073242188,
+      "PosY": 13.359999656677246,
+      "PosZ": 9.40999984741211,
+      "Name": "Curve1",
+      "RotY": 129.6300048828125,
+      "PointList": [
+        {
+          "Alias": "0",
+          "Position": {
+            "x": -1.0705740451812744,
+            "y": 0.0,
+            "z": -33.534481048583984
+          },
+          "Control1": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Control2": {
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Alias": "1",
+          "Control1": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Control2": {
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ]
+    }
+  ],
+  "LittleGameList": []
+}

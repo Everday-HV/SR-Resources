@@ -1,0 +1,213 @@
+{
+  "GroupsMap": {
+    "Base_RobinS_CheckNeedCharge": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourcePropertyCompareRatio",
+            "PropertyTypeA": "CurrentSP",
+            "PropertyTypeB": "MaxSP"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmin": {
+                  "Value": 1.0
+                },
+                "ymin": {
+                  "Value": 1.0
+                },
+                "xmax": {
+                  "Value": 1.0
+                },
+                "ymax": {
+                  "Value": 1.0
+                }
+              },
+              {
+                "ymin": {
+                  "Value": 100.0
+                },
+                "xmax": {
+                  "Value": 1.0
+                },
+                "ymax": {
+                  "Value": 100.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "CombineOperator": "Mul",
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceAITag",
+            "DynamicValueKey": "NoNeedCharge"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 1.0
+                },
+                "xmax": {
+                  "Value": 1.0
+                },
+                "ymax": {
+                  "Value": 0.5000000004656613
+                }
+              }
+            ]
+          }
+        },
+        {
+          "CombineOperator": "Mul",
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourcePropertyCompare",
+            "TargetPropertyType": "MaxSpecialSP"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 1.0
+                },
+                "xmax": {
+                  "Value": 0.5000000004656613
+                },
+                "ymax": {
+                  "Value": 1.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "ymin": {
+                  "Value": 0.10000000009313226
+                },
+                "xmax": {
+                  "Value": 1.0
+                },
+                "ymax": {
+                  "Value": 0.10000000009313226
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Base_RobinS_BreakSpecialSPWhenNormalTargetExists": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourcePropertyCompare",
+            "TargetPropertyType": "MaxSpecialSP"
+          }
+        },
+        {
+          "CombineOperator": "Mul",
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIAllTargetCombine",
+            "Evaluator": {
+              "$type": "RPG.GameCore.ComplexSkillAISourcePropertyCompare",
+              "TargetPropertyType": "MaxSpecialSP"
+            },
+            "ListCombineType": "Min"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 1.0
+                },
+                "xmax": {
+                  "Value": 1.0
+                }
+              }
+            ]
+          },
+          "PostProcess": {
+            "$type": "RPG.GameCore.ComplexSkillAIPostProcessBreak",
+            "UseFinalScore": true,
+            "CompareType": "Equal",
+            "CompareValue": {
+              "Value": 1.0
+            },
+            "IsOverrideFinalScore": true
+          }
+        }
+      ]
+    },
+    "Ultra_RobinS_CheckDamageCarry": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceAITag",
+            "DynamicValueKey": "DamageCarry"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmin": {
+                  "Value": 100.0
+                },
+                "ymin": {
+                  "Value": 100.0
+                },
+                "xmax": {
+                  "Value": 999.0
+                },
+                "ymax": {
+                  "Value": 100.0
+                }
+              },
+              {
+                "xmax": {
+                  "Value": 99.0
+                },
+                "ymax": {
+                  "Value": 99.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Add_RobinS_CheckActionDelay": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourcePropertyCompare",
+            "TargetPropertyType": "ActionDelay"
+          }
+        }
+      ]
+    },
+    "Ultra_RobinS_Rank06_WaitTargetTurnEnd": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIContainModifier",
+            "ModifilerName": "MAvatar_RobinS_00_Rank06_Skill03_AITargetLock"
+          },
+          "PostProcess": {
+            "$type": "RPG.GameCore.ComplexSkillAIPostProcessBreak",
+            "CompareType": "Equal",
+            "CompareValue": {
+              "Value": 1.0
+            },
+            "IsOverrideFinalScore": true
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchNone"
+          },
+          "ResetToIdle": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvCharacterLerpAnimRunPoseParam",
+          "TaskEnabled": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchUnstageTarget"
+          },
+          "LerpTime": 6.712585070478221e+22
+        },
+        {
+          "$type": "RPG.GameCore.AdvByInCustomZone",
+          "TaskEnabled": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchBloodLinkTargets"
+          },
+          "ReturnArtUnload": true
+        }
+      ]
+    },
+    {},
+    {
+      "IsLoop": true,
+      "Order": 25
+    }
+  ]
+}

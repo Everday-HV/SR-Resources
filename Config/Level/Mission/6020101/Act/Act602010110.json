@@ -1,0 +1,87 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.AdvDisablePlayerLockTarget",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvByIsInPhantomFrozen",
+          "Inverse": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchBattleEventEntityList"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {},
+    {},
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.AdvCreateEntityAsync",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvByTriggeredTrackedSearch",
+          "Inverse": true,
+          "CheckTime": 1.7645150262778097e-41
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": false
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {},
+    {},
+    {
+      "IsLoop": false,
+      "Order": 16
+    },
+    {},
+    {}
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": false
+        }
+      ]
+    },
+    {},
+    {},
+    {},
+    {
+      "IsLoop": false,
+      "Order": -963
+    },
+    {
+      "Order": 1
+    },
+    {
+      "Order": -271055001
+    },
+    {
+      "IsLoop": true,
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.ActivateServerGameplayCounter"
+        }
+      ]
+    }
+  ]
+}

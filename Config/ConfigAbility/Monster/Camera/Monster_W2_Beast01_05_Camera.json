@@ -1,0 +1,43 @@
+{
+  "AbilityList": [
+    {
+      "Name": "Monster_W2_Beast01_05_Skill01_Camera",
+      "TargetInfo": {
+        "TargetType": "SkillTargetEntityList"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveFarmElement"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveFarmElement",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AddTimelineMenuItem",
+          "TaskEnabled": true,
+          "PerformanceType": "58",
+          "PerformanceID": 101
+        }
+      ]
+    },
+    {
+      "TargetInfo": {
+        "TargetType": "Unknow",
+        "AllowUnselectableTarget": false,
+        "MinTargetCount": 0
+      },
+      "OnStart": [],
+      "DynamicValues": {
+        "Floats": {}
+      },
+      "DynamicStrings": {}
+    }
+  ]
+}

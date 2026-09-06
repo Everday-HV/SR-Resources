@@ -1,0 +1,32 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvSetupCustomTaskTrigger",
+          "TaskEnabled": true,
+          "IsOverrideValidGuestConfig": true,
+          "AllowSeachEntityInParent": true
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": true
+        }
+      ]
+    },
+    {
+      "Order": -4
+    }
+  ]
+}

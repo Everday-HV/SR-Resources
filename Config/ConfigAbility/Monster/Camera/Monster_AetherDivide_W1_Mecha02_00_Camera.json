@@ -1,0 +1,30 @@
+{
+  "AbilityList": [
+    {
+      "Name": "Monster_AetherDivide_W1_Mecha02_00_Skill02_Camera",
+      "TargetInfo": {
+        "TargetType": "AllTeamMember"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveShotCameraTemplate",
+          "TaskEnabled": true,
+          "IsActive": true,
+          "FirstTarget": {
+            "$type": "RPG.GameCore.TargetFetchUnstageTarget",
+            "ReasonKey": "er_Common_Summon\f\u0001\bAllEnemy\f\u0001\rAllTeamMember\u0000\u0002\u0002\u0002\f\u0001\rAllTeamMember�\u001d\u000e\f\u0001\u0006Caster\u0007Skill05\u0000���!�\u001e\u0002\u0000����'�\u001d\u0010@3_SR0.2_T0.1_S"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AdvByCompareCharacterID"
+        }
+      ]
+    }
+  ]
+}

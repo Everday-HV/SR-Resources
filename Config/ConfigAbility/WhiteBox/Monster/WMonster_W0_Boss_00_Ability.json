@@ -1,0 +1,43 @@
+{
+  "AbilityList": [
+    {
+      "Name": "Monster_AML_Boss_Skill01_Phase01",
+      "TargetInfo": {
+        "TargetType": "SkillTargetEntityList"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveFarmElement",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AddTimelineMenuItem",
+          "TaskEnabled": true,
+          "PerformanceType": "58",
+          "PerformanceID": 101
+        },
+        {
+          "$type": "RPG.GameCore.AdvCreateGroupEntity",
+          "OverrideArtModelOffset": {
+            "x": 1.8515042479559675e+28,
+            "y": 4.544822125843766e+30,
+            "z": 53806460.0
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AdvByInCustomZone",
+          "Inverse": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvCreateGroupEntityV2",
+          "TaskEnabled": true,
+          "IsOverrideArtModelOffset": true,
+          "SkipCreated": true
+        }
+      ]
+    }
+  ]
+}

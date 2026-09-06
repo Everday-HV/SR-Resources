@@ -1,0 +1,103 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveTemplateVirtualCamera"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": false
+        },
+        {
+          "$type": "RPG.GameCore.AddEntityToTeamFormation"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": false
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": false
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AddEntityToRelationGroup",
+          "Target": {
+            "$type": "RPG.GameCore.TargetFetchSummonUnit",
+            "Summoner": {
+              "$type": "RPG.GameCore.TargetFetchSummonUnit",
+              "SummonUnitID": 65,
+              "FetchType": "57"
+            },
+            "SummonUnitID": 101
+          },
+          "MemberType": "-49"
+        },
+        {
+          "$type": "RPG.GameCore.AdvByInCustomZone",
+          "ReturnArtUnload": true
+        },
+        {
+          "$type": "RPG.GameCore.AddMissionMenuItem",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchBattleEventEntityList"
+          },
+          "MenuItemTextID": {
+            "Hash": -48,
+            "Hash64": 70
+          },
+          "DialoguePath": "0202004_G196\u0007Anchor5\u0001\u0000\u001e\u0001\u000bLocalPlayer\u0004\u001fLevelArea_P"
+        }
+      ]
+    },
+    {
+      "IsLoop": true
+    },
+    {
+      "Order": 24
+    },
+    {
+      "Order": -48
+    }
+  ]
+}

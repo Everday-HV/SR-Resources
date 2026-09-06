@@ -1,0 +1,39 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvForceHideBillboard",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AbortInsertAbility",
+          "TaskEnabled": true
+        }
+      ]
+    },
+    {
+      "Order": 5
+    },
+    {
+      "IsLoop": true
+    },
+    {
+      "IsLoop": true,
+      "Order": 26
+    },
+    {},
+    {}
+  ]
+}

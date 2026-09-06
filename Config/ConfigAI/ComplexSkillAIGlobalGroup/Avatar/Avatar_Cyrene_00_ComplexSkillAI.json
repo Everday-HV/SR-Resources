@@ -1,0 +1,498 @@
+{
+  "GroupsMap": {
+    "Base_Cyrene_CompareDPT": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceIsCombatPowerWeightedRandomTarget",
+            "AITagKey": "DamageNeedAttack",
+            "DefaultAITagValue": {
+              "Value": 0.10000000009313226
+            },
+            "PowerOfDamageCarry": {
+              "Value": 2.0
+            }
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 0.10000000009313226
+                },
+                "xmax": {
+                  "Value": 1.0
+                },
+                "ymax": {
+                  "Value": 100.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "AddNP_Cyrene_CheckTargetForeverEffect": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceCharacterID",
+            "CharacterIDGroup": "ForeverEffectChrysos"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 0.5000000004656613
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "ymin": {
+                  "Value": 2.0
+                },
+                "xmax": {
+                  "Value": 1.0
+                },
+                "ymax": {
+                  "Value": 2.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "CombineOperator": "Mul",
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIContainModifier",
+            "ModifilerName": "MServant_CyreneServant_00_AmazingBuff"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 5.0
+                },
+                "xmax": {
+                  "Value": 0.5000000004656613
+                },
+                "ymax": {
+                  "Value": 5.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "ymin": {
+                  "Value": 1.0
+                },
+                "xmax": {
+                  "Value": 1.0
+                },
+                "ymax": {
+                  "Value": 1.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceAITag",
+            "DynamicValueKey": "DamageCarry"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 300.0
+                },
+                "ymax": {
+                  "Value": 1.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "AddNP_Cyrene_CheckTargetOnceEffect": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceCharacterID",
+            "CharacterID": 1404
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 0.5000000004656613
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "ymin": {
+                  "Value": 8.0
+                },
+                "xmax": {
+                  "Value": 1.0
+                },
+                "ymax": {
+                  "Value": 8.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "CombineOperator": "Mul",
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIContainModifier",
+            "ModifilerName": "MServant_CyreneServant_00_AmazingBuff"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 1.0
+                },
+                "xmax": {
+                  "Value": 0.5000000004656613
+                },
+                "ymax": {
+                  "Value": 1.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "xmax": {
+                  "Value": 1.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceCharacterID",
+            "CharacterID": 1402
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 0.5000000004656613
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "ymin": {
+                  "Value": 8.0
+                },
+                "xmax": {
+                  "Value": 1.0
+                },
+                "ymax": {
+                  "Value": 8.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "CombineOperator": "Mul",
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIContainModifier",
+            "ModifilerName": "MServant_CyreneServant_00_AmazingBuff_Aglaea_Sub2"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 1.0
+                },
+                "xmax": {
+                  "Value": 0.5000000004656613
+                },
+                "ymax": {
+                  "Value": 1.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "xmax": {
+                  "Value": 1.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceCharacterID",
+            "CharacterID": 1405
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 0.5000000004656613
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "ymin": {
+                  "Value": 8.0
+                },
+                "xmax": {
+                  "Value": 1.0
+                },
+                "ymax": {
+                  "Value": 8.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "CombineOperator": "Mul",
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIContainModifier",
+            "ModifilerName": "MServant_CyreneServant_00_AmazingBuff_Anaxa"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 1.0
+                },
+                "xmax": {
+                  "Value": 0.5000000004656613
+                },
+                "ymax": {
+                  "Value": 1.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "xmax": {
+                  "Value": 1.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceCharacterID",
+            "CharacterID": 1410
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 0.5000000004656613
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "ymin": {
+                  "Value": 8.0
+                },
+                "xmax": {
+                  "Value": 1.0
+                },
+                "ymax": {
+                  "Value": 8.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "CombineOperator": "Mul",
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIContainModifier",
+            "ModifilerName": "MServant_CyreneServant_00_AmazingBuff_Harscyline_Sub"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 1.0
+                },
+                "xmax": {
+                  "Value": 0.5000000004656613
+                },
+                "ymax": {
+                  "Value": 1.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "xmax": {
+                  "Value": 1.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceAITag",
+            "DynamicValueKey": "DamageCarry"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 300.0
+                },
+                "ymax": {
+                  "Value": 1.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "AddNP_Cyrene_CheckTargetListenEffect": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceCharacterID",
+            "CharacterIDGroup": "ListenChrysos"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 0.5000000004656613
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "ymin": {
+                  "Value": 0.010000000009313226
+                },
+                "xmax": {
+                  "Value": 1.0
+                },
+                "ymax": {
+                  "Value": 0.010000000009313226
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "AddNP_Cyrene_CheckDamageCarry": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceCharacterID",
+            "CharacterIDGroup": "Chrysos"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 1.0
+                },
+                "xmax": {
+                  "Value": 0.5000000004656613
+                },
+                "ymax": {
+                  "Value": 1.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "xmax": {
+                  "Value": 1.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "CombineOperator": "Mul",
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceAITag",
+            "DynamicValueKey": "DamageCarry"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 0.010000000009313226
+                },
+                "xmax": {
+                  "Value": 10.0
+                },
+                "ymax": {
+                  "Value": 0.010000000009313226
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 10.0
+                },
+                "ymin": {
+                  "Value": 5.0
+                },
+                "xmax": {
+                  "Value": 300.0
+                },
+                "ymax": {
+                  "Value": 5.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

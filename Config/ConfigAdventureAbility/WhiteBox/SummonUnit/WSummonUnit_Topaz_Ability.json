@@ -1,0 +1,19 @@
+{
+  "AbilityList": [
+    {
+      "Name": "WSummonUnit_Topaz_MazeSkill",
+      "TargetInfo": {
+        "TargetType": "SkillPointEntityOrNone"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveFarmElement",
+          "TaskEnabled": true
+        }
+      ]
+    }
+  ]
+}

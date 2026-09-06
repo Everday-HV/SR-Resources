@@ -1,0 +1,35 @@
+{
+  "GroupConfigName": "FollowField",
+  "ConfigEntityPath": "Config/ConfigEntity/SummonUnit/SummonUnit_Common_TeamField_Entity.json",
+  "ResidentEffects": [
+    {
+      "$type": "RPG.GameCore.TriggerEffect",
+      "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Jingliu_00/Eff_Avatar_Jingliu_00_MazeSkill01_04.prefab",
+      "ForceSimulateImmediately": false
+    }
+  ],
+  "AttachPoint": "Origin",
+  "OnDestroy": [
+    {
+      "$type": "RPG.GameCore.TaskConfig"
+    }
+  ],
+  "OnBeReplaced": [
+    {
+      "$type": "FFMONJGCKDI",
+      "TaskEnabled": true
+    },
+    {
+      "$type": "RPG.GameCore.AdvByInCustomZone",
+      "TaskEnabled": true,
+      "Inverse": true,
+      "ReturnArtUnload": true
+    }
+  ],
+  "TriggerConfig": {
+    "HintTrigger": {
+      "HintEffectPath": "tar_skill_maze_outro_jingliu\n\u0002�\u0010\u0006\f\u0001\u000eCasterSummoner�\u0007\u0004\u0004����\u0001\u0014HitNpcMonsterTrigger\u0000�����\u0003\u0001\u0001\u0002\n\b-&\f\u0001",
+      "HintEffectAttachPoint": "TaskActionTarget"
+    }
+  }
+}

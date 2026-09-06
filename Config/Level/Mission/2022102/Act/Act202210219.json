@@ -1,0 +1,67 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortInsertAbility",
+          "AbilityName": "CR_15_02"
+        },
+        {
+          "$type": "RPG.GameCore.AdvEntityStopLookAt",
+          "SourceType": {
+            "$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+            "FetchType": "SingleNpcByNpcID",
+            "SingleNpcID": {
+              "GroupID": {
+                "IsDynamic": false,
+                "FixedValue": {
+                  "Value": 36.0
+                }
+              },
+              "GroupNpcID": {
+                "IsDynamic": false,
+                "FixedValue": {
+                  "Value": 400001.0
+                }
+              }
+            }
+          },
+          "StopImmediately": true
+        },
+        {
+          "$type": "RPG.GameCore.ActiveVirtualCamera",
+          "AreaName": "LevelArea_P41212_F41212001_G36",
+          "AnchorName": "Anchor5",
+          "DynamicParams": {}
+        }
+      ]
+    },
+    {
+      "IsLoop": true,
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.ActivateServerGameplayCounter"
+        }
+      ]
+    }
+  ]
+}

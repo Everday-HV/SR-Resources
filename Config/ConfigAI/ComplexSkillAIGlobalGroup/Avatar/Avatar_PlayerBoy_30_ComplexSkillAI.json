@@ -1,0 +1,241 @@
+{
+  "GroupsMap": {
+    "AddNP_PlayerBoy_30_BPSkill": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIBattleGlobalData",
+            "DataType": "TeamBoostPoint"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 3.5000000004656613
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 3.5000000004656613
+                },
+                "ymin": {
+                  "Value": 100.0
+                },
+                "xmax": {
+                  "Value": 4.0
+                },
+                "ymax": {
+                  "Value": 100.0
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "IsBpGroup": true
+    },
+    "AddNP_PlayerGirl_30_BPSkill": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIBattleGlobalData",
+            "DataType": "TeamBoostPoint"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 3.5000000004656613
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 3.5000000004656613
+                },
+                "ymin": {
+                  "Value": 100.0
+                },
+                "xmax": {
+                  "Value": 4.0
+                },
+                "ymax": {
+                  "Value": 100.0
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "IsBpGroup": true
+    },
+    "Mul_PlayerBoyServant_CastoricePriority": {
+      "CombineOperator": "Mul",
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIContainModifier",
+            "ModifilerName": "MAvatar_Castorice_00_Passive"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 0.010000000009313226
+                },
+                "xmax": {
+                  "Value": 0.5000000004656613
+                },
+                "ymax": {
+                  "Value": 0.010000000009313226
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "ymin": {
+                  "Value": 100.0
+                },
+                "xmax": {
+                  "Value": 1.0
+                },
+                "ymax": {
+                  "Value": 100.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "CombineOperator": "Mul",
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIContainModifier",
+            "IsTarget": false,
+            "ModifilerName": "MServant_PlayerBoyServant_30_Rank01"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 0.5000000004656613
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "ymin": {
+                  "Value": 1.0
+                },
+                "xmax": {
+                  "Value": 1.0
+                },
+                "ymax": {
+                  "Value": 1.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIContainModifier",
+            "IsTarget": false,
+            "ModifilerName": "MServant_PlayerBoyServant_30_Rank01"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 1.0
+                },
+                "xmax": {
+                  "Value": 0.5000000004656613
+                },
+                "ymax": {
+                  "Value": 1.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "xmax": {
+                  "Value": 1.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Base_PlayerBoyServant_CompareDPTWithDamageCarry": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceValueInTeamRatio",
+            "ValueType": "WeightedTotalPower"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 60.0
+                },
+                "xmax": {
+                  "Value": 100.0
+                },
+                "ymax": {
+                  "Value": 100.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "CombineOperator": "Mul",
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceAITag",
+            "DynamicValueKey": "DamageCarry"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 0.010000000009313226
+                },
+                "xmax": {
+                  "Value": 10.0
+                },
+                "ymax": {
+                  "Value": 1.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 10.0
+                },
+                "ymin": {
+                  "Value": 1.0
+                },
+                "xmax": {
+                  "Value": 100.0
+                },
+                "ymax": {
+                  "Value": 10.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

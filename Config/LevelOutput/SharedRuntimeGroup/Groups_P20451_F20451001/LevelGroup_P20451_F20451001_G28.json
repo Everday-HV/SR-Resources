@@ -1,0 +1,166 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "DefaultMonster",
+  "AreaAnchorName": "LevelArea_P20451_F20451001_G28",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "SavedValueName": "SceneStateByMainMission",
+        "Value": 1
+      }
+    ],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "GroupRefreshID": 1001,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Monster",
+        "TagHash": -1058465803
+      },
+      {
+        "Tag": "GameModule.EraFlip.State.Day",
+        "TagHash": 1090843668
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [
+    {
+      "ID": 200003,
+      "PosX": 211.79859924316406,
+      "PosY": 21.155269622802734,
+      "PosZ": 208.86399841308594,
+      "Name": "Monster3",
+      "RotY": 4.001376152038574,
+      "NPCMonsterID": 4052010,
+      "AIConfig": {
+        "PathwayList": [
+          {
+            "UseOwnerGroup": true,
+            "UseGroup": 28,
+            "UseID": 1,
+            "StartAt": 1
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "AIVariableSource": {},
+      "ValueSource": {},
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 4294967295,
+        "ID": 2
+      },
+      "EventID": 20451111,
+      "BoardShowList": [
+        2
+      ],
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 200004,
+      "PosX": 233.2689971923828,
+      "PosY": 21.155519485473633,
+      "PosZ": 229.98899841308594,
+      "Name": "Monster4",
+      "RotY": 85.32103729248047,
+      "NPCMonsterID": 4052010,
+      "AIConfig": {
+        "PathwayList": [
+          {
+            "UseOwnerGroup": true,
+            "UseGroup": 28,
+            "UseID": 2,
+            "StartAt": 3
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "AIVariableSource": {},
+      "ValueSource": {},
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 4294967295,
+        "ID": 2
+      },
+      "EventID": 20451112,
+      "BoardShowList": [
+        2
+      ],
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "PropList": [],
+  "DistrictList": [],
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": 216.7519073486328,
+      "PosY": 21.155250549316406,
+      "PosZ": 210.85629272460938
+    },
+    {
+      "ID": 2,
+      "PosX": 209.97360229492188,
+      "PosY": 21.155250549316406,
+      "PosZ": 211.78289794921875
+    },
+    {
+      "ID": 3,
+      "PosX": 234.7353057861328,
+      "PosY": 21.15550994873047,
+      "PosZ": 229.19520568847656
+    },
+    {
+      "ID": 4,
+      "PosX": 243.69659423828125,
+      "PosY": 21.155519485473633,
+      "PosZ": 229.48019409179688
+    }
+  ],
+  "PathwayList": [
+    {
+      "ID": 1,
+      "PosX": 202.99119567871094,
+      "PosY": 21.15553092956543,
+      "PosZ": 212.69869995117188,
+      "Name": "Pathway1",
+      "WaypointIDList": [
+        1,
+        2
+      ]
+    },
+    {
+      "ID": 2,
+      "PosX": 243.20950317382812,
+      "PosY": 21.155519485473633,
+      "PosZ": 230.23170471191406,
+      "Name": "Pathway2",
+      "WaypointIDList": [
+        3,
+        4
+      ]
+    }
+  ],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

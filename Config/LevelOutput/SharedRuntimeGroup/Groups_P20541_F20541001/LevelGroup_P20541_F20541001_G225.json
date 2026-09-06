@@ -1,0 +1,194 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "LightningStrikeArea",
+  "LevelGraph": "Config/Level/GroupGraph/F20541001/Group_F20541001_G225.json",
+  "AreaAnchorName": "LevelArea_P20541_F20541001_G225",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "SavedValueName": "SceneStateByMainMission",
+        "Value": 1
+      }
+    ],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedUint",
+        "Key": "ResetAnchorID",
+        "Value": 1
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Gameplay",
+        "TagHash": -141571921
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -657.760009765625,
+      "PosY": 327.7809143066406,
+      "PosZ": -22.239999771118164,
+      "Name": "ResetAnchor1",
+      "RotY": 154.25070190429688
+    },
+    {
+      "ID": 2,
+      "PosX": -663.2982177734375,
+      "PosY": 325.818115234375,
+      "PosZ": -39.65351867675781,
+      "Name": "RandomAnchor1-1"
+    },
+    {
+      "ID": 3,
+      "PosX": -644.6923217773438,
+      "PosY": 327.6924133300781,
+      "PosZ": -39.2051887512207,
+      "Name": "RandomAnchor1-2"
+    },
+    {
+      "ID": 4,
+      "PosX": -648.8607788085938,
+      "PosY": 330.8616027832031,
+      "PosZ": -56.689998626708984,
+      "Name": "RandomAnchor1-3"
+    },
+    {
+      "ID": 5,
+      "PosX": -621.4456787109375,
+      "PosY": 330.95220947265625,
+      "PosZ": -57.657989501953125,
+      "Name": "RandomAnchor2-1"
+    },
+    {
+      "ID": 6,
+      "PosX": -652.64697265625,
+      "PosY": 330.9555969238281,
+      "PosZ": -79.63526916503906,
+      "Name": "RandomAnchor2-2"
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosX": -663.2982177734375,
+      "PosY": 325.818115234375,
+      "PosZ": -39.65351867675781,
+      "Name": "LightningArea1-1",
+      "Trigger": {
+        "Shape": "GeometrySphere",
+        "Radius": 12.0,
+        "DimX": 15.0,
+        "DimY": 10.0,
+        "DimZ": 25.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    },
+    {
+      "ID": 500002,
+      "PosX": -621.4459838867188,
+      "PosY": 330.94500732421875,
+      "PosZ": -57.212520599365234,
+      "Name": "LightningArea2-1",
+      "Trigger": {
+        "Shape": "GeometrySphere",
+        "Radius": 12.0,
+        "DimX": 15.0,
+        "DimY": 10.0,
+        "DimZ": 25.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    },
+    {
+      "ID": 500004,
+      "PosX": -657.5496215820312,
+      "PosY": 327.2619934082031,
+      "PosZ": -27.683399200439453,
+      "Name": "LightningActiveArea1",
+      "Trigger": {
+        "Shape": "GeometrySphere",
+        "Radius": 90.0,
+        "DimX": 15.0,
+        "DimY": 10.0,
+        "DimZ": 25.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    },
+    {
+      "ID": 500003,
+      "PosX": -644.6923217773438,
+      "PosY": 327.6924133300781,
+      "PosZ": -39.2051887512207,
+      "Name": "LightningArea1-2",
+      "Trigger": {
+        "Shape": "GeometrySphere",
+        "Radius": 12.0,
+        "DimX": 15.0,
+        "DimY": 10.0,
+        "DimZ": 25.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    },
+    {
+      "ID": 500005,
+      "PosX": -648.8607788085938,
+      "PosY": 330.83648681640625,
+      "PosZ": -56.6126594543457,
+      "Name": "LightningArea1-3",
+      "Trigger": {
+        "Shape": "GeometrySphere",
+        "Radius": 11.0,
+        "DimX": 15.0,
+        "DimY": 10.0,
+        "DimZ": 25.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    },
+    {
+      "ID": 500006,
+      "PosX": -658.6057739257812,
+      "PosY": 330.9555969238281,
+      "PosZ": -76.78372955322266,
+      "Name": "LightningArea2-2",
+      "RotY": 3.503243923187256,
+      "Trigger": {
+        "Shape": "GeometrySphere",
+        "Radius": 12.0,
+        "DimX": 15.0,
+        "DimY": 10.0,
+        "DimZ": 25.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

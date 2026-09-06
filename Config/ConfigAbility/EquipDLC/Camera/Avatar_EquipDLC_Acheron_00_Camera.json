@@ -1,0 +1,23 @@
+{
+  "AbilityList": [
+    {
+      "Name": "Avatar_Acheron_00_Insert_Camera",
+      "TargetInfo": {
+        "TargetType": "InherentTargetEntity"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AdvAddVisionUseCount",
+          "TaskEnabled": true,
+          "VisionType": "-55"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "AbilityList": [
+    {
+      "Name": "MazeMonster_W4_Claymore_04_MazeAttack",
+      "TargetInfo": {
+        "TargetType": "SkillPointEntity"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveFarmElement",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AddTimelineMenuItem",
+          "TaskEnabled": true,
+          "PerformanceType": "58",
+          "PerformanceID": 101
+        },
+        {
+          "$type": "RPG.GameCore.AdvCreateGroupEntity",
+          "IsOverrideArtModelOffset": true,
+          "OverrideArtModelOffset": {
+            "x": 2.8183640817293853e+20,
+            "y": -2.395427519324322e-38,
+            "z": 1.6288113392627727e-27
+          }
+        }
+      ]
+    }
+  ]
+}

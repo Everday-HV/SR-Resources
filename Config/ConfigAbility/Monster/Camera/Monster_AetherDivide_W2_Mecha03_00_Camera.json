@@ -1,0 +1,53 @@
+{
+  "AbilityList": [
+    {
+      "Name": "Monster_AetherDivide_W2_Mecha03_00_Skill01_Camera",
+      "TargetInfo": {
+        "TargetType": "Caster"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveShotCameraTemplate",
+          "TaskEnabled": true,
+          "IsActive": true,
+          "BlendConfig": {
+            "BlendType": "-58",
+            "UseDefaultBlendCurve": true,
+            "CustomCurveName": "r_Common_AetherDivide_Range_AOE\f\u0001\u000fLightTeamEntity\u0000\u0000\u0000\u0000\u0000\u0000\u0000@\u0000\u0000��\n�#<\f\u0001\u0006Caster\u0000\u0000�?\u0000\u0000�\u001a\f\u0001\u000fLightTeamEntityf",
+            "BlendTime": 5.925684829074997e-39,
+            "FOVSmoothDampTime": -402128896.0
+          }
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AITryInsertUltra",
+          "ContinuousInsert": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvByIsInPhantomFrozen",
+          "TaskEnabled": true,
+          "Inverse": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvCreateGroupEntity"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": false
+        }
+      ]
+    }
+  ]
+}

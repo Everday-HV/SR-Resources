@@ -1,0 +1,43 @@
+{
+  "AbilityList": [
+    {
+      "Name": "WAvatar_Aventurine_Skill01_Camera",
+      "TargetInfo": {
+        "TargetType": "SkillTargetEntityList"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchAdvFakeAvatarPlayerStub"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AITryInsertUltra"
+        },
+        {
+          "$type": "RPG.GameCore.AdvBlockRewardToast",
+          "TaskEnabled": true,
+          "Enable": true
+        },
+        {
+          "$type": "RPG.GameCore.ActiveFarmElement",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvBlockRewardToast",
+          "TaskEnabled": true,
+          "Enable": true
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {},
+    {}
+  ]
+}

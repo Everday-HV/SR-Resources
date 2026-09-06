@@ -1,0 +1,73 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortInsertAbility",
+          "TaskEnabled": true,
+          "AbilityName": "archMonster�\u000e��>\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000f\u0000\u0000\u0000\u0000\u0000\u0000;\u0000 \u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0006\u001eLevelArea_P44201_F44201003_G33\u0007Anchor2\u0001\u0000\u001e\u0001\u000bLocalPlayer\u0004\u001e"
+        },
+        {
+          "$type": "RPG.GameCore.AdvAddVisionUseCount",
+          "TaskEnabled": true,
+          "Count": -51
+        },
+        {
+          "$type": "RPG.GameCore.AdvCharacterSetMotionBlendTime",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvByRollShopResult",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvByCheckGameMode",
+          "GameModes": [
+            "25",
+            "24",
+            "-25",
+            "-48",
+            "35",
+            "26",
+            "26",
+            "25",
+            "24",
+            "-25",
+            "24",
+            "24",
+            "-26",
+            "-48",
+            "-36",
+            "-26",
+            "-26",
+            "Maze",
+            "-4",
+            "-33",
+            "55",
+            "-50",
+            "52",
+            "-56",
+            "57",
+            "-25"
+          ]
+        },
+        {
+          "$type": "RPG.GameCore.AITryInsertUltra"
+        }
+      ]
+    },
+    {
+      "IsLoop": true
+    }
+  ]
+}

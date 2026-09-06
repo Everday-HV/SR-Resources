@@ -1,0 +1,174 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Map_Entrance",
+  "AreaAnchorName": "LevelArea_P80706_F80706001_G9",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.TeleportEntrance",
+        "TagHash": -818745016
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -450.048095703125,
+      "PosY": 63.305721282958984,
+      "PosZ": -46.143001556396484,
+      "Name": "Anchor1_FromPO",
+      "RotY": 180.0
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -403.04998779296875,
+      "PosY": 50.349998474121094,
+      "PosZ": -107.41999816894531,
+      "Name": "Entrance",
+      "RotY": 89.9999771118164,
+      "PropID": 140,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TosatPileText",
+            "Value": "MazeText_Chap05_Common_Blockline"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Shape": "Box",
+          "Radius": 1.0,
+          "DimX": 11.0,
+          "DimY": 2.0,
+          "DimZ": 4.0,
+          "Offset": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        "EnterTrigger": {
+          "Shape": "Box",
+          "Radius": 1.0,
+          "DimX": 11.0,
+          "DimY": 2.0,
+          "DimZ": 10.0,
+          "Offset": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        "ExitTrigger": {
+          "Shape": "Box",
+          "Radius": 1.0,
+          "DimX": 11.0,
+          "DimY": 2.0,
+          "DimZ": 10.0,
+          "Offset": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -400.5799865722656,
+      "PosY": 51.540000915527344,
+      "PosZ": -107.19999694824219,
+      "Name": "Prop2",
+      "RotY": 89.9999771118164,
+      "Scale": {
+        "x": 0.699999988079071,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "PropID": 114,
+      "LoadOnInitial": false,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Maze/Chapter01/Town/Town_Chapter01_Entry.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ButtonTextFloorName",
+            "Value": "FloorName_20503001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "EnterMapEntranceID",
+            "Value": 2050301
+          }
+        ]
+      },
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 1.0,
+        "DimX": 8.0,
+        "DimY": 6.0,
+        "DimZ": 10.0
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {
+        "CustomTrigger_OnEnter": {
+          "Radius": 6.0
+        }
+      },
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 2255,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

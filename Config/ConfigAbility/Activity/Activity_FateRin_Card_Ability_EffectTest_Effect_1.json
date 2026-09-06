@@ -1,0 +1,28 @@
+{
+  "AbilityList": [
+    {
+      "Name": "Activity_FateRin_Aias_Effect",
+      "TargetInfo": {
+        "TargetType": "InherentTargetEntity"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AddReShaReactProp"
+        },
+        {
+          "$type": "RPG.GameCore.AdvAddVisionUseCount",
+          "TaskEnabled": true,
+          "Count": 51
+        },
+        {
+          "$type": "RPG.GameCore.AdvByRollShopResult",
+          "TaskEnabled": true,
+          "Inverse": true
+        }
+      ]
+    }
+  ]
+}

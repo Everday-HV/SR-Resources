@@ -1,0 +1,173 @@
+{
+  "GroupsMap": {
+    "Add_Player01_WeaponChargePoint": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceDynamicValue",
+            "IsTarget": false,
+            "DynamicValueKey": "MDF_Energy_Count"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 3.5000000004656613
+                },
+                "ymax": {
+                  "Value": 30.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 3.5000000004656613
+                },
+                "ymin": {
+                  "Value": 350.0
+                },
+                "xmax": {
+                  "Value": 8.0
+                },
+                "ymax": {
+                  "Value": 800.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIContainModifier",
+            "IsTarget": false,
+            "ModifilerName": "MWAvatar_PlayerGirl_10_WeaponCharge_Free"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 0.5000000004656613
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 1.0
+                },
+                "ymin": {
+                  "Value": 1000.0
+                },
+                "xmax": {
+                  "Value": 1.0
+                },
+                "ymax": {
+                  "Value": 1000.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIContainModifier",
+            "IsTarget": false,
+            "ModifilerName": "MAvatar_PlayerBoy_10_WeaponCharge_Free"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 0.5000000004656613
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 1.0
+                },
+                "ymin": {
+                  "Value": 1000.0
+                },
+                "xmax": {
+                  "Value": 1.0
+                },
+                "ymax": {
+                  "Value": 1000.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Mul_Player01_BpSkillBuffWeight": {
+      "CombineOperator": "Mul",
+      "Factors": [
+        {
+          "CombineOperator": "Mul",
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIContainModifier",
+            "IsTarget": false,
+            "ModifilerName": "MWAvatar_PlayerBoy_10_DamageResistance"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 100.0
+                },
+                "xmax": {
+                  "Value": 0.5000000004656613
+                },
+                "ymax": {
+                  "Value": 100.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 1.0
+                },
+                "xmax": {
+                  "Value": 1.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "CombineOperator": "Mul",
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIContainModifier",
+            "IsTarget": false,
+            "ModifilerName": "MWAvatar_PlayerGirl_10_DamageResistance"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 100.0
+                },
+                "xmax": {
+                  "Value": 0.5000000004656613
+                },
+                "ymax": {
+                  "Value": 100.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 1.0
+                },
+                "xmax": {
+                  "Value": 1.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

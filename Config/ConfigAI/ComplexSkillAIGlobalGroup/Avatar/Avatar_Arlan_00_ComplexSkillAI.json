@@ -1,0 +1,64 @@
+{
+  "GroupsMap": {
+    "Add_Arlan_HpEffect": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourcePropertyCompareRatio",
+            "PropertyTypeA": "CurrentHP",
+            "PropertyTypeB": "MaxHP"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 0.1500000001396984
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.1500000001396984
+                },
+                "xmax": {
+                  "Value": 0.3000000002793968
+                },
+                "ymax": {
+                  "Value": 70.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.3000000002793968
+                },
+                "ymin": {
+                  "Value": 70.0
+                },
+                "xmax": {
+                  "Value": 0.5000000004656613
+                },
+                "ymax": {
+                  "Value": 100.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "ymin": {
+                  "Value": 100.0
+                },
+                "xmax": {
+                  "Value": 1.0
+                },
+                "ymax": {
+                  "Value": 100.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

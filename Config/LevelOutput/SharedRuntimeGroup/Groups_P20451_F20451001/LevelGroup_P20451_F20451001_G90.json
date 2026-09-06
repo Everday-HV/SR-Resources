@@ -1,0 +1,159 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "MainMission1040611_33",
+  "Category": "Mission",
+  "LevelGraph": "Config/Level/GroupGraph/F20451001/Group_F20451001_G90.json",
+  "AreaAnchorName": "LevelArea_P20451_F20451001_G90",
+  "SaveType": "Reset",
+  "OwnerMainMissionID": 1040611,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 340.2300109863281,
+      "PosY": -85.65338897705078,
+      "PosZ": 216.63999938964844,
+      "Name": "Prop1",
+      "PropID": 100,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "MissionTrigger": {
+          "Shape": "Box",
+          "Radius": 2.0,
+          "DimX": 10.0,
+          "DimY": 4.0,
+          "DimZ": 6.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosX": 358.5899963378906,
+      "PosY": -93.34786987304688,
+      "PosZ": 259.8500061035156,
+      "Name": "District1",
+      "Trigger": {
+        "Shape": "GeometrySphere",
+        "Radius": 25.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": 351.2012939453125,
+      "PosY": -92.61530303955078,
+      "PosZ": 256.9508972167969,
+      "Name": "NPC1",
+      "RotY": 351.220703125,
+      "NPCID": 1406,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultLookAtMode": "Closed",
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 314100231,
+      "AdditiveResidentEffect": [
+        {
+          "EffectPath": "Effects/Eff_Prefab/Eff_NPC/Normal/Common/Eff_Normal_Lady_Common_StoryCrystal.prefab",
+          "AttachPoint": "Root"
+        }
+      ],
+      "OverrideSeriesID": 4294967295,
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "StoryCrystal_Harscyline_00"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SFXOnLoad": "Ev_sfx_npc_common_StoryCrystal_loop",
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 400002,
+      "PosX": 352.3782043457031,
+      "PosY": -92.6818618774414,
+      "PosZ": 258.02911376953125,
+      "Name": "NPC2",
+      "RotY": 224.82069396972656,
+      "NPCID": 1412,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultLookAtMode": "LookTarget",
+      "DefaultLookAtTargetInfo": {
+        "GroupID": 90,
+        "InstanceID": 400001,
+        "LookAtAttachPoint": "LookAtPoint"
+      },
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 314120246,
+      "AdditiveResidentEffect": [
+        {
+          "EffectPath": "Effects/Eff_Prefab/Eff_NPC/Normal/Common/Eff_Normal_Child_Common_StoryCrystal.prefab",
+          "AttachPoint": "Root"
+        }
+      ],
+      "OverrideSeriesID": 4294967295,
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "StoryCrystal_Cerydra_00"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SFXOnLoad": "Ev_sfx_npc_common_StoryCrystal_loop",
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

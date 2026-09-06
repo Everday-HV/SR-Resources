@@ -1,0 +1,246 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "5D_NPC1",
+  "Category": "Atmosphere",
+  "LevelGraph": "Config/Level/GroupGraph/F10501001/Group_F10501001_G518.json",
+  "AreaAnchorName": "LevelArea_P10501_F10501001_G518",
+  "SaveType": "Reset",
+  "AtmosphereCondition": {
+    "Conditions": [
+      {
+        "$type": "RPG.GameCore.LevelGroupSubMissionCompleteCondition",
+        "SubMissionID": 105400333
+      },
+      {
+        "$type": "RPG.GameCore.LevelGroupSubMissionCompleteCondition",
+        "SubMissionID": 105400305
+      }
+    ],
+    "Operation": "Or"
+  },
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.NPC",
+        "TagHash": -882113524
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -48.31999969482422,
+      "PosY": 55.04098129272461,
+      "PosZ": 147.0,
+      "IsDelete": true,
+      "Name": "Prop1",
+      "RotY": 96.87745666503906,
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Raid/Common_Raid_OpenEntrance.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "RaidID",
+            "Value": "44305002"
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "NPCGroupID",
+            "Value": 292
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "NPCID",
+            "Value": 400001
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 1.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": -335.7130126953125,
+      "PosY": 46.36600112915039,
+      "PosZ": -99.87000274658203,
+      "Name": "NPC1",
+      "RotY": 344.1585998535156,
+      "NPCID": 100,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "MappingInfoID": 10090,
+      "BoardShowList": [
+        1,
+        4,
+        8,
+        64
+      ],
+      "OverrideNPCName": {
+        "Hash": -1261582720,
+        "Hash64": 4062916955686326774
+      },
+      "OverrideNPCTitle": {
+        "Hash": -270810091,
+        "Hash64": 6985818806451633204
+      },
+      "TalkDialogGroupIDList": [],
+      "AdditiveResidentEffect": [],
+      "IsMapContent": true,
+      "MiniMapIconType": 401,
+      "InitialHiddenNodeList": [],
+      "Dialog": {
+        "LevelGraph": "Config/Level/NPCDialogue/P10501/F10501001_G518/DialogueMain_F10501001_G518_N400001.json",
+        "PackList": []
+      },
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400002,
+      "PosX": -335.9580078125,
+      "PosY": 46.36600875854492,
+      "PosZ": -99.58424377441406,
+      "Name": "NPC2",
+      "RotY": 212.36940002441406,
+      "NPCID": 3225,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "IsOverrideAtlasEmotion": true,
+      "OverrideAtlasEmotion": {
+        "EmotionIndex": 13
+      },
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900420000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "ChenLing_00_Body_03"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400003,
+      "PosX": -335.4032897949219,
+      "PosY": 46.36600112915039,
+      "PosZ": -100.04830169677734,
+      "Name": "NPC3",
+      "RotY": 215.70269775390625,
+      "NPCID": 3225,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "IsOverrideAtlasEmotion": true,
+      "OverrideAtlasEmotion": {
+        "EmotionIndex": 13
+      },
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900420000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "ChenLing_00_Body_03"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400004,
+      "PosX": -335.6329040527344,
+      "PosY": 47.02014923095703,
+      "PosZ": -99.78781127929688,
+      "Name": "NPC4",
+      "RotY": 217.256103515625,
+      "NPCID": 3225,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "IsOverrideAtlasEmotion": true,
+      "OverrideAtlasEmotion": {
+        "EmotionIndex": 14
+      },
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900420000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "ChenLing_00_Body_00"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    }
+  ],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

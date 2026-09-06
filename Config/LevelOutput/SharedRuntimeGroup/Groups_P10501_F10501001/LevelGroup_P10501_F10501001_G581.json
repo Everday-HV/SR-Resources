@@ -1,0 +1,737 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Crowd",
+  "Category": "Atmosphere",
+  "AreaAnchorName": "LevelArea_P10501_F10501001_G581",
+  "SaveType": "Reset",
+  "AtmosphereCondition": {},
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.Crowd",
+        "TagHash": -581694062
+      },
+      {
+        "Tag": "Group.Atomsphere.NPC",
+        "TagHash": -882113524
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -301.57000732421875,
+      "PosY": 47.1968994140625,
+      "PosZ": -31.469999313354492,
+      "Name": "Prop_Municipal_0135",
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F10501001/MunicipalChatConfig_F10501001_0135.json"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10501001_0135"
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "RPG.GameCore.MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400002
+              },
+              {
+                "$type": "RPG.GameCore.MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400003
+              }
+            ]
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 3.5
+      },
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -301.57000732421875,
+      "PosY": 47.1968994140625,
+      "PosZ": -31.469999313354492,
+      "Name": "Prop_Municipal_0135_Stop",
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "StopMunicipalChatName",
+            "Value": "MunicipalChatConfig_F10501001_0135"
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 5.0
+      },
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": -347.75,
+      "PosY": 48.070030212402344,
+      "PosZ": -36.53200149536133,
+      "Name": "NPC1",
+      "RotY": 358.0018005371094,
+      "NPCID": 2505,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400002,
+      "PosX": -301.1099853515625,
+      "PosY": 47.19689178466797,
+      "PosZ": -32.369998931884766,
+      "Name": "NPC2",
+      "RotY": 321.9465026855469,
+      "NPCID": 3259,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900450200,
+      "AdditiveResidentEffect": [],
+      "OverrideSeriesID": 4294967295,
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400003,
+      "PosX": -301.718994140625,
+      "PosY": 47.19689178466797,
+      "PosZ": -30.53700065612793,
+      "Name": "NPC3",
+      "RotY": 151.80540466308594,
+      "NPCID": 3255,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900450200,
+      "AdditiveResidentEffect": [],
+      "OverrideSeriesID": 4294967295,
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    }
+  ],
+  "CrowdList": [
+    {
+      "ID": 1,
+      "PosX": -363.8599853515625,
+      "PosY": 47.1968994140625,
+      "PosZ": -45.31999969482422,
+      "Name": "Crowd1",
+      "RotY": 167.80780029296875,
+      "MemberList": [
+        {
+          "Identity": "W5_Street",
+          "FeatureID": "Miss_Street_Cat",
+          "UniqueName": "581_1_01",
+          "LookAtTarget": "581_1_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "W5_Street",
+          "FeatureID": "Child_Street_Rabbit",
+          "AssemNPCID": "W5_Child_Street_Rabbit_Child_04",
+          "UniqueName": "581_1_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6630250215530396,
+            "y": 0.0,
+            "z": -0.19103999435901642
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040328
+        }
+      ],
+      "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F10501001/MunicipalChatConfig_F10501001_0111.json",
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "581_1_02"
+        },
+        {
+          "UniqueName": "2",
+          "CrowdUniqueName": "581_1_01"
+        }
+      ],
+      "TriggerRudius": 5.0,
+      "InteractPerformanceTriggerRadius": 2.5,
+      "CenterPos": {
+        "x": -0.331512987613678,
+        "y": 0.0,
+        "z": -0.09551999717950821
+      }
+    },
+    {
+      "ID": 2,
+      "PosX": -362.7699890136719,
+      "PosY": 47.316890716552734,
+      "PosZ": -31.829999923706055,
+      "Name": "Crowd2",
+      "RotY": 129.57940673828125,
+      "MemberList": [
+        {
+          "Identity": "W5_Street",
+          "FeatureID": "Lady_Street_Oni",
+          "UniqueName": "581_2_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.8029999732971191,
+            "y": 0.0,
+            "z": 1.2869969606399536
+          },
+          "LocalRotationY": 225.32550048828125,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "W5_OfficePeole",
+          "FeatureID": "Lady_Office_Oni",
+          "UniqueName": "581_2_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.17000000178813934,
+            "y": 0.0,
+            "z": 1.1100000143051147
+          },
+          "LocalRotationY": 137.61680603027344,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020227
+        },
+        {
+          "Identity": "W5_OfficePeole",
+          "FeatureID": "Male_Office_Human",
+          "UniqueName": "581_2_03",
+          "LookAtTarget": "581_2_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.5199999809265137,
+            "y": 0.0,
+            "z": 0.12999999523162842
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010303
+        }
+      ],
+      "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F10501001/MunicipalChatConfig_F10501001_0113.json",
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "581_2_02"
+        },
+        {
+          "UniqueName": "2",
+          "CrowdUniqueName": "581_2_01"
+        }
+      ],
+      "TriggerRudius": 5.0,
+      "InteractPerformanceTriggerRadius": 2.5,
+      "CenterPos": {
+        "x": 0.3843330144882202,
+        "y": 0.0,
+        "z": 0.8423320055007935
+      }
+    },
+    {
+      "ID": 3,
+      "PosX": -322.99700927734375,
+      "PosY": 49.09000015258789,
+      "PosZ": -28.677000045776367,
+      "Name": "Crowd3",
+      "RotY": 304.7561950683594,
+      "MemberList": [
+        {
+          "Identity": "W5_OfficePeole",
+          "FeatureID": "Lady_Office_Human",
+          "UniqueName": "581_3_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.7300000190734863,
+            "y": 0.0,
+            "z": -0.8769999742507935
+          },
+          "LocalRotationY": 359.58709716796875,
+          "PossessionConfig": {
+            "Name": "Possession_MineralGlass_A_03"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020364
+        },
+        {
+          "Identity": "W5_OfficePeole",
+          "FeatureID": "Male_Office_Human",
+          "UniqueName": "581_3_02",
+          "LookAtTarget": "581_3_01",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.8590010404586792,
+            "y": 0.0,
+            "z": 0.08899100124835968
+          },
+          "LocalRotationY": 189.37130737304688,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "W5_ShrinePeople",
+          "FeatureID": "Male_Shrine",
+          "UniqueName": "581_3_03",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.5249999761581421,
+            "y": 0.0,
+            "z": 0.5730000138282776
+          },
+          "LocalRotationY": 43.3985481262207,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010399
+        },
+        {
+          "Identity": "W5_Street",
+          "FeatureID": "Old_Street_Human",
+          "UniqueName": "581_3_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.680000066757202,
+            "y": 0.0,
+            "z": -0.4000000059604645
+          },
+          "LocalRotationY": 266.8023986816406,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F10501001/MunicipalChatConfig_F10501001_0114.json",
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "581_3_01"
+        },
+        {
+          "UniqueName": "2",
+          "CrowdUniqueName": "581_3_02"
+        }
+      ],
+      "TriggerRudius": 5.0,
+      "InteractPerformanceTriggerRadius": 2.5,
+      "CenterPos": {
+        "x": -1.6985000371932983,
+        "y": 0.0,
+        "z": -0.15375199913978577
+      }
+    },
+    {
+      "ID": 4,
+      "PosX": -328.4342956542969,
+      "PosY": 48.987579345703125,
+      "PosZ": -20.55270004272461,
+      "Name": "Crowd4",
+      "RotY": 354.54180908203125,
+      "MemberList": [
+        {
+          "Identity": "W5_OutFolks",
+          "FeatureID": "Lady_Fox",
+          "UniqueName": "581_4_01",
+          "LookAtTarget": "581_4_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.382999986410141,
+            "y": 0.0,
+            "z": 0.4909999966621399
+          },
+          "LocalRotationY": 87.8294906616211,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020467
+        },
+        {
+          "Identity": "W5_OfficePeole",
+          "FeatureID": "Lady_Office_Human",
+          "UniqueName": "581_4_02",
+          "LookAtTarget": "581_4_01",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.414000004529953,
+            "y": -3.999999989900971e-6,
+            "z": 0.7310000061988831
+          },
+          "LocalRotationY": 234.3946990966797,
+          "PossessionConfig": {
+            "Name": "Possession_MineralBottle_A_01"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020318
+        }
+      ],
+      "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F10501001/MunicipalChatConfig_F10501001_0115.json",
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "581_4_02"
+        },
+        {
+          "UniqueName": "2",
+          "CrowdUniqueName": "581_4_01"
+        }
+      ],
+      "TriggerRudius": 5.0,
+      "InteractPerformanceTriggerRadius": 2.5,
+      "CenterPos": {
+        "x": 0.01549999974668026,
+        "y": -1.9999999949504854e-6,
+        "z": 0.6110000014305115
+      }
+    },
+    {
+      "ID": 5,
+      "PosX": -352.04901123046875,
+      "PosY": 52.25727081298828,
+      "PosZ": -50.39099884033203,
+      "Name": "Crowd5",
+      "RotY": 108.818603515625,
+      "MemberList": [
+        {
+          "Identity": "W5_School",
+          "FeatureID": "Lady_Students",
+          "UniqueName": "581_5_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.20000000298023224,
+            "y": 0.0,
+            "z": -0.8399999737739563
+          },
+          "LocalRotationY": 71.40670013427734,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020298
+        },
+        {
+          "Identity": "W5_OfficePeole",
+          "FeatureID": "Male_Office_Human",
+          "UniqueName": "581_5_02",
+          "LookAtTarget": "581_5_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.2899999618530273,
+            "y": 3.999999989900971e-6,
+            "z": 0.5199999809265137
+          },
+          "LocalRotationY": 198.35350036621094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010375
+        },
+        {
+          "Identity": "W5_ShrinePeople",
+          "FeatureID": "Male_Shrine",
+          "UniqueName": "581_5_03",
+          "LookAtTarget": "581_5_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.065999984741211,
+            "y": 0.0,
+            "z": -0.47600001096725464
+          },
+          "LocalRotationY": 86.64620971679688,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010310
+        },
+        {
+          "Identity": "W5_Thug",
+          "FeatureID": "MuscleMan_Thug_Oni",
+          "UniqueName": "581_5_04",
+          "LookAtTarget": "581_5_01",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 2.5199999809265137,
+            "y": 0.0,
+            "z": -1.309999942779541
+          },
+          "LocalRotationY": 263.7814025878906,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100050355
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.4090000092983246,
+        "y": 9.999999974752427e-7,
+        "z": -0.5264999866485596
+      }
+    },
+    {
+      "ID": 6,
+      "PosX": -321.07598876953125,
+      "PosY": 48.987579345703125,
+      "PosZ": -22.81100082397461,
+      "Name": "Crowd6",
+      "RotY": 194.16830444335938,
+      "MemberList": [
+        {
+          "Identity": "W5_Street",
+          "FeatureID": "Old_Street_Human",
+          "AssemNPCID": "W5_Old_Street_Human_Old_12",
+          "UniqueName": "581_6_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.8510010242462158,
+            "y": -3.999999989900971e-6,
+            "z": -0.4049980044364929
+          },
+          "LocalRotationY": 350.91900634765625,
+          "PossessionConfig": {
+            "Name": "Possession_MobilePhone_A_01"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030393
+        },
+        {
+          "Identity": "W5_Street",
+          "FeatureID": "Old_Street_Human",
+          "AssemNPCID": "W5_Old_Street_Human_Old_11",
+          "UniqueName": "581_6_02",
+          "LookAtTarget": "581_6_01",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.12300000339746475,
+            "y": 0.0,
+            "z": 0.014000000432133675
+          },
+          "LocalRotationY": 96.5032730102539,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030358
+        }
+      ],
+      "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F10501001/MunicipalChatConfig_F10501001_0121.json",
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "581_6_01"
+        },
+        {
+          "UniqueName": "2",
+          "CrowdUniqueName": "581_6_02"
+        }
+      ],
+      "TriggerRudius": 5.0,
+      "InteractPerformanceTriggerRadius": 2.5,
+      "CenterPos": {
+        "x": 0.36400100588798523,
+        "y": -1.9999999949504854e-6,
+        "z": -0.1954990029335022
+      }
+    },
+    {
+      "ID": 27,
+      "PosX": -345.7619934082031,
+      "PosY": 48.07001876831055,
+      "PosZ": -27.788000106811523,
+      "Name": "Crowd27",
+      "RotY": 88.22577667236328,
+      "MemberList": [
+        {
+          "Identity": "W5_School",
+          "FeatureID": "Lady_Students",
+          "UniqueName": "581_27_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.07900000363588333,
+            "y": 0.0,
+            "z": -0.6050000190734863
+          },
+          "LocalRotationY": 71.40670013427734,
+          "PossessionConfig": {
+            "Name": "Possession_Book_A_10"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020299
+        },
+        {
+          "Identity": "W5_OfficePeole",
+          "FeatureID": "Male_Office_Human",
+          "UniqueName": "581_27_02",
+          "LookAtTarget": "581_27_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6010000109672546,
+            "y": 0.0,
+            "z": 0.8700000047683716
+          },
+          "LocalRotationY": 355.9491882324219,
+          "PossessionConfig": {
+            "Name": "Possession_MineralGlass_A_01"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010384
+        },
+        {
+          "Identity": "W5_ShrinePeople",
+          "FeatureID": "Male_Shrine",
+          "UniqueName": "581_27_03",
+          "LookAtTarget": "581_27_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.7609999775886536,
+            "y": 0.0,
+            "z": 1.649999976158142
+          },
+          "LocalRotationY": 81.48094177246094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010310
+        },
+        {
+          "Identity": "W5_Thug",
+          "FeatureID": "MuscleMan_Thug_Oni",
+          "UniqueName": "581_27_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.5299999713897705,
+            "y": 0.0,
+            "z": -2.140000104904175
+          },
+          "LocalRotationY": 75.4410629272461,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100050355
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.2277500033378601,
+        "y": 0.0,
+        "z": -0.05624999850988388
+      }
+    }
+  ],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

@@ -1,0 +1,72 @@
+{
+  "FloorID": 20100001,
+  "StartAnchorID": 1,
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_MAZ_M100_MainLine_01_StageData/Chap01_MAZ_M100_MainLine_01_StageData.stage",
+  "CameraType": "Maze",
+  "LayerToAreaMask": [
+    1
+  ],
+  "GroupInstanceList": [
+    {
+      "ID": 1,
+      "Name": "New Group",
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20100_F20100001/LevelGroup_P20100_F20100001_G1.json"
+    },
+    {
+      "ID": 2,
+      "Name": "Sound",
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20100_F20100001/LevelGroup_P20100_F20100001_G2.json"
+    }
+  ],
+  "DimensionList": [
+    {
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_ADV_Area_M303_02_Starry.enviroProfile.asset",
+      "CameraType": "Maze",
+      "BattleAreaList": [
+        {
+          "ID": 1,
+          "PosX": -62.289939880371094,
+          "PosY": 15.806209564208984,
+          "PosZ": 707.489990234375,
+          "Name": "BattleArea1",
+          "RotY": 210.26780700683594,
+          "EnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_BAT_Area_M303_03_Foggy.enviroProfile.asset",
+          "Tags": [
+            "BattleArea01"
+          ],
+          "TagContainer": {},
+          "AudioEnterEvent": [
+            "Ev_amb_maze_belobog_m3_3_battle"
+          ],
+          "AudioState": [
+            {
+              "GroupName": "StateGroup_Amb_M3_3_Battle",
+              "StateName": "State_EverWinterHill_Wide"
+            }
+          ],
+          "AudienceGroupIDList": [],
+          "PrefetchMainMissionList": [],
+          "PrefetchSubMissionList": []
+        }
+      ],
+      "IsExclusiveSaveMapSection": true,
+      "GroupIndexList": [
+        0,
+        1
+      ],
+      "ExclusiveSavedGroupIDList": [],
+      "StartAnchorID": 1
+    }
+  ],
+  "GroupInstanceCommonMap": {
+    "1": {
+      "SaveType": "Reset",
+      "LoadOnInitial": true
+    },
+    "2": {
+      "SaveType": "Reset",
+      "LoadOnInitial": true
+    }
+  },
+  "ValidSubmapList": []
+}

@@ -1,0 +1,44 @@
+{
+  "AbilityList": [
+    {
+      "Name": "BattleEventAbility_ChallengePeakBattle_Elation_01_Skill01_Camera",
+      "TargetInfo": {
+        "TargetType": "InherentTargetEntity"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.AITryInsertUltra",
+          "ContinuousInsert": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvByIsInPhantomFrozen",
+          "Inverse": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvByCompareCharacterID",
+          "TaskEnabled": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchUniqueNameEntity",
+            "UniqueName": "nter\u0001\n�#<ffF@fff@\f\u0001\u000eDarkTeamCenter\n�#<��Y@33�@\u0000\u0000�B\u0000\u0000�?�\u001a\b\f\u0001\u000eDarkTeamCenter\u0000\u0000\u0000\u0000���>\u0000\u0000�?\f\u0001\u0015SkillTargetE"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AdvChaseBailu",
+          "PrefabPath": "tyList\u0000\u0000\u0000\u0000ff�>\u0000\u0000\u0000\u0000\u0002\u0002\u0002\f\u0001\u000bAllDarkTeam�\u001e\u0002\u0000����@�\u001d\u0010�\u0018��\u0002\b\f\u0001\u000eDarkTeamCenter\u0001\n�#<\u0000\u0000\u0000\u0000\n�s@\f\u0001\u000eDarkTeamCenter\n�#<\u0000",
+          "AheadMoveDistance": 2.9802322387695312e-8,
+          "MotionFlag": "-26",
+          "StartRunDistance": 2.316486491375355e-41
+        }
+      ]
+    }
+  ]
+}

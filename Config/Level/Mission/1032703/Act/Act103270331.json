@@ -1,0 +1,52 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AITryInsertUltra"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortInsertAbility",
+          "TargetFilter": {
+            "$type": "RPG.GameCore.TargetFetchAbilityTargetLeader"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AddDynamicEntityParam",
+          "ReadTargetType": {
+            "$type": "RPG.GameCore.TargetFetchSummonUnit",
+            "Summoner": {
+              "$type": "RPG.GameCore.TargetFetchSummonUnit",
+              "SummonUnitID": 65,
+              "FetchType": "57"
+            },
+            "SummonUnitID": 101
+          },
+          "ParamTargetType": {
+            "$type": "RPG.GameCore.TargetFetchRogueMagicScepterList"
+          }
+        }
+      ]
+    },
+    {}
+  ]
+}

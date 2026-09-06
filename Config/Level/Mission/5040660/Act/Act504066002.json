@@ -1,0 +1,46 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.ActiveFMChannelReceiver",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AddMissionMenuItem",
+          "TaskEnabled": true,
+          "MenuIconType": {
+            "EnumIndex": 24,
+            "Value": 24
+          },
+          "MenuItemID": 48,
+          "DialoguePath": "1\u0007NPC_Old��/�\u000f\u0002���\u0001�\u0001\f�\u0001��\u0018�\u000f\u0002\u0002\u0007\u0000\u0000\u0000\u0000���\u0001\u0000\u0000\u0000\u0000�"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveCommonSkillPool"
+        }
+      ]
+    },
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    }
+  ]
+}

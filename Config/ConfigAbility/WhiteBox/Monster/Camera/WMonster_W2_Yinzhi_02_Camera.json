@@ -1,0 +1,27 @@
+{
+  "AbilityList": [
+    {
+      "Name": "WMonster_W2_Yinzhi_02_Skill02_Camera",
+      "TargetInfo": {
+        "TargetType": "SkillTargetEntityList"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview",
+          "Mode": "Action"
+        }
+      ]
+    },
+    {
+      "TargetInfo": {
+        "MinTargetCount": -1
+      }
+    }
+  ]
+}

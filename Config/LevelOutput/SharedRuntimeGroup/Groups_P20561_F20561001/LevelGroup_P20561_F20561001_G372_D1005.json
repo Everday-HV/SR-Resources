@@ -1,0 +1,590 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "ShuttleBus",
+  "LevelGraph": "Config/Level/GroupGraph/F20561001/Group_F20561001_G372.json",
+  "AreaAnchorName": "LevelArea_P20561_F20561001_G372",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedJsonConfig",
+        "Key": "Curve01",
+        "Value": {
+          "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+          "GroupID": 372,
+          "InstanceID": 1,
+          "Type": "Curve"
+        }
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "StreamingTemplateType": "None",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Connection",
+        "TagHash": -295833477
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -1.35760498046875,
+      "PosY": -2.4600000381469727,
+      "PosZ": -200.08999633789062,
+      "Name": "Anchor1",
+      "RotY": 89.99994659423828
+    },
+    {
+      "ID": 2,
+      "PosX": -403.79998779296875,
+      "PosY": -2.4600000381469727,
+      "PosZ": -585.0999755859375,
+      "Name": "Anchor2",
+      "RotY": 90.0
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -1.35760498046875,
+      "PosY": -2.4600000381469727,
+      "PosZ": -200.08999633789062,
+      "Name": "ShuttleBus01",
+      "RotY": 89.99994659423828,
+      "PropID": 105255,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "MoveType",
+            "Value": 1
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "MoveParam",
+            "Value": 10.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "InitActivate",
+            "Value": 2
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "TargetActivate",
+            "Value": 2
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ButtonText01",
+            "Value": "PropInteractTitle_708"
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfig",
+            "Key": "CurveRef",
+            "Value": {
+              "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+              "GroupID": 372,
+              "InstanceID": 1,
+              "Type": "Curve"
+            }
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -403.79998779296875,
+      "PosY": -2.4600000381469727,
+      "PosZ": -585.0999755859375,
+      "Name": "ShuttleBus02",
+      "RotY": 90.0,
+      "PropID": 105255,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "MoveType",
+            "Value": 1
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "MoveParam",
+            "Value": 10.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "InitFloor",
+            "Value": 1
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "InitActivate",
+            "Value": 1
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "TargetActivate",
+            "Value": 1
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ButtonText01",
+            "Value": "PropInteractTitle_708"
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "OpenDir01",
+            "Value": 1
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfig",
+            "Key": "CurveRef",
+            "Value": {
+              "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+              "GroupID": 372,
+              "InstanceID": 1,
+              "Type": "Curve"
+            }
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": -1.35760498046875,
+      "PosY": -2.4600000381469727,
+      "PosZ": -200.08999633789062,
+      "Name": "ShuttleBusInner01",
+      "RotY": 89.99994659423828,
+      "PropID": 105270,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "AttachTarget",
+            "Value": "372,300001"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": -403.79998779296875,
+      "PosY": -2.4600000381469727,
+      "PosZ": -585.0999755859375,
+      "Name": "ShuttleBusInner02",
+      "RotY": 45.0,
+      "PropID": 105270,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "AttachTarget",
+            "Value": "372,300002"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": -397.6099853515625,
+      "PosY": -3.4590001106262207,
+      "PosZ": -592.1099853515625,
+      "Name": "NPC1",
+      "RotY": 122.31169891357422,
+      "NPCID": 3116,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100010494,
+      "AdditiveResidentEffect": [],
+      "OverrideSeriesID": 4294967295,
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400002,
+      "PosX": -406.5159912109375,
+      "PosY": -3.4590001106262207,
+      "PosZ": -579.0260009765625,
+      "Name": "NPC2",
+      "RotY": 158.32960510253906,
+      "NPCID": 11240,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "PossessionConfig": {
+        "Name": "P_TabletComputer_A_01"
+      },
+      "BoardShowList": [],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100020550,
+      "AdditiveResidentEffect": [],
+      "OverrideSeriesID": 4294967295,
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400003,
+      "PosX": -406.760009765625,
+      "PosY": -3.4590001106262207,
+      "PosZ": -593.1898803710938,
+      "Name": "NPC3",
+      "RotY": 11.347370147705078,
+      "NPCID": 3118,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100010000,
+      "AdditiveResidentEffect": [],
+      "OverrideSeriesID": 4294967295,
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400004,
+      "PosX": -397.6099853515625,
+      "PosY": -3.4590001106262207,
+      "PosZ": -592.1099853515625,
+      "Name": "NPC4",
+      "RotY": 122.31169891357422,
+      "NPCID": 3116,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100010494,
+      "AdditiveResidentEffect": [],
+      "OverrideSeriesID": 4294967295,
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400005,
+      "PosX": -406.5159912109375,
+      "PosY": -3.4590001106262207,
+      "PosZ": -579.0260009765625,
+      "Name": "NPC5",
+      "RotY": 158.32960510253906,
+      "NPCID": 11240,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "PossessionConfig": {
+        "Name": "P_TabletComputer_A_01"
+      },
+      "BoardShowList": [],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100020550,
+      "AdditiveResidentEffect": [],
+      "OverrideSeriesID": 4294967295,
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400006,
+      "PosX": -406.760009765625,
+      "PosY": -3.4590001106262207,
+      "PosZ": -593.1898803710938,
+      "Name": "NPC6",
+      "RotY": 11.347370147705078,
+      "NPCID": 3118,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100010000,
+      "AdditiveResidentEffect": [],
+      "OverrideSeriesID": 4294967295,
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    }
+  ],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [
+    {
+      "ID": 1,
+      "PosX": -1.35760498046875,
+      "PosY": -2.4600000381469727,
+      "PosZ": -200.08999633789062,
+      "Name": "Curve1",
+      "RotY": 89.99994659423828,
+      "PointList": [
+        {
+          "Alias": "Start",
+          "ControlType": 1,
+          "Control1": {
+            "x": 9.999999747378752e-6,
+            "y": 0.0,
+            "z": 10.531550407409668
+          },
+          "Control2": {
+            "x": -9.999999747378752e-6,
+            "y": 0.0,
+            "z": -10.531550407409668
+          }
+        },
+        {
+          "Alias": "Bend0b",
+          "Position": {
+            "x": -0.08109299838542938,
+            "y": 0.0,
+            "z": -24.544879913330078
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 0.050845999270677567,
+            "y": 0.0,
+            "z": 3.6347270011901855
+          },
+          "Control2": {
+            "x": -0.050845999270677567,
+            "y": 0.0,
+            "z": -3.6347270011901855
+          }
+        },
+        {
+          "Alias": "Bend0a",
+          "Position": {
+            "x": 0.6950230002403259,
+            "y": 0.0,
+            "z": -36.15153884887695
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -0.23601500689983368,
+            "y": 0.0,
+            "z": 2.5078649520874023
+          },
+          "Control2": {
+            "x": 0.23601500689983368,
+            "y": 0.0,
+            "z": -2.5078649520874023
+          }
+        },
+        {
+          "Alias": "Bend1",
+          "Position": {
+            "x": 6.739723205566406,
+            "y": 0.0,
+            "z": -93.68816375732422
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -6.9739298820495605,
+            "y": 0.0,
+            "z": 24.482900619506836
+          },
+          "Control2": {
+            "x": 6.9739298820495605,
+            "y": 0.0,
+            "z": -24.482900619506836
+          }
+        },
+        {
+          "Alias": "Bend2",
+          "Position": {
+            "x": 54.34012985229492,
+            "y": 0.22956900298595428,
+            "z": -202.8737030029297
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -25.111949920654297,
+            "y": 0.03707199916243553,
+            "z": 32.94873046875
+          },
+          "Control2": {
+            "x": 25.111949920654297,
+            "y": -0.03707199916243553,
+            "z": -32.94873046875
+          }
+        },
+        {
+          "Alias": "Bend3",
+          "Position": {
+            "x": 186.21609497070312,
+            "y": 0.07403899729251862,
+            "z": -314.3514099121094
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -87.63287353515625,
+            "y": 0.0,
+            "z": 44.545230865478516
+          },
+          "Control2": {
+            "x": 87.63287353515625,
+            "y": 0.0,
+            "z": -44.545230865478516
+          }
+        },
+        {
+          "Alias": "SpeedUp1",
+          "Position": {
+            "x": 379.1825866699219,
+            "y": 0.0370200015604496,
+            "z": -400.2049865722656
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -2.994507074356079,
+            "y": 0.005038999952375889,
+            "z": 1.2484129667282104
+          },
+          "Control2": {
+            "x": 2.994507074356079,
+            "y": -0.005038999952375889,
+            "z": -1.2484129667282104
+          }
+        },
+        {
+          "Alias": "End",
+          "Position": {
+            "x": 385.0096130371094,
+            "y": 0.0,
+            "z": -402.44268798828125
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -1.501708984375,
+            "y": 0.0,
+            "z": 0.48840299248695374
+          },
+          "Control2": {
+            "x": 1.501708984375,
+            "y": 0.0,
+            "z": -0.48840299248695374
+          }
+        }
+      ]
+    }
+  ],
+  "LittleGameList": []
+}

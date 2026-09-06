@@ -1,0 +1,44 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {},
+    {},
+    {},
+    {},
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.AdvCreateEntityAsync",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvByTriggeredTrackedSearch",
+          "Inverse": true,
+          "CheckTime": 3.978012473136781e-34
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        }
+      ]
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "Order": 247744
+    }
+  ]
+}

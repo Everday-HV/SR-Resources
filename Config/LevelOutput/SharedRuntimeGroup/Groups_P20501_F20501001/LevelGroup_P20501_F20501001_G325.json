@@ -1,0 +1,147 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "FarmRelic",
+  "Category": "System",
+  "AreaAnchorName": "LevelArea_P20501_F20501001_G325",
+  "SystemUnlockCondition": {
+    "Conditions": [
+      23215
+    ]
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.SpecialEntrance",
+        "TagHash": -1446353026
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -86.12998962402344,
+      "PosY": 0.9999989867210388,
+      "PosZ": 44.18000030517578,
+      "Name": "Anchor1",
+      "RotY": 289.0216064453125,
+      "Usage": "Actor"
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -88.18000030517578,
+      "PosY": 0.9999989867210388,
+      "PosZ": 44.9900016784668,
+      "Name": "Prop1",
+      "RotY": 19.0216007232666,
+      "PropID": 901,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_FarmRelic_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "UITextmapID",
+            "Value": "MappingInfo_Name_1215_0"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "FloorBattleAreaID",
+            "Value": 1.0
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 2.0,
+        "DimY": 1.0,
+        "Server": true
+      },
+      "State": "CheckPointDisable",
+      "CustomTriggerMap": {
+        "CustomTrigger_Spring": {
+          "Radius": 11.0,
+          "DimX": 25.0,
+          "DimY": 3.0,
+          "DimZ": 24.0,
+          "Server": true
+        }
+      },
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "AnchorGroupID": 325,
+      "AnchorID": 1,
+      "MappingInfoID": 1215,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [
+        30
+      ],
+      "RaidID": 1206,
+      "CocoonID": 1215,
+      "OverrideMapStateIcons": [
+        {
+          "State": "CheckPointDisable",
+          "IconID": 83,
+          "Color": "#4b4b4b"
+        },
+        {
+          "State": "CheckPointEnable",
+          "IconID": 83
+        }
+      ],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -88.87699890136719,
+      "PosY": 0.9999989867210388,
+      "PosZ": 45.231998443603516,
+      "Name": "Prop2",
+      "RotY": 289.0216064453125,
+      "PropID": 102,
+      "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

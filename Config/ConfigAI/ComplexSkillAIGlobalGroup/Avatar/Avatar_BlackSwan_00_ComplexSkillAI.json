@@ -1,0 +1,195 @@
+{
+  "GroupsMap": {
+    "Add100nP_BlackSwan_BleedCheck": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceContainBehaviorFlag",
+            "BehaviorFlag": "STAT_DOT_Bleed"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 0.5000000004656613
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "ymin": {
+                  "Value": 100.0
+                },
+                "xmax": {
+                  "Value": 1.5000000004656613
+                },
+                "ymax": {
+                  "Value": 100.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Add100nP_BlackSwan_BurnCheck": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceContainBehaviorFlag",
+            "BehaviorFlag": "STAT_DOT_Burn"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 0.5000000004656613
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "ymin": {
+                  "Value": 100.0
+                },
+                "xmax": {
+                  "Value": 1.5000000004656613
+                },
+                "ymax": {
+                  "Value": 100.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Add100nP_BlackSwan_ElectricCheck": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceContainBehaviorFlag",
+            "BehaviorFlag": "STAT_DOT_Electric"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 0.5000000004656613
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "ymin": {
+                  "Value": 100.0
+                },
+                "xmax": {
+                  "Value": 1.5000000004656613
+                },
+                "ymax": {
+                  "Value": 100.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Add100nP_BlackSwan_PoisonCheck": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceContainBehaviorFlag",
+            "BehaviorFlag": "STAT_DOT_Poison"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 0.5000000004656613
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "ymin": {
+                  "Value": 100.0
+                },
+                "xmax": {
+                  "Value": 1.5000000004656613
+                },
+                "ymax": {
+                  "Value": 100.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Add100pP_BlackSwan_DeBuffDefenceDownCount": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIAllTargetCombine",
+            "Evaluator": {
+              "$type": "RPG.GameCore.ComplexSkillAIContainModifier",
+              "StringFromParam": true
+            },
+            "ListCombineType": "Avg"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 200.0
+                },
+                "xmax": {
+                  "Value": 0.3000000002793968
+                },
+                "ymax": {
+                  "Value": 200.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.3000000002793968
+                },
+                "ymin": {
+                  "Value": 200.0
+                },
+                "xmax": {
+                  "Value": 0.6000000005587935
+                },
+                "ymax": {
+                  "Value": 100.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.6000000005587935
+                },
+                "ymin": {
+                  "Value": 100.0
+                },
+                "xmax": {
+                  "Value": 1.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

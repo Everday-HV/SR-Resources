@@ -1,0 +1,162 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Camera01",
+  "AreaAnchorName": "LevelArea_P40531_F40531001_G7",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.SceneConfig",
+        "TagHash": 520707853
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -65.9000015258789,
+      "PosY": 9.684501647949219,
+      "PosZ": -61.7599983215332,
+      "Name": "Prop1",
+      "PropID": 115,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Maze/Chapter01/Town/Town_Chapter01_TownExit_CameraArea.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Camera1",
+            "Value": "Chap05_MAZ_B003_LevelArea,Exit_3_Camf"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Camera2",
+            "Value": "Chap05_MAZ_B003_LevelArea,Exit_3_Camb"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Anchor",
+            "Value": "Chap05_MAZ_B003_LevelArea,Exit_3_CamRoot"
+          }
+        ]
+      },
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 10.0,
+        "DimX": 11.0,
+        "DimY": 4.0,
+        "DimZ": 10.0
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -65.9000015258789,
+      "PosY": 9.684501647949219,
+      "PosZ": -61.7599983215332,
+      "Name": "Prop2",
+      "Scale": {
+        "x": 0.9673849940299988,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "PropID": 140,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TosatPileText",
+            "Value": "MazeText_Chap05_Common_Blockline"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Shape": "Box",
+          "Radius": 1.0,
+          "DimX": 11.0,
+          "DimY": 2.0,
+          "DimZ": 3.0,
+          "Offset": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        "EnterTrigger": {
+          "Shape": "Box",
+          "Radius": 1.0,
+          "DimX": 11.0,
+          "DimY": 2.0,
+          "DimZ": 15.0,
+          "Offset": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        "ExitTrigger": {
+          "Shape": "Box",
+          "Radius": 1.0,
+          "DimX": 13.0,
+          "DimY": 2.0,
+          "DimZ": 17.0,
+          "Offset": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

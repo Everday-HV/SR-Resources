@@ -1,0 +1,45 @@
+{
+  "AbilityList": [
+    {
+      "Name": "Avatar_MissionBattleEvent60008_Skill02_Camera",
+      "TargetInfo": {
+        "TargetType": "SkillTargetEntityList"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AITryInsertUltra",
+          "ContinuousInsert": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvByIsInPhantomFrozen",
+          "TaskEnabled": true,
+          "Inverse": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvCreateGroupEntity",
+          "TaskEnabled": true,
+          "IsOverrideArtModelOffset": true
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "ChimeraDuelPuzzle",
+  "AreaAnchorName": "LevelArea_P10401_F10401001_G942",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "StreamingTemplateType": "None",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Activity.380ChimeraS2",
+        "TagHash": 1798557589
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 204.93899536132812,
+      "PosY": 167.52940368652344,
+      "PosZ": 391.4939880371094,
+      "Name": "Prop1",
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Maze/Activity/ChimeraDuel/ChimeraDuel_GameplayContent_Initial.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PuzzleOpenListener",
+            "Value": "ChimeraDuel_MainPuzzle_Enter"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PuzzlePath",
+            "Value": "Gameplays/ChimeraDuel/GameplayContent/ChimeraDuelMainPhaseSetting.prefab"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PuzzleCloseListener",
+            "Value": "ChimeraDuel_MainPuzzle_Exit"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PuzzleOpenShopListener",
+            "Value": "ChimeraDuel_MainPuzzle_EnterShop"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PuzzleOpenBattleListener",
+            "Value": "ChimeraDuel_MainPuzzle_EnterBattle"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PuzzleOpenMasterChooseListener",
+            "Value": "ChimeraDuel_MainPuzzle_EnterMasterSelect"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PuzzleFinishShowcaseMissionListener",
+            "Value": "ChimeraDuel_MainPuzzle_FinishShowcaseMission"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

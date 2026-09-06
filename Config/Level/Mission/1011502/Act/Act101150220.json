@@ -1,0 +1,79 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchNone"
+          },
+          "ResetToIdle": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvCharacterLerpAnimRunPoseParam",
+          "TaskEnabled": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchUnstageTarget"
+          },
+          "LerpTime": 6.712585070478221e+22
+        },
+        {
+          "$type": "RPG.GameCore.AdvByInCustomZone",
+          "TaskEnabled": true,
+          "ReturnArtUnload": true
+        },
+        {
+          "$type": "RPG.GameCore.AddMissionMenuItem",
+          "TaskEnabled": true,
+          "MenuItemTextID": {
+            "Hash": 26,
+            "Hash64": 51
+          },
+          "DialoguePath": "�\u0007�\u0011\u0011Danheng_101150220\u0019NPC_Avatar_Lad_DanHeng_00�"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": true
+        }
+      ]
+    },
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": false
+        }
+      ]
+    },
+    {
+      "Order": 82368
+    },
+    {},
+    {},
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.ActiveFarmElement",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.ActiveFarmElement"
+        },
+        {
+          "$type": "FFMONJGCKDI",
+          "TaskEnabled": true
+        }
+      ]
+    }
+  ]
+}

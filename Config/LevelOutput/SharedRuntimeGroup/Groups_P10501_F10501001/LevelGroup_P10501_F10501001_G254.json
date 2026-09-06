@@ -1,0 +1,374 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "MainMission2054003_01",
+  "Category": "Mission",
+  "LevelGraph": "Config/Level/GroupGraph/F10501001/Group_F10501001_G254.json",
+  "AreaAnchorName": "LevelArea_P10501_F10501001_G254",
+  "SaveType": "Reset",
+  "OwnerMainMissionID": 2054003,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -90.9739990234375,
+      "PosY": 51.39799880981445,
+      "PosZ": 132.9239959716797,
+      "Name": "Prop1",
+      "RotY": 5.8541669845581055,
+      "PropID": 105075,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosX": -91.47000122070312,
+      "PosY": 49.70079040527344,
+      "PosZ": 130.14999389648438,
+      "Name": "District1",
+      "RotY": 13.971150398254395,
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 14.0,
+        "DimY": 1.0,
+        "DimZ": 10.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": -91.44599914550781,
+      "PosY": 49.70079040527344,
+      "PosZ": 131.56500244140625,
+      "Name": "NPC1",
+      "RotY": 22.07756996154785,
+      "NPCID": 15277,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultLookAtMode": "Closed",
+      "BoardShowList": [
+        4,
+        8,
+        1
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100020253,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "Dialog": {
+        "LevelGraph": "Config/Level/NPCDialogue/P10501/F10501001_G254/DialogueMain_F10501001_G254_N400001.json",
+        "PackList": [],
+        "EnableCondition": {
+          "Conditions": [
+            {
+              "Type": "SubMission",
+              "ID": 205400301
+            }
+          ]
+        }
+      },
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "OverrideSpawn": true,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": false
+        }
+      },
+      "ModelPresetConfig": {}
+    }
+  ],
+  "CrowdList": [
+    {
+      "ID": 1,
+      "PosX": -89.21600341796875,
+      "PosY": 49.70079040527344,
+      "PosZ": 130.31399536132812,
+      "Name": "Crowd1",
+      "RotY": 358.6427917480469,
+      "MemberList": [
+        {
+          "Identity": "W5_OfficePeole",
+          "FeatureID": "Male_Office_Human",
+          "AssemNPCID": "W5_Male_Office_Human_Male_05",
+          "UniqueName": "254_1_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.9919970035552979,
+            "y": 0.0,
+            "z": -0.02600100077688694
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010222
+        },
+        {
+          "Identity": "W5_OfficePeole",
+          "FeatureID": "Lady_Office_Human",
+          "AssemNPCID": "W5_Lady_Office_Human_Lady_04",
+          "UniqueName": "254_1_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.4769969880580902,
+            "y": 0.0,
+            "z": 0.05099499970674515
+          },
+          "LocalRotationY": 340.2239990234375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020268
+        },
+        {
+          "Identity": "W5_Street",
+          "FeatureID": "Lady_Street_Human",
+          "AssemNPCID": "W5_Lady_Street_Human_Lady_20",
+          "UniqueName": "254_1_03",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.8509979844093323,
+            "y": 0.0,
+            "z": 0.8079990148544312
+          },
+          "LocalRotationY": 324.2403869628906,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020231
+        },
+        {
+          "Identity": "W5_Street",
+          "FeatureID": "Male_Street_Human",
+          "AssemNPCID": "W5_Male_Street_Human_Male_10",
+          "UniqueName": "254_1_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.6849979758262634,
+            "y": 0.0,
+            "z": -0.013000000268220901
+          },
+          "LocalRotationY": 340.6745910644531,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010231
+        },
+        {
+          "Identity": "W5_School",
+          "FeatureID": "Male_Students",
+          "AssemNPCID": "W5_Male_Students_Male_15",
+          "UniqueName": "254_1_06",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.19200100004673004,
+            "y": 0.0,
+            "z": -0.6679990291595459
+          },
+          "LocalRotationY": 350.7273864746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010000
+        },
+        {
+          "Identity": "W5_Street",
+          "FeatureID": "Male_Street_Human",
+          "AssemNPCID": "W5_Male_Street_Human_Male_14",
+          "UniqueName": "254_1_07",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.8700000047683716,
+            "y": 0.0,
+            "z": -0.32499998807907104
+          },
+          "LocalRotationY": 10.674699783325195,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010000
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.2685000002384186,
+        "y": 0.0,
+        "z": -0.02883400022983551
+      }
+    },
+    {
+      "ID": 2,
+      "PosX": -94.25700378417969,
+      "PosY": 49.70079040527344,
+      "PosZ": 131.7209930419922,
+      "Name": "Crowd2",
+      "RotY": 60.9022216796875,
+      "MemberList": [
+        {
+          "Identity": "W5_OfficePeole",
+          "FeatureID": "Male_Office_Human",
+          "AssemNPCID": "W5_Male_Office_Human_Male_02",
+          "UniqueName": "254_2_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 2.172774076461792,
+            "y": 0.0,
+            "z": 0.593858003616333
+          },
+          "LocalRotationY": 320.8443908691406,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010210
+        },
+        {
+          "Identity": "W5_OfficePeole",
+          "FeatureID": "Lady_Office_Human",
+          "AssemNPCID": "W5_Lady_Office_Human_Lady_06",
+          "UniqueName": "254_2_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.3400000035762787,
+            "y": 0.0,
+            "z": 0.4699989855289459
+          },
+          "LocalRotationY": 357.0067138671875,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020231
+        },
+        {
+          "Identity": "W5_Street",
+          "FeatureID": "Lady_Street_Human",
+          "AssemNPCID": "W5_Lady_Street_Human_Lady_09",
+          "UniqueName": "254_2_03",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 1.2799969911575317,
+            "y": 0.0,
+            "z": 1.0580010414123535
+          },
+          "LocalRotationY": 332.79449462890625,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "W5_School",
+          "FeatureID": "Lady_Students",
+          "AssemNPCID": "W5_Lady_Students_Lady_11",
+          "UniqueName": "254_2_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.5420029759407043,
+            "y": 0.0,
+            "z": 0.4880000054836273
+          },
+          "LocalRotationY": 340.6745910644531,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020253
+        },
+        {
+          "Identity": "W5_School",
+          "FeatureID": "Male_Students",
+          "AssemNPCID": "W5_Male_Students_Male_26",
+          "UniqueName": "254_2_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.106004998087883,
+            "y": 0.0,
+            "z": -0.43500399589538574
+          },
+          "LocalRotationY": 350.7273864746094,
+          "PossessionConfig": {
+            "Name": "Possession_MobilePhone_A_01"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010393
+        },
+        {
+          "Identity": "W5_Street",
+          "FeatureID": "Miss_Street_Cat",
+          "AssemNPCID": "W5_Miss_Street_Cat_Lady_06",
+          "UniqueName": "254_2_06",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.1629979610443115,
+            "y": 0.0,
+            "z": 0.7069969773292542
+          },
+          "LocalRotationY": 10.674699783325195,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020367
+        },
+        {
+          "Identity": "W5_School",
+          "FeatureID": "Male_Students",
+          "AssemNPCID": "W5_Male_Students_Male_06",
+          "UniqueName": "254_2_07",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.0939970016479492,
+            "y": 0.0,
+            "z": -0.10400000214576721
+          },
+          "LocalRotationY": 18.435630798339844,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010237
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": 0.21482600271701813,
+        "y": 0.0,
+        "z": 0.3968360126018524
+      }
+    }
+  ],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

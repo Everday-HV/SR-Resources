@@ -1,0 +1,74 @@
+{
+  "MainMissionID": 1043664,
+  "StartSubMissionList": [
+    104366401
+  ],
+  "FinishSubMissionList": [
+    104366428
+  ],
+  "MissionCustomValueList": [],
+  "SubMissionRelationList": [],
+  "UseAssistWayPoint": true,
+  "AssistWayPointPackList": [
+    {
+      "AssistWayPointFloorID": 20461001,
+      "AssistWayPointRegionID": 9,
+      "AssistWayPointList": [
+        {
+          "WayPointType": "Prop",
+          "WayPointGroupID": 60,
+          "WayPointEntityID": 300002,
+          "SubmissionID": 104366413,
+          "SkipWhenSubMissionFinish": true,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "CanBacktrace": true,
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointPropStateCondition",
+                    "TargetPropState": "Open",
+                    "UseLogicProp": true,
+                    "LogicWayPointGroupID": 60,
+                    "LogicWayPointEntityID": 300002
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "Anchor",
+          "WayPointGroupID": 60,
+          "WayPointEntityID": 1,
+          "SubmissionID": 104366413,
+          "SkipWhenSubMissionFinish": true,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "CanBacktrace": true,
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointGroupPropertyCondition",
+                    "TargetGroupProperty": {
+                      "ID": 1,
+                      "Name": "UseElevator",
+                      "DefaultValue": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "MissionCustomValueGroupConfigPack": {
+    "ConfigPackList": []
+  }
+}

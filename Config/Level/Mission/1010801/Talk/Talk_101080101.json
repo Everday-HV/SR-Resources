@@ -1,0 +1,20 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AbortInsertAbility",
+          "AbilityName": "101080101_F"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "AbilityList": [
+    {
+      "Name": "Monster_W3_Sam_00_RLBoss_Skill07_Camera",
+      "TargetInfo": {
+        "TargetType": "SkillTargetEntityList"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown",
+          "TaskEnabled": true,
+          "Enable": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvChaseBailu",
+          "TaskEnabled": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchSummonUnit",
+            "Summoner": {
+              "$type": "RPG.GameCore.TargetFetchPropFarmElement"
+            }
+          },
+          "AheadMoveDistance": 7.3480244424676374e+28,
+          "MotionFlag": "55",
+          "StartRunDistance": 7.181936712843892e+22
+        },
+        {
+          "$type": "RPG.GameCore.AdvByCheckWindowPermCodes",
+          "TaskEnabled": true,
+          "Inverse": true,
+          "EntityID": {
+            "Value": "\u0000"
+          },
+          "MatchMask": []
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveFarmElement",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AddTimelineMenuItem",
+          "TaskEnabled": true,
+          "PerformanceType": "58",
+          "PerformanceID": 101
+        },
+        {
+          "$type": "RPG.GameCore.AdvCreateGroupEntity"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    }
+  ]
+}

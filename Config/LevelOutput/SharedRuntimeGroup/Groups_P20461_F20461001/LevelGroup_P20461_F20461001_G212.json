@@ -1,0 +1,588 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "DestructableItem",
+  "LevelGraph": "Config/Level/GroupGraph/F20461001/Group_F20461001_G212.json",
+  "AreaAnchorName": "LevelArea_P20461_F20461001_G212",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "ValueSource": {
+    "Values": []
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Destructible",
+        "TagHash": -80793007
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300014,
+      "PosX": -17.290000915527344,
+      "PosY": 220.64419555664062,
+      "PosZ": 326.1300048828125,
+      "Name": "SpeedDestruct",
+      "RotY": 214.9333038330078,
+      "PropID": 104080,
+      "ValueSource": {},
+      "CampID": 4,
+      "EventID": 10003,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300015,
+      "PosX": 17.940000534057617,
+      "PosY": 215.59979248046875,
+      "PosZ": 290.4200134277344,
+      "Name": "SpeedDestruct",
+      "RotY": 26.360240936279297,
+      "PropID": 104080,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "MovingType",
+            "Value": 2
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "FlyingSpeed",
+            "Value": 5.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfig",
+            "Key": "CurveRef",
+            "Value": {
+              "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+              "GroupID": 212,
+              "InstanceID": 4,
+              "Type": "Curve"
+            }
+          }
+        ]
+      },
+      "CampID": 4,
+      "EventID": 10003,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300016,
+      "PosX": 54.43595886230469,
+      "PosY": 220.64419555664062,
+      "PosZ": 304.0909118652344,
+      "Name": "SpeedDestruct",
+      "RotY": 88.73066711425781,
+      "PropID": 104080,
+      "ValueSource": {},
+      "CampID": 4,
+      "EventID": 10003,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300018,
+      "PosX": 3.5556349754333496,
+      "PosY": 207.6855010986328,
+      "PosZ": 285.5683898925781,
+      "Name": "SpeedDestruct",
+      "RotY": 218.54429626464844,
+      "PropID": 104080,
+      "ValueSource": {},
+      "CampID": 4,
+      "EventID": 10003,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [
+    {
+      "ID": 1,
+      "PosX": -127.98999786376953,
+      "PosY": 258.06610107421875,
+      "PosZ": 249.42999267578125,
+      "Name": "Curve1",
+      "RotY": 317.3221130371094,
+      "PointList": [
+        {
+          "Alias": "0",
+          "ControlType": 1,
+          "Control1": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Control2": {
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Alias": "1",
+          "Position": {
+            "x": -3.05948805809021,
+            "y": -9.5045166015625,
+            "z": 9.370899200439453
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 1.0000009536743164,
+            "y": 0.935500979423523,
+            "z": -3.2788870334625244
+          },
+          "Control2": {
+            "x": -1.0000009536743164,
+            "y": -0.935500979423523,
+            "z": 3.2788870334625244
+          }
+        },
+        {
+          "Alias": "2",
+          "Position": {
+            "x": -1.529742956161499,
+            "y": -4.752257823944092,
+            "z": 22.00684928894043
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -2.172668933868408,
+            "y": 0.3103030025959015,
+            "z": -1.4892020225524902
+          },
+          "Control2": {
+            "x": 2.172668933868408,
+            "y": -0.3103030025959015,
+            "z": 1.4892020225524902
+          }
+        },
+        {
+          "Alias": "3",
+          "Position": {
+            "x": 11.13463020324707,
+            "y": -5.9072418212890625,
+            "z": 17.485639572143555
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -1.2070989608764648,
+            "y": -0.22586099803447723,
+            "z": 2.4241700172424316
+          },
+          "Control2": {
+            "x": 1.2070989608764648,
+            "y": 0.22586099803447723,
+            "z": -2.4241700172424316
+          }
+        },
+        {
+          "Alias": "4",
+          "Position": {
+            "x": 9.644661903381348,
+            "y": -1.4112240076065063,
+            "z": 3.339340925216675
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 2.644468069076538,
+            "y": 0.07626300305128098,
+            "z": 3.641571044921875
+          },
+          "Control2": {
+            "x": -2.644468069076538,
+            "y": -0.07626300305128098,
+            "z": -3.641571044921875
+          }
+        },
+        {
+          "Alias": "5",
+          "ControlType": 1,
+          "Control1": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Control2": {
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "ID": 2,
+      "PosX": -115.19000244140625,
+      "PosY": 270.1300048828125,
+      "PosZ": 223.4199981689453,
+      "Name": "Curve2",
+      "RotY": 348.82281494140625,
+      "PointList": [
+        {
+          "Alias": "0",
+          "ControlType": 1,
+          "Control1": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Control2": {
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Alias": "1",
+          "Position": {
+            "x": -3.05948805809021,
+            "y": -9.5045166015625,
+            "z": 9.370899200439453
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 1.0000009536743164,
+            "y": 0.935500979423523,
+            "z": -3.2788870334625244
+          },
+          "Control2": {
+            "x": -1.0000009536743164,
+            "y": -0.935500979423523,
+            "z": 3.2788870334625244
+          }
+        },
+        {
+          "Alias": "2",
+          "Position": {
+            "x": -1.529742956161499,
+            "y": -4.752257823944092,
+            "z": 22.00684928894043
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -2.172668933868408,
+            "y": 0.3103030025959015,
+            "z": -1.4892020225524902
+          },
+          "Control2": {
+            "x": 2.172668933868408,
+            "y": -0.3103030025959015,
+            "z": 1.4892020225524902
+          }
+        },
+        {
+          "Alias": "3",
+          "Position": {
+            "x": 11.13463020324707,
+            "y": -5.9072418212890625,
+            "z": 17.485639572143555
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -1.2070989608764648,
+            "y": -0.22586099803447723,
+            "z": 2.4241700172424316
+          },
+          "Control2": {
+            "x": 1.2070989608764648,
+            "y": 0.22586099803447723,
+            "z": -2.4241700172424316
+          }
+        },
+        {
+          "Alias": "4",
+          "Position": {
+            "x": 9.644661903381348,
+            "y": -1.4112240076065063,
+            "z": 3.339340925216675
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 2.644468069076538,
+            "y": 0.07626300305128098,
+            "z": 3.641571044921875
+          },
+          "Control2": {
+            "x": -2.644468069076538,
+            "y": -0.07626300305128098,
+            "z": -3.641571044921875
+          }
+        },
+        {
+          "Alias": "5",
+          "ControlType": 1,
+          "Control1": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Control2": {
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "ID": 3,
+      "PosX": -119.87999725341797,
+      "PosY": 228.1999969482422,
+      "PosZ": 349.45001220703125,
+      "Name": "Curve3",
+      "RotY": 21.238019943237305,
+      "PointList": [
+        {
+          "Alias": "0",
+          "ControlType": 1,
+          "Control1": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Control2": {
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Alias": "1",
+          "Position": {
+            "x": -3.05948805809021,
+            "y": -9.5045166015625,
+            "z": 9.370899200439453
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 1.0000009536743164,
+            "y": 0.935500979423523,
+            "z": -3.2788870334625244
+          },
+          "Control2": {
+            "x": -1.0000009536743164,
+            "y": -0.935500979423523,
+            "z": 3.2788870334625244
+          }
+        },
+        {
+          "Alias": "2",
+          "Position": {
+            "x": -1.529742956161499,
+            "y": -4.752257823944092,
+            "z": 22.00684928894043
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -2.172668933868408,
+            "y": 0.3103030025959015,
+            "z": -1.4892020225524902
+          },
+          "Control2": {
+            "x": 2.172668933868408,
+            "y": -0.3103030025959015,
+            "z": 1.4892020225524902
+          }
+        },
+        {
+          "Alias": "3",
+          "Position": {
+            "x": 11.13463020324707,
+            "y": -5.9072418212890625,
+            "z": 17.485639572143555
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -1.2070989608764648,
+            "y": -0.22586099803447723,
+            "z": 2.4241700172424316
+          },
+          "Control2": {
+            "x": 1.2070989608764648,
+            "y": 0.22586099803447723,
+            "z": -2.4241700172424316
+          }
+        },
+        {
+          "Alias": "4",
+          "Position": {
+            "x": 9.644661903381348,
+            "y": -1.4112240076065063,
+            "z": 3.339340925216675
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 2.644468069076538,
+            "y": 0.07626300305128098,
+            "z": 3.641571044921875
+          },
+          "Control2": {
+            "x": -2.644468069076538,
+            "y": -0.07626300305128098,
+            "z": -3.641571044921875
+          }
+        },
+        {
+          "Alias": "5",
+          "ControlType": 1,
+          "Control1": {
+            "x": 1.0,
+            "y": 1.492751955986023,
+            "z": -9.999999974752427e-7
+          },
+          "Control2": {
+            "x": -1.0,
+            "y": -1.492751955986023,
+            "z": 9.999999974752427e-7
+          }
+        }
+      ]
+    },
+    {
+      "ID": 4,
+      "PosX": 17.80699920654297,
+      "PosY": 216.09500122070312,
+      "PosZ": 290.1319885253906,
+      "Name": "Curve4",
+      "RotY": 65.92122650146484,
+      "PointList": [
+        {
+          "Position": {
+            "x": 0.000014000000192027073,
+            "y": 0.0,
+            "z": 0.06652799993753433
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 1.000012993812561,
+            "y": -0.2956390082836151,
+            "z": -4.5277509689331055
+          },
+          "Control2": {
+            "x": -1.000012993812561,
+            "y": 0.2956390082836151,
+            "z": 4.5277509689331055
+          }
+        },
+        {
+          "Position": {
+            "x": -1.525199055671692,
+            "y": -3.7337489128112793,
+            "z": 9.11625862121582
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 0.1033879965543747,
+            "y": 0.7419130206108093,
+            "z": -4.127278804779053
+          },
+          "Control2": {
+            "x": -0.1033879965543747,
+            "y": -0.7419130206108093,
+            "z": 4.127278804779053
+          }
+        },
+        {
+          "Position": {
+            "x": -2.2942209243774414,
+            "y": -7.5782470703125,
+            "z": 16.52495002746582
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -0.008210999891161919,
+            "y": -0.009506000205874443,
+            "z": -2.808316946029663
+          },
+          "Control2": {
+            "x": 0.008210999891161919,
+            "y": 0.009506000205874443,
+            "z": 2.808316946029663
+          }
+        }
+      ]
+    }
+  ],
+  "LittleGameList": []
+}

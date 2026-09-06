@@ -1,0 +1,28 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        }
+      ]
+    },
+    {},
+    {},
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchNone"
+          },
+          "ResetToIdle": true
+        }
+      ]
+    }
+  ]
+}

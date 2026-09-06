@@ -1,0 +1,557 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Area05FDGroup",
+  "LevelGraph": "Config/Level/GroupGraph/F20511001/Group_F20511001_G159.json",
+  "AreaAnchorName": "LevelArea_P20511_F20511001_G159",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "GroupPropertyMap": {
+    "5": {
+      "ID": 5,
+      "Name": "LG_110001__15_PressureSwitchState_Auto",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "6": {
+      "ID": 6,
+      "Name": "LG_110001__16_PressureSwitchState_Auto",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "7": {
+      "ID": 7,
+      "Name": "LG_110001__19_PressureSwitchState_Auto",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "8": {
+      "ID": 8,
+      "Name": "LG_110001__20_PressureSwitchState_Auto",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "9": {
+      "ID": 9,
+      "Name": "LG_110001__6_MapIconState_Auto",
+      "Side": "ServerClient",
+      "MaxValue": 2
+    },
+    "11": {
+      "ID": 11,
+      "Name": "LG_110001__8_PortalState_Auto",
+      "Side": "ServerClient",
+      "DefaultValue": 1,
+      "MaxValue": 1
+    },
+    "12": {
+      "ID": 12,
+      "Name": "LG_110001__22_PressureSwitchState_Auto",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "14": {
+      "ID": 14,
+      "Name": "LG_110001__30_ChestStateS_Auto",
+      "Side": "ServerClient",
+      "DefaultValue": 1,
+      "MaxValue": 3
+    },
+    "35": {
+      "ID": 35,
+      "Name": "LG_110002__8_FogState_Auto",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "36": {
+      "ID": 36,
+      "Name": "LG_110002__61_ChestStateS_Auto",
+      "Side": "ServerClient",
+      "DefaultValue": 1,
+      "MaxValue": 3
+    }
+  },
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedJsonConfig",
+        "Key": "CurveTest",
+        "Value": {
+          "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+          "GroupID": 159,
+          "InstanceID": 1,
+          "Type": "Curve"
+        }
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Gameplay",
+        "TagHash": -141571921
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 704.4739990234375,
+      "PosY": 75.62589263916016,
+      "PosZ": 1.1516040563583374,
+      "Name": "Anchor1",
+      "RotY": 180.0
+    },
+    {
+      "ID": 2,
+      "PosX": 702.7949829101562,
+      "PosY": 75.63028717041016,
+      "PosZ": 6.019999980926514,
+      "Name": "Anchor2",
+      "RotY": 14.119999885559082
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300006,
+      "PosX": 704.405029296875,
+      "PosY": 75.62589263916016,
+      "PosZ": 2.8529999256134033,
+      "Name": "Prop6",
+      "RotY": 180.0,
+      "PropID": 105006,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TargetFDLevel",
+            "Value": "110001,7"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ExitListenLevelRef",
+            "Value": "159,110001"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300007,
+      "PosX": 703.0440063476562,
+      "PosY": 75.63028717041016,
+      "PosZ": 4.051000118255615,
+      "Name": "Prop7",
+      "PropID": 105006,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TargetFDLevel",
+            "Value": "110002,62"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ExitListenLevelRef",
+            "Value": "159,110002"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300001,
+      "PosX": 704.405029296875,
+      "PosY": 75.62589263916016,
+      "PosZ": 2.8359999656677246,
+      "Name": "Prop1",
+      "RotY": 180.0,
+      "PropID": 105142,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ChenLingPropertyName",
+            "Value": "LG_110001__12_MapIconState_Auto"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "EventClose",
+      "EventID": 20511707,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": 704.405029296875,
+      "PosY": 75.62589263916016,
+      "PosZ": 2.2839999198913574,
+      "Name": "Prop2",
+      "RotY": 0.00002700000004551839,
+      "PropID": 138,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 2390,
+      "SubMapID": 205110111,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 400,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [
+    {
+      "ID": 1,
+      "PosX": 151.8800048828125,
+      "PosY": 4.482641220092773,
+      "PosZ": 33.66999816894531,
+      "Name": "Curve1",
+      "PointList": [
+        {
+          "Alias": "Point1",
+          "Position": {
+            "x": 0.3190160095691681,
+            "y": -0.6614519953727722,
+            "z": -33.867000579833984
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 4.172430992126465
+          },
+          "Control2": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -4.172430992126465
+          }
+        },
+        {
+          "Alias": "Point2",
+          "Position": {
+            "x": 0.37571701407432556,
+            "y": 0.0,
+            "z": -106.88839721679688
+          },
+          "ControlType": 2,
+          "Control1": {
+            "x": -0.13517799973487854,
+            "y": -0.13189999759197235,
+            "z": 15.187549591064453
+          },
+          "Control2": {
+            "x": 4.092803955078125,
+            "y": 4.438182830810547,
+            "z": -134.91659545898438
+          }
+        },
+        {
+          "Alias": "Point3",
+          "Position": {
+            "x": 65.66414642333984,
+            "y": 14.673359870910645,
+            "z": -306.6304016113281
+          },
+          "ControlType": 2,
+          "Control1": {
+            "x": -13.46815013885498,
+            "y": -1.768936038017273,
+            "z": 13.50512981414795
+          },
+          "Control2": {
+            "x": 33.88528060913086,
+            "y": 3.7708590030670166,
+            "z": -27.314699172973633
+          }
+        },
+        {
+          "Alias": "Point4",
+          "Position": {
+            "x": 269.3695068359375,
+            "y": 21.508939743041992,
+            "z": -355.6510925292969
+          },
+          "ControlType": 2,
+          "Control1": {
+            "x": -148.15989685058594,
+            "y": 0.20819899439811707,
+            "z": -8.94305419921875
+          },
+          "Control2": {
+            "x": 7.331055164337158,
+            "y": 0.0,
+            "z": -0.08953899890184402
+          }
+        }
+      ]
+    }
+  ],
+  "LittleGameList": [
+    {
+      "ID": 110001,
+      "PosX": 710.6500244140625,
+      "PosY": 82.42400360107422,
+      "PosZ": 1.25,
+      "Name": "LittleGame1",
+      "GameType": "FiveDim",
+      "LevelConfigPath": "Config/Gameplays/LittleGame/FiveDim/Level/Version_410/Map_B101/B101_CommonLevel_2.json",
+      "LevelVarBinding": {
+        "Bindings": [
+          {
+            "LevelVarName": "Exit1",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {
+              "GroupID": 159,
+              "InstanceID": 1
+            }
+          },
+          {
+            "LevelVarName": "CaseLink1",
+            "EntityRefValue": {
+              "GroupID": 159,
+              "ContainerID": 110002,
+              "EntityID": 6
+            },
+            "LevelEntityRefValue": {}
+          },
+          {
+            "LevelVarName": "_15_PressureSwitchState_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__15_PressureSwitchState_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_16_PressureSwitchState_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__16_PressureSwitchState_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_19_PressureSwitchState_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__19_PressureSwitchState_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_20_PressureSwitchState_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__20_PressureSwitchState_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_6_MapIconState_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__6_MapIconState_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_8_PortalState_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__8_PortalState_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_22_PressureSwitchState_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__22_PressureSwitchState_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_30_ChestStateS_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__30_ChestStateS_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          }
+        ]
+      },
+      "GroupsToKeepOnEnter": [],
+      "NavInfo": {
+        "LittleGameConnectList": [
+          {
+            "LevelGroupID": 159,
+            "LevelInstanceID": 300006,
+            "LittleGameEntityID": 7,
+            "ConditionInfos": []
+          }
+        ]
+      },
+      "RequireMissionInfo": {
+        "RequireSubMissionIDList": []
+      },
+      "MinimapFogIDList": [
+        159010000,
+        159010001,
+        159010002
+      ]
+    },
+    {
+      "ID": 110002,
+      "PosX": 700.1688232421875,
+      "PosY": 76.5790023803711,
+      "PosZ": 8.322050094604492,
+      "Name": "LittleGame2",
+      "RotY": 90.0,
+      "GameType": "FiveDim",
+      "LevelConfigPath": "Config/Gameplays/LittleGame/FiveDim/Level/Version_410/Map_B101/B101_CommonLevel_4.json",
+      "LevelVarBinding": {
+        "Bindings": [
+          {
+            "LevelVarName": "CaseLink1",
+            "EntityRefValue": {
+              "GroupID": 159,
+              "ContainerID": 110001,
+              "EntityID": 8
+            },
+            "LevelEntityRefValue": {}
+          },
+          {
+            "LevelVarName": "Exit1",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {
+              "GroupID": 159,
+              "InstanceID": 2
+            }
+          },
+          {
+            "LevelVarName": "_8_FogState_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110002__8_FogState_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_61_ChestStateS_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110002__61_ChestStateS_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          }
+        ]
+      },
+      "GroupsToKeepOnEnter": [],
+      "NavInfo": {
+        "LittleGameConnectList": [
+          {
+            "LevelGroupID": 159,
+            "LevelInstanceID": 300007,
+            "LittleGameEntityID": 62,
+            "ConditionInfos": []
+          }
+        ]
+      },
+      "RequireMissionInfo": {
+        "RequireSubMissionIDList": []
+      },
+      "MinimapFogIDList": [
+        10010000,
+        10010001,
+        10010002
+      ]
+    }
+  ]
+}

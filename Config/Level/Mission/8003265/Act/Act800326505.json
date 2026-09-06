@@ -1,0 +1,82 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": false
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": false
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": false
+        },
+        {
+          "$type": "RPG.GameCore.AddEntityToTeamFormation"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": false
+        },
+        {
+          "$type": "RPG.GameCore.AbortInsertAbility",
+          "TargetFilter": {
+            "$type": "RPG.GameCore.GroupFetchLocalTarget"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AddEntityToRelationGroup",
+          "Target": {
+            "$type": "RPG.GameCore.TargetFetchSummonUnit",
+            "Summoner": {
+              "$type": "RPG.GameCore.TargetFetchSummonUnit",
+              "SummonUnitID": 65,
+              "FetchType": "57"
+            },
+            "SummonUnitID": 101
+          },
+          "MemberType": "-49"
+        },
+        {
+          "$type": "RPG.GameCore.AdvByInCustomZone",
+          "ReturnArtUnload": true
+        }
+      ]
+    },
+    {},
+    {
+      "Order": 24
+    }
+  ]
+}

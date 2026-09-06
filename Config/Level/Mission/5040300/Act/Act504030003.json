@@ -1,0 +1,328 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": false
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {
+      "Order": 1
+    },
+    {
+      "IsLoop": true,
+      "Order": 1
+    },
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.AdvByCompareEnhancedID",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvDestroyEntityAsync",
+          "TaskEnabled": true,
+          "NeedDisappear": true,
+          "InstanceIDList": [
+            105,
+            111,
+            110,
+            95,
+            53,
+            48,
+            52,
+            48,
+            51,
+            48,
+            48,
+            48,
+            51,
+            95,
+            55,
+            51,
+            5,
+            1,
+            4,
+            3785,
+            2,
+            4,
+            24,
+            87,
+            97,
+            105,
+            116,
+            95,
+            79,
+            112,
+            116,
+            105,
+            111,
+            110,
+            95,
+            53,
+            48,
+            52,
+            48,
+            51,
+            48,
+            48,
+            48,
+            51,
+            95,
+            55,
+            51,
+            1947,
+            6,
+            8,
+            0,
+            13,
+            504030202,
+            40,
+            2,
+            22,
+            84,
+            97
+          ],
+          "AdvancedSpawnList": [
+            {
+              "InstanceID": 83,
+              "IsDestroyAllEntityType": true
+            },
+            {
+              "IsDestroyAllEntityType": true,
+              "SpawnEntityType": "-51"
+            },
+            {
+              "IsDestroyAllEntityType": true,
+              "SpawnEntityType": "-51"
+            },
+            {
+              "InstanceID": 53,
+              "IsDestroyAllEntityType": true,
+              "SpawnEntityType": "26"
+            },
+            {},
+            {
+              "InstanceID": 48,
+              "IsDestroyAllEntityType": true
+            },
+            {},
+            {
+              "InstanceID": 0,
+              "IsDestroyAllEntityType": true
+            },
+            {
+              "IsDestroyAllEntityType": true
+            },
+            {
+              "IsDestroyAllEntityType": true
+            },
+            {
+              "SpawnEntityType": "-49"
+            },
+            {
+              "SpawnEntityType": "-54"
+            },
+            {
+              "InstanceID": 101,
+              "IsDestroyAllEntityType": true
+            },
+            {
+              "SpawnEntityType": "-51"
+            },
+            {
+              "IsDestroyAllEntityType": true,
+              "SpawnEntityType": "-51"
+            },
+            {
+              "InstanceID": 53,
+              "IsDestroyAllEntityType": true,
+              "SpawnEntityType": "26"
+            },
+            {},
+            {
+              "InstanceID": 48,
+              "IsDestroyAllEntityType": true
+            },
+            {
+              "InstanceID": 49
+            },
+            {},
+            {
+              "InstanceID": 504030216,
+              "SpawnEntityType": "20"
+            },
+            {
+              "IsDestroyAllEntityType": true
+            },
+            {
+              "SpawnEntityType": "-49"
+            },
+            {
+              "SpawnEntityType": "-54"
+            },
+            {
+              "InstanceID": 101,
+              "IsDestroyAllEntityType": true
+            },
+            {
+              "SpawnEntityType": "-51"
+            },
+            {
+              "IsDestroyAllEntityType": true,
+              "SpawnEntityType": "-51"
+            },
+            {
+              "InstanceID": 53,
+              "IsDestroyAllEntityType": true,
+              "SpawnEntityType": "26"
+            },
+            {},
+            {
+              "InstanceID": 48,
+              "IsDestroyAllEntityType": true
+            },
+            {
+              "InstanceID": 55
+            },
+            {},
+            {
+              "InstanceID": 504030223,
+              "SpawnEntityType": "20"
+            },
+            {},
+            {
+              "IsDestroyAllEntityType": true,
+              "SpawnEntityType": "-49"
+            },
+            {
+              "SpawnEntityType": "-54"
+            },
+            {
+              "InstanceID": 101,
+              "IsDestroyAllEntityType": true
+            },
+            {
+              "SpawnEntityType": "-51"
+            },
+            {
+              "IsDestroyAllEntityType": true,
+              "SpawnEntityType": "-51"
+            },
+            {
+              "InstanceID": 53,
+              "IsDestroyAllEntityType": true,
+              "SpawnEntityType": "26"
+            },
+            {},
+            {
+              "InstanceID": 48,
+              "IsDestroyAllEntityType": true
+            },
+            {
+              "IsDestroyAllEntityType": true
+            },
+            {
+              "InstanceID": 5
+            },
+            {
+              "InstanceID": 6
+            },
+            {
+              "InstanceID": 2
+            },
+            {
+              "SpawnEntityType": "11"
+            },
+            {
+              "SpawnEntityType": "-49"
+            },
+            {
+              "SpawnEntityType": "-54"
+            },
+            {
+              "InstanceID": 101,
+              "IsDestroyAllEntityType": true
+            },
+            {
+              "SpawnEntityType": "-51"
+            },
+            {
+              "IsDestroyAllEntityType": true,
+              "SpawnEntityType": "-51"
+            },
+            {
+              "InstanceID": 53,
+              "IsDestroyAllEntityType": true,
+              "SpawnEntityType": "26"
+            },
+            {}
+          ]
+        },
+        {
+          "$type": "RPG.GameCore.AddReShaEasterEggMatchRule",
+          "RouteDisplayID": 50
+        },
+        {
+          "$type": "RPG.GameCore.AddMissionMenuItem",
+          "TaskEnabled": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.AdvGroupFetchTargetByStringList"
+          },
+          "MenuItemTextID": {
+            "Hash": -4,
+            "Hash64": 0
+          },
+          "DialoguePath": ""
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": false
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {
+      "IsLoop": false,
+      "Order": 0,
+      "TaskList": []
+    },
+    {},
+    {
+      "IsLoop": false,
+      "TaskList": []
+    }
+  ]
+}

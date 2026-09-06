@@ -1,0 +1,258 @@
+{
+  "GroupsMap": {
+    "Precheck_Evernight_00_BPSkill_NoServant": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIContainModifier",
+            "IsTarget": false,
+            "ModifilerName": "MAvatar_Evernight_00_UltraMode"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 200.0
+                },
+                "xmax": {
+                  "Value": 0.5000000004656613
+                },
+                "ymax": {
+                  "Value": 200.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "ymin": {
+                  "Value": 200.0
+                },
+                "xmax": {
+                  "Value": 10.0
+                },
+                "ymax": {
+                  "Value": 200.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Precheck_Evernight_00_BPSkill": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIContainModifier",
+            "IsTarget": false,
+            "ModifilerName": "MAvatar_Evernight_00_UltraMode"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 200.0
+                },
+                "xmax": {
+                  "Value": 0.5000000004656613
+                },
+                "ymax": {
+                  "Value": 200.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "ymin": {
+                  "Value": 200.0
+                },
+                "xmax": {
+                  "Value": 10.0
+                },
+                "ymax": {
+                  "Value": 200.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Add_Evernight_00_MonsterRank": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIGetStrengthLevel"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 10.0
+                },
+                "xmax": {
+                  "Value": 1.5000000004656613
+                },
+                "ymax": {
+                  "Value": 10.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 1.5000000004656613
+                },
+                "ymin": {
+                  "Value": 100.0
+                },
+                "xmax": {
+                  "Value": 2.5000000004656613
+                },
+                "ymax": {
+                  "Value": 100.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 2.5000000004656613
+                },
+                "ymin": {
+                  "Value": 200.0
+                },
+                "xmax": {
+                  "Value": 3.5000000004656613
+                },
+                "ymax": {
+                  "Value": 200.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 3.5000000004656613
+                },
+                "ymin": {
+                  "Value": 350.0
+                },
+                "xmax": {
+                  "Value": 4.500000000465661
+                },
+                "ymax": {
+                  "Value": 350.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 4.500000000465661
+                },
+                "ymin": {
+                  "Value": 450.0
+                },
+                "xmax": {
+                  "Value": 5.500000000465661
+                },
+                "ymax": {
+                  "Value": 450.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Add_Evernight_00_MasterAttack": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIContainModifier",
+            "ModifilerName": "MAvatar_Evernight_00_ServantTarget"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 0.5000000004656613
+                },
+                "ymax": {
+                  "Value": 1.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "ymin": {
+                  "Value": 500.0
+                },
+                "xmax": {
+                  "Value": 1.0
+                },
+                "ymax": {
+                  "Value": 5000.0
+                }
+              }
+            ]
+          },
+          "PostProcess": {
+            "$type": "RPG.GameCore.ComplexSkillAIPostProcessUpperGroup",
+            "CompareValue": {
+              "Value": 1.0
+            },
+            "AIUpperGroupPriority": "Player_Specified"
+          }
+        },
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIBattleGlobalData",
+            "DataType": "TargetNeighbourCount"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 1.0
+                },
+                "xmax": {
+                  "Value": 0.5000000004656613
+                },
+                "ymax": {
+                  "Value": 1.0
+                }
+              },
+              {
+                "ymin": {
+                  "Value": 50.0
+                },
+                "xmax": {
+                  "Value": 1.5000000004656613
+                },
+                "ymax": {
+                  "Value": 50.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 1.5000000004656613
+                },
+                "ymin": {
+                  "Value": 100.0
+                },
+                "xmax": {
+                  "Value": 2.5000000004656613
+                },
+                "ymax": {
+                  "Value": 100.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

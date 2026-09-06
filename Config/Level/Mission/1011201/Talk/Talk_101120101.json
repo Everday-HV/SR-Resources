@@ -1,0 +1,21 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill",
+          "TaskEnabled": false,
+          "ResetToIdle": true
+        },
+        {
+          "$type": "RPG.GameCore.AbortInsertAbility",
+          "AbilityName": "TalkOver_101120101"
+        }
+      ]
+    }
+  ]
+}

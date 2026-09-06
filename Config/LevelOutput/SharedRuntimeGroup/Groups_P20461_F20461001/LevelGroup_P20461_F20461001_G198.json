@@ -1,0 +1,245 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "MainMission1043664_MainMissionMonster3",
+  "Category": "Mission",
+  "LevelGraph": "Config/Level/GroupGraph/F20461001/Group_F20461001_G198.json",
+  "AreaAnchorName": "LevelArea_P20461_F20461001_G198",
+  "LoadSide": "Server",
+  "OwnerMainMissionID": 1043664,
+  "GroupPropertyMap": {
+    "1": {
+      "ID": 1,
+      "Name": "GP_MonsterVisible",
+      "MaxValue": 1
+    },
+    "2": {
+      "ID": 2,
+      "Name": "SGP_MonsterVisible",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    }
+  },
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [
+    215,
+    245
+  ],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Monster",
+        "TagHash": -1058465803
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [
+    {
+      "ID": 200001,
+      "PosX": -128.41000366210938,
+      "PosY": 250.8903045654297,
+      "PosZ": 272.72021484375,
+      "Name": "Monster1",
+      "RotY": 167.8394012451172,
+      "NPCMonsterID": 4062020,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/NPCMonster/ST_NPCMonster_Master_Dummy.json",
+        "PathwayList": [],
+        "SlaveConfigList": []
+      },
+      "AIVariableSource": {},
+      "ValueSource": {},
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 4294967295,
+        "ID": 1
+      },
+      "EventID": 20461031,
+      "BoardShowList": [
+        2
+      ],
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 200002,
+      "PosX": -122.0999984741211,
+      "PosY": 250.46310424804688,
+      "PosZ": 277.4801940917969,
+      "Name": "Monster2",
+      "RotY": 227.65460205078125,
+      "NPCMonsterID": 4062010,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/NPCMonster/ST_NPCMonster_Master_Dummy.json",
+        "PathwayList": [],
+        "SlaveConfigList": []
+      },
+      "AIVariableSource": {},
+      "ValueSource": {},
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 4294967295,
+        "ID": 1
+      },
+      "EventID": 20461032,
+      "BoardShowList": [
+        2
+      ],
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -119.88800048828125,
+      "PosY": 248.4604949951172,
+      "PosZ": 290.1778869628906,
+      "Name": "Prop1",
+      "RotY": 97.37287139892578,
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Maze/MazeExtra/Maze_Prop_ElevatorGoback.json",
+      "ValueSource": {},
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 1.0,
+        "DimX": 3.0,
+        "DimY": 3.0,
+        "DimZ": 18.0
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosX": -123.9800033569336,
+      "PosY": 250.46310424804688,
+      "PosZ": 275.7699890136719,
+      "Name": "District1",
+      "RotY": 227.65460205078125,
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 15.0,
+        "DimX": 24.600000381469727,
+        "DimY": 4.0,
+        "DimZ": 6.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": -128.41000366210938,
+      "PosY": 250.8903045654297,
+      "PosZ": 272.72021484375,
+      "Name": "NPC1",
+      "RotY": 167.8394012451172,
+      "NPCID": 1410,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 314060222,
+      "AdditiveResidentEffect": [
+        {
+          "EffectPath": "Effects/Eff_Prefab/Eff_NPC/Normal/Common/Eff_Normal_Lady_Common_StoryCrystal.prefab",
+          "AttachPoint": "Root",
+          "ForceSimulateImmediately": false
+        }
+      ],
+      "IsNeedFade": true,
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "StoryCrystal_Cipher_00"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SFXOnLoad": "Ev_sfx_npc_common_StoryCrystal_loop",
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {},
+      "IsClientOnly": true
+    },
+    {
+      "ID": 400002,
+      "PosX": -122.0999984741211,
+      "PosY": 250.46310424804688,
+      "PosZ": 277.4801940917969,
+      "Name": "NPC2",
+      "RotY": 227.65469360351562,
+      "NPCID": 1408,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 314080246,
+      "AdditiveResidentEffect": [
+        {
+          "EffectPath": "Effects/Eff_Prefab/Eff_NPC/Normal/Common/Eff_Normal_Male_Common_StoryCrystal.prefab",
+          "AttachPoint": "Root",
+          "ForceSimulateImmediately": false
+        }
+      ],
+      "IsNeedFade": true,
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "StoryCrystal_Phainon_00"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SFXOnLoad": "Ev_sfx_npc_common_StoryCrystal_loop",
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {},
+      "IsClientOnly": true
+    }
+  ],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

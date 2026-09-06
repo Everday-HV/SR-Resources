@@ -1,0 +1,74 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvGameplayTrackNpcEnd",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AbortInsertAbility",
+          "TargetFilter": {
+            "$type": "RPG.GameCore.RtTargetFetchGridAt"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {},
+    {
+      "IsLoop": false
+    },
+    {},
+    {},
+    {},
+    {
+      "IsLoop": true,
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.AddModifier",
+          "AliveOnly": true,
+          "ReferenceModifierName": "400001\u0007NPC_Old���/�\u000f\u0002\u0002\u0007\u0000\u0000\u0000\u0000���\u0001\u0000\u0000\u0000\u0000�\u000f\u0002\u0006\u0000\r��",
+          "LifeStepImmediately": true
+        },
+        {
+          "$type": "RPG.GameCore.AddGlobalDynamicOffsetIgnoreEntity",
+          "OnlyIgnoreGlobalDynamicOffset": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvByCompareCharacterID",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvCharacterLerpAnimRunPoseParam",
+          "TaskEnabled": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchUnstageTarget"
+          },
+          "LerpTime": 6.712585070478221e+22
+        },
+        {
+          "$type": "RPG.GameCore.AdvByInCustomZone",
+          "TaskEnabled": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchCameraAnchorTargetList"
+          },
+          "ReturnArtUnload": true
+        }
+      ]
+    }
+  ]
+}

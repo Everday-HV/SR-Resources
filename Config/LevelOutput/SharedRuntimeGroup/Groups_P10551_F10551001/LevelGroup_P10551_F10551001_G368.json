@@ -1,0 +1,238 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Flute",
+  "AreaAnchorName": "LevelArea_P10551_F10551001_G368",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "GroupPropertyMap": {
+    "7": {
+      "ID": 7,
+      "Name": "LG_110001__2_IsAnimalSaved_Auto",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "8": {
+      "ID": 8,
+      "Name": "LG_110001__54_ChestStateS_Auto",
+      "Side": "ServerClient",
+      "DefaultValue": 1,
+      "MaxValue": 3
+    },
+    "274": {
+      "ID": 274,
+      "Name": "LG_110001__9_PortalState_Auto",
+      "Side": "ServerClient",
+      "DefaultValue": 1,
+      "MaxValue": 1
+    },
+    "275": {
+      "ID": 275,
+      "Name": "LG_110001__10_PortalState_Auto",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "276": {
+      "ID": 276,
+      "Name": "LG_110001__11_PortalState_Auto",
+      "Side": "ServerClient",
+      "DefaultValue": 1,
+      "MaxValue": 1
+    },
+    "277": {
+      "ID": 277,
+      "Name": "LG_110001__12_PortalState_Auto",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "409": {
+      "ID": 409,
+      "Name": "LG_110001__13_LeverSwitchState_Auto",
+      "Side": "ServerClient",
+      "DefaultValue": 1,
+      "MaxValue": 1
+    }
+  },
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Gameplay",
+        "TagHash": -141571921
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -25.81999969482422,
+      "PosY": -564.6900024414062,
+      "PosZ": -434.1300048828125,
+      "Name": "Anchor1",
+      "RotY": 30.0
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -26.450000762939453,
+      "PosY": -564.9219970703125,
+      "PosZ": -435.2250061035156,
+      "Name": "Prop1",
+      "RotY": 210.0,
+      "PropID": 105032,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap05/InitLevelGraph_Prop_Chap05_FDPipeEntry_03.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ExitListenLevelRef",
+            "Value": "368,110001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FDPipeExitEntity",
+            "Value": "110001,24"
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 1.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": [
+    {
+      "ID": 110001,
+      "PosX": -14.255999565124512,
+      "PosY": -540.0,
+      "PosZ": -410.87799072265625,
+      "Name": "LittleGame1",
+      "RotX": 270.0,
+      "GameType": "FiveDim",
+      "LevelConfigPath": "Config/Gameplays/LittleGame/FiveDim/Level/Version_450/Map_B51/B51_Flute.json",
+      "LevelVarBinding": {
+        "Bindings": [
+          {
+            "LevelVarName": "OutPoint",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {
+              "GroupID": 368,
+              "InstanceID": 1
+            }
+          },
+          {
+            "LevelVarName": "_2_IsAnimalSaved_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__2_IsAnimalSaved_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_54_ChestStateS_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__54_ChestStateS_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_9_PortalState_Auto",
+            "BindingType": "GroupProperty",
+            "GroupPropertyName": "LG_110001__9_PortalState_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_10_PortalState_Auto",
+            "BindingType": "GroupProperty",
+            "GroupPropertyName": "LG_110001__10_PortalState_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_11_PortalState_Auto",
+            "BindingType": "GroupProperty",
+            "GroupPropertyName": "LG_110001__11_PortalState_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_12_PortalState_Auto",
+            "BindingType": "GroupProperty",
+            "GroupPropertyName": "LG_110001__12_PortalState_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_13_LeverSwitchState_Auto",
+            "BindingType": "GroupProperty",
+            "GroupPropertyName": "LG_110001__13_LeverSwitchState_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          }
+        ]
+      },
+      "GroupsToKeepOnEnter": [],
+      "NavInfo": {
+        "LittleGameConnectList": []
+      },
+      "RequireMissionInfo": {
+        "RequireSubMissionIDList": []
+      },
+      "MinimapFogIDList": [
+        368010000,
+        368010100,
+        368010200
+      ]
+    }
+  ]
+}

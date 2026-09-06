@@ -1,0 +1,33 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill",
+          "TaskEnabled": true
+        }
+      ]
+    },
+    {
+      "IsLoop": true
+    },
+    {
+      "IsLoop": true,
+      "Order": -56
+    }
+  ]
+}

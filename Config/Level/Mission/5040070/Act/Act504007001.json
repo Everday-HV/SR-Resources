@@ -1,0 +1,38 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": false
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": true
+        }
+      ]
+    },
+    {
+      "Order": 1
+    },
+    {
+      "IsLoop": false,
+      "Order": 0,
+      "TaskList": []
+    },
+    {},
+    {
+      "IsLoop": false
+    },
+    {},
+    {},
+    {}
+  ]
+}

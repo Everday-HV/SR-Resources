@@ -1,0 +1,24 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview",
+          "Mode": "1795",
+          "Offset": 1
+        },
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill",
+          "TaskEnabled": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchBattleEventEntityList"
+          }
+        }
+      ]
+    }
+  ]
+}

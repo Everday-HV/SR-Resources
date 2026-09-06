@@ -1,0 +1,220 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "FakeElevator",
+  "AreaAnchorName": "LevelArea_P20481_F20481001_G128",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "SavedValueName": "FSV_PlayingRoom1Stage",
+        "Operation": "Less",
+        "Value": 5
+      }
+    ],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Connection",
+        "TagHash": -295833477
+      },
+      {
+        "Tag": "GameModule.EraFlip.State.Night",
+        "TagHash": -1222453484
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -94.552001953125,
+      "PosY": 215.75039672851562,
+      "PosZ": 189.56500244140625,
+      "Name": "1stConsole",
+      "RotY": 225.0,
+      "PropID": 104228,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "Floor",
+            "Value": 1
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -94.55200958251953,
+      "PosY": 223.02870178222656,
+      "PosZ": 189.56500244140625,
+      "Name": "2ndConsole",
+      "RotY": 225.0,
+      "PropID": 104228,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "Floor",
+            "Value": 2
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": -86.38999938964844,
+      "PosY": 203.77090454101562,
+      "PosZ": 192.07000732421875,
+      "Name": "1stConsole",
+      "RotY": 89.9999771118164,
+      "PropID": 104228,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "LockedText",
+            "Value": "MazeText_Maze_Prop_A01_ElevatorCtrl_02"
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "Floor",
+            "Value": 1
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": -88.78684997558594,
+      "PosY": 223.02000427246094,
+      "PosZ": 186.57000732421875,
+      "IsDelete": true,
+      "Name": "Elevator",
+      "PropID": 104001,
+      "IsOverrideInitLevelGraph": true,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "MoveParam",
+            "Value": 3.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ButtonText02",
+            "Value": "PropInteractTitle_455"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Anchor02",
+            "Value": "LevelArea_P20481_F20481001_G108,FloorAnchor2"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ButtonText01",
+            "Value": "PropInteractTitle_456"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Anchor01",
+            "Value": "LevelArea_P20481_F20481001_G108,FloorAnchor1"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

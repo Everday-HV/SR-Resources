@@ -1,0 +1,33 @@
+{
+  "AbilityList": [
+    {
+      "Name": "WMonster_XP_Elite01_03_Skill01_Camera",
+      "TargetInfo": {
+        "TargetType": "Caster"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview"
+        },
+        {
+          "$type": "RPG.GameCore.AddEntityToRelationGroup",
+          "TaskEnabled": true,
+          "Target": {
+            "$type": "RPG.GameCore.TargetFetchMazeBuffTargets"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Caster"
+    },
+    {},
+    {}
+  ]
+}

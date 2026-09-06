@@ -1,0 +1,41 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "IsLoop": true,
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill",
+          "TaskEnabled": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchLatestEnterStageAvatar"
+          }
+        }
+      ]
+    },
+    {
+      "Order": 323
+    },
+    {
+      "IsLoop": true,
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.AbortModifierPhasePerform"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {},
+    {},
+    {},
+    {},
+    {
+      "IsLoop": true
+    }
+  ]
+}

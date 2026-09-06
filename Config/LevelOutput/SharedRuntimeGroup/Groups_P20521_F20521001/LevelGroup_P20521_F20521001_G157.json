@@ -1,0 +1,141 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "4DPuzzle_02",
+  "AreaAnchorName": "LevelArea_P20521_F20521001_G157",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "GroupPropertyMap": {
+    "3": {
+      "ID": 3,
+      "Name": "LG_110002__1_ChestStateS_Auto",
+      "Side": "ServerClient",
+      "DefaultValue": 1,
+      "MaxValue": 3
+    },
+    "4": {
+      "ID": 4,
+      "Name": "LG_110001__1_ChestStateS_Auto",
+      "Side": "ServerClient",
+      "DefaultValue": 1,
+      "MaxValue": 3
+    }
+  },
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Gameplay",
+        "TagHash": -141571921
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300002,
+      "PosX": -61.054710388183594,
+      "PosY": 182.83099365234375,
+      "PosZ": -36.51959991455078,
+      "Name": "4DPuzzle_02",
+      "RotY": 12.85243034362793,
+      "PropID": 105067,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "DynamicArtPrefabConfigID",
+            "Value": 10600125
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "AnimalColour",
+            "Value": 1
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "4DLittleGameID",
+            "Value": "110001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedStringList",
+            "Key": "BubbleTalkList",
+            "Value": [
+              "408000765",
+              "408000766",
+              "408000767",
+              "408000768",
+              "408000769"
+            ]
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "ChestClosed",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 2529,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": [
+    {
+      "ID": 110001,
+      "PosX": -61.054710388183594,
+      "PosY": 182.83099365234375,
+      "PosZ": -36.51959991455078,
+      "Name": "LittleGame1",
+      "GameType": "FourRotateVoxel",
+      "LevelConfigPath": "Config/Gameplays/LittleGame/FourRotateVoxel/Level/Main/Locate_B21/MAZ_B201/MAZ_B201_Sub_02.json",
+      "LevelVarBinding": {
+        "Bindings": [
+          {
+            "LevelVarName": "_1_ChestStateS_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__1_ChestStateS_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          }
+        ]
+      },
+      "GroupsToKeepOnEnter": [],
+      "NavInfo": {
+        "LittleGameConnectList": []
+      },
+      "RequireMissionInfo": {
+        "RequireSubMissionIDList": []
+      }
+    }
+  ]
+}

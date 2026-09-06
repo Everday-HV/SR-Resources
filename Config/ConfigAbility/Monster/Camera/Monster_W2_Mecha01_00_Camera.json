@@ -1,0 +1,32 @@
+{
+  "AbilityList": [
+    {
+      "Name": "Monster_W2_Mecha01_00_Skill01_Camera",
+      "TargetInfo": {
+        "TargetType": "SkillTargetEntityList"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveShotCameraTemplate",
+          "TemplatePath": {
+            "Custom": true,
+            "Value": "ster_Common_SoloRangeAttack\u0001ff���̾\u0000\u0000\u0000@\u0000\u0000�?\u0000\u0000 @\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\n�#<\n�#<\n�#<\u0000\u0000\u0000@\u0000\u0000\u0002\u0002\u0002\f\u0001$AllTeamMemberWithAbilityTarget"
+          },
+          "IsActive": true,
+          "SecondTarget": {
+            "$type": "RPG.GameCore.TargetFetchUnstageTarget"
+          },
+          "FirstTarget": {
+            "$type": "RPG.GameCore.TargetFetchTimeRewindStrikeSource"
+          }
+        }
+      ]
+    }
+  ]
+}

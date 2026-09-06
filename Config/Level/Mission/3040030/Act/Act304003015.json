@@ -1,0 +1,32 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AddChallengeBossInfoPanelState",
+          "TaskEnabled": false,
+          "WarningText": {
+            "Hash": 0,
+            "Hash64": 0
+          },
+          "Priority": 0
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {}
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AddEntityToRelationGroup",
+          "Target": {
+            "$type": "RPG.GameCore.TargetFetchSummonUnit",
+            "Summoner": {
+              "$type": "RPG.GameCore.TargetFetchSummonUnit",
+              "SummonUnitID": 65,
+              "FetchType": "57"
+            },
+            "SummonUnitID": 101
+          },
+          "MemberType": "-49"
+        },
+        {
+          "$type": "RPG.GameCore.AdvByInCustomZone",
+          "ReturnArtUnload": true
+        },
+        {
+          "$type": "RPG.GameCore.AddMissionMenuItem",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchBattleEventEntityList"
+          },
+          "MenuItemTextID": {
+            "Hash": -48,
+            "Hash64": 70
+          },
+          "DialoguePath": "0201001_G108\u0007Anchor1\u0001\u0000�\b\u0004bProps/Outputs/Chap02/Ch"
+        },
+        {
+          "$type": "RPG.GameCore.AdvByIsInPhantomFrozen"
+        }
+      ]
+    },
+    {}
+  ]
+}

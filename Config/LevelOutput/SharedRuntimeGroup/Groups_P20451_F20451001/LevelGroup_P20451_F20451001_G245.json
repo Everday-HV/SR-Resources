@@ -1,0 +1,95 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "TimeRelayFlame_01",
+  "AreaAnchorName": "LevelArea_P20451_F20451001_G245",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Gameplay",
+        "TagHash": -141571921
+      },
+      {
+        "Tag": "GameModule.EraFlip.State.Day",
+        "TagHash": 1090843668
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 336.30010986328125,
+      "PosY": 70.64317321777344,
+      "PosZ": 161.67840576171875,
+      "Name": "Prop1",
+      "RotY": 248.51199340820312,
+      "PropID": 104046,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_TrfGoldenGoatMaskProp_Upgrade.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PuzzleLevelConfigPath",
+            "Value": "Config/Gameplays/LittleGame/TimeRelayFlame/Level/Config_TrfLevelUpgrade_2.json"
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "TutorialNum",
+            "Value": 1
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "IsTeleportLevel",
+            "Value": 1.0
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "ChestLocked",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "ChestID": 20451654,
+      "MappingInfoID": 10076,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

@@ -1,0 +1,856 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Crowd",
+  "Category": "Atmosphere",
+  "AreaAnchorName": "LevelArea_P20531_F20531001_G35",
+  "SaveType": "Reset",
+  "AtmosphereCondition": {},
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.Crowd",
+        "TagHash": -581694062
+      },
+      {
+        "Tag": "Group.Atomsphere.NPC",
+        "TagHash": -882113524
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -125.5999984741211,
+      "PosY": 64.47471618652344,
+      "PosZ": -194.5800018310547,
+      "Name": "Prop_Municipal_0011",
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F20531001/MunicipalChatConfig_F20531001_0011.json"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F20531001_0011"
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "RPG.GameCore.MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400002
+              }
+            ]
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 3.5
+      },
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {}
+    },
+    {
+      "ID": 300002,
+      "PosX": -125.5999984741211,
+      "PosY": 64.47471618652344,
+      "PosZ": -194.5800018310547,
+      "Name": "Prop_Municipal_0011_Stop",
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "StopMunicipalChatName",
+            "Value": "MunicipalChatConfig_F20531001_0011"
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 5.0
+      },
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {}
+    },
+    {
+      "ID": 300003,
+      "PosX": -225.21499633789062,
+      "PosY": 72.38995361328125,
+      "PosZ": -200.2122039794922,
+      "Name": "Prop_Municipal_0014",
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F20531001/MunicipalChatConfig_F20531001_0014.json"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F20531001_0014"
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "RPG.GameCore.MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400005
+              },
+              {
+                "$type": "RPG.GameCore.MunicipalChatEntityInfo",
+                "UniqueName": "2",
+                "GroupInstanceID": 400003
+              }
+            ]
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 3.5
+      },
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {}
+    },
+    {
+      "ID": 300004,
+      "PosX": -225.21499633789062,
+      "PosY": 72.38995361328125,
+      "PosZ": -200.2122039794922,
+      "Name": "Prop_Municipal_0014_Stop",
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "StopMunicipalChatName",
+            "Value": "MunicipalChatConfig_F20531001_0014"
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 5.0
+      },
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {}
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": -117.71299743652344,
+      "PosY": 62.38108825683594,
+      "PosZ": -228.3419952392578,
+      "Name": "NPC1",
+      "RotY": 305.61309814453125,
+      "NPCID": 13317,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100040222,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "StoryFury_Child"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SFXOnLoad": "Ev_sfx_npc_common_StoryFury_loop",
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400002,
+      "PosX": -125.0199966430664,
+      "PosY": 64.47471618652344,
+      "PosZ": -194.46400451660156,
+      "Name": "NPC2",
+      "RotY": 248.32809448242188,
+      "NPCID": 3231,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900450000,
+      "AdditiveResidentEffect": [],
+      "OverrideSeriesID": 4294967295,
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400003,
+      "PosX": -224.4257049560547,
+      "PosY": 72.38993072509766,
+      "PosZ": -200.80799865722656,
+      "Name": "NPC3",
+      "RotY": 14.486590385437012,
+      "NPCID": 15241,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100020000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400004,
+      "PosX": -216.74819946289062,
+      "PosY": 72.38997650146484,
+      "PosZ": -202.04989624023438,
+      "Name": "NPC4",
+      "NPCID": 3219,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "IsOverrideAtlasEmotion": true,
+      "OverrideAtlasEmotion": {
+        "MeshName": "Eye",
+        "EmotionIndex": 2
+      },
+      "BoardShowList": [],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900430000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400005,
+      "PosX": -226.00430297851562,
+      "PosY": 72.38997650146484,
+      "PosZ": -199.61630249023438,
+      "Name": "NPC5",
+      "RotY": 36.055809020996094,
+      "NPCID": 3256,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900450000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400006,
+      "PosX": -196.47999572753906,
+      "PosY": 71.68000030517578,
+      "PosZ": -200.9199981689453,
+      "Name": "NPC6",
+      "RotY": 80.03024291992188,
+      "NPCID": 3225,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "IsOverrideAtlasEmotion": true,
+      "OverrideAtlasEmotion": {
+        "EmotionIndex": 12
+      },
+      "BoardShowList": [],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900420359,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "ChenLing_00_Body_04"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400007,
+      "PosX": -197.73300170898438,
+      "PosY": 71.8853530883789,
+      "PosZ": -201.42550659179688,
+      "Name": "NPC7",
+      "RotY": 91.38131713867188,
+      "NPCID": 3284,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900420359,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "ChenLing_00_Body_03"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400008,
+      "PosX": -195.3699951171875,
+      "PosY": 71.38002014160156,
+      "PosZ": -200.72000122070312,
+      "Name": "NPC8",
+      "RotY": 107.04119873046875,
+      "NPCID": 3282,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "IsOverrideAtlasEmotion": true,
+      "OverrideAtlasEmotion": {
+        "EmotionIndex": 12
+      },
+      "BoardShowList": [],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900420359,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "ChenLing_00_Body_07"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400009,
+      "PosX": -194.38900756835938,
+      "PosY": 71.38002014160156,
+      "PosZ": -201.22000122070312,
+      "Name": "NPC9",
+      "RotY": 105.1509017944336,
+      "NPCID": 3283,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "IsOverrideAtlasEmotion": true,
+      "OverrideAtlasEmotion": {
+        "EmotionIndex": 12
+      },
+      "BoardShowList": [],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900420359,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "ChenLing_00_Body_04"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    }
+  ],
+  "CrowdList": [
+    {
+      "ID": 1,
+      "PosX": -121.32969665527344,
+      "PosY": 62.37995910644531,
+      "PosZ": -227.4636993408203,
+      "Name": "Crowd1",
+      "MemberList": [
+        {
+          "Identity": "W5_Street",
+          "FeatureID": "MuscleMan_Street_Oni",
+          "UniqueName": "35_1_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.8859999775886536,
+            "y": 0.2108989953994751,
+            "z": 1.6100000143051147
+          },
+          "LocalRotationY": 144.4882049560547,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100050222
+        },
+        {
+          "Identity": "W5_ShrinePeople",
+          "FeatureID": "Male_IPC",
+          "UniqueName": "35_1_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.927000045776367,
+            "y": 2.0947608947753906,
+            "z": 31.062999725341797
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010210
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -1.0204999446868896,
+        "y": 1.1528300046920776,
+        "z": 16.33650016784668
+      }
+    },
+    {
+      "ID": 2,
+      "PosX": -187.7967071533203,
+      "PosY": 73.69608306884766,
+      "PosZ": -196.5832977294922,
+      "Name": "Crowd2",
+      "MemberList": [
+        {
+          "Identity": "W5_Street",
+          "FeatureID": "Child_Street_Rabbit",
+          "UniqueName": "35_2_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 1.1925510168075562,
+            "y": -2.3160550594329834,
+            "z": -0.464370995759964
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040328
+        },
+        {
+          "Identity": "W5_Street",
+          "FeatureID": "Child_Street_Rabbit",
+          "UniqueName": "35_2_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 1.5944370031356812,
+            "y": -2.3160550594329834,
+            "z": 0.7172849774360657
+          },
+          "LocalRotationY": 206.00559997558594,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040328
+        },
+        {
+          "Identity": "W5_Street",
+          "FeatureID": "Miss_Street_Fox",
+          "UniqueName": "35_2_03",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 10.68097972869873,
+            "y": -2.316077947616577,
+            "z": -1.746001958847046
+          },
+          "LocalRotationY": 290.29400634765625,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020222
+        },
+        {
+          "Identity": "W5_Street",
+          "FeatureID": "Miss_Street_Cat",
+          "UniqueName": "35_2_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 20.485000610351562,
+            "y": -2.9740750789642334,
+            "z": -1.0119930505752563
+          },
+          "LocalRotationY": 102.85389709472656,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020216
+        },
+        {
+          "Identity": "W5_Street",
+          "FeatureID": "Male_Street_Fox",
+          "UniqueName": "35_2_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 22.541669845581055,
+            "y": -2.9290010929107666,
+            "z": -1.097594976425171
+          },
+          "LocalRotationY": 275.57281494140625,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010210
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": 11.298930168151855,
+        "y": -2.5702528953552246,
+        "z": -0.7205349802970886
+      }
+    },
+    {
+      "ID": 3,
+      "PosX": -225.45460510253906,
+      "PosY": 75.0299072265625,
+      "PosZ": -213.67849731445312,
+      "Name": "Crowd3",
+      "MemberList": [
+        {
+          "Identity": "W5_ShrinePeople",
+          "FeatureID": "Male_IPC",
+          "UniqueName": "35_3_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 1.3639999628067017,
+            "y": -2.639923095703125,
+            "z": 1.684000015258789
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010311
+        },
+        {
+          "Identity": "W5_ShrinePeople",
+          "FeatureID": "Lady_IPC",
+          "UniqueName": "35_3_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.05000000074505806,
+            "y": -2.639923095703125,
+            "z": 1.5099999904632568
+          },
+          "LocalRotationY": 14.291620254516602,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020322
+        },
+        {
+          "Identity": "W5_ShrinePeople",
+          "FeatureID": "Male_IPC",
+          "UniqueName": "35_3_03",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -9.772018432617188,
+            "y": -2.398627996444702,
+            "z": 11.707019805908203
+          },
+          "LocalRotationY": 220.95350646972656,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010307
+        },
+        {
+          "Identity": "W5_OfficePeole",
+          "FeatureID": "Male_Office_Cat",
+          "UniqueName": "35_3_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -10.339770317077637,
+            "y": -2.398627996444702,
+            "z": 14.77400016784668
+          },
+          "LocalRotationY": 352.43670654296875,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010210
+        },
+        {
+          "Identity": "W5_OfficePeole",
+          "FeatureID": "Miss_Office_Cat",
+          "UniqueName": "35_3_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -10.93323040008545,
+            "y": -2.398627996444702,
+            "z": 15.830670356750488
+          },
+          "LocalRotationY": 164.50759887695312,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020216
+        },
+        {
+          "Identity": "W5_Street",
+          "FeatureID": "MuscleMan_Street_Oni",
+          "UniqueName": "35_3_06",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -11.288999557495117,
+            "y": -2.398621082305908,
+            "z": 9.44000244140625
+          },
+          "LocalRotationY": 97.30548858642578,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100050210
+        },
+        {
+          "Identity": "W5_Street",
+          "FeatureID": "Lady_Street_Oni",
+          "UniqueName": "35_3_07",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -11.948610305786133,
+            "y": -2.3350830078125,
+            "z": 23.708999633789062
+          },
+          "LocalRotationY": 108.04989624023438,
+          "PossessionConfig": {
+            "Name": "Possession_MobilePhone_A_01"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020493
+        },
+        {
+          "Identity": "W5_ShrinePeople",
+          "FeatureID": "Male_IPC",
+          "UniqueName": "35_3_08",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 9.1075439453125,
+            "y": -2.6399919986724854,
+            "z": 5.314818859100342
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010311
+        },
+        {
+          "Identity": "W5_ShrinePeople",
+          "FeatureID": "Lady_IPC",
+          "UniqueName": "35_3_09",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 2.8849949836730957,
+            "y": -2.6399919986724854,
+            "z": 3.7760009765625
+          },
+          "LocalRotationY": 266.4195861816406,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020216
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -4.55289888381958,
+        "y": -2.498823881149292,
+        "z": 9.74950122833252
+      }
+    },
+    {
+      "ID": 4,
+      "PosX": -236.95289611816406,
+      "PosY": 72.59657287597656,
+      "PosZ": -207.68629455566406,
+      "Name": "Crowd4",
+      "MemberList": [
+        {
+          "Identity": "W5_Street",
+          "FeatureID": "Male_Street_Cat",
+          "UniqueName": "35_4_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 2.425689935684204,
+            "y": 0.0346979983150959,
+            "z": -0.37081900238990784
+          },
+          "LocalRotationY": 342.02130126953125,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010222
+        },
+        {
+          "Identity": "W5_Street",
+          "FeatureID": "Lady_Street_Oni",
+          "UniqueName": "35_4_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 1.8248440027236938,
+            "y": 0.0346979983150959,
+            "z": 0.0310210008174181
+          },
+          "LocalRotationY": 93.04435729980469,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020231
+        }
+      ],
+      "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F20531001/MunicipalChatConfig_F20531001_0012.json",
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "35_4_01"
+        },
+        {
+          "UniqueName": "2",
+          "CrowdUniqueName": "35_4_02"
+        }
+      ],
+      "TriggerRudius": 5.0,
+      "InteractPerformanceTriggerRadius": 2.5,
+      "CenterPos": {
+        "x": 2.1252670288085938,
+        "y": 0.0346979983150959,
+        "z": -0.16989900171756744
+      }
+    },
+    {
+      "ID": 5,
+      "PosX": -229.5260009765625,
+      "PosY": 72.38993072509766,
+      "PosZ": -186.29249572753906,
+      "Name": "Crowd5",
+      "MemberList": [
+        {
+          "Identity": "W5_Street",
+          "FeatureID": "Miss_Street_Cat",
+          "UniqueName": "35_5_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.13699300587177277,
+            "y": -0.000014999999621068127,
+            "z": -0.13345299661159515
+          },
+          "LocalRotationY": 107.72740173339844,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020216
+        }
+      ],
+      "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F20531001/MunicipalChatConfig_F20531001_0013.json",
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "35_5_01"
+        }
+      ],
+      "TriggerRudius": 5.0,
+      "InteractPerformanceTriggerRadius": 2.5,
+      "CenterPos": {
+        "x": -0.13699300587177277,
+        "y": -0.000014999999621068127,
+        "z": -0.13345299661159515
+      }
+    }
+  ],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

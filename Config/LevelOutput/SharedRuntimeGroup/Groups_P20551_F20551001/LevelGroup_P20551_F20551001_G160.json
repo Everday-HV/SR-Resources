@@ -1,0 +1,5634 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Crowd_01",
+  "Category": "Atmosphere",
+  "AreaAnchorName": "LevelArea_P20551_F20551001_G160",
+  "SaveType": "Reset",
+  "AtmosphereCondition": {
+    "Conditions": [
+      {
+        "$type": "RPG.GameCore.LevelGroupAtmosphereSavedValueCondition",
+        "SavedValueName": "FSV_YBTAtmosMission"
+      }
+    ]
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.Crowd",
+        "TagHash": -581694062
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -194.5800018310547,
+      "PosY": 196.17999267578125,
+      "PosZ": 705.22998046875,
+      "IsDelete": true,
+      "Name": "Anchor1",
+      "RotY": 270.3078918457031,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 40.0
+      }
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -185.64500427246094,
+      "PosY": 193.15829467773438,
+      "PosZ": 701.1699829101562,
+      "Name": "Prop_Municipal_0015",
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F20551001/MunicipalChatConfig_F20551001_0015.json"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F20551001_0015"
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfigList",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "RPG.GameCore.MunicipalChatEntityInfo",
+                "UniqueName": "1",
+                "GroupInstanceID": 400001
+              }
+            ]
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 3.5
+      },
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {}
+    },
+    {
+      "ID": 300002,
+      "PosX": -185.64500427246094,
+      "PosY": 193.15829467773438,
+      "PosZ": 701.1699829101562,
+      "Name": "Prop_Municipal_0015_Stop",
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Stop_Template.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "StopMunicipalChatName",
+            "Value": "MunicipalChatConfig_F20551001_0015"
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 5.0
+      },
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {}
+    },
+    {
+      "ID": 300003,
+      "PosX": -205.3000030517578,
+      "PosY": 191.22479248046875,
+      "PosZ": 704.9299926757812,
+      "IsDelete": true,
+      "Name": "Prop3",
+      "RotY": 271.4743957519531,
+      "PropID": 100,
+      "ValueSource": {},
+      "Trigger": {
+        "Radius": 4.0,
+        "DimX": 4.0,
+        "DimY": 5.0,
+        "DimZ": 2.0
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "Dialog": {
+        "LevelGraph": "Config/Level/PropDialogue/P20551/F20551001_G160/DialogueMain_F20551001_G160_P300003.json",
+        "PackList": []
+      },
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 7
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "InteractTitle": {
+        "Hash": 1320086102,
+        "Hash64": 1409298665122200647
+      },
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": -185.64500427246094,
+      "PosY": 193.15829467773438,
+      "PosZ": 701.1699829101562,
+      "Name": "NPC1",
+      "RotY": 289.3124084472656,
+      "NPCID": 13103,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "PossessionConfig": {
+        "Name": "P_TabletComputer_A_01"
+      },
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100010550,
+      "AdditiveResidentEffect": [],
+      "OverrideSeriesID": 4294967295,
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {},
+      "TagOverrideConfig": {
+        "Mode": "Override",
+        "OverrideTags": {
+          "List": [
+            {
+              "Tag": "NPC.DontHideInMapRotation",
+              "TagHash": 1032484713
+            }
+          ]
+        },
+        "AdditiveTags": {},
+        "SubtractiveTags": {}
+      }
+    }
+  ],
+  "CrowdList": [
+    {
+      "ID": 1,
+      "PosX": 239.1699981689453,
+      "PosY": 193.25779724121094,
+      "PosZ": 715.9199829101562,
+      "IsDelete": true,
+      "Name": "Crowd1",
+      "RotY": 6.0963897705078125,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Male_Low",
+          "UniqueName": "160_1_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.32099300622940063,
+            "y": 0.0,
+            "z": -1.0659970045089722
+          },
+          "LocalRotationY": 351.5293884277344,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010549
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_1_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.8840090036392212,
+            "y": 0.0,
+            "z": -1.2509820461273193
+          },
+          "LocalRotationY": 356.6754150390625,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020549
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_1_03",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 1.941001057624817,
+            "y": 0.0,
+            "z": -0.9280179738998413
+          },
+          "LocalRotationY": 351.83349609375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040549
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Robot_male_Low",
+          "UniqueName": "160_1_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.3009920120239258,
+            "y": 0.0,
+            "z": 0.8840109705924988
+          },
+          "LocalRotationY": 173.2917938232422,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010549
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Oldman_High",
+          "UniqueName": "160_1_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.8876439929008484,
+            "y": 0.0,
+            "z": 1.768578052520752
+          },
+          "LocalRotationY": 205.31170654296875,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030202
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": 0.18492700159549713,
+        "y": 0.0,
+        "z": -0.11848200112581253
+      }
+    },
+    {
+      "ID": 2,
+      "PosX": 241.78640747070312,
+      "PosY": 193.25779724121094,
+      "PosZ": 709.1771850585938,
+      "IsDelete": true,
+      "Name": "Crowd2",
+      "RotY": 29.855390548706055,
+      "MemberList": [
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Lady_High",
+          "UniqueName": "160_2_01",
+          "LookAtTarget": "160_2_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.7590000033378601,
+            "y": 0.0,
+            "z": 0.9990000128746033
+          },
+          "LocalRotationY": 218.00650024414062,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020231
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_2_02",
+          "LookAtTarget": "160_2_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010367
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_2_03",
+          "LookAtTarget": "160_2_01",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400009989738464,
+            "y": 0.0,
+            "z": 0.4259989857673645
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.9100000262260437,
+        "y": 0.0,
+        "z": 0.7943329811096191
+      }
+    },
+    {
+      "ID": 3,
+      "PosX": -186.13999938964844,
+      "PosY": 193.15829467773438,
+      "PosZ": 701.2960205078125,
+      "IsDelete": true,
+      "Name": "Crowd3",
+      "RotY": 13.40707015991211,
+      "MemberList": [
+        {
+          "Identity": "W5_OfficePeole",
+          "FeatureID": "Lady_High",
+          "UniqueName": "160_3_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.22499999403953552,
+            "y": 0.0,
+            "z": 0.014000000432133675
+          },
+          "LocalRotationY": 270.519287109375,
+          "PossessionConfig": {
+            "Name": "Possession_MineralGlass_A_01"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020318
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": 0.22499999403953552,
+        "y": 0.0,
+        "z": 0.014000000432133675
+      }
+    },
+    {
+      "ID": 4,
+      "PosX": 234.29100036621094,
+      "PosY": 193.25779724121094,
+      "PosZ": 697.2930297851562,
+      "IsDelete": true,
+      "Name": "Crowd4",
+      "RotY": 179.54710388183594,
+      "MemberList": [
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Lady_High",
+          "UniqueName": "160_4_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_4_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6629999876022339,
+            "y": 0.0,
+            "z": -0.19099999964237213
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.33149999380111694,
+        "y": 0.0,
+        "z": -0.09549999982118607
+      }
+    },
+    {
+      "ID": 5,
+      "PosX": 226.36000061035156,
+      "PosY": 193.25779724121094,
+      "PosZ": 715.02001953125,
+      "IsDelete": true,
+      "Name": "Crowd5",
+      "RotY": 13.608429908752441,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_5_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.33000800013542175,
+            "y": 0.0,
+            "z": 2.599977970123291
+          },
+          "LocalRotationY": 166.79150390625,
+          "PossessionConfig": {
+            "Name": "P_TabletComputer_A_01"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020550
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Male_Low",
+          "UniqueName": "160_5_02",
+          "LookAtTarget": "160_5_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.099943995475769,
+            "y": 0.0,
+            "z": -1.9853739738464355
+          },
+          "LocalRotationY": 120.456298828125,
+          "PossessionConfig": {
+            "Name": "P_TabletComputer_A_01"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010550
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Male_Low",
+          "UniqueName": "160_5_03",
+          "LookAtTarget": "160_5_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.2602649927139282,
+            "y": 0.0,
+            "z": -2.23274302482605
+          },
+          "LocalRotationY": 275.7572021484375,
+          "PossessionConfig": {
+            "Name": "P_TabletComputer_A_01"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010550
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_5_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.183000087738037,
+            "y": 0.007000000216066837,
+            "z": -0.7260000109672546
+          },
+          "LocalRotationY": 340.080810546875,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040549
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Robot_lady_Low",
+          "UniqueName": "160_5_05",
+          "LookAtTarget": "160_5_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.7406839728355408,
+            "y": 0.0,
+            "z": -2.726083993911743
+          },
+          "LocalRotationY": 18.771459579467773,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020399
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7907770276069641,
+        "y": 0.00139999995008111,
+        "z": -1.014045000076294
+      }
+    },
+    {
+      "ID": 6,
+      "PosX": 200.08999633789062,
+      "PosY": 193.25779724121094,
+      "PosZ": 718.9600219726562,
+      "IsDelete": true,
+      "Name": "Crowd6",
+      "RotY": 6.694975852966309,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_6_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_6_02",
+          "LookAtTarget": "160_6_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309919834136963,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_6_03",
+          "LookAtTarget": "160_6_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400009989738464,
+            "y": 0.0,
+            "z": 0.4259989857673645
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_6_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.048002999275922775,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_6_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7941989898681641,
+        "y": 0.029500000178813934,
+        "z": 0.6898000240325928
+      }
+    },
+    {
+      "ID": 7,
+      "PosX": 207.00999450683594,
+      "PosY": 193.25779724121094,
+      "PosZ": 714.77001953125,
+      "IsDelete": true,
+      "Name": "Crowd7",
+      "RotY": 221.65440368652344,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_7_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_7_02",
+          "LookAtTarget": "160_7_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_7_03",
+          "LookAtTarget": "160_7_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400009989738464,
+            "y": 0.0,
+            "z": 0.4259989857673645
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_7_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.048002999275922775,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_7_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7942010164260864,
+        "y": 0.029500000178813934,
+        "z": 0.6898000240325928
+      }
+    },
+    {
+      "ID": 8,
+      "PosX": -39.20922088623047,
+      "PosY": 186.9080047607422,
+      "PosZ": 340.6827087402344,
+      "IsDelete": true,
+      "Name": "Crowd8",
+      "RotY": 102.1082992553711,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_8_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.9900090098381042,
+            "y": 0.0,
+            "z": 0.8099989891052246
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_8_02",
+          "LookAtTarget": "160_8_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309990167617798,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_8_03",
+          "LookAtTarget": "160_8_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400009989738464,
+            "y": 0.0,
+            "z": 0.4259989857673645
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_8_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.048002999275922775,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_8_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7571989893913269,
+        "y": 0.029500000178813934,
+        "z": 0.6277999877929688
+      }
+    },
+    {
+      "ID": 9,
+      "PosX": -11.27400016784668,
+      "PosY": -214.74859619140625,
+      "PosZ": 350.4339904785156,
+      "IsDelete": true,
+      "Name": "Crowd9",
+      "RotY": 287.69061279296875,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_9_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_9_02",
+          "LookAtTarget": "160_9_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_9_03",
+          "LookAtTarget": "160_9_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.639989972114563,
+            "y": 0.0,
+            "z": 0.4259909987449646
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_9_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.04800400137901306,
+            "y": 0.0,
+            "z": 1.4029979705810547
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_9_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7941989898681641,
+        "y": 0.029500000178813934,
+        "z": 0.6897979974746704
+      }
+    },
+    {
+      "ID": 10,
+      "PosX": 8.666999816894531,
+      "PosY": 186.34500122070312,
+      "PosZ": 350.8290100097656,
+      "IsDelete": true,
+      "Name": "Crowd10",
+      "RotY": 255.72610473632812,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_10_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_10_02",
+          "LookAtTarget": "160_10_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_10_03",
+          "LookAtTarget": "160_10_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6399930119514465,
+            "y": -0.06298799812793732,
+            "z": 0.42597800493240356
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_10_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.048016998916864395,
+            "y": 0.0,
+            "z": 1.4030050039291382
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_10_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7942020297050476,
+        "y": 0.016901999711990356,
+        "z": 0.689795970916748
+      }
+    },
+    {
+      "ID": 11,
+      "PosX": 0.5499969720840454,
+      "PosY": 186.14739990234375,
+      "PosZ": 343.70001220703125,
+      "IsDelete": true,
+      "Name": "Crowd11",
+      "RotY": 201.75790405273438,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_11_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_11_02",
+          "LookAtTarget": "160_11_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_11_03",
+          "LookAtTarget": "160_11_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6399940252304077,
+            "y": 0.0,
+            "z": 0.4259850084781647
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_11_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.04799899831414223,
+            "y": 0.0,
+            "z": 1.4029899835586548
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_11_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7941989898681641,
+        "y": 0.029500000178813934,
+        "z": 0.6897950172424316
+      }
+    },
+    {
+      "ID": 12,
+      "PosX": 3.1110000610351562,
+      "PosY": 184.04750061035156,
+      "PosZ": 382.1579895019531,
+      "IsDelete": true,
+      "Name": "Crowd12",
+      "RotY": 129.84950256347656,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_12_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 1.6339999437332153,
+            "y": 0.5110020041465759,
+            "z": 1.8209999799728394
+          },
+          "LocalRotationY": 137.29690551757812,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020488
+        },
+        {
+          "Identity": "IPC_P41+",
+          "FeatureID": "Male_Super",
+          "UniqueName": "160_12_02",
+          "LookAtTarget": "160_12_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3799999952316284,
+            "y": 0.0,
+            "z": 1.0479999780654907
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010467
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Male_Low",
+          "UniqueName": "160_12_03",
+          "LookAtTarget": "160_12_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.7789999842643738,
+            "y": 0.0,
+            "z": -0.17800000309944153
+          },
+          "LocalRotationY": 340.5224914550781,
+          "PossessionConfig": {
+            "Name": "P_TabletComputer_A_01"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010550
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_12_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.4509999752044678,
+            "y": -0.000014999999621068127,
+            "z": -0.4449999928474426
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040327
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_12_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.9499930143356323,
+            "y": 0.14750699698925018,
+            "z": -0.8999940156936646
+          },
+          "LocalRotationY": 9.811854362487793,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030268
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.5851989984512329,
+        "y": 0.13169899582862854,
+        "z": 0.26920101046562195
+      }
+    },
+    {
+      "ID": 13,
+      "PosX": 18.58390998840332,
+      "PosY": 185.14950561523438,
+      "PosZ": 397.7839050292969,
+      "IsDelete": true,
+      "Name": "Crowd13",
+      "MemberList": [
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Lady_High",
+          "UniqueName": "160_13_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_13_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6629999876022339,
+            "y": 0.0,
+            "z": -0.19099999964237213
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.33149999380111694,
+        "y": 0.0,
+        "z": -0.09549999982118607
+      }
+    },
+    {
+      "ID": 14,
+      "PosX": -0.8700000047683716,
+      "PosY": 184.04739379882812,
+      "PosZ": 403.5199890136719,
+      "IsDelete": true,
+      "Name": "Crowd14",
+      "RotY": 290.49859619140625,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_14_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_14_02",
+          "LookAtTarget": "160_14_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_14_03",
+          "LookAtTarget": "160_14_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400009989738464,
+            "y": 0.0,
+            "z": 0.4259989857673645
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_14_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.048002999275922775,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_14_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7942010164260864,
+        "y": 0.029500000178813934,
+        "z": 0.6898000240325928
+      }
+    },
+    {
+      "ID": 15,
+      "PosX": -19.52400016784668,
+      "PosY": 185.14950561523438,
+      "PosZ": 392.0840148925781,
+      "IsDelete": true,
+      "Name": "Crowd15",
+      "RotY": 188.102294921875,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_15_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.8050029873847961,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_15_02",
+          "LookAtTarget": "160_15_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309930562973022,
+            "y": 0.000014999999621068127,
+            "z": 0.9579570293426514
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_15_03",
+          "LookAtTarget": "160_15_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400030255317688,
+            "y": 0.0,
+            "z": 0.4260129928588867
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_15_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.04799700155854225,
+            "y": 0.000014999999621068127,
+            "z": 1.402961015701294
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_15_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.756999969482422,
+            "y": 0.000014999999621068127,
+            "z": -0.4580259919166565
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7941979765892029,
+        "y": 9.000000318337698e-6,
+        "z": 0.6897810101509094
+      }
+    },
+    {
+      "ID": 16,
+      "PosX": 34.43899917602539,
+      "PosY": 185.19129943847656,
+      "PosZ": 396.677001953125,
+      "IsDelete": true,
+      "Name": "Crowd16",
+      "RotY": 298.63641357421875,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_16_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 2.5839920043945312,
+            "y": 0.0,
+            "z": 0.5539960265159607
+          },
+          "LocalRotationY": 79.18850708007812,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020549
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_16_02",
+          "LookAtTarget": "160_16_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.31699299812316895,
+            "y": 0.0,
+            "z": -2.248995065689087
+          },
+          "LocalRotationY": 351.7102966308594,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010292
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Male_Low",
+          "UniqueName": "160_16_03",
+          "LookAtTarget": "160_16_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 1.2119899988174438,
+            "y": 0.0,
+            "z": -2.3840060234069824
+          },
+          "LocalRotationY": 153.45089721679688,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010549
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_16_04",
+          "LookAtTarget": "160_16_05",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.4049979448318481,
+            "y": 0.0,
+            "z": 0.11700200289487839
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_16_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.4787640571594238,
+            "y": 0.14750699698925018,
+            "z": 0.7803660035133362
+          },
+          "LocalRotationY": 191.53860473632812,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": 0.11904600262641907,
+        "y": 0.02950100041925907,
+        "z": -0.6363270282745361
+      }
+    },
+    {
+      "ID": 17,
+      "PosX": -25.286849975585938,
+      "PosY": 185.15499877929688,
+      "PosZ": 415.2615966796875,
+      "IsDelete": true,
+      "Name": "Crowd17",
+      "RotY": 220.02200317382812,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_17_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_17_02",
+          "LookAtTarget": "160_17_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9579989910125732
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_17_03",
+          "LookAtTarget": "160_17_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400009989738464,
+            "y": 0.0,
+            "z": 0.4259989857673645
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_17_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.048002999275922775,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_17_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.4979889392852783,
+            "y": 0.0,
+            "z": 0.09999000281095505
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7423980236053467,
+        "y": 0.0,
+        "z": 0.801397979259491
+      }
+    },
+    {
+      "ID": 18,
+      "PosX": -7.34000301361084,
+      "PosY": 192.14950561523438,
+      "PosZ": 431.4599914550781,
+      "IsDelete": true,
+      "Name": "Crowd18",
+      "RotY": 190.3726043701172,
+      "MemberList": [
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Lady_High",
+          "UniqueName": "160_18_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_18_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.662992000579834,
+            "y": 0.0,
+            "z": -0.1910019963979721
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.331496000289917,
+        "y": 0.0,
+        "z": -0.09550099819898605
+      }
+    },
+    {
+      "ID": 19,
+      "PosX": 23.06999969482422,
+      "PosY": 192.3762969970703,
+      "PosZ": 423.489990234375,
+      "IsDelete": true,
+      "Name": "Crowd19",
+      "RotY": 273.3822021484375,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_19_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_19_02",
+          "LookAtTarget": "160_19_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_19_03",
+          "LookAtTarget": "160_19_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400009989738464,
+            "y": 0.0,
+            "z": 0.4259989857673645
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_19_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.04800400137901306,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_19_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.7570180892944336,
+            "y": 0.14750699698925018,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7942039966583252,
+        "y": 0.02950100041925907,
+        "z": 0.6898000240325928
+      }
+    },
+    {
+      "ID": 20,
+      "PosX": 33.59000015258789,
+      "PosY": 192.5655975341797,
+      "PosZ": 400.07000732421875,
+      "IsDelete": true,
+      "Name": "Crowd20",
+      "RotY": 273.3822021484375,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_20_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_20_02",
+          "LookAtTarget": "160_20_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_20_03",
+          "LookAtTarget": "160_20_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400160193443298,
+            "y": 0.0,
+            "z": 0.42599600553512573
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_20_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.048002999275922775,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_20_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7942039966583252,
+        "y": 0.029500000178813934,
+        "z": 0.6897990107536316
+      }
+    },
+    {
+      "ID": 21,
+      "PosX": 20.860000610351562,
+      "PosY": 192.15330505371094,
+      "PosZ": 378.8800048828125,
+      "IsDelete": true,
+      "Name": "Crowd21",
+      "RotY": 67.90606689453125,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_21_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_21_02",
+          "LookAtTarget": "160_21_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.4299999475479126,
+            "y": 0.0,
+            "z": 0.9900000095367432
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_21_03",
+          "LookAtTarget": "160_21_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400009989738464,
+            "y": 0.0,
+            "z": 0.4259989857673645
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_21_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.048002999275922775,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_21_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.8140010237693787,
+        "y": 0.029500000178813934,
+        "z": 0.6962000131607056
+      }
+    },
+    {
+      "ID": 22,
+      "PosX": -20.049999237060547,
+      "PosY": 192.15330505371094,
+      "PosZ": 380.4179992675781,
+      "IsDelete": true,
+      "Name": "Crowd22",
+      "RotY": 273.3822021484375,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_22_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.8050159811973572,
+            "y": 0.0,
+            "z": 1.1200000047683716
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_22_02",
+          "LookAtTarget": "160_22_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_22_03",
+          "LookAtTarget": "160_22_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.639985978603363,
+            "y": 0.0,
+            "z": 0.4259999990463257
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_22_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.04800400137901306,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_22_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7941949963569641,
+        "y": 0.029500000178813934,
+        "z": 0.6898000240325928
+      }
+    },
+    {
+      "ID": 23,
+      "PosX": -33.566001892089844,
+      "PosY": 192.5655975341797,
+      "PosZ": 396.9100036621094,
+      "IsDelete": true,
+      "Name": "Crowd23",
+      "MemberList": [
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Lady_High",
+          "UniqueName": "160_23_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_23_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6629999876022339,
+            "y": 0.0,
+            "z": -0.19099999964237213
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.33149999380111694,
+        "y": 0.0,
+        "z": -0.09549999982118607
+      }
+    },
+    {
+      "ID": 24,
+      "PosX": -19.91900062561035,
+      "PosY": 192.15330505371094,
+      "PosZ": 441.17999267578125,
+      "IsDelete": true,
+      "Name": "Crowd24",
+      "RotY": 12.867250442504883,
+      "MemberList": [
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Lady_High",
+          "UniqueName": "160_24_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_24_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6630039811134338,
+            "y": 0.0,
+            "z": -0.19099800288677216
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.3315019905567169,
+        "y": 0.0,
+        "z": -0.09549900144338608
+      }
+    },
+    {
+      "ID": 25,
+      "PosX": -19.516000747680664,
+      "PosY": 192.15330505371094,
+      "PosZ": 422.36700439453125,
+      "IsDelete": true,
+      "Name": "Crowd25",
+      "RotY": 332.48028564453125,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_25_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_25_02",
+          "LookAtTarget": "160_25_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_25_03",
+          "LookAtTarget": "160_25_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6399980187416077,
+            "y": 0.0,
+            "z": 0.4260079860687256
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_25_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.048002999275922775,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_25_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.7569990158081055,
+            "y": 0.14750699698925018,
+            "z": -0.45799198746681213
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7942000031471252,
+        "y": 0.02950100041925907,
+        "z": 0.6898030042648315
+      }
+    },
+    {
+      "ID": 26,
+      "PosX": 40.19200134277344,
+      "PosY": 185.19129943847656,
+      "PosZ": 401.447998046875,
+      "IsDelete": true,
+      "Name": "Crowd26",
+      "RotY": 301.0080871582031,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_26_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_26_02",
+          "LookAtTarget": "160_26_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_26_03",
+          "LookAtTarget": "160_26_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400009989738464,
+            "y": 0.0,
+            "z": 0.4259989857673645
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_26_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.048002999275922775,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_26_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7942010164260864,
+        "y": 0.029500000178813934,
+        "z": 0.6898000240325928
+      }
+    },
+    {
+      "ID": 27,
+      "PosX": 35.86600112915039,
+      "PosY": 185.1903076171875,
+      "PosZ": 410.77301025390625,
+      "IsDelete": true,
+      "Name": "Crowd27",
+      "RotY": 315.31298828125,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Robot_lady_Low",
+          "UniqueName": "160_27_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 1.436995029449463,
+            "y": 0.0,
+            "z": 0.0929969996213913
+          },
+          "LocalRotationY": 226.54339599609375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020549
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_27_02",
+          "LookAtTarget": "160_27_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.6472129821777344,
+            "y": 0.0,
+            "z": 0.007135000079870224
+          },
+          "LocalRotationY": 131.1085968017578,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_27_03",
+          "LookAtTarget": "160_27_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.3703770637512207,
+            "y": 0.0,
+            "z": -0.8073279857635498
+          },
+          "LocalRotationY": 342.97259521484375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_27_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.7349950075149536,
+            "y": 0.0,
+            "z": 1.6759929656982422
+          },
+          "LocalRotationY": 240.14039611816406,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040306
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Robot_male_Low",
+          "UniqueName": "160_27_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.4040049910545349,
+            "y": 0.14750699698925018,
+            "z": -2.289005994796753
+          },
+          "LocalRotationY": 59.415531158447266,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010399
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.6499210000038147,
+        "y": 0.02950100041925907,
+        "z": -0.2640419900417328
+      }
+    },
+    {
+      "ID": 28,
+      "PosX": -15.4399995803833,
+      "PosY": 184.74960327148438,
+      "PosZ": 375.7099914550781,
+      "IsDelete": true,
+      "Name": "Crowd28",
+      "RotY": 57.189048767089844,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_28_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_28_02",
+          "LookAtTarget": "160_28_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_28_03",
+          "LookAtTarget": "160_28_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400009989738464,
+            "y": 0.0,
+            "z": 0.4259989857673645
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_28_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.048002999275922775,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_28_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7942010164260864,
+        "y": 0.029500000178813934,
+        "z": 0.6898000240325928
+      }
+    },
+    {
+      "ID": 29,
+      "PosX": 14.199999809265137,
+      "PosY": 192.8903045654297,
+      "PosZ": 490.04998779296875,
+      "IsDelete": true,
+      "Name": "Crowd29",
+      "RotY": 259.9458923339844,
+      "MemberList": [
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Lady_High",
+          "UniqueName": "160_29_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_29_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6630020141601562,
+            "y": 0.0,
+            "z": -0.19099999964237213
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.3315010070800781,
+        "y": 0.0,
+        "z": -0.09549999982118607
+      }
+    },
+    {
+      "ID": 30,
+      "PosX": -15.90999984741211,
+      "PosY": 192.8903045654297,
+      "PosZ": 488.4700012207031,
+      "IsDelete": true,
+      "Name": "Crowd30",
+      "RotY": 151.7552947998047,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_30_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_30_02",
+          "LookAtTarget": "160_30_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_30_03",
+          "LookAtTarget": "160_30_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400009989738464,
+            "y": 0.0,
+            "z": 0.4259989857673645
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_30_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.04801199957728386,
+            "y": 0.0,
+            "z": 1.4030120372772217
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_30_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.757011890411377,
+            "y": 0.14750699698925018,
+            "z": -0.45799100399017334
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7942050099372864,
+        "y": 0.02950100041925907,
+        "z": 0.6898040175437927
+      }
+    },
+    {
+      "ID": 31,
+      "PosX": -10.039999961853027,
+      "PosY": 196.94700622558594,
+      "PosZ": 625.760009765625,
+      "IsDelete": true,
+      "Name": "Crowd31",
+      "RotY": 286.6929931640625,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Robot_lady_Low",
+          "UniqueName": "160_31_01",
+          "LookAtTarget": "160_31_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 1.2189830541610718,
+            "y": 0.0012049999786540866,
+            "z": 1.6409950256347656
+          },
+          "LocalRotationY": 28.093860626220703,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020302
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Oldman_High",
+          "UniqueName": "160_31_02",
+          "LookAtTarget": "160_31_01",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 2.0130269527435303,
+            "y": 0.002624999964609742,
+            "z": 1.7990080118179321
+          },
+          "LocalRotationY": 244.5648956298828,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030345
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "PPX_girl_High",
+          "UniqueName": "160_31_03",
+          "LookAtTarget": "160_31_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 1.8750200271606445,
+            "y": -0.0004579999949783087,
+            "z": 1.06100594997406
+          },
+          "LocalRotationY": 342.75909423828125,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040237
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_31_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.3910030126571655,
+            "y": 0.0,
+            "z": -0.22200100123882294
+          },
+          "LocalRotationY": 317.849609375,
+          "PossessionConfig": {
+            "Name": "P_TabletComputer_A_01"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040550
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_31_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.8780230283737183,
+            "y": 0.002471999963745475,
+            "z": -0.4980059862136841
+          },
+          "LocalRotationY": 307.08990478515625,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010268
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": 0.7676010131835938,
+        "y": 0.0011690000537782907,
+        "z": 0.7562000155448914
+      }
+    },
+    {
+      "ID": 32,
+      "PosX": 5.898553848266602,
+      "PosY": 196.95599365234375,
+      "PosZ": 648.4312133789062,
+      "IsDelete": true,
+      "Name": "Crowd32",
+      "RotY": 225.2812957763672,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_32_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_32_02",
+          "LookAtTarget": "160_32_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3459999561309814,
+            "y": 0.0,
+            "z": 1.1510000228881836
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_32_03",
+          "LookAtTarget": "160_32_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400009989738464,
+            "y": 0.0,
+            "z": 0.4259989857673645
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_32_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.048002999275922775,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_32_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7972009778022766,
+        "y": 0.029500000178813934,
+        "z": 0.7283999919891357
+      }
+    },
+    {
+      "ID": 33,
+      "PosX": -115.22799682617188,
+      "PosY": 192.89019775390625,
+      "PosZ": 721.57421875,
+      "IsDelete": true,
+      "Name": "Crowd33",
+      "RotY": 31.421960830688477,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_33_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_33_02",
+          "LookAtTarget": "160_33_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_33_03",
+          "LookAtTarget": "160_33_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400009989738464,
+            "y": 0.0,
+            "z": 0.4259989857673645
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_33_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.048002999275922775,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_33_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7942010164260864,
+        "y": 0.029500000178813934,
+        "z": 0.6898000240325928
+      }
+    },
+    {
+      "ID": 34,
+      "PosX": 115.39630126953125,
+      "PosY": 192.89010620117188,
+      "PosZ": 722.7371826171875,
+      "IsDelete": true,
+      "Name": "Crowd34",
+      "RotY": 43.38100051879883,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_34_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_34_02",
+          "LookAtTarget": "160_34_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_34_03",
+          "LookAtTarget": "160_34_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400009989738464,
+            "y": 0.0,
+            "z": 0.4259989857673645
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_34_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.048002999275922775,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_34_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7942010164260864,
+        "y": 0.029500000178813934,
+        "z": 0.6898000240325928
+      }
+    },
+    {
+      "ID": 35,
+      "PosX": 5.533152103424072,
+      "PosY": 193.14529418945312,
+      "PosZ": 463.4065856933594,
+      "IsDelete": true,
+      "Name": "Crowd35",
+      "RotY": 116.62030029296875,
+      "MemberList": [
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Lady_High",
+          "UniqueName": "160_35_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_35_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6629999876022339,
+            "y": 0.0,
+            "z": -0.19099999964237213
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.33149999380111694,
+        "y": 0.0,
+        "z": -0.09549999982118607
+      }
+    },
+    {
+      "ID": 36,
+      "PosX": -4.198365211486816,
+      "PosY": 193.14529418945312,
+      "PosZ": 465.3185119628906,
+      "IsDelete": true,
+      "Name": "Crowd36",
+      "RotY": 273.3114929199219,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_36_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_36_02",
+          "LookAtTarget": "160_36_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_36_03",
+          "LookAtTarget": "160_36_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400009989738464,
+            "y": 0.0,
+            "z": 0.4259989857673645
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_36_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.048002999275922775,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_36_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7942010164260864,
+        "y": 0.029500000178813934,
+        "z": 0.6898000240325928
+      }
+    },
+    {
+      "ID": 37,
+      "PosX": 5.899993896484375,
+      "PosY": 193.14529418945312,
+      "PosZ": 456.590087890625,
+      "IsDelete": true,
+      "Name": "Crowd37",
+      "RotY": 273.3822021484375,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_37_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_37_02",
+          "LookAtTarget": "160_37_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_37_03",
+          "LookAtTarget": "160_37_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.639985978603363,
+            "y": 0.0,
+            "z": 0.42600199580192566
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_37_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.048002999275922775,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_37_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7941979765892029,
+        "y": 0.029500000178813934,
+        "z": 0.6898000240325928
+      }
+    },
+    {
+      "ID": 38,
+      "PosX": -8.950000762939453,
+      "PosY": 186.14739990234375,
+      "PosZ": 342.3450012207031,
+      "IsDelete": true,
+      "Name": "Crowd38",
+      "RotY": 186.5131072998047,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_38_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_38_02",
+          "LookAtTarget": "160_38_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9579989910125732
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_38_03",
+          "LookAtTarget": "160_38_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400009989738464,
+            "y": 0.0,
+            "z": 0.4259989857673645
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_38_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.048002999275922775,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_38_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7942010164260864,
+        "y": 0.029500000178813934,
+        "z": 0.6897990107536316
+      }
+    },
+    {
+      "ID": 39,
+      "PosX": 17.510000228881836,
+      "PosY": 184.74960327148438,
+      "PosZ": 376.4100036621094,
+      "IsDelete": true,
+      "Name": "Crowd39",
+      "RotY": 315.3734130859375,
+      "MemberList": [
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Lady_High",
+          "UniqueName": "160_39_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.7060089707374573,
+            "y": 0.0,
+            "z": -0.20198999345302582
+          },
+          "LocalRotationY": 305.7887878417969,
+          "PossessionConfig": {
+            "Name": "Possession_MobilePhone_A_01"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020493
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_39_02",
+          "LookAtTarget": "160_39_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.7979990243911743,
+            "y": 0.02800000086426735,
+            "z": 0.04700100049376488
+          },
+          "LocalRotationY": 51.60472106933594,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010474
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_gril_Low",
+          "UniqueName": "160_39_03",
+          "LookAtTarget": "160_39_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.472538948059082,
+            "y": 0.02800000086426735,
+            "z": 1.1106040477752686
+          },
+          "LocalRotationY": 126.03630065917969,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040327
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.854843020439148,
+        "y": 0.01866699941456318,
+        "z": 0.31853801012039185
+      }
+    },
+    {
+      "ID": 40,
+      "PosX": -23.173540115356445,
+      "PosY": -215.34840393066406,
+      "PosZ": 267.07598876953125,
+      "IsDelete": true,
+      "Name": "Crowd40",
+      "RotY": 44.37092971801758,
+      "MemberList": [
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Lady_High",
+          "UniqueName": "160_40_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_40_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6629999876022339,
+            "y": 0.0,
+            "z": -0.19099999964237213
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.33149999380111694,
+        "y": 0.0,
+        "z": -0.09549999982118607
+      }
+    },
+    {
+      "ID": 41,
+      "PosX": -30.260000228881836,
+      "PosY": -215.34840393066406,
+      "PosZ": 244.64999389648438,
+      "IsDelete": true,
+      "Name": "Crowd41",
+      "RotY": 199.45840454101562,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_41_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_41_02",
+          "LookAtTarget": "160_41_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_41_03",
+          "LookAtTarget": "160_41_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400009989738464,
+            "y": 0.0,
+            "z": 0.4259989857673645
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_41_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.048002999275922775,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_41_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7942010164260864,
+        "y": 0.029500000178813934,
+        "z": 0.6898000240325928
+      }
+    },
+    {
+      "ID": 42,
+      "PosX": 38.25,
+      "PosY": -214.74839782714844,
+      "PosZ": 265.05999755859375,
+      "IsDelete": true,
+      "Name": "Crowd42",
+      "RotY": 51.8160400390625,
+      "MemberList": [
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Lady_High",
+          "UniqueName": "160_42_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_42_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6629999876022339,
+            "y": 0.0,
+            "z": -0.19099999964237213
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.33149999380111694,
+        "y": 0.0,
+        "z": -0.09549999982118607
+      }
+    },
+    {
+      "ID": 43,
+      "PosX": 32.779998779296875,
+      "PosY": -215.34840393066406,
+      "PosZ": 255.30999755859375,
+      "IsDelete": true,
+      "Name": "Crowd43",
+      "RotY": 266.53839111328125,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_43_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_43_02",
+          "LookAtTarget": "160_43_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_43_03",
+          "LookAtTarget": "160_43_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400009989738464,
+            "y": 0.0,
+            "z": 0.4259989857673645
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_43_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.048002999275922775,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_43_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7942010164260864,
+        "y": 0.029500000178813934,
+        "z": 0.6898000240325928
+      }
+    },
+    {
+      "ID": 44,
+      "PosX": 25.077739715576172,
+      "PosY": -215.34849548339844,
+      "PosZ": 251.2490997314453,
+      "IsDelete": true,
+      "Name": "Crowd44",
+      "RotY": 268.3334045410156,
+      "MemberList": [
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Lady_High",
+          "UniqueName": "160_44_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_44_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6629999876022339,
+            "y": 0.0,
+            "z": -0.19099999964237213
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.33149999380111694,
+        "y": 0.0,
+        "z": -0.09549999982118607
+      }
+    },
+    {
+      "ID": 45,
+      "PosX": -17.09000015258789,
+      "PosY": -215.34849548339844,
+      "PosZ": 261.8399963378906,
+      "IsDelete": true,
+      "Name": "Crowd45",
+      "RotY": 206.41830444335938,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_45_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_45_02",
+          "LookAtTarget": "160_45_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_45_03",
+          "LookAtTarget": "160_45_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400009989738464,
+            "y": 0.0,
+            "z": 0.4259989857673645
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_45_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.048002999275922775,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_45_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7942010164260864,
+        "y": 0.029500000178813934,
+        "z": 0.6898000240325928
+      }
+    },
+    {
+      "ID": 46,
+      "PosX": -15.368000030517578,
+      "PosY": -214.74839782714844,
+      "PosZ": 281.1400146484375,
+      "IsDelete": true,
+      "Name": "Crowd46",
+      "MemberList": [
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Lady_High",
+          "UniqueName": "160_46_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_46_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6629999876022339,
+            "y": 0.0,
+            "z": -0.19099999964237213
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.33149999380111694,
+        "y": 0.0,
+        "z": -0.09549999982118607
+      }
+    },
+    {
+      "ID": 47,
+      "PosX": 12.260000228881836,
+      "PosY": -214.74839782714844,
+      "PosZ": 280.3399963378906,
+      "IsDelete": true,
+      "Name": "Crowd47",
+      "RotY": 52.62089920043945,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_47_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_47_02",
+          "LookAtTarget": "160_47_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_47_03",
+          "LookAtTarget": "160_47_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400009989738464,
+            "y": 0.0,
+            "z": 0.4259989857673645
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_47_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.048002999275922775,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_47_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7942010164260864,
+        "y": 0.029500000178813934,
+        "z": 0.6898000240325928
+      }
+    },
+    {
+      "ID": 48,
+      "PosX": 14.19972038269043,
+      "PosY": -215.34849548339844,
+      "PosZ": 263.5440979003906,
+      "IsDelete": true,
+      "Name": "Crowd48",
+      "RotY": 324.4912109375,
+      "MemberList": [
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Lady_High",
+          "UniqueName": "160_48_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_48_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6629999876022339,
+            "y": 0.0,
+            "z": -0.19099999964237213
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.33149999380111694,
+        "y": 0.0,
+        "z": -0.09549999982118607
+      }
+    },
+    {
+      "ID": 49,
+      "PosX": 4.139995098114014,
+      "PosY": -214.7239990234375,
+      "PosZ": 293.2300109863281,
+      "IsDelete": true,
+      "Name": "Crowd49",
+      "RotY": 111.68409729003906,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_49_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_49_02",
+          "LookAtTarget": "160_49_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_49_03",
+          "LookAtTarget": "160_49_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400079727172852,
+            "y": 0.0,
+            "z": 0.42599600553512573
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_49_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.048002999275922775,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_49_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7942020297050476,
+        "y": 0.029500000178813934,
+        "z": 0.6897990107536316
+      }
+    },
+    {
+      "ID": 50,
+      "PosX": 3.3399999141693115,
+      "PosY": -214.74850463867188,
+      "PosZ": 331.5799865722656,
+      "IsDelete": true,
+      "Name": "Crowd50",
+      "RotY": 6.694975852966309,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_50_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_50_02",
+          "LookAtTarget": "160_50_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309919834136963,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_50_03",
+          "LookAtTarget": "160_50_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400009989738464,
+            "y": 0.0,
+            "z": 0.4259989857673645
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_50_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.048002999275922775,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_50_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7941989898681641,
+        "y": 0.029500000178813934,
+        "z": 0.6898000240325928
+      }
+    },
+    {
+      "ID": 51,
+      "PosX": 9.14799976348877,
+      "PosY": -214.74859619140625,
+      "PosZ": 353.9200134277344,
+      "IsDelete": true,
+      "Name": "Crowd51",
+      "RotY": 273.77740478515625,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_51_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_51_02",
+          "LookAtTarget": "160_51_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 2.181204080581665,
+            "y": -0.000014999999621068127,
+            "z": -2.0596981048583984
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_51_03",
+          "LookAtTarget": "160_51_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400009989738464,
+            "y": 0.0,
+            "z": 0.4259989857673645
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_51_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.048002999275922775,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_51_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.09176000207662582,
+        "y": 0.029496999457478523,
+        "z": 0.08625999838113785
+      }
+    },
+    {
+      "ID": 52,
+      "PosX": 2.301999092102051,
+      "PosY": -214.74859619140625,
+      "PosZ": 361.17401123046875,
+      "IsDelete": true,
+      "Name": "Crowd52",
+      "RotY": 237.38479614257812,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_52_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.9900090098381042,
+            "y": 0.0,
+            "z": 0.8099989891052246
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_52_02",
+          "LookAtTarget": "160_52_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309990167617798,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_52_03",
+          "LookAtTarget": "160_52_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400009989738464,
+            "y": 0.0,
+            "z": 0.4259989857673645
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_52_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.048002999275922775,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_52_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7571989893913269,
+        "y": 0.029500000178813934,
+        "z": 0.6277999877929688
+      }
+    },
+    {
+      "ID": 53,
+      "PosX": 39.52299880981445,
+      "PosY": -213.9927978515625,
+      "PosZ": 342.14599609375,
+      "IsDelete": true,
+      "Name": "Crowd53",
+      "RotY": 304.72491455078125,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_53_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_53_02",
+          "LookAtTarget": "160_53_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_53_03",
+          "LookAtTarget": "160_53_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400009989738464,
+            "y": 0.0,
+            "z": 0.4259989857673645
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_53_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.04800400137901306,
+            "y": 0.0,
+            "z": 1.4029979705810547
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_53_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7942010164260864,
+        "y": 0.029500000178813934,
+        "z": 0.6897990107536316
+      }
+    },
+    {
+      "ID": 54,
+      "PosX": 5.487998008728027,
+      "PosY": -214.74850463867188,
+      "PosZ": 339.7120056152344,
+      "IsDelete": true,
+      "Name": "Crowd54",
+      "RotY": 111.96890258789062,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_54_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.8050150275230408,
+            "y": 0.0,
+            "z": 1.1200040578842163
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_54_02",
+          "LookAtTarget": "160_54_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_54_03",
+          "LookAtTarget": "160_54_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6399930119514465,
+            "y": -0.06298799812793732,
+            "z": 0.42597800493240356
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_54_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.048002999275922775,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_54_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7941970229148865,
+        "y": 0.016901999711990356,
+        "z": 0.689795970916748
+      }
+    },
+    {
+      "ID": 55,
+      "PosX": -11.302000045776367,
+      "PosY": -214.74859619140625,
+      "PosZ": 328.26300048828125,
+      "IsDelete": true,
+      "Name": "Crowd55",
+      "RotY": 264.3414001464844,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_55_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_55_02",
+          "LookAtTarget": "160_55_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_55_03",
+          "LookAtTarget": "160_55_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6399940252304077,
+            "y": 0.0,
+            "z": 0.4259850084781647
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_55_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.04799899831414223,
+            "y": 0.0,
+            "z": 1.4029899835586548
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_55_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7941989898681641,
+        "y": 0.029500000178813934,
+        "z": 0.6897950172424316
+      }
+    },
+    {
+      "ID": 56,
+      "PosX": 4.098999977111816,
+      "PosY": -214.74850463867188,
+      "PosZ": 346.1199951171875,
+      "IsDelete": true,
+      "Name": "Crowd56",
+      "RotY": 96.96846008300781,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_56_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_56_02",
+          "LookAtTarget": "160_56_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_56_03",
+          "LookAtTarget": "160_56_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400009989738464,
+            "y": 0.0,
+            "z": 0.4259989857673645
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_56_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.048002999275922775,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_56_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7942010164260864,
+        "y": 0.029500000178813934,
+        "z": 0.6898000240325928
+      }
+    },
+    {
+      "ID": 57,
+      "PosX": -0.03999999910593033,
+      "PosY": -214.74850463867188,
+      "PosZ": 341.2900085449219,
+      "IsDelete": true,
+      "Name": "Crowd57",
+      "RotY": 286.0090026855469,
+      "MemberList": [
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Lady_High",
+          "UniqueName": "160_57_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 2.0790209770202637,
+            "y": 0.0,
+            "z": -1.3790279626846313
+          },
+          "LocalRotationY": 168.52999877929688,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020298
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_57_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.2439430058002472,
+            "y": 0.0,
+            "z": -1.6352119445800781
+          },
+          "LocalRotationY": 188.43380737304688,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010295
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Male_Low",
+          "UniqueName": "160_57_03",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.142388105392456,
+            "y": 0.0,
+            "z": 1.2272000312805176
+          },
+          "LocalRotationY": 338.66510009765625,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010298
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.10243699699640274,
+        "y": 0.0,
+        "z": -0.5956799983978271
+      }
+    },
+    {
+      "ID": 58,
+      "PosX": -37.398860931396484,
+      "PosY": -213.99290466308594,
+      "PosZ": 342.3547058105469,
+      "IsDelete": true,
+      "Name": "Crowd58",
+      "RotY": 289.4035949707031,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_58_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_58_02",
+          "LookAtTarget": "160_58_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_58_03",
+          "LookAtTarget": "160_58_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400009989738464,
+            "y": 0.0,
+            "z": 0.4259989857673645
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_58_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.048002999275922775,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_58_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7942010164260864,
+        "y": 0.029500000178813934,
+        "z": 0.6898000240325928
+      }
+    },
+    {
+      "ID": 59,
+      "PosX": 10.37971019744873,
+      "PosY": -214.74859619140625,
+      "PosZ": 324.5284118652344,
+      "IsDelete": true,
+      "Name": "Crowd59",
+      "RotY": 131.26370239257812,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_59_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.805001974105835,
+            "y": 0.0,
+            "z": 1.1199990510940552
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_59_02",
+          "LookAtTarget": "160_59_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.3309999704360962,
+            "y": 0.0,
+            "z": 0.9580000042915344
+          },
+          "LocalRotationY": 151.73919677734375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010200
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_59_03",
+          "LookAtTarget": "160_59_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.6400009989738464,
+            "y": 0.0,
+            "z": 0.4259989857673645
+          },
+          "LocalRotationY": 340.5224914550781,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010202
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_59_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.048002999275922775,
+            "y": 0.0,
+            "z": 1.4030009508132935
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Oldman_Low",
+          "UniqueName": "160_59_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.75700306892395,
+            "y": 0.14749999344348907,
+            "z": -0.4580009877681732
+          },
+          "LocalRotationY": 203.42430114746094,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.7942010164260864,
+        "y": 0.029500000178813934,
+        "z": 0.6898000240325928
+      }
+    },
+    {
+      "ID": 60,
+      "PosX": -3.0199999809265137,
+      "PosY": 196.94700622558594,
+      "PosZ": 640.7899780273438,
+      "IsDelete": true,
+      "Name": "Crowd60",
+      "RotY": 28.792890548706055,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Male_Low",
+          "UniqueName": "160_60_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.5226759910583496,
+            "y": 0.0018159999744966626,
+            "z": 0.8569610118865967
+          },
+          "LocalRotationY": 203.46470642089844,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010388
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Oldman_High",
+          "UniqueName": "160_60_02",
+          "LookAtTarget": "160_60_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.5350000262260437,
+            "y": 0.0008539999835193157,
+            "z": -0.5149999856948853
+          },
+          "LocalRotationY": 41.42565155029297,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030228
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "PPX_girl_High",
+          "UniqueName": "160_60_03",
+          "LookAtTarget": "160_60_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 1.273684024810791,
+            "y": -0.0004579999949783087,
+            "z": 0.08120600134134293
+          },
+          "LocalRotationY": 208.85499572753906,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040237
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_60_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -9.999999974752427e-7,
+            "y": 0.0027620000764727592,
+            "z": 0.1310030072927475
+          },
+          "LocalRotationY": 105.93900299072266,
+          "PossessionConfig": {
+            "Name": "P_TabletComputer_A_01"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040550
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_60_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 2.350182056427002,
+            "y": 0.1445769965648651,
+            "z": 1.8144739866256714
+          },
+          "LocalRotationY": 288.69781494140625,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010396
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": 0.9363080263137817,
+        "y": 0.029910000041127205,
+        "z": 0.4737290143966675
+      }
+    },
+    {
+      "ID": 61,
+      "PosX": 239.1199951171875,
+      "PosY": 193.25779724121094,
+      "PosZ": 694.969970703125,
+      "IsDelete": true,
+      "Name": "Crowd61",
+      "RotY": 6.0963897705078125,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Male_Low",
+          "UniqueName": "160_61_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.246999979019165,
+            "y": 0.0,
+            "z": 0.8679999709129333
+          },
+          "LocalRotationY": 176.7523956298828,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010549
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_61_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.8840090036392212,
+            "y": 0.0,
+            "z": -1.2509820461273193
+          },
+          "LocalRotationY": 356.6754150390625,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020549
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_61_03",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 1.7300000190734863,
+            "y": 0.0,
+            "z": -1.1349999904632568
+          },
+          "LocalRotationY": 216.0478973388672,
+          "PossessionConfig": {
+            "Name": "Possession_MobilePhone_A_01"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040494
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Robot_male_Low",
+          "UniqueName": "160_61_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.734000027179718,
+            "y": 0.0,
+            "z": 1.6449999809265137
+          },
+          "LocalRotationY": 113.7666015625,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010510
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Oldman_High",
+          "UniqueName": "160_61_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.842199981212616,
+            "y": 0.0,
+            "z": 1.8259660005569458
+          },
+          "LocalRotationY": 261.5158996582031,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030202
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.4585619866847992,
+        "y": 0.0,
+        "z": 0.39059698581695557
+      }
+    },
+    {
+      "ID": 62,
+      "PosX": -6.21999979019165,
+      "PosY": 196.94700622558594,
+      "PosZ": 620.5999755859375,
+      "IsDelete": true,
+      "Name": "Crowd62",
+      "RotY": 286.6929931640625,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_62_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.9505980014801025,
+            "y": 0.0009159999899566174,
+            "z": -1.7273520231246948
+          },
+          "LocalRotationY": 28.093860626220703,
+          "PossessionConfig": {
+            "Name": "P_TabletComputer_A_01"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020550
+        },
+        {
+          "Identity": "IPC_P41+",
+          "FeatureID": "Male_Super",
+          "UniqueName": "160_62_02",
+          "LookAtTarget": "160_62_01",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 1.5988949537277222,
+            "y": 0.002624999964609742,
+            "z": -0.8718979954719543
+          },
+          "LocalRotationY": 272.3512878417969,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010210
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "PPX_girl_High",
+          "UniqueName": "160_62_03",
+          "LookAtTarget": "160_62_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.8130249977111816,
+            "y": -0.0004579999949783087,
+            "z": -0.8839930295944214
+          },
+          "LocalRotationY": 63.40380859375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040333
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "160_62_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.28200700879096985,
+            "y": 0.0,
+            "z": -1.3079979419708252
+          },
+          "LocalRotationY": 52.386070251464844,
+          "PossessionConfig": {
+            "Name": "P_TabletComputer_A_01"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040550
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Male_Low",
+          "UniqueName": "160_62_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.1670210063457489,
+            "y": 0.002471999963745475,
+            "z": 1.5220060348510742
+          },
+          "LocalRotationY": 307.08990478515625,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010549
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": 0.7623090147972107,
+        "y": 0.0011109999613836408,
+        "z": -0.6538469791412354
+      }
+    },
+    {
+      "ID": 63,
+      "PosX": -184.2729949951172,
+      "PosY": 193.15829467773438,
+      "PosZ": 710.3289794921875,
+      "Name": "Crowd63",
+      "RotY": 50.390869140625,
+      "MemberList": [
+        {
+          "Identity": "SwimSuit",
+          "FeatureID": "SwimSuit_Lady",
+          "UniqueName": "160_63_01",
+          "LookAtTarget": "160_63_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.17900000512599945,
+            "y": 0.0,
+            "z": 1.187999963760376
+          },
+          "LocalRotationY": 252.76930236816406,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020289
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_63_02",
+          "LookAtTarget": "160_63_01",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.38824599981307983,
+            "y": 0.0,
+            "z": 0.8009520173072815
+          },
+          "LocalRotationY": 61.76438903808594,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020228
+        },
+        {
+          "Identity": "SwimSuit",
+          "FeatureID": "SwimSuit_Male",
+          "UniqueName": "160_63_03",
+          "LookAtTarget": "160_63_04",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.8960000276565552,
+            "y": 0.0,
+            "z": 2.5209999084472656
+          },
+          "LocalRotationY": 152.7761993408203,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010298
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_63_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.760470986366272,
+            "y": 0.0,
+            "z": 1.896554946899414
+          },
+          "LocalRotationY": 173.88710021972656,
+          "PossessionConfig": {
+            "Name": "Possession_VintageMicrophone_C_01"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020420
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_63_05",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.914005994796753,
+            "y": 0.0,
+            "z": 0.7350109815597534
+          },
+          "LocalRotationY": 62.72700881958008,
+          "PossessionConfig": {
+            "Name": "Possession_VintageCamera_A_01"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020414
+        }
+      ],
+      "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F20551001/MunicipalChatConfig_F20551001_0014.json",
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "160_63_01"
+        },
+        {
+          "UniqueName": "2",
+          "CrowdUniqueName": "160_63_02"
+        }
+      ],
+      "TriggerRudius": 5.0,
+      "InteractPerformanceTriggerRadius": 2.5,
+      "CenterPos": {
+        "x": -0.9559450149536133,
+        "y": 0.0,
+        "z": 1.4283030033111572
+      }
+    },
+    {
+      "ID": 64,
+      "PosX": -183.9600067138672,
+      "PosY": 193.15829467773438,
+      "PosZ": 700.2269897460938,
+      "Name": "Crowd64",
+      "RotY": 36.372859954833984,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "160_64_01",
+          "LookAtTarget": "160_64_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.3109999895095825,
+            "y": 0.0,
+            "z": -0.2669999897480011
+          },
+          "LocalRotationY": 136.45660400390625,
+          "PossessionConfig": {
+            "Name": "Possession_MineralGlass_A_01"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020318
+        },
+        {
+          "Identity": "IPC_P41+",
+          "FeatureID": "Male_Super",
+          "UniqueName": "160_64_02",
+          "LookAtTarget": "160_64_03",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 1.062000036239624,
+            "y": 0.0,
+            "z": -0.2290000021457672
+          },
+          "LocalRotationY": 199.82339477539062,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010302
+        },
+        {
+          "Identity": "W5_OfficePeole",
+          "FeatureID": "Male_Office_Cat",
+          "UniqueName": "160_64_03",
+          "LookAtTarget": "160_64_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.8569999933242798,
+            "y": 0.0,
+            "z": -1.0490000247955322
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010311
+        }
+      ],
+      "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F20551001/MunicipalChatConfig_F20551001_0016.json",
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "160_64_02"
+        },
+        {
+          "UniqueName": "2",
+          "CrowdUniqueName": "160_64_03"
+        }
+      ],
+      "InteractPerformanceID": 502459937,
+      "TriggerRudius": 5.0,
+      "InteractPerformanceTriggerRadius": 2.5,
+      "CenterPos": {
+        "x": 0.7433329820632935,
+        "y": 0.0,
+        "z": -0.5149999856948853
+      }
+    },
+    {
+      "ID": 65,
+      "PosX": -167.76499938964844,
+      "PosY": 193.27679443359375,
+      "PosZ": 701.031982421875,
+      "Name": "Crowd65",
+      "RotY": 194.09300231933594,
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Robot_lady_Low",
+          "UniqueName": "160_65_01",
+          "LookAtTarget": "160_65_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 1.7770119905471802,
+            "y": 0.006409000139683485,
+            "z": -0.24502700567245483
+          },
+          "LocalRotationY": 287.7643127441406,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020366
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_65_02",
+          "LookAtTarget": "160_65_01",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.5999789834022522,
+            "y": 0.006409000139683485,
+            "z": 0.040059998631477356
+          },
+          "LocalRotationY": 131.1085968017578,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010295
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Male_High",
+          "UniqueName": "160_65_03",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.33584898710250854,
+            "y": 0.006393000017851591,
+            "z": -0.42451098561286926
+          },
+          "LocalRotationY": 36.98143005371094,
+          "PossessionConfig": {
+            "Name": "P_TabletComputer_A_01"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010550
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": 0.6803810000419617,
+        "y": 0.0064039998687803745,
+        "z": -0.20982599258422852
+      }
+    }
+  ],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

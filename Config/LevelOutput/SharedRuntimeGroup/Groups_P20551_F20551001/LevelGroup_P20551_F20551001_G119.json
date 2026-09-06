@@ -1,0 +1,441 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "R8_Pose0_5D",
+  "LevelGraph": "Config/Level/GroupGraph/F20551001/Group_F20551001_G119.json",
+  "AreaAnchorName": "LevelArea_P20551_F20551001_G119",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "GroupPropertyMap": {
+    "4": {
+      "ID": 4,
+      "Name": "LG_110001_FCV_Workspace5D_01",
+      "MaxValue": 1
+    },
+    "5": {
+      "ID": 5,
+      "Name": "LG_110001_FCV_Workspace5D_02",
+      "MaxValue": 1
+    },
+    "3": {
+      "ID": 3,
+      "Name": "LG_110001__7_ChestStateS_Auto",
+      "Side": "ServerClient",
+      "DefaultValue": 1,
+      "MaxValue": 3
+    },
+    "6": {
+      "ID": 6,
+      "Name": "LG_110001_Exited5D",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    }
+  },
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Gameplay",
+        "TagHash": -141571921
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 225.23500061035156,
+      "PosY": 193.25779724121094,
+      "PosZ": 720.1019897460938,
+      "Name": "Anchor1",
+      "RotY": 180.0
+    },
+    {
+      "ID": 2,
+      "PosX": -220.906005859375,
+      "PosY": 191.43280029296875,
+      "PosZ": 710.4417114257812,
+      "Name": "Anchor2"
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 225.28900146484375,
+      "PosY": 193.25779724121094,
+      "PosZ": 718.1380004882812,
+      "Name": "Prop1",
+      "PropID": 105032,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap05/InitLevelGraph_Prop_Chap05_FDPipeEntry_03.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ExitListenLevelRef",
+            "Value": "119,110001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FDPipeExitEntity",
+            "Value": "110001,3"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {
+        "Idle01": {
+          "EffectPath": "Effects/Eff_Prefab/Eff_Scene/InteractiveProp/Eff_Chap05_Prop_FDPipeEntry_01_Idle_Lod0.prefab",
+          "IsOverrideFollowTargetAlways": true,
+          "FollowTargetAlways": true,
+          "AttachPoint": "EffRoot"
+        },
+        "Idle02": {
+          "EffectPath": "Effects/Eff_Prefab/Eff_Scene/InteractiveProp/Eff_Chap05_Prop_FDPipeEntry_01_Idle02_Lod0.prefab",
+          "IsOverrideFollowTargetAlways": true,
+          "FollowTargetAlways": true,
+          "AttachPoint": "EffRoot"
+        },
+        "ARLock01": {
+          "EffectPath": "Effects/Eff_Prefab/Eff_Scene/InteractiveProp/Eff_Chap05_Prop_PipeEntry_01_Resident01_Lod0.prefab",
+          "IsOverrideFollowTargetAlways": true,
+          "FollowTargetAlways": true,
+          "AttachPoint": "LockRoot",
+          "Scale": {
+            "x": 1.5,
+            "y": 1.5,
+            "z": 1.5
+          },
+          "SyncTargetAnimatorParam": true
+        },
+        "Disappear01": {
+          "EffectPath": "Effects/Eff_Prefab/Eff_Scene/InteractiveProp/Eff_Chap05_Prop_Common_01_Disappear_Lod0.prefab",
+          "IsOverrideFollowTargetAlways": true,
+          "FollowTargetAlways": true,
+          "AttachPoint": "EffRoot"
+        }
+      },
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": 230.00599670410156,
+      "PosY": 219.27200317382812,
+      "PosZ": 716.8829956054688,
+      "IsDelete": true,
+      "Name": "NPC1",
+      "RotY": 85.32897186279297,
+      "RotZ": 180.0,
+      "NPCID": 3117,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100010310,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {},
+      "TagOverrideConfig": {
+        "Mode": "Merge",
+        "OverrideTags": {},
+        "AdditiveTags": {
+          "List": [
+            {
+              "Tag": "NPC.DontHideInMapRotation",
+              "TagHash": 1032484713
+            }
+          ]
+        },
+        "SubtractiveTags": {}
+      }
+    },
+    {
+      "ID": 400002,
+      "PosX": 231.39300537109375,
+      "PosY": 219.27200317382812,
+      "PosZ": 717.1729736328125,
+      "IsDelete": true,
+      "Name": "NPC2",
+      "RotY": 250.4114990234375,
+      "RotX": -9.999999974752427e-7,
+      "RotZ": 180.0,
+      "NPCID": 3337,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "IsOverrideAtlasEmotion": true,
+      "OverrideAtlasEmotion": {},
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900480461,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {},
+      "TagOverrideConfig": {
+        "Mode": "Merge",
+        "OverrideTags": {},
+        "AdditiveTags": {
+          "List": [
+            {
+              "Tag": "NPC.DontHideInMapRotation",
+              "TagHash": 1032484713
+            }
+          ]
+        },
+        "SubtractiveTags": {}
+      }
+    },
+    {
+      "ID": 400003,
+      "PosX": 229.39199829101562,
+      "PosY": 193.48699951171875,
+      "PosZ": 716.791015625,
+      "IsDelete": true,
+      "Name": "NPC3",
+      "RotY": 24.228219985961914,
+      "NPCID": 15729,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "PossessionConfig": {
+        "Name": "Possession_MobilePhone_A_01"
+      },
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100020493,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {},
+      "TagOverrideConfig": {
+        "Mode": "Merge",
+        "OverrideTags": {},
+        "AdditiveTags": {
+          "List": [
+            {
+              "Tag": "NPC.DontHideInMapRotation",
+              "TagHash": 1032484713
+            }
+          ]
+        },
+        "SubtractiveTags": {}
+      }
+    },
+    {
+      "ID": 400004,
+      "PosX": 230.56500244140625,
+      "PosY": 193.25830078125,
+      "PosZ": 715.6079711914062,
+      "IsDelete": true,
+      "Name": "NPC4",
+      "RotY": 147.5634002685547,
+      "NPCID": 15623,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100010345,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {},
+      "TagOverrideConfig": {
+        "Mode": "Merge",
+        "OverrideTags": {},
+        "AdditiveTags": {
+          "List": [
+            {
+              "Tag": "NPC.DontHideInMapRotation",
+              "TagHash": 1032484713
+            }
+          ]
+        },
+        "SubtractiveTags": {}
+      }
+    },
+    {
+      "ID": 400005,
+      "PosX": 231.19749450683594,
+      "PosY": 193.25830078125,
+      "PosZ": 714.68701171875,
+      "IsDelete": true,
+      "Name": "NPC5",
+      "RotY": 303.91729736328125,
+      "NPCID": 15431,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100030228,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {},
+      "TagOverrideConfig": {
+        "Mode": "Merge",
+        "OverrideTags": {},
+        "AdditiveTags": {
+          "List": [
+            {
+              "Tag": "NPC.DontHideInMapRotation",
+              "TagHash": 1032484713
+            }
+          ]
+        },
+        "SubtractiveTags": {}
+      }
+    }
+  ],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": [
+    {
+      "ID": 110001,
+      "PosX": 227.3820037841797,
+      "PosY": 194.71499633789062,
+      "PosZ": 716.676025390625,
+      "Name": "LittleGame1",
+      "GameType": "FiveDim",
+      "LevelConfigPath": "Config/Gameplays/LittleGame/FiveDim/Level/Version_450/Map_B501/B501_Case01_Escape_part3.json",
+      "LevelVarBinding": {
+        "Bindings": [
+          {
+            "LevelVarName": "ExitRef",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {
+              "GroupID": 119,
+              "InstanceID": 1
+            }
+          },
+          {
+            "LevelVarName": "FCV_Workspace5D_01",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001_FCV_Workspace5D_01",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "FCV_Workspace5D_02",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001_FCV_Workspace5D_02",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "Exited5D",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001_Exited5D",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_7_ChestStateS_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__7_ChestStateS_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          }
+        ]
+      },
+      "GroupsToKeepOnEnter": [
+        197
+      ],
+      "NavInfo": {
+        "LittleGameConnectList": []
+      },
+      "RequireMissionInfo": {
+        "RequireSubMissionIDList": []
+      },
+      "MinimapFogIDList": [
+        119010000,
+        119010001
+      ]
+    }
+  ]
+}

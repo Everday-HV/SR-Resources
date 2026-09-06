@@ -1,0 +1,75 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "sound_reverb",
+  "AreaAnchorName": "LevelArea_P20512_F20512001_G19",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Audio.Sound",
+        "TagHash": 1757672304
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosX": -10.739439964294434,
+      "PosY": -63.400001525878906,
+      "PosZ": -59.351009368896484,
+      "Name": "DistrictGenerator0",
+      "Trigger": {
+        "Shape": "Polygon",
+        "Radius": 1.0,
+        "DimY": 240.0,
+        "PointList": [
+          {
+            "x": -100.0,
+            "y": -200.0
+          },
+          {
+            "x": -100.0,
+            "y": 200.0
+          },
+          {
+            "x": 100.0,
+            "y": 200.0
+          },
+          {
+            "x": 100.0,
+            "y": -200.0
+          }
+        ]
+      },
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_WwiseMatrixReverb_VO_16_shandong",
+        "TransformList": []
+      },
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

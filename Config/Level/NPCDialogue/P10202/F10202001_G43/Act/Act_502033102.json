@@ -1,0 +1,36 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AdvNpcFaceToPlayer",
+          "TryFaceToFace": false,
+          "OnlyPlayerFaceToNpc": true,
+          "TurnBackOnGraphEnd": false,
+          "FinishImmadiate": true,
+          "ForceToStandBy": false
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": true
+        }
+      ]
+    },
+    {
+      "Order": 3
+    }
+  ]
+}

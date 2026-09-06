@@ -1,0 +1,91 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "SoundObject",
+  "AreaAnchorName": "LevelArea_P10551_F10551001_G416",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Audio.Sound",
+        "TagHash": 1757672304
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosX": 137.33999633789062,
+      "PosY": -566.6400146484375,
+      "PosZ": -408.32000732421875,
+      "Name": "District1",
+      "Trigger": {
+        "Shape": "Polygon",
+        "Radius": 1.0,
+        "DimX": 0.5,
+        "DimY": 77.0,
+        "DimZ": 1.0,
+        "PointList": [
+          {
+            "x": -0.9664109945297241,
+            "y": -7.914172172546387
+          },
+          {
+            "x": -0.8961480259895325,
+            "y": 3.720828056335449
+          },
+          {
+            "x": 2.7177510261535645,
+            "y": 4.750640869140625
+          },
+          {
+            "x": 3.268480062484741,
+            "y": -7.233765125274658
+          }
+        ]
+      },
+      "OnEnterAudioState": [
+        {
+          "GroupName": "State_GravityWall_3C",
+          "StateName": "GravityWall_3C_In"
+        }
+      ],
+      "OnExitAudioState": [
+        {
+          "GroupName": "State_GravityWall_3C",
+          "StateName": "GravityWall_3C_Out"
+        }
+      ],
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_GamePlay_GravityWall_3C_EnterRestaurant",
+        "StopEventName": "Ev_GamePlay_GravityWall_3C_ExitRestaurant",
+        "TransformList": []
+      },
+      "CanTriggerByFakeAvatar": true,
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

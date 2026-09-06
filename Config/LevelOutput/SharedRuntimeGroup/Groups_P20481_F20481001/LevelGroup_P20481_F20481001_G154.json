@@ -1,0 +1,184 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "GameplayContinue02",
+  "LevelGraph": "Config/Level/GroupGraph/F20481001/Group_F20481001_G154.json",
+  "AreaAnchorName": "LevelArea_P20481_F20481001_G154",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "SavedValueName": "FSV_PlayingRoom2Stage",
+        "Operation": "Less",
+        "Value": 5
+      }
+    ],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "GroupPropertyMap": {
+    "1": {
+      "ID": 1,
+      "Name": "CGP_InDistrict",
+      "MaxValue": 5
+    }
+  },
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "FSV_PlayingRoomStage",
+        "Value": "FSV_PlayingRoom2Stage"
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.SpecialGameplay",
+        "TagHash": 718389408
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 164.11000061035156,
+      "PosY": 196.66720581054688,
+      "PosZ": 192.8300018310547,
+      "Name": "Anchor1",
+      "RotY": 120.0
+    },
+    {
+      "ID": 2,
+      "PosX": 168.13999938964844,
+      "PosY": 199.16380310058594,
+      "PosZ": 218.41000366210938,
+      "Name": "Anchor2",
+      "RotY": 165.31039428710938
+    },
+    {
+      "ID": 3,
+      "PosX": 147.03399658203125,
+      "PosY": 195.2480010986328,
+      "PosZ": 231.29299926757812,
+      "Name": "Anchor3",
+      "RotY": 210.5937957763672
+    },
+    {
+      "ID": 4,
+      "PosX": 121.63200378417969,
+      "PosY": 194.50840759277344,
+      "PosZ": 217.4739990234375,
+      "Name": "Anchor4",
+      "RotY": 120.0
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 95.55999755859375,
+      "PosY": 198.13999938964844,
+      "PosZ": 232.41000366210938,
+      "Name": "Prop1",
+      "RotY": 300.0000915527344,
+      "PropID": 913,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_GuixuGameplayContinue_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FSV_PlayingRoomStage",
+            "Value": "FSV_PlayingRoom2Stage"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Teleport01",
+            "Value": "LevelArea_P20481_F20481001_G154,Anchor1"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Teleport02",
+            "Value": "LevelArea_P20481_F20481001_G154,Anchor2"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Teleport03",
+            "Value": "LevelArea_P20481_F20481001_G154,Anchor3"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Teleport04",
+            "Value": "LevelArea_P20481_F20481001_G154,Anchor4"
+          }
+        ]
+      },
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 1.0,
+        "DimX": 13.0,
+        "DimY": 4.0,
+        "DimZ": 1.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0
+        }
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 363,
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosX": 87.7657699584961,
+      "PosY": 198.13999938964844,
+      "PosZ": 236.91000366210938,
+      "Name": "District1",
+      "RotY": 300.0000915527344,
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 18.0,
+        "DimY": 8.0,
+        "DimZ": 18.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

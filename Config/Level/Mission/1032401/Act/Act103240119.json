@@ -1,0 +1,53 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AdvEntityFaceTo",
+          "SourceType": {
+            "$type": "RPG.GameCore.TargetFetchAdvLocalPlayer"
+          },
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+            "FetchType": "SingleNpcByNpcID",
+            "SingleNpcID": {
+              "GroupID": {
+                "IsDynamic": false,
+                "FixedValue": {
+                  "Value": 22.0
+                }
+              },
+              "GroupNpcID": {
+                "IsDynamic": false,
+                "FixedValue": {
+                  "Value": 400001.0
+                }
+              }
+            }
+          },
+          "EnableSteer": true
+        }
+      ]
+    },
+    {
+      "IsLoop": true,
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview",
+          "Mode": "65218125",
+          "Offset": -631
+        }
+      ]
+    }
+  ]
+}

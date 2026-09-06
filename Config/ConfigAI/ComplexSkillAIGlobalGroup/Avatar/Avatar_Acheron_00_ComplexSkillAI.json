@@ -1,0 +1,83 @@
+{
+  "GroupsMap": {
+    "Add01_Acheron_CheckBuff": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIModifierTypeNumber",
+            "ModifierType": "Debuff"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 5.0
+                },
+                "ymax": {
+                  "Value": 100.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceModifierValue",
+            "ModifilerName": "MAvatar_Acheron_00_PassiveFlag01"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 9.0
+                },
+                "ymax": {
+                  "Value": 200.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Add01_Acheron_CheckFlowers": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceModifierValue",
+            "ModifilerName": "MAvatar_Acheron_00_PassiveFlag01"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 1.0
+                },
+                "ymax": {
+                  "Value": 50.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 1.0
+                },
+                "ymin": {
+                  "Value": 50.0
+                },
+                "xmax": {
+                  "Value": 9.0
+                },
+                "ymax": {
+                  "Value": 500.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

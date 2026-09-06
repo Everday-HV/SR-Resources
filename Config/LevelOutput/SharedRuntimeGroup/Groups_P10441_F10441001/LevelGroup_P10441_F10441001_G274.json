@@ -1,0 +1,1315 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "ElfFarmGameplay",
+  "LevelGraph": "Config/Level/GroupGraph/F10441001/Group_F10441001_G274.json",
+  "AreaAnchorName": "LevelArea_P10441_F10441001_G274",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "GroupPropertyMap": {
+    "1": {
+      "ID": 1,
+      "Name": "State",
+      "MaxValue": 10
+    }
+  },
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "VC1",
+        "Value": "LevelArea_P10441_F10441001_G34,Anchor1"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "VC2",
+        "Value": "LevelArea_P10441_F10441001_G34,Anchor2"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "VC3",
+        "Value": "LevelArea_P10441_F10441001_G34,Anchor3"
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "StreamingTemplateType": "None",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.SceneCapture",
+        "TagHash": 612855931
+      },
+      {
+        "Tag": "Group.Activity.350ElfRestaurant",
+        "TagHash": 602321916
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 113.20159912109375,
+      "PosY": 6.668445110321045,
+      "PosZ": 137.5126953125,
+      "Name": "Anchor1",
+      "RotY": 212.82839965820312,
+      "RotX": 43.831459045410156,
+      "RotZ": 359.8817138671875,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 20.0
+      }
+    },
+    {
+      "ID": 2,
+      "PosX": 115.76519775390625,
+      "PosY": 5.659829139709473,
+      "PosZ": 136.381103515625,
+      "Name": "Anchor2",
+      "RotY": 180.33590698242188,
+      "RotX": 47.61294937133789,
+      "RotZ": 359.88128662109375,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 20.0
+      }
+    },
+    {
+      "ID": 3,
+      "PosX": 109.57649993896484,
+      "PosY": 4.4739460945129395,
+      "PosZ": 145.11279296875,
+      "Name": "Anchor3",
+      "RotY": 155.93350219726562,
+      "RotX": 45.89397048950195,
+      "RotZ": 359.8855895996094,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 20.0
+      }
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 112.60900115966797,
+      "PosY": -9.04800033569336,
+      "PosZ": 125.51599884033203,
+      "Name": "TD",
+      "RotY": 139.4158935546875,
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F10441001/LG_Prop_F10441001_G34_300001.json",
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": {
+        "BlockAlias": "MijingBlock",
+        "PrefabAlias": "TD_Farm",
+        "UseOverridePos": false
+      },
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": 112.60900115966797,
+      "PosY": -9.04800033569336,
+      "PosZ": 125.51599884033203,
+      "Name": "Prop2",
+      "RotY": 139.4158935546875,
+      "PropID": 104254,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "CampID": 4,
+      "State": "CustomState02",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": 117.72599792480469,
+      "PosY": -9.081000328063965,
+      "PosZ": 131.14100646972656,
+      "Name": "Prop3",
+      "RotY": 348.47198486328125,
+      "PropID": 104254,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "CampID": 4,
+      "State": "CustomState02",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": 100.88899993896484,
+      "PosY": -8.251999855041504,
+      "PosZ": 126.71900177001953,
+      "Name": "Prop4",
+      "RotY": 71.05602264404297,
+      "RotX": 358.93798828125,
+      "RotZ": 4.218999862670898,
+      "PropID": 104254,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "CampID": 4,
+      "State": "CustomState02",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300005,
+      "PosX": 111.45500183105469,
+      "PosY": -9.027000427246094,
+      "PosZ": 130.552001953125,
+      "Name": "Prop5",
+      "RotY": 33.25831985473633,
+      "RotX": 357.8630065917969,
+      "RotZ": 7.965999126434326,
+      "PropID": 104254,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "CampID": 4,
+      "State": "CustomState02",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300006,
+      "PosX": 117.83589935302734,
+      "PosY": -9.04800033569336,
+      "PosZ": 125.57689666748047,
+      "Name": "Prop6",
+      "RotY": 192.12399291992188,
+      "PropID": 104254,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "CampID": 4,
+      "State": "CustomState02",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300007,
+      "PosX": 105.16300201416016,
+      "PosY": -8.24899959564209,
+      "PosZ": 119.96099853515625,
+      "Name": "Prop7",
+      "RotY": 357.3695068359375,
+      "RotX": 358.93798828125,
+      "RotZ": 4.219000816345215,
+      "PropID": 104254,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "CampID": 4,
+      "State": "CustomState02",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": 101.45899963378906,
+      "PosY": -8.986000061035156,
+      "PosZ": 125.91600036621094,
+      "Name": "farmer01",
+      "RotY": 65.91227722167969,
+      "NPCID": 3217,
+      "LoadOnInitial": false,
+      "ValueSource": {
+        "Values": []
+      },
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "AtlasFaceSetKey": "NPC_Special_Fairy_00_Face_15",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900380000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "NPC_Special_Fairy_00_01_Body_136",
+        "NPC_Special_Fairy_00_01_Face_147"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400002,
+      "PosX": 116.8219985961914,
+      "PosY": -9.027000427246094,
+      "PosZ": 131.125,
+      "Name": "farmer03",
+      "RotY": 316.85540771484375,
+      "NPCID": 3217,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "AtlasFaceSetKey": "NPC_Special_Fairy_00_Face_04",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900380000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "NPC_Special_Fairy_00_03_Body_156",
+        "NPC_Special_Fairy_00_03_Face_146"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400003,
+      "PosX": 116.83300018310547,
+      "PosY": -9.039999961853027,
+      "PosZ": 125.16300201416016,
+      "Name": "farmer02",
+      "RotY": 189.35830688476562,
+      "NPCID": 3217,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "AtlasFaceSetKey": "NPC_Special_Fairy_00_Face_05",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900380000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "NPC_Special_Fairy_00_06_Body_146",
+        "NPC_Special_Fairy_00_06_Face_148"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400004,
+      "PosX": 104.2959976196289,
+      "PosY": -8.986000061035156,
+      "PosZ": 123.95500183105469,
+      "Name": "farmer01",
+      "RotY": 37.80686950683594,
+      "NPCID": 3203,
+      "LoadOnInitial": false,
+      "ValueSource": {
+        "Values": []
+      },
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900380000,
+      "AdditiveResidentEffect": [],
+      "OverrideSeriesID": 4294967295,
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400005,
+      "PosX": 104.11299896240234,
+      "PosY": -8.986000061035156,
+      "PosZ": 124.16699981689453,
+      "Name": "farmer01",
+      "RotY": 37.80686950683594,
+      "NPCID": 3206,
+      "LoadOnInitial": false,
+      "ValueSource": {
+        "Values": []
+      },
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900380000,
+      "AdditiveResidentEffect": [],
+      "OverrideSeriesID": 4294967295,
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400006,
+      "PosX": 103.93199920654297,
+      "PosY": -8.986000061035156,
+      "PosZ": 124.35299682617188,
+      "Name": "farmer01",
+      "RotY": 37.80686950683594,
+      "NPCID": 3207,
+      "LoadOnInitial": false,
+      "ValueSource": {
+        "Values": []
+      },
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900380000,
+      "AdditiveResidentEffect": [],
+      "OverrideSeriesID": 4294967295,
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400007,
+      "PosX": 104.35700225830078,
+      "PosY": -8.986000061035156,
+      "PosZ": 124.1500015258789,
+      "Name": "farmer01",
+      "RotY": 37.80686950683594,
+      "NPCID": 3209,
+      "LoadOnInitial": false,
+      "ValueSource": {
+        "Values": []
+      },
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [
+        1,
+        4,
+        8,
+        64
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900380000,
+      "AdditiveResidentEffect": [],
+      "OverrideSeriesID": 4294967295,
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400008,
+      "PosX": 104.35700225830078,
+      "PosY": -8.986000061035156,
+      "PosZ": 124.1500015258789,
+      "Name": "Waiter01",
+      "RotY": 37.80686950683594,
+      "NPCID": 3217,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "AtlasFaceSetKey": "NPC_Special_Fairy_00_Face_13",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1406285148,
+        "Hash64": 16305346090166748563
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900380000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "NPC_Special_Fairy_00_07_Body_1267",
+        "NPC_Special_Fairy_00_07_Face_12"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400009,
+      "PosX": 104.35700225830078,
+      "PosY": -8.986000061035156,
+      "PosZ": 124.1500015258789,
+      "Name": "Waiter02",
+      "RotY": 37.80686950683594,
+      "NPCID": 3217,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "AtlasFaceSetKey": "NPC_Special_Fairy_00_Face_04",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1406285148,
+        "Hash64": 16305346090166748563
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900380000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "NPC_Special_Fairy_00_07_Body_12467",
+        "NPC_Special_Fairy_00_07_Face_12"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400010,
+      "PosX": 104.35700225830078,
+      "PosY": -8.986000061035156,
+      "PosZ": 124.1500015258789,
+      "Name": "Waiter03",
+      "RotY": 37.80686950683594,
+      "NPCID": 3217,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "AtlasFaceSetKey": "NPC_Special_Fairy_00_Face_08",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1406285148,
+        "Hash64": 16305346090166748563
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900380000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "NPC_Special_Fairy_00_07_Body_1267",
+        "NPC_Special_Fairy_00_07_Face_127"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400011,
+      "PosX": 104.35700225830078,
+      "PosY": -8.986000061035156,
+      "PosZ": 124.1500015258789,
+      "Name": "Waiter04",
+      "RotY": 37.80686950683594,
+      "NPCID": 3217,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "AtlasFaceSetKey": "NPC_Special_Fairy_00_Face_06",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1406285148,
+        "Hash64": 16305346090166748563
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900380000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "NPC_Special_Fairy_00_07_Body_12367",
+        "NPC_Special_Fairy_00_07_Face_12"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400012,
+      "PosX": 105.33599853515625,
+      "PosY": -8.986000061035156,
+      "PosZ": 123.7249984741211,
+      "Name": "Cus",
+      "RotY": 93.47724151611328,
+      "NPCID": 3202,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "AtlasFaceSetKey": "NPC_Special_Fairy_00_Face_14",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1406285148,
+        "Hash64": 16305346090166748563
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900380000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "NPC_Special_Fairy_00_01_Body_136",
+        "NPC_Special_Fairy_00_01_Face_127"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400013,
+      "PosX": 105.33100128173828,
+      "PosY": -8.986000061035156,
+      "PosZ": 124.1050033569336,
+      "Name": "Cus",
+      "RotY": 93.47701263427734,
+      "NPCID": 3202,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "AtlasFaceSetKey": "NPC_Special_Fairy_00_Face_05",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1406285148,
+        "Hash64": 16305346090166748563
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900380000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "NPC_Special_Fairy_00_04_Body_156",
+        "NPC_Special_Fairy_00_04_Face_127"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400014,
+      "PosX": 105.33100128173828,
+      "PosY": -8.986000061035156,
+      "PosZ": 124.48500061035156,
+      "Name": "Cus",
+      "RotY": 93.47701263427734,
+      "NPCID": 3202,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "AtlasFaceSetKey": "NPC_Special_Fairy_00_Face_05",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1406285148,
+        "Hash64": 16305346090166748563
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900380000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "NPC_Special_Fairy_00_03_Body_156",
+        "NPC_Special_Fairy_00_03_Face_12"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400015,
+      "PosX": 105.33100128173828,
+      "PosY": -8.986000061035156,
+      "PosZ": 124.85299682617188,
+      "Name": "Cus",
+      "RotY": 93.47701263427734,
+      "NPCID": 3202,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "AtlasFaceSetKey": "NPC_Special_Fairy_00_Face_10",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1406285148,
+        "Hash64": 16305346090166748563
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900380000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "NPC_Special_Fairy_00_03_Body_136",
+        "NPC_Special_Fairy_00_03_Face_127"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400016,
+      "PosX": 105.33100128173828,
+      "PosY": -8.986000061035156,
+      "PosZ": 125.22799682617188,
+      "Name": "Cus",
+      "RotY": 93.47701263427734,
+      "NPCID": 3202,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "AtlasFaceSetKey": "NPC_Special_Fairy_00_Face_08",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1406285148,
+        "Hash64": 16305346090166748563
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900380000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "NPC_Special_Fairy_00_02_Body_156",
+        "NPC_Special_Fairy_00_02_Face_127"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400017,
+      "PosX": 105.33100128173828,
+      "PosY": -8.986000061035156,
+      "PosZ": 125.58699798583984,
+      "Name": "Cus",
+      "RotY": 93.47701263427734,
+      "NPCID": 3202,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "AtlasFaceSetKey": "NPC_Special_Fairy_00_Face_10",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1406285148,
+        "Hash64": 16305346090166748563
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900380000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "NPC_Special_Fairy_00_06_Body_156",
+        "NPC_Special_Fairy_00_06_Face_12"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400018,
+      "PosX": 105.33100128173828,
+      "PosY": -8.986000061035156,
+      "PosZ": 125.9469985961914,
+      "Name": "Cus",
+      "RotY": 93.47701263427734,
+      "NPCID": 3202,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "AtlasFaceSetKey": "NPC_Special_Fairy_00_Face_14",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1406285148,
+        "Hash64": 16305346090166748563
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900380000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "NPC_Special_Fairy_00_06_Body_16",
+        "NPC_Special_Fairy_00_06_Face_12"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400019,
+      "PosX": 105.33100128173828,
+      "PosY": -8.986000061035156,
+      "PosZ": 126.31400299072266,
+      "Name": "Cus",
+      "RotY": 93.47701263427734,
+      "NPCID": 3202,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "AtlasFaceSetKey": "NPC_Special_Fairy_00_Face_13",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1406285148,
+        "Hash64": 16305346090166748563
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900380000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "NPC_Special_Fairy_00_03_Body_146",
+        "NPC_Special_Fairy_00_03_Face_127"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400020,
+      "PosX": 105.33100128173828,
+      "PosY": -8.986000061035156,
+      "PosZ": 126.68399810791016,
+      "Name": "Cus",
+      "RotY": 93.47701263427734,
+      "NPCID": 3202,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "AtlasFaceSetKey": "NPC_Special_Fairy_00_Face_15",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1406285148,
+        "Hash64": 16305346090166748563
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900380000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "NPC_Special_Fairy_00_05_Body_156",
+        "NPC_Special_Fairy_00_05_Face_127"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 400021,
+      "PosX": 105.33100128173828,
+      "PosY": -8.986000061035156,
+      "PosZ": 127.072998046875,
+      "Name": "Cus",
+      "RotY": 93.47701263427734,
+      "NPCID": 3202,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "AtlasFaceSetKey": "NPC_Special_Fairy_00_Face_10",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1406285148,
+        "Hash64": 16305346090166748563
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900380000,
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "NPC_Special_Fairy_00_03_Body_156",
+        "NPC_Special_Fairy_00_03_Face_127"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 400022,
+      "PosX": 105.33100128173828,
+      "PosY": -8.986000061035156,
+      "PosZ": 127.072998046875,
+      "Name": "Cus",
+      "RotY": 93.47701263427734,
+      "NPCID": 3202,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "AtlasFaceSetKey": "NPC_Special_Fairy_00_Face_14",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1406285148,
+        "Hash64": 16305346090166748563
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900380000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "NPC_Special_Fairy_00_06_Body_16",
+        "NPC_Special_Fairy_00_06_Face_127"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400023,
+      "PosX": 105.33100128173828,
+      "PosY": -8.986000061035156,
+      "PosZ": 127.43900299072266,
+      "Name": "Cus",
+      "RotY": 93.47701263427734,
+      "NPCID": 3202,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "AtlasFaceSetKey": "NPC_Special_Fairy_00_Face_12",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1406285148,
+        "Hash64": 16305346090166748563
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900380000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "NPC_Special_Fairy_00_04_Body_16",
+        "NPC_Special_Fairy_00_04_Face_12"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400024,
+      "PosX": 105.33100128173828,
+      "PosY": -8.986000061035156,
+      "PosZ": 127.8010025024414,
+      "Name": "Cus",
+      "RotY": 93.47701263427734,
+      "NPCID": 3202,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "AtlasFaceSetKey": "NPC_Special_Fairy_00_Face_04",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1406285148,
+        "Hash64": 16305346090166748563
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900380000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "NPC_Special_Fairy_00_02_Body_136",
+        "NPC_Special_Fairy_00_02_Face_12"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400025,
+      "PosX": 105.33100128173828,
+      "PosY": -8.986000061035156,
+      "PosZ": 128.14700317382812,
+      "Name": "Cus",
+      "RotY": 93.47701263427734,
+      "NPCID": 3202,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "AtlasFaceSetKey": "NPC_Special_Fairy_00_Face_05",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1406285148,
+        "Hash64": 16305346090166748563
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900380000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "NPC_Special_Fairy_00_02_Body_146",
+        "NPC_Special_Fairy_00_02_Face_12"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400026,
+      "PosX": 105.33100128173828,
+      "PosY": -8.986000061035156,
+      "PosZ": 128.51300048828125,
+      "Name": "Cus",
+      "RotY": 93.47701263427734,
+      "NPCID": 3202,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "AtlasFaceSetKey": "NPC_Special_Fairy_00_Face_08",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1406285148,
+        "Hash64": 16305346090166748563
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900380000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "NPC_Special_Fairy_00_04_Body_146",
+        "NPC_Special_Fairy_00_04_Face_127"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400027,
+      "PosX": 105.33100128173828,
+      "PosY": -8.986000061035156,
+      "PosZ": 128.90199279785156,
+      "Name": "Cus",
+      "RotY": 93.47701263427734,
+      "NPCID": 3202,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "AtlasFaceSetKey": "NPC_Special_Fairy_00_Face_10",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1406285148,
+        "Hash64": 16305346090166748563
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900380000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "NPC_Special_Fairy_00_01_Body_136",
+        "NPC_Special_Fairy_00_01_Face_12"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400028,
+      "PosX": 105.33100128173828,
+      "PosY": -8.986000061035156,
+      "PosZ": 129.2989959716797,
+      "Name": "Cus",
+      "RotY": 93.47701263427734,
+      "NPCID": 3202,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "AtlasFaceSetKey": "NPC_Special_Fairy_00_Face_10",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": 1406285148,
+        "Hash64": 16305346090166748563
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900380000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "NPC_Special_Fairy_00_05_Body_146",
+        "NPC_Special_Fairy_00_05_Face_12"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    }
+  ],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

@@ -1,0 +1,236 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "MainMission1033811_08",
+  "Category": "Mission",
+  "LevelGraph": "Config/Level/GroupGraph/F40483001/Group_F40483001_G42.json",
+  "AreaAnchorName": "LevelArea_P40483_F40483001_G42",
+  "SaveType": "Reset",
+  "IsPendedUnload": true,
+  "OwnerMainMissionID": 1033811,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 19.3700008392334,
+      "PosY": -15.065990447998047,
+      "PosZ": 52.68000030517578,
+      "Name": "Anchor1"
+    },
+    {
+      "ID": 2,
+      "PosX": 19.6299991607666,
+      "PosY": -15.065990447998047,
+      "PosZ": 53.68000030517578,
+      "Name": "Anchor2"
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": 16.392000198364258,
+      "PosY": -15.065990447998047,
+      "PosZ": 52.9640007019043,
+      "Name": "NPC1",
+      "RotY": 298.0708923339844,
+      "NPCID": 1307,
+      "LevelGraph": "Config/Level/LevelInstanceGraph/F40483001/LG_NPC_F40483001_G42_400001.json",
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultLookAtMode": "Closed",
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 313070000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "OverrideSpawn": true,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": false,
+          "NeedFadeIn": false
+        },
+        "TryCapture": false
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400002,
+      "PosX": 15.199999809265137,
+      "PosY": -15.065990447998047,
+      "PosZ": 53.599998474121094,
+      "Name": "NPC2",
+      "RotY": 115.42539978027344,
+      "NPCID": 1308,
+      "LevelGraph": "Config/Level/LevelInstanceGraph/F40483001/LG_NPC_F40483001_G42_400002.json",
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultLookAtMode": "LookTarget",
+      "DefaultLookAtTargetInfo": {
+        "GroupID": 42,
+        "InstanceID": 400001,
+        "LookAtAttachPoint": "LookAtPoint"
+      },
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 313080000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "OverrideSpawn": true,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": false,
+          "NeedFadeIn": false
+        },
+        "TryCapture": false
+      },
+      "ModelPresetConfig": {}
+    }
+  ],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [
+    {
+      "ID": 1,
+      "PosX": 16.392000198364258,
+      "PosY": -15.065990447998047,
+      "PosZ": 52.9640007019043,
+      "Name": "SmartObject1",
+      "RotY": 298.0708923339844,
+      "SlotList": [
+        {
+          "PointList": [
+            {
+              "RotY": 359.3891906738281,
+              "RestartMode": "RestartFromSO",
+              "RootTask": {
+                "$type": "RPG.GameCore.SO_Sequence",
+                "WaitMessages": [],
+                "Tasks": [
+                  {
+                    "$type": "RPG.GameCore.SO_FaceTo",
+                    "AnchorGroupId": 42,
+                    "AnchorPointId": 1
+                  }
+                ]
+              }
+            },
+            {
+              "PosX": 0.8799999952316284,
+              "PosZ": -2.0999999046325684,
+              "RotY": 61.9290885925293,
+              "RestartMode": "RestartFromSO",
+              "RootTask": {
+                "$type": "RPG.GameCore.SO_Sequence",
+                "WaitMessages": [],
+                "Tasks": [
+                  {
+                    "$type": "RPG.GameCore.SO_MoveTo",
+                    "MoveStance": "Walk",
+                    "SkipStartTurn": true
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_TriggerGroupEvent",
+                    "EventName": "TriggerSwanFadeOut_G42"
+                  }
+                ]
+              }
+            },
+            {
+              "PosX": 2.180000066757202,
+              "PosZ": -5.239999771118164,
+              "RotY": 61.9290885925293,
+              "RestartMode": "RestartFromSO",
+              "RootTask": {
+                "$type": "RPG.GameCore.SO_Sequence",
+                "WaitMessages": [],
+                "Tasks": [
+                  {
+                    "$type": "RPG.GameCore.SO_MoveTo",
+                    "MoveStance": "Walk",
+                    "SkipStartTurn": true
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "CommonPointList": []
+    },
+    {
+      "ID": 2,
+      "PosX": 15.199999809265137,
+      "PosY": -15.065990447998047,
+      "PosZ": 53.599998474121094,
+      "Name": "SmartObject2",
+      "RotY": 115.42539978027344,
+      "SlotList": [
+        {
+          "PointList": [
+            {
+              "PosY": -3.999999989900971e-6,
+              "RotY": 244.57460021972656,
+              "RestartMode": "RestartFromSO",
+              "RootTask": {
+                "$type": "RPG.GameCore.SO_Sequence",
+                "WaitMessages": [],
+                "Tasks": [
+                  {
+                    "$type": "RPG.GameCore.SO_Wait",
+                    "Time": 2.0
+                  }
+                ]
+              }
+            },
+            {
+              "PosY": -3.999999989900971e-6,
+              "RotY": 244.57460021972656,
+              "RestartMode": "RestartFromSO",
+              "RootTask": {
+                "$type": "RPG.GameCore.SO_Sequence",
+                "WaitMessages": [],
+                "Tasks": [
+                  {
+                    "$type": "RPG.GameCore.SO_TriggerGroupEvent",
+                    "EventName": "TriggerAcheronFadeOut_G42"
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_PlayFreeStyle",
+                    "StoryAvatarID": "NPC_Avatar_Lady_Acheron_00",
+                    "StoryMotionID": 313080246,
+                    "ForceStart": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "CommonPointList": []
+    }
+  ],
+  "CurveList": [],
+  "LittleGameList": []
+}

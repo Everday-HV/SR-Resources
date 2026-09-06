@@ -1,0 +1,59 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchNone"
+          },
+          "ResetToIdle": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvCharacterLerpAnimRunPoseParam",
+          "TaskEnabled": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchUnstageTarget"
+          },
+          "LerpTime": 6.712585070478221e+22
+        },
+        {
+          "$type": "RPG.GameCore.AdvByInCustomZone",
+          "Inverse": true,
+          "ReturnArtUnload": true
+        },
+        {
+          "$type": "RPG.GameCore.AddModifier",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchBattleEventEntityList"
+          },
+          "AliveOnly": true,
+          "ReferenceModifierName": "�\u000f�\f\u0004\u0002\u0000\u0000\u0000@\u0001��`�\u000f\u0002\b\u0006��`���>\u0006��`���>\u0006��`���>\u0006��`��",
+          "LifeStepImmediately": true
+        }
+      ]
+    },
+    {
+      "Order": 82370
+    },
+    {},
+    {},
+    {},
+    {},
+    {}
+  ]
+}

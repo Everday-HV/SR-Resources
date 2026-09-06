@@ -1,0 +1,73 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchNone"
+          },
+          "ResetToIdle": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvCharacterLerpAnimRunPoseParam",
+          "TaskEnabled": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchUnstageTarget"
+          },
+          "LerpTime": 6.712585070478221e+22
+        },
+        {
+          "$type": "RPG.GameCore.AdvByInCustomZone",
+          "TaskEnabled": true,
+          "ReturnArtUnload": true
+        },
+        {
+          "$type": "RPG.GameCore.AddMissionMenuItem",
+          "TaskEnabled": true,
+          "MenuItemTextID": {
+            "Hash": 28,
+            "Hash64": 51
+          },
+          "DialoguePath": "�\u000f\u0002\u0002\u0006̲�0���>�\u001e\u0000�\u000e��\n\u0002&\u0000�����\u000b\u0000�������\f\u0000\u0000\u0004&\u0016��\u0018\u0000&\u0016��\u0018\u0000"
+        }
+      ]
+    },
+    {
+      "IsLoop": false
+    },
+    {
+      "IsLoop": false
+    },
+    {
+      "IsLoop": false,
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchNone"
+          },
+          "ResetToIdle": true
+        }
+      ]
+    }
+  ]
+}

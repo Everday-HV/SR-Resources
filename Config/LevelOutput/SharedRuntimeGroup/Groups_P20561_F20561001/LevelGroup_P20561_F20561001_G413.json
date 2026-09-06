@@ -1,0 +1,95 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Tpl_Atmosphere_Interact_firstperformance_randomtalk_3",
+  "Category": "Atmosphere",
+  "LevelGraph": "Config/Level/GroupTemplateGraph/04_Mission/Atmosphere_Interact_randommissiontalk_3.json",
+  "AreaAnchorName": "LevelArea_P20561_F20561001_G413",
+  "SaveType": "Reset",
+  "AtmosphereCondition": {
+    "Conditions": [
+      {
+        "$type": "RPG.GameCore.LevelGroupAtmosphereMainMissionCompleteCondition",
+        "MainMissionID": 1054604
+      }
+    ]
+  },
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "InteractName",
+        "Value": "TalkSentenceConfig_TalkSentenceText_546999548"
+      },
+      {
+        "$type": "RPG.GameCore.SharedInt",
+        "Key": "TalkSentenceID_1",
+        "Value": 546999549
+      },
+      {
+        "$type": "RPG.GameCore.SharedInt",
+        "Key": "TalkSentenceID_2",
+        "Value": 546999550
+      },
+      {
+        "$type": "RPG.GameCore.SharedInt",
+        "Key": "TalkSentenceID_3",
+        "Value": 546999551
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "StreamingTemplateType": "None",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.Interactable",
+        "TagHash": 597667137
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -215.77000427246094,
+      "PosY": -197.4199981689453,
+      "PosZ": -14.739999771118164,
+      "Name": "Prop1",
+      "PropID": 100,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "MissionTrigger": {
+          "Radius": 4.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

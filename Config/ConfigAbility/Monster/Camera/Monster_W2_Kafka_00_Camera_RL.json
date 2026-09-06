@@ -1,0 +1,55 @@
+{
+  "AbilityList": [
+    {
+      "Name": "Monster_W2_Kafka_00_RL_Skill04_Camera",
+      "TargetInfo": {
+        "TargetType": "AllEnemy"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown",
+          "TaskEnabled": true,
+          "Enable": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvChaseBailu",
+          "TaskEnabled": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchSummonUnit",
+            "Summoner": {
+              "$type": "RPG.GameCore.TargetFetchPropFarmElement"
+            }
+          },
+          "AheadMoveDistance": 7.3480244424676374e+28,
+          "MotionFlag": "55",
+          "StartRunDistance": 7.181936712843892e+22
+        },
+        {
+          "$type": "RPG.GameCore.AdvByCheckWindowPermCodes",
+          "TaskEnabled": true,
+          "Inverse": true,
+          "EntityID": {
+            "Value": "\u0000"
+          },
+          "MatchMask": []
+        }
+      ]
+    },
+    {
+      "TaskListTemplate": [],
+      "Modifiers": {},
+      "Tag": {
+        "EnumIndex": 0,
+        "Value": 0
+      },
+      "OnInsertAbort": [],
+      "ServantWhiteList": false
+    }
+  ]
+}

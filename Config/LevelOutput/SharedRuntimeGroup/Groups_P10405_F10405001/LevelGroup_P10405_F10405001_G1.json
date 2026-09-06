@@ -1,0 +1,89 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "DefaultGroup",
+  "LevelGraph": "Config/Level/GroupGraph/F10405001/Group_F10405001_G1.json",
+  "AreaAnchorName": "LevelArea_P10405_F10405001_G1",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "Camera",
+        "Value": "LevelArea_P10405_F10405001_G1,Anchor2"
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "StreamingTemplateType": "None",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.SceneConfig",
+        "TagHash": 520707853
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 473.86859130859375,
+      "PosY": 164.87399291992188,
+      "PosZ": 49.42401885986328,
+      "Name": "PlayerStart",
+      "RotY": 268.75
+    },
+    {
+      "ID": 2,
+      "PosX": 684.8099975585938,
+      "PosY": 214.33999633789062,
+      "PosZ": 55.369998931884766,
+      "Name": "Anchor2",
+      "RotY": 110.60600280761719,
+      "RotX": 333.9010009765625,
+      "RotZ": 1.9380019903182983,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 45.0
+      }
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosX": 607.02001953125,
+      "PosY": 192.35609436035156,
+      "PosZ": 89.0,
+      "Name": "District1",
+      "Trigger": {
+        "Shape": "GeometrySphere",
+        "Radius": 5.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

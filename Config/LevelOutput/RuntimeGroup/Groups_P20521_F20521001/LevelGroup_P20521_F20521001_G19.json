@@ -1,0 +1,982 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "5D MusicLevel",
+  "LevelGraph": "Config/Level/GroupGraph/F20521001/Group_F20521001_G19.json",
+  "AreaAnchorName": "LevelArea_P20521_F20521001_G19",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "GroupPropertyMap": {
+    "1": {
+      "ID": 1,
+      "Name": "IsIn5D",
+      "MaxValue": 1
+    },
+    "579": {
+      "ID": 579,
+      "Name": "LG_110001_IsFalling",
+      "MaxValue": 1
+    },
+    "603": {
+      "ID": 603,
+      "Name": "LG_110001_MascotFinish",
+      "MaxValue": 4
+    },
+    "606": {
+      "ID": 606,
+      "Name": "LG_110001_LimaoPuzzleUIActive",
+      "MaxValue": 1
+    },
+    "580": {
+      "ID": 580,
+      "Name": "LG_110001_MusicLevelFinished",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "581": {
+      "ID": 581,
+      "Name": "LG_110001__532_PressureSwitchState_Auto",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "582": {
+      "ID": 582,
+      "Name": "LG_110001__323_ChestStateM_Auto",
+      "Side": "ServerClient",
+      "DefaultValue": 1,
+      "MaxValue": 3
+    },
+    "604": {
+      "ID": 604,
+      "Name": "LG_110001_LimaoPuzzleFinish",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "605": {
+      "ID": 605,
+      "Name": "LG_110001_LimaoPuzzleState",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "607": {
+      "ID": 607,
+      "Name": "LG_110001_MusicLevelMissionFinished",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    }
+  },
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedJsonConfigList",
+        "Key": "FallCurve",
+        "Value": [
+          {
+            "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+            "GroupID": 19,
+            "InstanceID": 1,
+            "Type": "Curve"
+          }
+        ]
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level",
+        "TagHash": -173849
+      },
+      {
+        "Tag": "Group.Level.Gameplay",
+        "TagHash": -141571921
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -23.453969955444336,
+      "PosY": 441.2900085449219,
+      "PosZ": 10.427029609680176,
+      "Name": "Anchor1"
+    },
+    {
+      "ID": 2,
+      "PosX": -0.21699999272823334,
+      "PosY": 115.60900115966797,
+      "PosZ": -43.52899932861328,
+      "Name": "Anchor2"
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -24.79376983642578,
+      "PosY": 441.2659912109375,
+      "PosZ": 8.909374237060547,
+      "Name": "Entrance",
+      "RotY": 90.00005340576172,
+      "PropID": 105032,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TargetFDLevel",
+            "Value": "110001,4"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ExitListenLevelRef",
+            "Value": "19,110001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "UseTransfer",
+            "Value": 1
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -0.2370000034570694,
+      "PosY": 115.6500015258789,
+      "PosZ": -44.91699981689453,
+      "Name": "Exit",
+      "RotY": 180.00010681152344,
+      "PropID": 105032,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap05/InitLevelGraph_Prop_Chap05_FDPipeEntry_03.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ExitListenLevelRef",
+            "Value": "19,110001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FDPipeExitEntity",
+            "Value": "110001,8"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": -2.569999933242798,
+      "PosY": 441.4338073730469,
+      "PosZ": -62.91788864135742,
+      "Name": "Prop3",
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20521001/LG_Prop_F20521001_G19_300003.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedJsonConfigList",
+            "Key": "FallCurve",
+            "Value": [
+              {
+                "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+                "GroupID": 19,
+                "InstanceID": 1,
+                "Type": "Curve"
+              }
+            ]
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": -30.760000228881836,
+      "PosY": 441.4700012207031,
+      "PosZ": 13.130000114440918,
+      "Name": "MapIcon",
+      "PropID": 138,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 2390,
+      "SubMapID": 205210112,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 418,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [
+    {
+      "ID": 1,
+      "PosX": -2.0,
+      "PosY": 441.4338073730469,
+      "PosZ": -62.91788864135742,
+      "Name": "Curve1",
+      "PointList": [
+        {
+          "Alias": "Start",
+          "Position": {
+            "x": 0.0,
+            "y": 58.56618881225586,
+            "z": 1.0
+          },
+          "Control1": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Control2": {
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Alias": "End",
+          "Position": {
+            "x": 0.0,
+            "y": -371.4338073730469,
+            "z": 0.0
+          },
+          "Control1": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Control2": {
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "ID": 2,
+      "PosX": -4.300000190734863,
+      "PosY": 602.5,
+      "PosZ": -60.0,
+      "Name": "FlightCourse01",
+      "RotY": 75.8603286743164,
+      "PointList": [
+        {
+          "Alias": "0",
+          "ControlType": 1,
+          "Control1": {
+            "x": -0.30010899901390076,
+            "y": -0.6022949814796448,
+            "z": -2.507930040359497
+          },
+          "Control2": {
+            "x": 0.30010899901390076,
+            "y": 0.6022949814796448,
+            "z": 2.507930040359497
+          }
+        },
+        {
+          "Position": {
+            "x": 1.5064300298690796,
+            "y": 1.86102294921875,
+            "z": 5.370967864990234
+          },
+          "ControlType": 1
+        },
+        {
+          "Position": {
+            "x": 6.397735118865967,
+            "y": 4.0,
+            "z": 11.412050247192383
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -1.3037919998168945,
+            "y": -0.811585009098053,
+            "z": -1.03324294090271
+          },
+          "Control2": {
+            "x": 1.3037919998168945,
+            "y": 0.811585009098053,
+            "z": 1.03324294090271
+          }
+        },
+        {
+          "Position": {
+            "x": 13.701069831848145,
+            "y": 6.0,
+            "z": 12.307180404663086
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -2.5098929405212402,
+            "y": 0.0,
+            "z": 0.6323739886283875
+          },
+          "Control2": {
+            "x": 2.5098929405212402,
+            "y": 0.0,
+            "z": -0.6323739886283875
+          }
+        },
+        {
+          "Position": {
+            "x": 17.89611053466797,
+            "y": 6.0,
+            "z": 8.938852310180664
+          },
+          "ControlType": 1
+        },
+        {
+          "Position": {
+            "x": 20.01919937133789,
+            "y": 4.3228759765625,
+            "z": 2.8047499656677246
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 0.7114980220794678,
+            "y": 0.8115230202674866,
+            "z": 2.8239400386810303
+          },
+          "Control2": {
+            "x": -0.7114980220794678,
+            "y": -0.8115230202674866,
+            "z": -2.8239400386810303
+          }
+        },
+        {
+          "Position": {
+            "x": 17.837339401245117,
+            "y": 2.0,
+            "z": -4.806604862213135
+          },
+          "ControlType": 1
+        },
+        {
+          "Position": {
+            "x": 14.587369918823242,
+            "y": 0.0,
+            "z": -9.632832527160645
+          },
+          "ControlType": 1
+        },
+        {
+          "Position": {
+            "x": 8.767461776733398,
+            "y": -2.0,
+            "z": -12.211529731750488
+          },
+          "ControlType": 1
+        },
+        {
+          "Position": {
+            "x": 2.847599983215332,
+            "y": -2.195617914199829,
+            "z": -8.412334442138672
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 0.5198400020599365,
+            "y": 0.0,
+            "z": -1.1265710592269897
+          },
+          "Control2": {
+            "x": -0.5198400020599365,
+            "y": 0.0,
+            "z": 1.1265710592269897
+          }
+        },
+        {
+          "Position": {
+            "x": -0.00926200021058321,
+            "y": -0.03662100061774254,
+            "z": -0.1900400072336197
+          },
+          "ControlType": 1
+        }
+      ]
+    },
+    {
+      "ID": 3,
+      "PosX": -4.300000190734863,
+      "PosY": 449.0,
+      "PosZ": -60.0,
+      "Name": "FlightCourse02",
+      "RotY": 75.85061645507812,
+      "PointList": [
+        {
+          "Alias": "0",
+          "ControlType": 1,
+          "Control1": {
+            "x": -0.30011099576950073,
+            "y": 0.6713259816169739,
+            "z": -2.507930040359497
+          },
+          "Control2": {
+            "x": 0.30011099576950073,
+            "y": -0.6713259816169739,
+            "z": 2.507930040359497
+          }
+        },
+        {
+          "Position": {
+            "x": 1.506432056427002,
+            "y": -2.0,
+            "z": 5.3709797859191895
+          },
+          "ControlType": 1
+        },
+        {
+          "Position": {
+            "x": 6.397737979888916,
+            "y": -4.0,
+            "z": 11.412059783935547
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -1.3037899732589722,
+            "y": 0.3091740012168884,
+            "z": -1.0332410335540771
+          },
+          "Control2": {
+            "x": 1.3037899732589722,
+            "y": -0.3091740012168884,
+            "z": 1.0332410335540771
+          }
+        },
+        {
+          "Position": {
+            "x": 13.701069831848145,
+            "y": -6.0,
+            "z": 12.30720043182373
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -2.5098929405212402,
+            "y": 0.0,
+            "z": 0.6323739886283875
+          },
+          "Control2": {
+            "x": 2.5098929405212402,
+            "y": 0.0,
+            "z": -0.6323739886283875
+          }
+        },
+        {
+          "Position": {
+            "x": 17.896129608154297,
+            "y": -4.5291748046875,
+            "z": 8.938860893249512
+          },
+          "ControlType": 1
+        },
+        {
+          "Position": {
+            "x": 20.01919937133789,
+            "y": -2.0,
+            "z": 2.8047499656677246
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 0.7115039825439453,
+            "y": -0.886322021484375,
+            "z": 2.8239409923553467
+          },
+          "Control2": {
+            "x": -0.7115039825439453,
+            "y": 0.886322021484375,
+            "z": -2.8239409923553467
+          }
+        },
+        {
+          "Position": {
+            "x": 17.837339401245117,
+            "y": 0.0,
+            "z": -4.806603908538818
+          },
+          "ControlType": 1
+        },
+        {
+          "Position": {
+            "x": 14.587380409240723,
+            "y": 2.0,
+            "z": -9.632835388183594
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 0.08454100042581558,
+            "y": 0.0,
+            "z": 0.3353540003299713
+          },
+          "Control2": {
+            "x": -0.08454100042581558,
+            "y": 0.0,
+            "z": -0.3353540003299713
+          }
+        },
+        {
+          "Position": {
+            "x": 8.816987991333008,
+            "y": 4.0,
+            "z": -12.224020004272461
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 3.862852096557617,
+            "y": 0.0,
+            "z": -0.9738209843635559
+          },
+          "Control2": {
+            "x": -3.862852096557617,
+            "y": 0.0,
+            "z": 0.9738209843635559
+          }
+        },
+        {
+          "Position": {
+            "x": 2.847601890563965,
+            "y": 2.374785900115967,
+            "z": -8.412335395812988
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 0.5198439955711365,
+            "y": 0.4369199872016907,
+            "z": -1.1265729665756226
+          },
+          "Control2": {
+            "x": -0.5198439955711365,
+            "y": -0.4369199872016907,
+            "z": 1.1265729665756226
+          }
+        },
+        {
+          "Position": {
+            "x": -0.009260999970138073,
+            "y": 0.0,
+            "z": -0.1900400072336197
+          },
+          "ControlType": 1
+        }
+      ]
+    },
+    {
+      "ID": 4,
+      "PosX": -4.300000190734863,
+      "PosY": 305.0,
+      "PosZ": -60.0,
+      "Name": "FlightCourse03",
+      "RotY": 78.92681884765625,
+      "PointList": [
+        {
+          "Alias": "0",
+          "ControlType": 1,
+          "Control1": {
+            "x": -0.30011001229286194,
+            "y": 0.0,
+            "z": -2.507930040359497
+          },
+          "Control2": {
+            "x": 0.30011001229286194,
+            "y": 0.0,
+            "z": 2.507930040359497
+          }
+        },
+        {
+          "Position": {
+            "x": 1.5064300298690796,
+            "y": 0.0,
+            "z": 5.370967864990234
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -1.101971983909607,
+            "y": -0.0009730000165291131,
+            "z": -1.566275954246521
+          },
+          "Control2": {
+            "x": 1.101971983909607,
+            "y": 0.0009730000165291131,
+            "z": 1.566275954246521
+          }
+        },
+        {
+          "Position": {
+            "x": 7.831410884857178,
+            "y": 0.0,
+            "z": 11.304349899291992
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -2.8760008811950684,
+            "y": -0.00005700000110664405,
+            "z": -1.5104680061340332
+          },
+          "Control2": {
+            "x": 2.8760008811950684,
+            "y": 0.00005700000110664405,
+            "z": 1.5104680061340332
+          }
+        },
+        {
+          "Position": {
+            "x": 15.324529647827148,
+            "y": 0.0,
+            "z": 11.898150444030762
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -2.5815300941467285,
+            "y": -3.999999989900971e-6,
+            "z": 0.39393100142478943
+          },
+          "Control2": {
+            "x": 2.5815300941467285,
+            "y": 3.999999989900971e-6,
+            "z": -0.39393100142478943
+          }
+        },
+        {
+          "Position": {
+            "x": 21.860050201416016,
+            "y": 0.0,
+            "z": 8.0739107131958
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -1.7633570432662964,
+            "y": 0.0,
+            "z": 1.9768760204315186
+          },
+          "Control2": {
+            "x": 1.7633570432662964,
+            "y": 0.0,
+            "z": -1.9768760204315186
+          }
+        },
+        {
+          "Position": {
+            "x": 24.926610946655273,
+            "y": 0.0,
+            "z": 1.7339379787445068
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -0.6427559852600098,
+            "y": 0.0,
+            "z": 2.092379093170166
+          },
+          "Control2": {
+            "x": 0.6427559852600098,
+            "y": 0.0,
+            "z": -2.092379093170166
+          }
+        },
+        {
+          "Position": {
+            "x": 23.76556968688965,
+            "y": 0.2190210074186325,
+            "z": -6.100156784057617
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 1.6012500524520874,
+            "y": 0.0,
+            "z": 3.4899609088897705
+          },
+          "Control2": {
+            "x": -1.6012500524520874,
+            "y": 0.0,
+            "z": -3.4899609088897705
+          }
+        },
+        {
+          "Position": {
+            "x": 19.36362075805664,
+            "y": 0.0,
+            "z": -10.675020217895508
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 1.285580039024353,
+            "y": 0.0,
+            "z": 1.2759419679641724
+          },
+          "Control2": {
+            "x": -1.285580039024353,
+            "y": 0.0,
+            "z": -1.2759419679641724
+          }
+        },
+        {
+          "Position": {
+            "x": 11.320870399475098,
+            "y": 0.0,
+            "z": -12.76869010925293
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 2.768656015396118,
+            "y": 0.0,
+            "z": -0.15921300649642944
+          },
+          "Control2": {
+            "x": -2.768656015396118,
+            "y": 0.0,
+            "z": 0.15921300649642944
+          }
+        },
+        {
+          "Position": {
+            "x": 2.847599983215332,
+            "y": 0.0,
+            "z": -8.412334442138672
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 1.523010015487671,
+            "y": 0.0,
+            "z": -1.8572169542312622
+          },
+          "Control2": {
+            "x": -1.523010015487671,
+            "y": 0.0,
+            "z": 1.8572169542312622
+          }
+        },
+        {
+          "Position": {
+            "x": -0.009259999729692936,
+            "y": 0.0,
+            "z": -0.1900400072336197
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -0.7406690120697021,
+            "y": 0.0,
+            "z": -4.900804042816162
+          },
+          "Control2": {
+            "x": 0.7406690120697021,
+            "y": 0.0,
+            "z": 4.900804042816162
+          }
+        }
+      ]
+    }
+  ],
+  "LittleGameList": [
+    {
+      "ID": 110001,
+      "PosX": -2.5999999046325684,
+      "PosY": 52.29999923706055,
+      "PosZ": -63.70000076293945,
+      "Name": "LittleGame1",
+      "RotY": 0.000024000000848900527,
+      "GameType": "FiveDim",
+      "LevelConfigPath": "Config/Gameplays/LittleGame/FiveDim/Level/Version_420/B201/B201_MusicLevel.json",
+      "LoadType": "Custom",
+      "LevelVarBinding": {
+        "Bindings": [
+          {
+            "LevelVarName": "Entrance",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {
+              "GroupID": 19,
+              "InstanceID": 1
+            }
+          },
+          {
+            "LevelVarName": "Exit",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {
+              "GroupID": 19,
+              "InstanceID": 2
+            }
+          },
+          {
+            "LevelVarName": "MascotFinish",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001_MascotFinish",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo",
+              "ResetOnExit": true
+            }
+          },
+          {
+            "LevelVarName": "IsFalling",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001_IsFalling",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo",
+              "ResetOnExit": true
+            }
+          },
+          {
+            "LevelVarName": "MusicLevelFinished",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001_MusicLevelFinished",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "MusicLevelMissionFinished",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001_MusicLevelMissionFinished",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "LimaoPuzzleFinish",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001_LimaoPuzzleFinish",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "LimaoPuzzleState",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001_LimaoPuzzleState",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "LimaoPuzzleUIActive",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001_LimaoPuzzleUIActive",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo",
+              "ResetOnExit": true
+            }
+          },
+          {
+            "LevelVarName": "_532_PressureSwitchState_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__532_PressureSwitchState_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_323_ChestStateM_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__323_ChestStateM_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          }
+        ]
+      },
+      "GroupsToKeepOnEnter": [],
+      "NavInfo": {
+        "LittleGameConnectList": [
+          {
+            "LevelGroupID": 19,
+            "LevelInstanceID": 300001,
+            "LittleGameEntityID": 4,
+            "ConditionInfos": []
+          }
+        ]
+      },
+      "RequireMissionInfo": {
+        "RequireSubMissionIDList": []
+      },
+      "MinimapFogIDList": [
+        19010000
+      ]
+    }
+  ]
+}

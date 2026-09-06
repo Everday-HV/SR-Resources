@@ -1,0 +1,33 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveVirtualCamera",
+          "AreaName": "MainMission_2000101",
+          "AnchorName": "Camera_1000101_03",
+          "WaitBlendFinish": true,
+          "BlendConfig": {
+            "ExportToJson": true,
+            "BlendType": "Cut",
+            "BlendTime": 1.0
+          }
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {}
+  ]
+}

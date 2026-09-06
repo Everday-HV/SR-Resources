@@ -1,0 +1,40 @@
+{
+  "AbilityList": [
+    {
+      "Name": "MazeMonster_W4_Claymore_00_MazeAttack_FakePlayer",
+      "TargetInfo": {
+        "TargetType": "SkillPointEntityOrNone"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveFarmElement",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AddTimelineMenuItem",
+          "TaskEnabled": true,
+          "PerformanceType": "58",
+          "PerformanceID": 101
+        },
+        {
+          "$type": "RPG.GameCore.AdvCreateGroupEntity",
+          "IsOverrideArtModelOffset": true,
+          "OverrideArtModelOffset": {
+            "x": 2.8183640817293853e+20,
+            "y": 4.8815429731866875e-21,
+            "z": 2.427105978663275e-35
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AddTimelineMenuItem",
+          "TaskEnabled": true,
+          "PerformanceType": "58",
+          "PerformanceID": 101
+        }
+      ]
+    }
+  ]
+}

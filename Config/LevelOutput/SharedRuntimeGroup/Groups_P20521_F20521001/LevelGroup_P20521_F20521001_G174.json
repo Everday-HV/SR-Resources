@@ -1,0 +1,109 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Sound_Broadcast_02",
+  "AreaAnchorName": "LevelArea_P20521_F20521001_G174",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "SavedValueName": "FSV_StageScreen_L"
+      },
+      {
+        "SavedValueName": "FSV_StageScreen_L",
+        "Value": 2
+      }
+    ],
+    "Operation": "Or"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Audio.Sound",
+        "TagHash": 1757672304
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "IsDelete": true,
+      "Name": "District1"
+    },
+    {
+      "ID": 500002,
+      "PosX": -30.84000015258789,
+      "PosY": 182.04100036621094,
+      "PosZ": -21.479999542236328,
+      "Name": "District1",
+      "RotY": 21.600000381469727,
+      "Trigger": {
+        "Shape": "Polygon",
+        "Radius": 15.0,
+        "DimX": 40.0,
+        "DimY": 15.0,
+        "DimZ": 20.0,
+        "PointList": [
+          {
+            "x": -20.884920120239258,
+            "y": -6.872642993927002
+          },
+          {
+            "x": -24.50602912902832,
+            "y": 16.15093994140625
+          },
+          {
+            "x": 25.81096076965332,
+            "y": 36.113319396972656
+          },
+          {
+            "x": 39.05461120605469,
+            "y": -1.6079150438308716
+          }
+        ]
+      },
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_vo_ambient_w5_v420_broadcast_laba",
+        "TransformList": [
+          {
+            "Position": {
+              "x": -18.791210174560547,
+              "y": 186.9510040283203,
+              "z": -28.046579360961914
+            },
+            "Forward": {
+              "x": -0.1045290008187294,
+              "y": 0.0,
+              "z": 0.994521975517273
+            },
+            "Up": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0
+            }
+          }
+        ]
+      },
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

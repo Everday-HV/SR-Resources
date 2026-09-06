@@ -1,0 +1,54 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AddEntityToRelationGroup",
+          "Target": {
+            "$type": "RPG.GameCore.TargetFetchSummonUnit",
+            "Summoner": {
+              "$type": "RPG.GameCore.TargetFetchSummonUnit",
+              "SummonUnitID": 65,
+              "FetchType": "57"
+            },
+            "SummonUnitID": 101
+          },
+          "MemberType": "-49"
+        },
+        {
+          "$type": "RPG.GameCore.AdvByInCustomZone",
+          "ReturnArtUnload": true
+        },
+        {
+          "$type": "RPG.GameCore.AddMissionMenuItem",
+          "MenuIconType": {
+            "EnumIndex": -25,
+            "Value": -25
+          },
+          "MenuItemTextID": {
+            "Hash": -48,
+            "Hash64": 70
+          },
+          "DialoguePath": "0411001_G238\u0007Anchor2�\u0001\u000e\u0018\u0000\u0003\u0002\u0002��\u0018\u0001�\u0001\u0006\u0003\u0002\u0002��\u0018\u0018\u0000�\u000f\u0002\u0002\u0007\u0000\u0000"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {
+      "Order": 0
+    }
+  ]
+}

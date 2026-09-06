@@ -1,0 +1,63 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview",
+          "TaskEnabled": true,
+          "Mode": "-49"
+        },
+        {
+          "$type": "RPG.GameCore.AdvCharacterDisableHitBox",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchLevelEntity"
+          },
+          "Enable": true,
+          "AffectMainCollider": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvCharacterDisableHitBox",
+          "TaskEnabled": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchPropFarmElement"
+          },
+          "Enable": true,
+          "AffectMainCollider": true
+        },
+        {
+          "$type": "RPG.GameCore.AddMissionMenuItem",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchBattleEventEntityList"
+          },
+          "MenuItemTextID": {
+            "Hash": -9,
+            "Hash64": 67
+          },
+          "DialoguePath": "mera_2000102_01\u001a\u0001\u0004\u001eLevelArea_P20002_F20002001_G17\u0004\u0007Anchor1�\u0007\u000e\u0000�����\t\u0000�������\f\u0004\u0013Yabolahan_20001020"
+        }
+      ]
+    },
+    {
+      "Order": -495
+    }
+  ]
+}

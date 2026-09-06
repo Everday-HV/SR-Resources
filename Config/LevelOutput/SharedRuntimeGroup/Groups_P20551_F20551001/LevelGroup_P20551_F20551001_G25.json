@@ -1,0 +1,242 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Elevator",
+  "LevelGraph": "Config/Level/GroupGraph/F20551001/Group_F20551001_G25.json",
+  "AreaAnchorName": "LevelArea_P20551_F20551001_G25",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "GroupPropertyMap": {
+    "2": {
+      "ID": 2,
+      "Name": "CurTank",
+      "MaxValue": 2
+    },
+    "3": {
+      "ID": 3,
+      "Name": "IsPlayerIn",
+      "MaxValue": 1
+    },
+    "4": {
+      "ID": 4,
+      "Name": "ShaftState",
+      "MaxValue": 3
+    },
+    "1": {
+      "ID": 1,
+      "Name": "Lock",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    }
+  },
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Connection",
+        "TagHash": -295833477
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -23.399999618530273,
+      "PosY": -213.99569702148438,
+      "PosZ": 335.5199890136719,
+      "Name": "ElevatorAnchor01"
+    },
+    {
+      "ID": 2,
+      "PosX": -23.399999618530273,
+      "PosY": 186.9055938720703,
+      "PosZ": 335.5199890136719,
+      "Name": "ElevatorAnchor02"
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -23.399999618530273,
+      "PosY": -213.99569702148438,
+      "PosZ": 335.5199890136719,
+      "Name": "Tank01",
+      "PropID": 105226,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Anchor02",
+            "Value": "LevelArea_P20551_F20551001_G25,ElevatorAnchor02"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Anchor01",
+            "Value": "LevelArea_P20551_F20551001_G25,ElevatorAnchor01"
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "RegionIndex01",
+            "Value": 2
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "RegionIndex02",
+            "Value": 3
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -23.399999618530273,
+      "PosY": 186.9055938720703,
+      "PosZ": 335.5199890136719,
+      "Name": "Tank02",
+      "PropID": 105226,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Anchor02",
+            "Value": "LevelArea_P20551_F20551001_G25,ElevatorAnchor02"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Anchor01",
+            "Value": "LevelArea_P20551_F20551001_G25,ElevatorAnchor01"
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "InitFloor",
+            "Value": 1
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "RegionIndex01",
+            "Value": 2
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "RegionIndex02",
+            "Value": 3
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": -23.399999618530273,
+      "PosY": -211.99569702148438,
+      "PosZ": 328.0199890136719,
+      "Name": "Shaft01",
+      "PropID": 105237,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": {
+        "BlockAlias": "MDV04",
+        "PrefabAlias": "Chap05_ElevatorShaft01",
+        "UseOverridePos": false,
+        "ResetAnimatorWhenReload": true,
+        "IsLightWeight": true
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": -23.399999618530273,
+      "PosY": 188.9055938720703,
+      "PosZ": 328.0199890136719,
+      "Name": "Shaft02",
+      "PropID": 105237,
+      "ValueSource": {},
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": {
+        "BlockAlias": "MDV04",
+        "PrefabAlias": "Chap05_ElevatorShaft02",
+        "UseOverridePos": false,
+        "ResetAnimatorWhenReload": true,
+        "IsLightWeight": true
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

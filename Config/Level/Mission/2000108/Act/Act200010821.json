@@ -1,0 +1,129 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {
+      "Order": 253888
+    },
+    {},
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchCallBackModifierCaster"
+          },
+          "ResetToIdle": true
+        },
+        {
+          "$type": "RPG.GameCore.AddMissionMenuItem",
+          "TaskEnabled": true,
+          "MenuItemTextID": {
+            "Hash": 28,
+            "Hash64": 50
+          },
+          "DialoguePath": "_asta\u000e\u0000�����\u0003\u0000�������\f\u0004\u0010200010821_kabote\u000e\u0000�����\u0003\u0000"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActivityElationShowCutIn",
+          "IsSpecialCutin": true
+        },
+        {
+          "$type": "RPG.GameCore.AddMissionMenuItem",
+          "MenuItemTextID": {
+            "Hash": -25,
+            "Hash64": 48
+          },
+          "DialoguePath": "21_wenshiling\u000e\u0000�����\u0003\u0000�����\f\u0004\u0012200010821_lamingna\u000e\u0000����"
+        }
+      ]
+    },
+    {},
+    {},
+    {},
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.AddPamMenuItem"
+        },
+        {
+          "$type": "RPG.GameCore.AddMissionMenuItem",
+          "MenuItemTextID": {
+            "Hash": -25,
+            "Hash64": 48
+          },
+          "DialoguePath": "21_fan1\u000e\u0000�����\u0003\u0000�����Ú\f\u0004\u000e200010821_fan2\u0000\u0007\u0000\u0000\u0000\u0000\u0000\u001b\u0000 \u0000\u0000\u0000\u0000\u0000\u0001"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": false
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview",
+          "TaskEnabled": true,
+          "Offset": -51
+        },
+        {
+          "$type": "RPG.GameCore.AdvDisableNpcSyncMotion",
+          "TaskEnabled": true,
+          "Disable": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvCreateGroupEntity",
+          "TaskEnabled": true,
+          "OverrideArtModelOffset": {
+            "x": 6.450643907918163e-10,
+            "y": 1.276775772015349e+19,
+            "z": 6.409844877097726e-10
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AddMissionMenuItem",
+          "TaskEnabled": true,
+          "MenuItemTextID": {
+            "Hash": 24,
+            "Hash64": 49
+          },
+          "DialoguePath": "G6\u0007Anchor2\u0001\u0000\u001e\u0001\u000bLocalPlayer\u0004\u001dLevelArea_P10001_F10001001_G6\u0004\u0007Anchor1\u0001\u0000�\u0001��\u0004\u0001�\u001c\u0002\u0004\u0016TalkSentence_201"
+        }
+      ]
+    },
+    {},
+    {},
+    {
+      "IsLoop": true
+    },
+    {},
+    {
+      "IsLoop": true
+    },
+    {},
+    {
+      "IsLoop": true
+    }
+  ]
+}

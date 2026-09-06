@@ -1,0 +1,151 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "sound_01",
+  "AreaAnchorName": "LevelArea_P40511_F40511001_G12",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Audio.Sound",
+        "TagHash": 1757672304
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosX": -10.739439964294434,
+      "PosY": -63.400001525878906,
+      "PosZ": -59.351009368896484,
+      "Name": "DistrictGenerator0",
+      "Trigger": {
+        "Shape": "Polygon",
+        "Radius": 1.0,
+        "DimY": 240.0,
+        "PointList": [
+          {
+            "x": -402.1300964355469,
+            "y": -231.41419982910156
+          },
+          {
+            "x": -322.314208984375,
+            "y": 270.29791259765625
+          },
+          {
+            "x": 204.1623992919922,
+            "y": 228.0865020751953
+          },
+          {
+            "x": 188.84190368652344,
+            "y": -223.74899291992188
+          }
+        ]
+      },
+      "CanTriggerByFakeAvatar": true,
+      "ValueSource": {}
+    },
+    {
+      "ID": 500002,
+      "PosX": -15.220000267028809,
+      "PosY": -3.1700000762939453,
+      "PosZ": -189.1199951171875,
+      "Name": "District2",
+      "Trigger": {
+        "Shape": "GeometrySphere",
+        "Radius": 150.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0
+      },
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_planarcadia_b2_1_laugh",
+        "StopEventName": "Ev_sfx_amb_planarcadia_b2_1_laugh_stop",
+        "TransformList": [
+          {
+            "Position": {
+              "x": -15.220000267028809,
+              "y": 3.369999885559082,
+              "z": -189.1199951171875
+            },
+            "Forward": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "Up": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0
+            }
+          }
+        ]
+      },
+      "CanTriggerByFakeAvatar": true,
+      "ValueSource": {}
+    },
+    {
+      "ID": 500003,
+      "PosX": -12.399999618530273,
+      "PosY": -7.199999809265137,
+      "PosZ": -53.599998474121094,
+      "Name": "District3",
+      "Trigger": {
+        "Shape": "Polygon",
+        "Radius": 1.0,
+        "DimX": 1.0,
+        "DimY": 95.19999694824219,
+        "DimZ": 1.0,
+        "PointList": [
+          {
+            "x": -32.58654022216797,
+            "y": -159.23170471191406
+          },
+          {
+            "x": -35.16014099121094,
+            "y": 143.4300994873047
+          },
+          {
+            "x": 38.03514862060547,
+            "y": 136.53759765625
+          },
+          {
+            "x": 22.381120681762695,
+            "y": -163.60079956054688
+          }
+        ]
+      },
+      "OnEnterAudioState": [
+        {
+          "GroupName": "StateGroup_Maze_Planarcadia_B2_1",
+          "StateName": "State_Tantao"
+        }
+      ],
+      "CanTriggerByFakeAvatar": true,
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

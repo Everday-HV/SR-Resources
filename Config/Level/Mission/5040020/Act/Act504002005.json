@@ -1,0 +1,37 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": false
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AddFinishMissionData_SelectConsumeItem",
+          "TaskEnabled": true,
+          "SlotNum": 10,
+          "SimpleTalk": {
+            "ProtectTime": 1.054414988856486e-37,
+            "ForceToNextTime": 2.5139294449987218e-42
+          },
+          "OnSubmitFail": [],
+          "OnSubmitCancel": []
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {}
+  ]
+}

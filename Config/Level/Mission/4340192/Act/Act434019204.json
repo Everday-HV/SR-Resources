@@ -1,0 +1,59 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AbortInsertAbility",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview",
+          "TaskEnabled": true,
+          "Mode": "-51",
+          "Offset": 59
+        },
+        {
+          "$type": "RPG.GameCore.AdvByRollShopResult",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchFarmElementEntity"
+          },
+          "TargetResult": "-51"
+        },
+        {
+          "$type": "RPG.GameCore.AdvByIsInPhantomFrozen",
+          "TaskEnabled": true,
+          "Inverse": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchBattleEventEntityList"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AddReShaEasterEggProp",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AddWeakness",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AddReShaEasterEggProp",
+          "SuccessSound": {
+            "Custom": true
+          }
+        }
+      ]
+    },
+    {}
+  ]
+}

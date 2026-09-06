@@ -1,0 +1,311 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "TimeRewindDown",
+  "LevelGraph": "Config/Level/GroupGraph/F20451001/Group_F20451001_G155.json",
+  "AreaAnchorName": "LevelArea_P20451_F20451001_G155",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "GroupPropertyMap": {
+    "2": {
+      "ID": 2,
+      "Name": "SlowStory",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    }
+  },
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "GameModule.EraFlip.State.Day",
+        "TagHash": 1090843668
+      },
+      {
+        "Tag": "Group.Level.Gameplay",
+        "TagHash": -141571921
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 190.4936065673828,
+      "PosY": -70.10772705078125,
+      "PosZ": 201.72279357910156,
+      "Name": "Anchor1",
+      "RotY": 150.0
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 199.5,
+      "PosY": -69.41484069824219,
+      "PosZ": 200.64999389648438,
+      "IsDelete": true,
+      "Name": "Prop1",
+      "RotY": 8.541476249694824,
+      "PropID": 104078,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DisableDither": true,
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": 193.42999267578125,
+      "PosY": -69.46914672851562,
+      "PosZ": 194.58999633789062,
+      "Name": "Prop2",
+      "RotY": 81.986572265625,
+      "PropID": 104034,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "UseAnimate",
+            "Value": "L1_Collapse02"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DisableDither": true,
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "TagOverrideComponents": {
+        "TagComponents": [
+          {
+            "$type": "RPG.GameCore.PropTagTimeRewindEntityComponent",
+            "Tag": {
+              "Tag": "Prop.Component.TimeRewindEntity",
+              "TagHash": 532483231
+            },
+            "InitState": "L0_Root",
+            "AnimStateOverride": [],
+            "TimeRewindAnimEventJson": "Config/Gameplays/TimeRewind/TimeRewinder_TRFoundationAnimConfig_Slow.json",
+            "BindSpecialControl": "FoundationAndBall",
+            "FoundationAndBallBind": {
+              "BallInstanceID": 300003,
+              "PropStateConfigs": [
+                {
+                  "BallStateName": "L1_Angle06"
+                }
+              ],
+              "OverrideFoundationAnim": true,
+              "FoundationBrokenAnim": "L1_Collapse02"
+            }
+          }
+        ]
+      },
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": 193.42999267578125,
+      "PosY": -69.46914672851562,
+      "PosZ": 194.58999633789062,
+      "Name": "Prop3",
+      "RotY": 81.986572265625,
+      "PropID": 104033,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DisableDither": true,
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "TagOverrideComponents": {
+        "TagComponents": [
+          {
+            "$type": "RPG.GameCore.PropTagTimeRewindEntityComponent",
+            "Tag": {
+              "Tag": "Prop.Component.TimeRewindEntity",
+              "TagHash": 532483231
+            },
+            "TimeRewindObjectType": "FoundationBall",
+            "HitPlayerWhenRewind": true,
+            "LookAtAttachPoint": "FocusPoint",
+            "SelectTargetAttachPoint": "SelectPoint",
+            "AnimStateOverride": [
+              {
+                "OverrideState": "Root_To_Angle06",
+                "OverrideClipPath": "Stages/OriginalResPos/InteractiveProp/Chapter04/Chap04_GameplayProp_TRBall_01/Animation/20451-case3.anim"
+              }
+            ],
+            "TimeRewindAnimEventJson": "Config/Gameplays/TimeRewind/TimeRewinder_TRBall.json",
+            "ResetPlayerAnchorID": 1,
+            "FoundationAndBallBind": {},
+            "DestructibleBridgeBind": {},
+            "ContainerAndSeedBind": {}
+          }
+        ]
+      },
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": 194.88800048828125,
+      "PosY": -69.46914672851562,
+      "PosZ": 201.96009826660156,
+      "Name": "Prop4",
+      "RotY": 34.29011154174805,
+      "PropID": 104073,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_TimeRewindaward.json",
+      "ValueSource": {},
+      "CampID": 4,
+      "EventID": 10401413,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DisableDither": true,
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "TagOverrideComponents": {
+        "TagComponents": [
+          {
+            "$type": "RPG.GameCore.PropTagTimeRewindEntityComponent",
+            "Tag": {
+              "Tag": "Prop.Component.TimeRewindEntity",
+              "TagHash": 532483231
+            },
+            "InitState": "L1_Broken02",
+            "LockRangeOverride": 10.0,
+            "MaxRewindTimeOverride": 4.5,
+            "AnimStateOverride": [],
+            "TimeRewindAnimEventJson": "Config/Gameplays/TimeRewind/TimeRewinder_General03_2.json",
+            "FoundationAndBallBind": {},
+            "DestructibleBridgeBind": {},
+            "ContainerAndSeedBind": {},
+            "PerformanceSplitObjectBind": {}
+          }
+        ]
+      },
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300005,
+      "PosX": 322.69000244140625,
+      "PosY": -70.10774230957031,
+      "PosZ": 187.28489685058594,
+      "Name": "Prop5",
+      "RotY": 351.5918884277344,
+      "PropID": 104073,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_TimeRewindaward.json",
+      "ValueSource": {},
+      "CampID": 4,
+      "EventID": 10401413,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DisableDither": true,
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "TagOverrideComponents": {
+        "TagComponents": [
+          {
+            "$type": "RPG.GameCore.PropTagTimeRewindEntityComponent",
+            "Tag": {
+              "Tag": "Prop.Component.TimeRewindEntity",
+              "TagHash": 532483231
+            },
+            "InitState": "L1_Broken02",
+            "MaxRewindTimeOverride": 4.5,
+            "AnimStateOverride": [],
+            "TimeRewindAnimEventJson": "Config/Gameplays/TimeRewind/TimeRewinder_General03_2.json",
+            "FoundationAndBallBind": {},
+            "DestructibleBridgeBind": {},
+            "ContainerAndSeedBind": {},
+            "PerformanceSplitObjectBind": {}
+          }
+        ]
+      },
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

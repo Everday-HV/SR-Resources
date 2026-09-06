@@ -1,0 +1,25 @@
+{
+  "AbilityList": [
+    {
+      "Name": "Monster_AetherDivide_W1_Soldier01_04_Skill01_Camera",
+      "TargetInfo": {
+        "TargetType": "SkillTargetEntityList"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveShotCameraTemplate",
+          "IsActive": true,
+          "SecondTarget": {
+            "$type": "RPG.GameCore.TargetFetchAbilityGroup"
+          }
+        }
+      ]
+    }
+  ]
+}

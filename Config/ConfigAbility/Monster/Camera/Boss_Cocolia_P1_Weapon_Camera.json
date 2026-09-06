@@ -1,0 +1,42 @@
+{
+  "AbilityList": [
+    {
+      "Name": "Monster_Boss_Cocolia_P1_Weapon_Skill01_Camera",
+      "TargetInfo": {
+        "TargetType": "SkillTargetEntityList"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill",
+          "TargetType": {
+            "$type": "RPG.GameCore.RtBattleTargetFetchGridByTag",
+            "Tag": "\u0000�"
+          }
+        }
+      ]
+    },
+    {},
+    {
+      "Name": "Monster_Boss_Cocolia_P1_Weapon_Skill02_Camera",
+      "TargetInfo": {
+        "TargetType": "SkillTargetEntityList"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill",
+          "TargetType": {
+            "$type": "RPG.GameCore.RtBattleTargetFetchGridByTag",
+            "Tag": "\u0000�"
+          }
+        }
+      ]
+    },
+    {}
+  ]
+}

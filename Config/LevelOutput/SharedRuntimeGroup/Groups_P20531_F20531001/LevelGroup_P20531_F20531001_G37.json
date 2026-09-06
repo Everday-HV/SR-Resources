@@ -1,0 +1,829 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "5D",
+  "LevelGraph": "Config/Level/GroupGraph/F20531001/Group_F20531001_G37.json",
+  "AreaAnchorName": "LevelArea_P20531_F20531001_G37",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "GroupPropertyMap": {
+    "9": {
+      "ID": 9,
+      "Name": "LG_110001_FDFinish_MainPuzzle_2",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "49": {
+      "ID": 49,
+      "Name": "LG_110001__208_BombTriggerState_Auto",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "58": {
+      "ID": 58,
+      "Name": "LG_110001__46_PortalState_Auto",
+      "Side": "ServerClient",
+      "DefaultValue": 1,
+      "MaxValue": 1
+    },
+    "59": {
+      "ID": 59,
+      "Name": "LG_110001__51_PortalState_Auto",
+      "Side": "ServerClient",
+      "DefaultValue": 1,
+      "MaxValue": 1
+    },
+    "60": {
+      "ID": 60,
+      "Name": "LG_110001__55_LeverSwitchState_Auto",
+      "Side": "ServerClient",
+      "DefaultValue": 1,
+      "MaxValue": 1
+    },
+    "62": {
+      "ID": 62,
+      "Name": "LG_110001__101_ChestStateS_Auto",
+      "Side": "ServerClient",
+      "DefaultValue": 1,
+      "MaxValue": 3
+    },
+    "63": {
+      "ID": 63,
+      "Name": "LG_110001__102_ChestStateL_Auto",
+      "Side": "ServerClient",
+      "DefaultValue": 1,
+      "MaxValue": 3
+    },
+    "64": {
+      "ID": 64,
+      "Name": "LG_110001__105_ChestStateS_Auto",
+      "Side": "ServerClient",
+      "DefaultValue": 1,
+      "MaxValue": 3
+    },
+    "68": {
+      "ID": 68,
+      "Name": "LG_110001__346_MapIconState_Auto",
+      "Side": "ServerClient",
+      "MaxValue": 2
+    },
+    "69": {
+      "ID": 69,
+      "Name": "LG_110001__348_BombTriggerState_Auto",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "70": {
+      "ID": 70,
+      "Name": "LG_110001_Talk_1",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "71": {
+      "ID": 71,
+      "Name": "LG_110001_Talk_2",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "72": {
+      "ID": 72,
+      "Name": "LG_110001_Talk_3",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    }
+  },
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Gameplay",
+        "TagHash": -141571921
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -167.7830047607422,
+      "PosY": 64.51854705810547,
+      "PosZ": -92.38300323486328,
+      "Name": "Anchor1",
+      "RotY": 41.46371078491211
+    },
+    {
+      "ID": 2,
+      "PosX": -191.4080047607422,
+      "PosY": 64.51853942871094,
+      "PosZ": -57.81999969482422,
+      "Name": "Anchor2",
+      "RotY": 60.656620025634766
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -165.49000549316406,
+      "PosY": 64.51854705810547,
+      "PosZ": -91.80000305175781,
+      "Name": "Prop1",
+      "RotY": 270.0,
+      "PropID": 105032,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TargetFDLevel",
+            "Value": "110001,132"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ExitListenLevelRef",
+            "Value": "37,110001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FDPipeExitEntity",
+            "Value": "110001,132"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Locked",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 377,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -165.49000549316406,
+      "PosY": 64.51854705810547,
+      "PosZ": -91.80000305175781,
+      "Name": "MapIcon",
+      "RotY": 270.0,
+      "PropID": 138,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 2390,
+      "SubMapID": 205310103,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 400,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": -165.49000549316406,
+      "PosY": 64.51854705810547,
+      "PosZ": -91.80000305175781,
+      "Name": "Prop3",
+      "RotY": 270.0,
+      "PropID": 105142,
+      "ValueSource": {
+        "Values": []
+      },
+      "CampID": 4,
+      "State": "EventClose",
+      "EventID": 20531702,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": -188.67300415039062,
+      "PosY": 64.51854705810547,
+      "PosZ": -57.452720642089844,
+      "Name": "Prop4",
+      "RotY": 270.0,
+      "PropID": 105032,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap05/InitLevelGraph_Prop_Chap05_FDPipeEntry_03.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ExitListenLevelRef",
+            "Value": "37,110001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FDPipeExitEntity",
+            "Value": "110001,8"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 377,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [
+    {
+      "ID": 1,
+      "Name": "PedestrianV21",
+      "MemberConfigPath": "Config/Level/PedestrianMembersConfig/Config_F10501001_ChenLing.json",
+      "Emitters": [],
+      "RoadMap": {
+        "Roads": [
+          {
+            "RoadPoints": [
+              {
+                "Position": {
+                  "x": -144.00270080566406,
+                  "y": 57.67940902709961,
+                  "z": -10.998700141906738
+                },
+                "Tangent": {
+                  "x": 0.33620598912239075,
+                  "y": -1.9999999949504854e-6,
+                  "z": -0.9417889714241028
+                },
+                "Normal": {
+                  "x": -0.000011000000085914508,
+                  "y": 1.0,
+                  "z": -3.999999989900971e-6
+                },
+                "Width": 5.0
+              },
+              {
+                "Position": {
+                  "x": -142.46749877929688,
+                  "y": 57.67940139770508,
+                  "z": -15.299150466918945
+                },
+                "Tangent": {
+                  "x": 0.44829198718070984,
+                  "y": 3.000000106112566e-6,
+                  "z": -0.8938869833946228
+                },
+                "Normal": {
+                  "x": -0.000011000000085914508,
+                  "y": 1.0,
+                  "z": -1.9999999949504854e-6
+                },
+                "Width": 5.0
+              },
+              {
+                "Position": {
+                  "x": -138.50770568847656,
+                  "y": 57.67945861816406,
+                  "z": -21.254070281982422
+                },
+                "Tangent": {
+                  "x": 0.7675039768218994,
+                  "y": 0.000011000000085914508,
+                  "z": -0.641044020652771
+                },
+                "Normal": {
+                  "x": -0.000015999999959603883,
+                  "y": 1.0,
+                  "z": 3.000000106112566e-6
+                },
+                "Width": 5.0
+              },
+              {
+                "Position": {
+                  "x": -129.77430725097656,
+                  "y": 57.67958068847656,
+                  "z": -25.02644920349121
+                },
+                "Tangent": {
+                  "x": 0.9659299850463867,
+                  "y": -0.000012999999853491317,
+                  "z": -0.25880199670791626
+                },
+                "Width": 5.0
+              },
+              {
+                "Position": {
+                  "x": -123.6781005859375,
+                  "y": 57.67934036254883,
+                  "z": -25.735700607299805
+                },
+                "Tangent": {
+                  "x": 0.9964619874954224,
+                  "y": -0.000022000000171829015,
+                  "z": -0.0840499997138977
+                },
+                "Normal": {
+                  "x": 0.00004400000034365803,
+                  "y": 1.0,
+                  "z": -3.000000106112566e-6
+                },
+                "Width": 5.0
+              },
+              {
+                "Position": {
+                  "x": -116.99919891357422,
+                  "y": 57.6793098449707,
+                  "z": -26.08650016784668
+                },
+                "Tangent": {
+                  "x": 0.9776099920272827,
+                  "y": 9.000000318337698e-6,
+                  "z": 0.21042600274085999
+                },
+                "Normal": {
+                  "x": -0.000014000000192027073,
+                  "y": 1.0,
+                  "z": -0.000015999999959603883
+                },
+                "Width": 5.0
+              },
+              {
+                "Position": {
+                  "x": -113.21070098876953,
+                  "y": 57.67940139770508,
+                  "z": -24.131010055541992
+                },
+                "Tangent": {
+                  "x": 0.8886079788208008,
+                  "y": 0.00002099999983329326,
+                  "z": 0.4586679935455322
+                },
+                "Normal": {
+                  "x": -0.000014000000192027073,
+                  "y": 1.0,
+                  "z": -0.000015999999959603883
+                },
+                "Width": 5.0
+              }
+            ],
+            "Weight": 1.0,
+            "InvisibleSegmentInfoList": []
+          },
+          {
+            "RoadPoints": [
+              {
+                "Position": {
+                  "x": -145.59230041503906,
+                  "y": 57.67953109741211,
+                  "z": 2.1804380416870117
+                },
+                "Tangent": {
+                  "x": 0.7685869932174683,
+                  "y": 6.000000212225132e-6,
+                  "z": 0.6397449970245361
+                },
+                "Width": 5.0
+              },
+              {
+                "Position": {
+                  "x": -139.11480712890625,
+                  "y": 57.67958068847656,
+                  "z": 7.572075843811035
+                },
+                "Tangent": {
+                  "x": 0.8599950075149536,
+                  "y": 3.000000106112566e-6,
+                  "z": 0.5103020071983337
+                },
+                "Width": 5.0
+              },
+              {
+                "Position": {
+                  "x": -130.19940185546875,
+                  "y": 57.67958068847656,
+                  "z": 11.10105037689209
+                },
+                "Tangent": {
+                  "x": 0.974107027053833,
+                  "y": 0.0,
+                  "z": 0.22608700394630432
+                },
+                "Width": 5.0
+              },
+              {
+                "Position": {
+                  "x": -118.86669921875,
+                  "y": 57.679588317871094,
+                  "z": 12.0006103515625
+                },
+                "Tangent": {
+                  "x": 0.9763709902763367,
+                  "y": 0.0,
+                  "z": -0.2161020040512085
+                },
+                "Width": 5.0
+              },
+              {
+                "Position": {
+                  "x": -113.02980041503906,
+                  "y": 57.67958068847656,
+                  "z": 8.698404312133789
+                },
+                "Tangent": {
+                  "x": 0.7662580013275146,
+                  "y": -9.999999974752427e-7,
+                  "z": -0.642533004283905
+                },
+                "Width": 5.0
+              },
+              {
+                "Position": {
+                  "x": -105.77130126953125,
+                  "y": 57.679569244384766,
+                  "z": -0.0952949970960617
+                },
+                "Tangent": {
+                  "x": 0.4218209981918335,
+                  "y": -9.999999974752427e-7,
+                  "z": -0.9066789746284485
+                },
+                "Width": 5.0
+              },
+              {
+                "Position": {
+                  "x": -104.26820373535156,
+                  "y": 57.679569244384766,
+                  "z": -8.315491676330566
+                },
+                "Tangent": {
+                  "x": -0.025030000135302544,
+                  "y": 9.999999974752427e-7,
+                  "z": -0.9996870160102844
+                },
+                "Width": 5.0
+              },
+              {
+                "Position": {
+                  "x": -106.02880096435547,
+                  "y": 57.67958068847656,
+                  "z": -15.803730010986328
+                },
+                "Tangent": {
+                  "x": -0.22887399792671204,
+                  "y": 9.999999974752427e-7,
+                  "z": -0.9734560251235962
+                },
+                "Normal": {
+                  "x": -7.999999979801942e-6,
+                  "y": 1.0,
+                  "z": -9.000000318337698e-6
+                },
+                "Width": 5.0
+              }
+            ],
+            "Weight": 1.0,
+            "InvisibleSegmentInfoList": []
+          }
+        ],
+        "Intersections": [
+          {
+            "$type": "RPG.GameCore.LevelPedestrianV2IntersectionChenLingFactoryInfo",
+            "Origin": {
+              "x": -144.79750061035156,
+              "y": 57.67947006225586,
+              "z": -4.409131050109863
+            },
+            "Radius": 6.637328147888184,
+            "RoadEntries": [
+              {},
+              {
+                "RoadIndex": 1
+              }
+            ],
+            "RoadConnects": [
+              {
+                "ConnectPoints": [
+                  {
+                    "x": -141.648193359375,
+                    "y": 57.679439544677734,
+                    "z": -10.15818977355957
+                  },
+                  {
+                    "x": -143.99290466308594,
+                    "y": 57.67951965332031,
+                    "z": 0.2589699923992157
+                  }
+                ]
+              },
+              {
+                "ConnectPoints": [
+                  {
+                    "x": -147.1916961669922,
+                    "y": 57.67953872680664,
+                    "z": 4.101905822753906
+                  },
+                  {
+                    "x": -146.35719299316406,
+                    "y": 57.679378509521484,
+                    "z": -11.83920955657959
+                  }
+                ]
+              }
+            ],
+            "ForbidRoadEntries": [],
+            "RoadPathInfo": [],
+            "SpawnInfo": {
+              "MemberEmitSpeed": 30,
+              "EnterRoadEntries": [
+                {},
+                {
+                  "RoadIndex": 1
+                }
+              ]
+            }
+          },
+          {
+            "$type": "RPG.GameCore.LevelPedestrianV2IntersectionInfo",
+            "Origin": {
+              "x": -109.61979675292969,
+              "y": 57.67948913574219,
+              "z": -19.967369079589844
+            },
+            "Radius": 5.498257160186768,
+            "RoadEntries": [
+              {
+                "Reverse": true
+              },
+              {
+                "RoadIndex": 1,
+                "Reverse": true
+              }
+            ],
+            "RoadConnects": [
+              {
+                "ConnectPoints": [
+                  {
+                    "x": -112.06400299072266,
+                    "y": 57.679378509521484,
+                    "z": -26.352529525756836
+                  },
+                  {
+                    "x": -103.59519958496094,
+                    "y": 57.67959976196289,
+                    "z": -16.375919342041016
+                  }
+                ]
+              },
+              {
+                "ConnectPoints": [
+                  {
+                    "x": -108.46240234375,
+                    "y": 57.679569244384766,
+                    "z": -15.231539726257324
+                  },
+                  {
+                    "x": -114.3573989868164,
+                    "y": 57.679420471191406,
+                    "z": -21.90949058532715
+                  }
+                ]
+              }
+            ],
+            "ForbidRoadEntries": [],
+            "RoadPathInfo": []
+          }
+        ],
+        "NavMeshLinks": []
+      }
+    }
+  ],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": [
+    {
+      "ID": 110001,
+      "PosX": -203.37860107421875,
+      "PosY": 64.75569152832031,
+      "PosZ": -106.3323974609375,
+      "Name": "LittleGame1",
+      "GameType": "FiveDim",
+      "LevelConfigPath": "Config/Gameplays/LittleGame/FiveDim/Level/Version_430/B301_SnowballFight.json",
+      "LevelVarBinding": {
+        "Bindings": [
+          {
+            "LevelVarName": "Exit_A",
+            "EntityRefValue": {
+              "GroupID": 22,
+              "ContainerID": 110001
+            },
+            "LevelEntityRefValue": {
+              "GroupID": 37,
+              "InstanceID": 1
+            }
+          },
+          {
+            "LevelVarName": "Exit_B",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {
+              "GroupID": 37,
+              "InstanceID": 2
+            }
+          },
+          {
+            "LevelVarName": "FDFinish_MainPuzzle_2",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001_FDFinish_MainPuzzle_2",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "Talk_1",
+            "BindingType": "GroupProperty",
+            "GroupPropertyName": "LG_110001_Talk_1",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "Talk_2",
+            "BindingType": "GroupProperty",
+            "GroupPropertyName": "LG_110001_Talk_2",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "Talk_3",
+            "BindingType": "GroupProperty",
+            "GroupPropertyName": "LG_110001_Talk_3",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_208_BombTriggerState_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__208_BombTriggerState_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_46_PortalState_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__46_PortalState_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_51_PortalState_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__51_PortalState_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_55_LeverSwitchState_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__55_LeverSwitchState_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_101_ChestStateS_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__101_ChestStateS_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_102_ChestStateL_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__102_ChestStateL_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_105_ChestStateS_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__105_ChestStateS_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_346_MapIconState_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__346_MapIconState_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_348_BombTriggerState_Auto",
+            "BindingType": "GroupProperty",
+            "GroupPropertyName": "LG_110001__348_BombTriggerState_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          }
+        ]
+      },
+      "GroupsToKeepOnEnter": [],
+      "NavInfo": {
+        "LittleGameConnectList": [
+          {
+            "LevelGroupID": 37,
+            "LevelInstanceID": 300001,
+            "LittleGameEntityID": 132,
+            "ConditionInfos": []
+          },
+          {
+            "ConnectionType": "Exit",
+            "LevelGroupID": 37,
+            "LevelInstanceID": 300004,
+            "LittleGameEntityID": 8,
+            "ConditionInfos": []
+          }
+        ]
+      },
+      "RequireMissionInfo": {
+        "RequireSubMissionIDList": []
+      },
+      "MinimapFogIDList": [
+        37010000,
+        37010001,
+        37010100,
+        37010101,
+        37010200,
+        37010201
+      ]
+    }
+  ]
+}

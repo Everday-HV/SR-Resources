@@ -1,0 +1,36 @@
+{
+  "AbilityList": [
+    {
+      "Name": "Monster_W1_CWSoldier_02_Skill02_Camera",
+      "TargetInfo": {
+        "TargetType": "SkillTargetEntityList"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveShotCameraTemplate",
+          "TemplatePath": {
+            "Custom": true,
+            "Value": "ster_Common_SoloRangeAttack\u0000\u0002\u0002�\u001d\u0010\u0004���\u0010\u0016\u0000�\u001d\u000e5\u0000\u0007Skill02\u0000𤌄\u0014�\u001d\u0010@6_SR0.29_T0.05_ST0.2：Monster_W1_Soldier02_00_"
+          },
+          "IsActive": true,
+          "SecondTarget": {
+            "$type": "RPG.GameCore.TargetFetchRogueMagicScepterList"
+          },
+          "FirstTarget": {
+            "$type": "RPG.GameCore.TargetFetchSummonUnit",
+            "Summoner": {
+              "$type": "RPG.GameCore.TargetFetchRogueMagicScepterList"
+            }
+          }
+        },
+        {}
+      ]
+    }
+  ]
+}

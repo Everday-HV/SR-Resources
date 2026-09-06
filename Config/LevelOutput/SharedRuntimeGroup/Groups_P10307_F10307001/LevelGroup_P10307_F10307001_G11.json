@@ -1,0 +1,653 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "JigsawPuzzle_P07_MainLine_01_Bridge",
+  "LevelGraph": "Config/Level/GroupGraph/F10307001/Group_F10307001_G11.json",
+  "AreaAnchorName": "LevelArea_P10307_F10307001_G11",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "GroupStateList": [
+    {
+      "DstState": 13
+    },
+    {
+      "DstState": 12
+    },
+    {
+      "DstState": 11
+    },
+    {
+      "DstState": 10
+    },
+    {
+      "SrcState": 10,
+      "DstState": 20
+    },
+    {
+      "SrcState": 13,
+      "DstState": 12
+    },
+    {
+      "SrcState": 12,
+      "DstState": 11
+    },
+    {
+      "SrcState": 11,
+      "DstState": 10
+    }
+  ],
+  "ValueSource": {
+    "Values": []
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "StreamingTemplateType": "UltraFar",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Gameplay",
+        "TagHash": -141571921
+      },
+      {
+        "Tag": "Group.Level.Connection",
+        "TagHash": -295833477
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 221.697998046875,
+      "PosY": 59.06106948852539,
+      "PosZ": 257.6755065917969,
+      "Name": "SnapCamera",
+      "RotY": 90.0,
+      "RotX": 4.999999873689376e-6,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 45.0
+      }
+    },
+    {
+      "ID": 2,
+      "PosX": 221.697998046875,
+      "PosY": 59.06106948852539,
+      "PosZ": 257.6755065917969,
+      "Name": "GameplayCamera",
+      "RotY": 90.0,
+      "RotX": 4.999999873689376e-6,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 45.0
+      }
+    },
+    {
+      "ID": 3,
+      "Name": "Anchor3"
+    },
+    {
+      "ID": 4,
+      "PosX": 221.697998046875,
+      "PosY": 59.06106948852539,
+      "PosZ": 257.44549560546875,
+      "Name": "GameplayCamera2",
+      "RotY": 90.0,
+      "RotX": 4.999999873689376e-6,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 45.0
+      }
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 226.83999633789062,
+      "PosY": 56.29357147216797,
+      "PosZ": 257.6600036621094,
+      "Name": "JigsawSir",
+      "RotY": 270.0,
+      "Scale": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 1.5
+      },
+      "PropID": 103012,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_JigsawPuzzle_JigsawSir_05.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PuzzleBoardPath",
+            "Value": "Gameplays/JigsawPuzzle/JigsawPuzzle_P07_MainLine_01_Bridge.prefab"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PuzzleCameraAnchor",
+            "Value": "LevelArea_P10307_F10307001_G11,GameplayCamera"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "JigsawResult_String",
+            "Value": "JigsawPuzzle_Complete"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "CompleteHintString",
+            "Value": "Dev_JigsawPuzzleResultHint_NewTreasureBox"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "SnapCamera",
+            "Value": "LevelArea_P10307_F10307001_G11,SnapCamera"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "IsH",
+            "Value": 1.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PoseType",
+            "Value": "H1_1M2_0"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "UnlockWhenDisableFSVName",
+            "Value": "fake_UnlockWhenDisableFSVName"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PuzzleCameraAnchor2",
+            "Value": "LevelArea_P10307_F10307001_G11,GameplayCamera2"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "PieceCount",
+            "Value": 1.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "ShowBubbleTalk",
+            "Value": 1.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "UseToast"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "TriggerDisable",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 10061,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapStateIcons": [
+        {
+          "State": "TriggerEnable",
+          "IconID": 89
+        },
+        {
+          "State": "TriggerDisable",
+          "IconID": 89
+        },
+        {
+          "State": "Locked",
+          "IconID": 89
+        },
+        {
+          "State": "Open",
+          "IconID": 89
+        }
+      ],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideBoardShowList": [
+        8,
+        16
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": 239.56300354003906,
+      "PosY": 59.571998596191406,
+      "PosZ": 256.5719909667969,
+      "Name": "JigsawPiece1",
+      "RotY": 90.0,
+      "PropID": 103109,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ListenTriggerCustomString",
+            "Value": "Mission_777_1"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "ControlByMission"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "EffIndex",
+            "Value": 1.0
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 2.0,
+        "Offset": {
+          "x": 0.0,
+          "y": -2.0,
+          "z": 0.0
+        }
+      },
+      "CampID": 4,
+      "State": "TriggerDisable",
+      "CustomTriggerMap": {
+        "CustomTrigger_01": {
+          "Radius": 6.0
+        }
+      },
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": 226.88999938964844,
+      "PosY": 56.29357147216797,
+      "PosZ": 258.20001220703125,
+      "Name": "JigsawPiece2",
+      "RotY": 90.0,
+      "PropID": 103109,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ListenTriggerCustomString",
+            "Value": "Mission_777_2"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "ControlByMission"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "EffIndex",
+            "Value": 2.0
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": 226.88999938964844,
+      "PosY": 56.29357147216797,
+      "PosZ": 258.20001220703125,
+      "Name": "JigsawPiece3",
+      "RotY": 90.0,
+      "PropID": 103109,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ListenTriggerCustomString",
+            "Value": "Mission_id_piece"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "ControlByMission"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "EffIndex",
+            "Value": 3.0
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300005,
+      "PosX": 226.88999938964844,
+      "PosY": 56.29357147216797,
+      "PosZ": 258.20001220703125,
+      "IsDelete": true,
+      "Name": "JigsawResult_Controller",
+      "RotY": 90.0,
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_JigsawPuzzle_TreasureAppearSFXTrigger.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TargetProp",
+            "Value": "11,300011"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "HandleTrigger"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "HighlightDelay"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "GameplayProp",
+            "Value": "11,300011"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "UseHighlight",
+            "Value": 1.0
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300006,
+      "PosX": 365.2117919921875,
+      "PosY": 119.13500213623047,
+      "PosZ": 616.6900024414062,
+      "IsDelete": true,
+      "Name": "JigsawResult_TreasureBox",
+      "RotY": 90.0,
+      "PropID": 60302,
+      "ValueSource": {},
+      "CampID": 4,
+      "State": "Hidden",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideTriggerValidGuestConfig": true,
+      "TriggerValidGuest": {
+        "FakePlayer": true
+      },
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300008,
+      "PosX": 226.88999938964844,
+      "PosY": 56.29357147216797,
+      "PosZ": 258.20001220703125,
+      "Name": "JigsawResult_Controller",
+      "RotY": 90.0,
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_JigsawPuzzle_SimpleResultController.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TargetProp",
+            "Value": "11,300011"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "HandleTrigger"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "HighlightDelay"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "HighlightLevel",
+            "Value": 1.0
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300007,
+      "PosX": 226.88999938964844,
+      "PosY": 56.29357147216797,
+      "PosZ": 258.20001220703125,
+      "Name": "JigsawResult_Bridge",
+      "PropID": 100,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": {
+        "BlockAlias": "Chap03_CloseView_ADV_P07_01_BlockData"
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300009,
+      "PosX": 365.2117919921875,
+      "PosY": 119.13500213623047,
+      "PosZ": 616.6900024414062,
+      "IsDelete": true,
+      "Name": "TreasureIcon",
+      "RotY": 90.0,
+      "PropID": 211,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Maze/Chapter03/JigsawPuzzle/Maze_Prop_JigsawPuzzleTreasureGameplayIcon.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Chest",
+            "Value": "11,300006"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 10061,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300010,
+      "PosX": 226.88999938964844,
+      "PosY": 56.29357147216797,
+      "PosZ": 258.20001220703125,
+      "IsDelete": true,
+      "Name": "EnterTrigger",
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20313001/LG_Prop_F20313001_G180_300010.json",
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 8.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300011,
+      "PosX": 234.5570068359375,
+      "PosY": 56.290000915527344,
+      "PosZ": 258.13800048828125,
+      "Name": "Prop11",
+      "RotY": 75.60138702392578,
+      "PropID": 103289,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300012,
+      "PosX": 258.5,
+      "PosY": 52.02001190185547,
+      "PosZ": 262.20001220703125,
+      "Name": "Prop12",
+      "PropID": 100,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": {
+        "BlockAlias": "Chap03_CloseView_ADV_P07_01_BlockData",
+        "PrefabAlias": "Chap03_Polymer_P07_Limb1",
+        "UseOverridePos": false
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

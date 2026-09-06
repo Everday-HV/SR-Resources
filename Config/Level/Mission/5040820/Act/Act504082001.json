@@ -1,0 +1,38 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvCreateGroupEntity",
+          "TaskEnabled": false
+        },
+        {
+          "$type": "RPG.GameCore.AITryInsertUltra",
+          "ContinuousInsert": true
+        },
+        {
+          "$type": "RPG.GameCore.AddClientMazeBuff",
+          "TaskEnabled": true,
+          "ID": 3
+        }
+      ]
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ]
+}

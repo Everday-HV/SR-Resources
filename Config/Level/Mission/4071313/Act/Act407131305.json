@@ -1,0 +1,26 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchNextSkillCaster"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AdvCharacterDisableHitBox",
+          "Enable": true
+        }
+      ]
+    },
+    {},
+    {
+      "IsLoop": true
+    }
+  ]
+}

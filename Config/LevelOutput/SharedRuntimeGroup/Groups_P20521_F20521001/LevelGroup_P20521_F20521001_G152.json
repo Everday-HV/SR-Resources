@@ -1,0 +1,442 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Elevator",
+  "LevelGraph": "Config/Level/GroupGraph/F20521001/Group_F20521001_G152.json",
+  "AreaAnchorName": "LevelArea_P20521_F20521001_G152",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Connection",
+        "TagHash": -295833477
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -14.829000473022461,
+      "PosY": 115.60919952392578,
+      "PosZ": 42.290000915527344,
+      "Name": "Anchor1",
+      "RotY": 89.02926635742188
+    },
+    {
+      "ID": 2,
+      "PosX": -14.850000381469727,
+      "PosY": 180.4980010986328,
+      "PosZ": 42.70899963378906,
+      "Name": "Anchor2",
+      "RotY": 90.0
+    },
+    {
+      "ID": 3,
+      "PosX": -8.40999984741211,
+      "PosY": 302.1953125,
+      "PosZ": -18.040000915527344,
+      "Name": "Anchor3",
+      "RotY": 25.281219482421875
+    },
+    {
+      "ID": 4,
+      "PosX": 0.36000001430511475,
+      "PosY": 115.67369842529297,
+      "PosZ": -9.34000015258789,
+      "Name": "Anchor4",
+      "RotY": 180.0
+    },
+    {
+      "ID": 5,
+      "PosX": 1.6100000143051147,
+      "PosY": 182.0469970703125,
+      "Name": "Anchor5",
+      "RotY": 271.506591796875
+    },
+    {
+      "ID": 6,
+      "PosX": -4.889999866485596,
+      "PosY": 236.6999969482422,
+      "PosZ": 2.380000114440918,
+      "Name": "Anchor6",
+      "RotY": 148.53359985351562
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -15.01099967956543,
+      "PosY": 115.60919952392578,
+      "PosZ": 38.33599853515625,
+      "Name": "Prop1",
+      "RotY": 1.0667890310287476,
+      "PropID": 105171,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20521001/LG_Prop_F20521001_G152_300001.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "LockedText",
+            "Value": "MazeText_B201_Elevator_5"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "OverrideButtonText",
+            "Value": "MazeText_B201_Elevator_2"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TeleportAnchor",
+            "Value": "LevelArea_P20521_F20521001_G152,Anchor2"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TeleportAnchor2",
+            "Value": "LevelArea_P20521_F20521001_G152,Anchor3"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "OverrideButtonText2",
+            "Value": "MazeText_B201_Elevator_4"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Locked",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 2.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -14.960000038146973,
+      "PosY": 180.4980010986328,
+      "PosZ": 46.904998779296875,
+      "Name": "Prop2",
+      "RotY": 180.0,
+      "PropID": 105171,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20521001/LG_Prop_F20521001_G152_300001.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "LockedText",
+            "Value": "MazeText_B201_Elevator_5"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "OverrideButtonText",
+            "Value": "MazeText_B201_Elevator_1"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TeleportAnchor",
+            "Value": "LevelArea_P20521_F20521001_G152,Anchor1"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TeleportAnchor2",
+            "Value": "LevelArea_P20521_F20521001_G152,Anchor3"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "OverrideButtonText2",
+            "Value": "MazeText_B201_Elevator_4"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Locked",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 2.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": -7.877999782562256,
+      "PosY": 302.21099853515625,
+      "PosZ": -20.468000411987305,
+      "Name": "Prop3",
+      "RotY": 22.319910049438477,
+      "PropID": 105171,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20521001/LG_Prop_F20521001_G152_300001.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "LockedText",
+            "Value": "MazeText_B201_Elevator_5"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "OverrideButtonText",
+            "Value": "MazeText_B201_Elevator_1"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TeleportAnchor",
+            "Value": "LevelArea_P20521_F20521001_G152,Anchor1"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TeleportAnchor2",
+            "Value": "LevelArea_P20521_F20521001_G152,Anchor2"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "OverrideButtonText2",
+            "Value": "MazeText_B201_Elevator_2"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Locked",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 2.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": 1.6339999437332153,
+      "PosY": 115.86699676513672,
+      "PosZ": -4.3460001945495605,
+      "Name": "Prop4",
+      "RotY": 180.0,
+      "PropID": 105171,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20521001/LG_Prop_F20521001_G152_300001.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "LockedText",
+            "Value": "MazeText_B201_Elevator_5"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "OverrideButtonText",
+            "Value": "MazeText_B201_Elevator_2"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TeleportAnchor",
+            "Value": "LevelArea_P20521_F20521001_G152,Anchor5"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TeleportAnchor2",
+            "Value": "LevelArea_P20521_F20521001_G152,Anchor6"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "OverrideButtonText2",
+            "Value": "MazeText_B201_Elevator_3"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Locked",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 2.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300005,
+      "PosX": 3.0799999237060547,
+      "PosY": 182.0469970703125,
+      "PosZ": -1.6799999475479126,
+      "Name": "Prop5",
+      "RotY": 275.0,
+      "PropID": 105171,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20521001/LG_Prop_F20521001_G152_300001.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "LockedText",
+            "Value": "MazeText_B201_Elevator_5"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "OverrideButtonText",
+            "Value": "MazeText_B201_Elevator_1"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TeleportAnchor",
+            "Value": "LevelArea_P20521_F20521001_G152,Anchor4"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TeleportAnchor2",
+            "Value": "LevelArea_P20521_F20521001_G152,Anchor6"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "OverrideButtonText2",
+            "Value": "MazeText_B201_Elevator_3"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Locked",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 2.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300006,
+      "PosX": -7.619999885559082,
+      "PosY": 236.5904998779297,
+      "PosZ": 3.3299999237060547,
+      "Name": "Prop6",
+      "RotY": 154.2021026611328,
+      "PropID": 105171,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20521001/LG_Prop_F20521001_G152_300001.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "LockedText",
+            "Value": "MazeText_B201_Elevator_5"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "OverrideButtonText",
+            "Value": "MazeText_B201_Elevator_1"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TeleportAnchor",
+            "Value": "LevelArea_P20521_F20521001_G152,Anchor4"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TeleportAnchor2",
+            "Value": "LevelArea_P20521_F20521001_G152,Anchor5"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "OverrideButtonText2",
+            "Value": "MazeText_B201_Elevator_2"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Locked",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 2.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

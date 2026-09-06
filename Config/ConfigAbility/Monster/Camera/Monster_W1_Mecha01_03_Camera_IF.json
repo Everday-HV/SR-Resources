@@ -1,0 +1,38 @@
+{
+  "AbilityList": [
+    {
+      "Name": "Monster_W1_Mecha01_03_IF_Skill01_Insert_Camera",
+      "TargetInfo": {
+        "TargetType": "InherentTargetEntity"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview",
+          "Offset": -1
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview",
+          "TaskEnabled": true,
+          "Mode": "-58"
+        },
+        {
+          "$type": "RPG.GameCore.AdvDestroyEntityAsync",
+          "TaskEnabled": true,
+          "InstanceIDList": []
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    }
+  ]
+}

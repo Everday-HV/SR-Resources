@@ -1,0 +1,71 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AddMazeBuffBinding"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActivityElationHideCutIn"
+        },
+        {
+          "$type": "RPG.GameCore.AdvByIsInPhantomFrozen",
+          "Inverse": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchSummonUnit",
+            "Summoner": {
+              "$type": "RPG.GameCore.TargetFetchTeamEntity",
+              "TeamType": "38"
+            },
+            "SummonUnitID": 95,
+            "FetchType": "-25"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AddMissionMenuItem",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchBloodLinkTargets",
+            "Name": "161\u0000.\u0000�����\u000f\u0000�������\f\u0004\rMar_102150161\u0000\u0000\u0000\u0007\u0000\u0000\u0000\u0000\u0000\u001b\u0000 "
+          },
+          "MenuItemTextID": {
+            "Hash": 0,
+            "Hash64": 0
+          },
+          "DialoguePath": ""
+        }
+      ]
+    },
+    {}
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "AbilityList": [
+    {
+      "Name": "WolfBro_Monster_01_AttackReport",
+      "TargetInfo": {
+        "TargetType": "Caster"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.AddAdventureModifier",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
+          "ModifierName": "ADV_Modifier_MazeCommon_WolfBro_MonsterHitPlayer"
+        }
+      ]
+    },
+    {
+      "Name": "MazeMonster_XP_Minion01_04_NormalAtk01",
+      "TargetInfo": {
+        "TargetType": "SkillPointEntity"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveFarmElement",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AddTimelineMenuItem",
+          "TaskEnabled": true,
+          "PerformanceType": "58",
+          "PerformanceID": 101
+        },
+        {
+          "$type": "RPG.GameCore.AdvCreateGroupEntity",
+          "IsOverrideArtModelOffset": true,
+          "OverrideArtModelOffset": {
+            "x": 2.8183640817293853e+20,
+            "y": -2.395427519324322e-38,
+            "z": 1.6288113392627727e-27
+          }
+        }
+      ]
+    },
+    {
+      "Name": "ilityTargetEntity\u0000�̙�\u0006\u0000��̙\u0013\u0000�����#�\u001d\u000e\f\u0001\u0006Caster\u0006Attack\u0000����\u0018�\u0002F\f\u0001\u0004None\u0004�\u0002�\u0001\f\u0001\u0013ProjectileHitEntity",
+      "DynamicStrings": {
+        "\u0013": "rojectileHitEntity���=\u0002\u0018���=\u0000\u0000�C!\u0003Hit.Ev_sfx_monster_skill_01_hit_aml_minion01_w",
+        "ite�\u001d\u0010@\rImpact_Middle�㇌\u0002\u001fCapsuleZ_MazeMonsterLaserBullet\u0010\u0000�����\u0019\u0001\u0014\u0000\u0000\u0000\u0000\u0000\u0000\u0000?\u0006Origin\u0001\u0004\u0000\u0000\u0000\u0000\u0000\u0000�?��L>\u0004RootgE": "fects/Eff_Prefab/Eff_Monster/Eff_XP_Minion01_04/Eff_Monster_XP_Minion01_04_Skill01_Bullet_Loop.prefab_",
+        "ffects/Eff_Prefab/Eff_Monster/Eff_XP_Minion01_04/Eff_Monster_XP_Minio": "01_04_Skill01_Hit.prefab\u0000�̙�\u0006�\u001d\u000e\f\u0001\u0006Caster\u0006Attack\u0000����@\u0013\"WolfBro_XP_Minion01_04_NormalAtk01\u0001\u0004\b�\u0002�\u0002\f\u0001\u0006Caster\u0006\u0006A",
+        "tack\u0002�8\f\u0001\u000eAdvLocalPlayer\u0000�̙�\u0006\u0000��̙\u0013\u0000�����#�\u001d\u000e\f\u0001\u0006Caster\u0006Attack\u0000����\u0018�\u0002F\f\u0001\u0010SkillPointEntity\u0006�\u0002�A\f\u0001\u0013ProjectileHitEntit": "\f\u0001\u0013ProjectileHitEntity\u0000���=\u0002\u0018\u0000\u0000\u0000?\u0000\u0000�C!\u0003Hit.Ev_sfx_monster_skill_01_hit_aml_minion01_white\u0000�\u001e\u001eq\u0001\u0006\u001a\u0001\u000eAdvLocalPlayer�\u0001\u0000�\u0001\u0000\f\u0001",
+        "ProjectileHitEntity": "\u0018\u0000",
+        "": ""
+      }
+    }
+  ]
+}

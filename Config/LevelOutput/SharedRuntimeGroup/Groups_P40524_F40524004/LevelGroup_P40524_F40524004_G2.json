@@ -1,0 +1,223 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Blockline",
+  "AreaAnchorName": "LevelArea_P40524_F40524004_G2",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.SceneConfig",
+        "TagHash": 520707853
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300003,
+      "PosX": -10.86299991607666,
+      "PosY": 9.814676284790039,
+      "PosZ": 14.61847972869873,
+      "Name": "Prop3",
+      "Scale": {
+        "x": 0.8999999761581421,
+        "y": 1.0,
+        "z": 2.0
+      },
+      "PropID": 102,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300001,
+      "PosX": -10.899999618530273,
+      "PosY": 9.814676284790039,
+      "PosZ": 14.210000038146973,
+      "Name": "Prop1",
+      "Scale": {
+        "x": 1.2000000476837158,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "PropID": 114,
+      "IsOverrideInitLevelGraph": true,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ButtonTextFloorName",
+            "Value": "FloorName_20503001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "EnterMapEntranceID",
+            "Value": 2050301
+          }
+        ]
+      },
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 1.0,
+        "DimX": 5.0,
+        "DimY": 3.0,
+        "DimZ": 5.0
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {
+        "CustomTrigger_OnEnter": {
+          "Shape": "Box",
+          "Radius": 10.0,
+          "DimX": 13.029999732971191,
+          "DimY": 3.0,
+          "DimZ": 18.0
+        }
+      },
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 0.009999999776482582,
+          "DimX": 7.0,
+          "DimY": 2.0,
+          "DimZ": 3.0,
+          "Offset": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        "EnterTrigger": {
+          "Shape": "Box",
+          "Radius": 1.0,
+          "DimX": 5.0,
+          "DimY": 6.0,
+          "DimZ": 5.0,
+          "Offset": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 4.0
+          }
+        },
+        "ExitTrigger": {
+          "Shape": "Box",
+          "Radius": 1.0,
+          "DimX": 5.0,
+          "DimY": 6.0,
+          "DimZ": 5.0,
+          "Offset": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 4.0
+          }
+        }
+      },
+      "StateConfigs": [],
+      "MappingInfoID": 2050300,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -10.878999710083008,
+      "PosY": 10.687000274658203,
+      "PosZ": 15.314000129699707,
+      "Name": "Prop2",
+      "RotY": 180.0,
+      "PropID": 105006,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap05/InitLevelGraph_Prop_Chap05_FDPipeEntryStatic_01.json",
+      "ValueSource": {},
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 9.999999747378752e-6,
+          "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": -10.894000053405762,
+      "PosY": 10.60200023651123,
+      "PosZ": 14.157999992370605,
+      "Name": "Prop4",
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20502001/LG_Prop_F20502001_G13_300004.json",
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

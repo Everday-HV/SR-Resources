@@ -1,0 +1,32 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvOverrideCameraModuleConfig",
+          "TaskEnabled": false
+        },
+        {
+          "$type": "RPG.GameCore.AITryInsertUltra"
+        },
+        {
+          "$type": "RPG.GameCore.AbortInsertAbility",
+          "TaskEnabled": true,
+          "AbilityName": "\u001d\u0005\u0004\u0003\u0000�"
+        }
+      ]
+    },
+    {}
+  ]
+}

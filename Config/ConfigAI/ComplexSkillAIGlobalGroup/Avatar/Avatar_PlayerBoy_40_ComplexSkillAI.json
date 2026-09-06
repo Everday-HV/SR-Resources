@@ -1,0 +1,156 @@
+{
+  "GroupsMap": {
+    "Skill02_Player_40_Check": {
+      "Factors": [
+        {
+          "CombineOperator": "Mul",
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIBattleGlobalData",
+            "DataType": "TeamBoostPoint"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 0.5000000004656613
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "xmax": {
+                  "Value": 1.5000000004656613
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 1.5000000004656613
+                },
+                "ymin": {
+                  "Value": 1.0
+                },
+                "xmax": {
+                  "Value": 2.5000000004656613
+                },
+                "ymax": {
+                  "Value": 1.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 2.5000000004656613
+                },
+                "ymin": {
+                  "Value": 1.0
+                },
+                "xmax": {
+                  "Value": 20.0
+                },
+                "ymax": {
+                  "Value": 1.0
+                }
+              }
+            ]
+          },
+          "PostProcess": {
+            "$type": "RPG.GameCore.ComplexSkillAIPostProcessPreCheckFail",
+            "CompareType": "Equal"
+          }
+        }
+      ]
+    },
+    "Ultra_Player_40_SelectElationAvatar": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceAITag",
+            "DynamicValueKey": "DamageCarry"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 50.0
+                },
+                "xmax": {
+                  "Value": 0.5000000004656613
+                },
+                "ymax": {
+                  "Value": 50.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "ymin": {
+                  "Value": 300.0
+                },
+                "xmax": {
+                  "Value": 50.0
+                },
+                "ymax": {
+                  "Value": 300.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 50.0
+                },
+                "ymin": {
+                  "Value": 400.0
+                },
+                "xmax": {
+                  "Value": 1000.0
+                },
+                "ymax": {
+                  "Value": 400.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIGetAvatarBaseType"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 8.500000000465661
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 8.500000000465661
+                },
+                "ymin": {
+                  "Value": 200.0
+                },
+                "xmax": {
+                  "Value": 9.500000000465661
+                },
+                "ymax": {
+                  "Value": 200.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 9.500000000465661
+                },
+                "xmax": {
+                  "Value": 100.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

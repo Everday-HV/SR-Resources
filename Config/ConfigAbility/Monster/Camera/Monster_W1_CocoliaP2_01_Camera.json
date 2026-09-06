@@ -1,0 +1,39 @@
+{
+  "AbilityList": [
+    {
+      "Name": "Monster_W1_CocoliaP2_01_Skill01_Camera",
+      "TargetInfo": {
+        "TargetType": "SkillTargetEntityList"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AddReShaEasterEggMatchRule",
+          "TaskEnabled": true,
+          "Conditions": [],
+          "RouteDisplayID": 0
+        },
+        {
+          "$type": "RPG.GameCore.AddTargetStancePreshowConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActivityElationShowCutIn",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AITryInsertUltra",
+          "ContinuousInsert": true
+        }
+      ]
+    }
+  ]
+}

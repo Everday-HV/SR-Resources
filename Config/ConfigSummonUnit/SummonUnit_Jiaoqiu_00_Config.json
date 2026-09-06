@@ -1,0 +1,31 @@
+{
+  "GroupConfigName": "Field",
+  "ConfigEntityPath": "Config/ConfigEntity/SummonUnit/SummonUnit_Common_TeamField_Entity.json",
+  "ResidentEffects": [
+    {
+      "$type": "RPG.GameCore.TriggerEffect",
+      "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Jiaoqiu_00/Eff_Avatar_Jiaoqiu_00_MazeSkill01.prefab",
+      "ForceSimulateImmediately": false
+    }
+  ],
+  "OnCreate": [
+    {
+      "$type": "RPG.GameCore.TaskConfig"
+    },
+    {
+      "$type": "RPG.GameCore.TaskConfig"
+    }
+  ],
+  "TriggerConfig": {
+    "HintTrigger": {
+      "HintEffectPath": "\u0001\u0006Caster\u0004\u0017Ad",
+      "HintEffectAttachPoint": "DebuffOnEnemyTrigger\u000eHitPropTrigger\u0001\u0004\u0004����\u0001\u0017AddDebuffOnEnemyTrigger\u0000\u0000�����\u0003\u0001\u0001\u0002\n\u0007Trigger\u0002-\u0006\f\u0001\u0010TaskAct",
+      "HintEffectScale": 4096285474816.0
+    },
+    "SoundTrigger": {
+      "OnEnterTriggerEvent": "getɷ\u0007\u0002�\u0010\u0006\f\u0001\u0010TaskActionTargetɷ\u0007����\u0003\u000eHitPropTrigger\u0000\u0000�����\u0003\u0001\u0001\u0002\u000e�\u0001\f\f\u0001\u000bParamEntity\u0002\u0006\u0002�\u001c\u0006\f\u0001\u0010TaskActionTarget\u0002\u0000\u0002�\u000f\u0002\f\u0001",
+      "IsOcclusion": true,
+      "DefaultTriggerRange": 2.9422859324169544e+26
+    }
+  }
+}

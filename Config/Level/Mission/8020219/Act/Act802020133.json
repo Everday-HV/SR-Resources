@@ -1,0 +1,52 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AITryInsertUltra"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AddClientMazeBuff",
+          "TaskEnabled": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.GroupFetchLocalTarget",
+            "TargetType": "-5"
+          },
+          "ID": 84,
+          "BindingAffectedTarget": {
+            "$type": "RPG.GameCore.TargetFetchRogueMagicScepterList"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AdvByTriggeredTrackedSearch",
+          "TaskEnabled": true,
+          "CheckTime": 1.43493837157103e-37
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {},
+    {}
+  ]
+}

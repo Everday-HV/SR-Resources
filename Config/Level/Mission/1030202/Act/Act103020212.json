@@ -1,0 +1,32 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview"
+        },
+        {
+          "$type": "RPG.GameCore.AdvEntityFaceTo",
+          "SourceType": {
+            "$type": "RPG.GameCore.TargetFetchAdvLocalPlayer"
+          },
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchDialogueEntity"
+          },
+          "EnableSteer": true,
+          "ForceToStandBy": true
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {
+      "Order": 3
+    }
+  ]
+}

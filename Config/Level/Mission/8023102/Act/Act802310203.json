@@ -1,0 +1,93 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortInsertAbility",
+          "AbilityName": "G518_SwitchCharacterV2"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvDisableNpcSyncMotion",
+          "TaskEnabled": true,
+          "Target": {
+            "$type": "RPG.GameCore.TargetQuery",
+            "Source": {
+              "$type": "RPG.GameCore.TargetQuery",
+              "TeamTypeMask": "105",
+              "Predicate": {
+                "$type": "RPG.GameCore.ByCheckModifierCallBackStatusType",
+                "TaskEnabled": true
+              }
+            },
+            "TeamTypeMask": "105",
+            "EntityTypeMask": "98",
+            "AliveStateMask": "105",
+            "Predicate": {
+              "$type": "GAKCNIMEPPO",
+              "GAOAMKBNDPN": -58,
+              "AGFMMBCEPAO": -48,
+              "HBLOBGINFBM": -49
+            }
+          },
+          "Disable": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvClientChangePropState",
+          "TaskEnabled": true,
+          "FromState": "57",
+          "CanChangeFromAnyState": true
+        }
+      ]
+    },
+    {
+      "IsLoop": true,
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.AbortModifierPhasePerform",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvByCompareCharacterID",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvByTriggeredTrackedSearch",
+          "TaskEnabled": true,
+          "CheckTime": 1.43493837157103e-37
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    }
+  ]
+}

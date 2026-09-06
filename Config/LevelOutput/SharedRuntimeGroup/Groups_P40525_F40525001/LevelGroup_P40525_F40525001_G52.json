@@ -1,0 +1,82 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Sound_Broadcast_02",
+  "AreaAnchorName": "LevelArea_P40525_F40525001_G52",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "SavedValueName": "SceneStateByMainMission",
+        "Value": 1
+      }
+    ],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Audio.Sound",
+        "TagHash": 1757672304
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosX": 0.5199999809265137,
+      "PosY": 118.43000030517578,
+      "Name": "District02",
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 1.0,
+        "DimX": 45.0,
+        "DimY": 10.0,
+        "DimZ": 45.0
+      },
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_vo_ambient_w5_v420_broadcast_dianshitaguangbo_102",
+        "PlayEventCD": 20.0,
+        "TransformList": [
+          {
+            "Position": {
+              "x": 1.0199999809265137,
+              "y": 121.12999725341797,
+              "z": 0.5600000023841858
+            },
+            "Forward": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "Up": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0
+            }
+          }
+        ]
+      },
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

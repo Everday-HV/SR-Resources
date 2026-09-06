@@ -1,0 +1,373 @@
+{
+  "GroupsMap": {
+    "Ultra_HimekoNova_PowerLessThan3": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceDynamicValue",
+            "IsTarget": false,
+            "DynamicValueKey": "HimekoNova_PowerCount"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 1000.0
+                },
+                "xmax": {
+                  "Value": 2.5000000004656613
+                },
+                "ymax": {
+                  "Value": 1000.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 2.5000000004656613
+                },
+                "xmax": {
+                  "Value": 999.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "CombineOperator": "Mul",
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIContainModifier",
+            "IsTarget": false,
+            "ModifilerName": "MAvatar_HimekoNova_00_Rank06"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 1.0
+                },
+                "xmax": {
+                  "Value": 0.5000000004656613
+                },
+                "ymax": {
+                  "Value": 1.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "xmax": {
+                  "Value": 1.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Ultra_HimekoNova_PowerGreaterEqual3": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceDynamicValue",
+            "IsTarget": false,
+            "DynamicValueKey": "HimekoNova_PowerCount"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 2.5000000004656613
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 2.5000000004656613
+                },
+                "ymin": {
+                  "Value": 1000.0
+                },
+                "xmax": {
+                  "Value": 999.0
+                },
+                "ymax": {
+                  "Value": 1000.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "CombineOperator": "Mul",
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIContainModifier",
+            "IsTarget": false,
+            "ModifilerName": "MAvatar_HimekoNova_00_Rank06"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 1.0
+                },
+                "xmax": {
+                  "Value": 0.5000000004656613
+                },
+                "ymax": {
+                  "Value": 1.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "xmax": {
+                  "Value": 1.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Ultra_HimekoNova_PowerLessThan6": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceDynamicValue",
+            "IsTarget": false,
+            "DynamicValueKey": "HimekoNova_PowerCount"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 1000.0
+                },
+                "xmax": {
+                  "Value": 5.500000000465661
+                },
+                "ymax": {
+                  "Value": 1000.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 5.500000000465661
+                },
+                "xmax": {
+                  "Value": 999.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "CombineOperator": "Mul",
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIContainModifier",
+            "IsTarget": false,
+            "ModifilerName": "MAvatar_HimekoNova_00_Rank06"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 0.5000000004656613
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "ymin": {
+                  "Value": 1.0
+                },
+                "xmax": {
+                  "Value": 1.0
+                },
+                "ymax": {
+                  "Value": 1.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Ultra_HimekoNova_PowerGreaterEqual6": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceDynamicValue",
+            "IsTarget": false,
+            "DynamicValueKey": "HimekoNova_PowerCount"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 5.500000000465661
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 5.500000000465661
+                },
+                "ymin": {
+                  "Value": 1000.0
+                },
+                "xmax": {
+                  "Value": 999.0
+                },
+                "ymax": {
+                  "Value": 1000.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "CombineOperator": "Mul",
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIContainModifier",
+            "IsTarget": false,
+            "ModifilerName": "MAvatar_HimekoNova_00_Rank06"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 0.5000000004656613
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "ymin": {
+                  "Value": 1.0
+                },
+                "xmax": {
+                  "Value": 1.0
+                },
+                "ymax": {
+                  "Value": 1.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "HimekoNova_NoSkill02Buff": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIContainModifier",
+            "IsTarget": false,
+            "ModifilerName": "MAvatar_HimekoNova_00_Skill02_OnListen"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 1000.0
+                },
+                "xmax": {
+                  "Value": 0.5000000004656613
+                },
+                "ymax": {
+                  "Value": 1000.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 1.0
+                },
+                "xmax": {
+                  "Value": 1.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "HimekoNova_HasSkill02Buff": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIContainModifier",
+            "IsTarget": false,
+            "ModifilerName": "MAvatar_HimekoNova_00_Skill02_OnListen"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": -10.0
+                },
+                "xmax": {
+                  "Value": 0.5000000004656613
+                },
+                "ymax": {
+                  "Value": -10.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 1.0
+                },
+                "ymin": {
+                  "Value": 10.0
+                },
+                "xmax": {
+                  "Value": 1.0
+                },
+                "ymax": {
+                  "Value": 10.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "HimekoNova_DisableSkill51": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceDynamicValue",
+            "IsTarget": false,
+            "DynamicValueKey": "HimekoNova_PowerCount"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 999.0
+                }
+              }
+            ]
+          },
+          "PostProcess": {
+            "$type": "RPG.GameCore.ComplexSkillAIPostProcessPreCheckFail",
+            "CompareType": "Equal"
+          }
+        }
+      ]
+    }
+  }
+}

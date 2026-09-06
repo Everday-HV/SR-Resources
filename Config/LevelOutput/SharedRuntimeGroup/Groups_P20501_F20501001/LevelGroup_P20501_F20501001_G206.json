@@ -1,0 +1,490 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "5D_MusicRoom",
+  "LevelGraph": "Config/Level/GroupGraph/F20501001/Group_F20501001_G206.json",
+  "AreaAnchorName": "LevelArea_P20501_F20501001_G206",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "GroupPropertyMap": {
+    "1882": {
+      "ID": 1882,
+      "Name": "LG_110001_LittleGameUIActive_1",
+      "MaxValue": 1
+    },
+    "1883": {
+      "ID": 1883,
+      "Name": "LG_110001_LittleGameUIActive_2",
+      "MaxValue": 1
+    },
+    "1808": {
+      "ID": 1808,
+      "Name": "LG_110001__29_ChestStateS_Auto",
+      "Side": "ServerClient",
+      "DefaultValue": 1,
+      "MaxValue": 3
+    },
+    "1867": {
+      "ID": 1867,
+      "Name": "LG_110001_WindowSave",
+      "Side": "ServerClient",
+      "MaxValue": 23
+    },
+    "1868": {
+      "ID": 1868,
+      "Name": "LG_110001_WindowSave2",
+      "Side": "ServerClient",
+      "MaxValue": 5
+    },
+    "1884": {
+      "ID": 1884,
+      "Name": "LG_110001_WindowFinish_1",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "1885": {
+      "ID": 1885,
+      "Name": "LG_110001_WindowFinish_2",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "1886": {
+      "ID": 1886,
+      "Name": "LG_110001_WindowPuzzleState",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "1887": {
+      "ID": 1887,
+      "Name": "LG_110001__298_ChestStateS_Auto",
+      "Side": "ServerClient",
+      "MaxValue": 3
+    },
+    "2023": {
+      "ID": 2023,
+      "Name": "LG_110001__308_BombTriggerState_Auto",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    }
+  },
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Gameplay",
+        "TagHash": -141571921
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 74.54617309570312,
+      "PosY": 7.000001907348633,
+      "PosZ": -44.70893859863281,
+      "Name": "Anchor1"
+    },
+    {
+      "ID": 2,
+      "PosX": 67.52999877929688,
+      "PosY": 7.000000953674316,
+      "PosZ": -43.16999816894531,
+      "Name": "Anchor2",
+      "RotY": 135.0
+    },
+    {
+      "ID": 3,
+      "PosX": 63.05649948120117,
+      "PosY": 9.89460277557373,
+      "PosZ": -46.34611129760742,
+      "Name": "Anchor3",
+      "RotY": 44.999969482421875,
+      "RotX": 14.999979972839355,
+      "RotZ": -1.9999999949504854e-6,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 45.0
+      }
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 77.7770004272461,
+      "PosY": 7.019000053405762,
+      "PosZ": -45.73500061035156,
+      "Name": "Prop1",
+      "RotY": 270.0,
+      "PropID": 105006,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TargetFDLevel",
+            "Value": "110001,4"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ExitListenLevelRef",
+            "Value": "206,110001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FDPipeExitEntity",
+            "Value": "110001,4"
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "UseTransfer",
+            "Value": 1
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 2.0,
+          "Offset": {
+            "x": 0.5600000023841858,
+            "y": 0.0,
+            "z": 1.0
+          }
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": 77.7770004272461,
+      "PosY": 7.019000053405762,
+      "PosZ": -45.73500061035156,
+      "Name": "MapIcon",
+      "RotY": 270.0,
+      "PropID": 138,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 2390,
+      "SubMapID": 205010109,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 400,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": 66.95500183105469,
+      "PosY": 6.992000102996826,
+      "PosZ": -42.53099822998047,
+      "Name": "5D_Exit",
+      "RotY": 135.0,
+      "RotX": 270.0,
+      "PropID": 105006,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap05/InitLevelGraph_Prop_Chap05_FDPipeEntry_03.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ExitListenLevelRef",
+            "Value": "206,110001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FDPipeExitEntity",
+            "Value": "110001,159"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "AttachedTargetRef",
+            "Value": "206,300003"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ExitCamera",
+            "Value": "LevelArea_P20501_F20501001_G206,Anchor3"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Locked",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300005,
+      "PosX": 74.18900299072266,
+      "PosY": 7.0,
+      "PosZ": -35.862998962402344,
+      "Name": "Prop5",
+      "PropID": 100,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": {
+        "BlockAlias": "Chap05_CloseView_MAZ_B001_R17_ClassRoom05_BlockData",
+        "PrefabAlias": "Music_BlackBoard_0",
+        "UseOverridePos": false
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300006,
+      "PosX": 64.72699737548828,
+      "PosY": 6.959000110626221,
+      "PosZ": -36.86600112915039,
+      "Name": "Prop6",
+      "RotY": 135.0,
+      "PropID": 100,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": {
+        "BlockAlias": "Chap05_CloseView_MAZ_B001_R17_ClassRoom05_BlockData",
+        "PrefabAlias": "Music_Platform_0",
+        "UseOverridePos": false
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": [
+    {
+      "ID": 110001,
+      "PosX": 77.53399658203125,
+      "PosY": 9.960000038146973,
+      "PosZ": -41.0989990234375,
+      "Name": "LittleGame1",
+      "RotY": 269.9999084472656,
+      "GameType": "FiveDim",
+      "LevelConfigPath": "Config/Gameplays/LittleGame/FiveDim/Level/Version_400/Map_School/B001_MusicRoom_01.json",
+      "LevelVarBinding": {
+        "Bindings": [
+          {
+            "LevelVarName": "Exit",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {
+              "GroupID": 206,
+              "InstanceID": 1
+            }
+          },
+          {
+            "LevelVarName": "Exit2",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {
+              "GroupID": 206,
+              "InstanceID": 2
+            }
+          },
+          {
+            "LevelVarName": "WindowSave",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001_WindowSave",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "WindowSave2",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001_WindowSave2",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "LittleGameUIActive_1",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001_LittleGameUIActive_1",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo",
+              "ResetOnExit": true,
+              "PuzzleID": 2050102
+            }
+          },
+          {
+            "LevelVarName": "LittleGameUIActive_2",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001_LittleGameUIActive_2",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo",
+              "ResetOnExit": true,
+              "PuzzleID": 2050103
+            }
+          },
+          {
+            "LevelVarName": "WindowFinish_1",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001_WindowFinish_1",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo",
+              "ResetOnExit": true,
+              "PuzzleID": 2050102
+            }
+          },
+          {
+            "LevelVarName": "WindowFinish_2",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001_WindowFinish_2",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo",
+              "ResetOnExit": true,
+              "PuzzleID": 2050103
+            }
+          },
+          {
+            "LevelVarName": "WindowPuzzleState",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001_WindowPuzzleState",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_29_ChestStateS_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__29_ChestStateS_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_298_ChestStateS_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__298_ChestStateS_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_308_BombTriggerState_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__308_BombTriggerState_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          }
+        ]
+      },
+      "GroupsToKeepOnEnter": [
+        343
+      ],
+      "NavInfo": {
+        "LittleGameConnectList": [
+          {
+            "LevelGroupID": 206,
+            "LevelInstanceID": 300001,
+            "LittleGameEntityID": 4,
+            "ConditionInfos": []
+          }
+        ]
+      },
+      "RequireMissionInfo": {
+        "RequireSubMissionIDList": []
+      },
+      "MinimapFogIDList": [
+        206010000,
+        206010001,
+        206010100,
+        206010101,
+        206010200,
+        206010201
+      ]
+    }
+  ]
+}

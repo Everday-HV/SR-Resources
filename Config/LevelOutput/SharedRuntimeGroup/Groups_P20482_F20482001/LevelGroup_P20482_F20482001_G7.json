@@ -1,0 +1,2685 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Aircraft",
+  "LevelGraph": "Config/Level/GroupGraph/F20482001/Group_F20482001_G7.json",
+  "AreaAnchorName": "LevelArea_P20482_F20482001_G7",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "GroupPropertyMap": {
+    "1": {
+      "ID": 1,
+      "Name": "ApronSave",
+      "Side": "ServerClient",
+      "DefaultValue": 7,
+      "MaxValue": 10,
+      "MinValue": 1
+    },
+    "3": {
+      "ID": 3,
+      "Name": "AircraftUnlock",
+      "Side": "ServerClient",
+      "DefaultValue": 1,
+      "MaxValue": 1
+    },
+    "4": {
+      "ID": 4,
+      "Name": "Aircraft_EnterStage",
+      "Side": "ServerClient",
+      "DefaultValue": 1,
+      "MaxValue": 1
+    },
+    "5": {
+      "ID": 5,
+      "Name": "ApronState",
+      "Side": "ServerClient",
+      "DefaultValue": 6,
+      "MaxValue": 9
+    },
+    "6": {
+      "ID": 6,
+      "Name": "UnlockAccRing",
+      "Side": "ServerClient",
+      "DefaultValue": 2,
+      "MaxValue": 2
+    },
+    "7": {
+      "ID": 7,
+      "Name": "FinalRoomCam",
+      "Side": "ServerClient",
+      "DefaultValue": 1,
+      "MaxValue": 1
+    },
+    "8": {
+      "ID": 8,
+      "Name": "FirstRoomTalk",
+      "Side": "ServerClient",
+      "DefaultValue": 2,
+      "MaxValue": 2
+    }
+  },
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "ApronAnchor_1",
+        "Value": "LevelArea_P20482_F20482001_G7,Anchor6"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "ApronAnchor_2",
+        "Value": "LevelArea_P20482_F20482001_G7,Anchor7"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "ApronAnchor_3",
+        "Value": "LevelArea_P20482_F20482001_G7,Anchor8"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "ApronAnchor_4",
+        "Value": "LevelArea_P20482_F20482001_G7,Anchor9"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "ApronAnchor_5",
+        "Value": "LevelArea_P20482_F20482001_G7,Anchor10"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "ApronAnchor_6",
+        "Value": "LevelArea_P20482_F20482001_G7,Anchor11"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "ApronAnchor_7",
+        "Value": "LevelArea_P20482_F20482001_G7,Anchor12"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "ApronAnchor_8",
+        "Value": "LevelArea_P20482_F20482001_G7,Anchor15"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "ApronAnchor_9",
+        "Value": "LevelArea_P20482_F20482001_G7,Anchor16"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "ApronAnchor_10",
+        "Value": "LevelArea_P20482_F20482001_G7,Anchor24"
+      },
+      {
+        "$type": "RPG.GameCore.SharedJsonConfig",
+        "Key": "RaiseCurve",
+        "Value": {
+          "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+          "GroupID": 7,
+          "InstanceID": 10,
+          "Type": "Curve"
+        }
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "Acc1UnlockCam",
+        "Value": "LevelArea_P20482_F20482001_G7,Acc1UnlockCam"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "NavAnchor_Start",
+        "Value": "LevelArea_P20482_F20482001_G7,MainLine_Start"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "NavAnchor_End",
+        "Value": "LevelArea_P20482_F20482001_G7,MainLine_End"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "NavAnchor_CrossBarrier",
+        "Value": "LevelArea_P20482_F20482001_G7,MainLine_CrossBarrier"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "NavAnchor_DayEntry",
+        "Value": "LevelArea_P20482_F20482001_G7,MainLine_DayEntry"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "NavAnchor_toEnd",
+        "Value": "LevelArea_P20482_F20482001_G7,MainLine_toEnd"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "FirstRaiseCamera",
+        "Value": "LevelArea_P20482_F20482001_G7,Anchor26"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "NavAnchor_BeforeBarrier",
+        "Value": "LevelArea_P20482_F20482001_G7,Anchor27"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "NavAnchor_Barrier",
+        "Value": "LevelArea_P20482_F20482001_G7,Anchor29"
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "StreamingTemplateType": "None",
+  "ConflictWhiteList": [],
+  "EnableGroupAI": true,
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Connection",
+        "TagHash": -295833477
+      },
+      {
+        "Tag": "Group.Level.Gameplay",
+        "TagHash": -141571921
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 720.6400146484375,
+      "PosY": -125.37999725341797,
+      "PosZ": 83.62000274658203,
+      "Name": "Anchor1",
+      "RotY": 316.7099914550781,
+      "RotX": 2.9519970417022705,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 40.0
+      }
+    },
+    {
+      "ID": 2,
+      "PosX": 491.8599853515625,
+      "PosY": -110.05999755859375,
+      "PosZ": 271.4599914550781,
+      "Name": "Anchor2",
+      "RotY": 296.9649963378906,
+      "RotX": 10.028989791870117,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 40.0
+      }
+    },
+    {
+      "ID": 3,
+      "PosX": 349.2799987792969,
+      "PosY": -110.52999877929688,
+      "PosZ": -163.5500030517578,
+      "Name": "Anchor3",
+      "RotY": 271.69000244140625,
+      "RotX": 11.989999771118164,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 40.0
+      }
+    },
+    {
+      "ID": 4,
+      "PosX": 19.90399932861328,
+      "PosY": -148.72799682617188,
+      "PosZ": 92.79100036621094,
+      "Name": "Anchor4",
+      "RotY": 310.3900146484375,
+      "RotX": 8.543004989624023,
+      "RotZ": -9.999999974752427e-7,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 40.0
+      }
+    },
+    {
+      "ID": 5,
+      "PosX": -21.709999084472656,
+      "PosY": -130.7100067138672,
+      "PosZ": -369.9800109863281,
+      "Name": "Anchor5",
+      "RotY": 115.33100128173828,
+      "RotX": 7.443912982940674,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 40.0
+      }
+    },
+    {
+      "ID": 6,
+      "PosX": 708.0910034179688,
+      "PosY": -127.44999694824219,
+      "PosZ": 102.86540222167969,
+      "Name": "Anchor6",
+      "RotY": 269.80560302734375
+    },
+    {
+      "ID": 7,
+      "PosX": 471.3800048828125,
+      "PosY": -114.56999969482422,
+      "PosZ": 289.0,
+      "Name": "Anchor7",
+      "RotY": 239.9127960205078
+    },
+    {
+      "ID": 8,
+      "PosX": 0.5885760188102722,
+      "PosY": -2.559999942779541,
+      "PosZ": 733.4329223632812,
+      "Name": "Anchor8",
+      "RotY": 180.0
+    },
+    {
+      "ID": 9,
+      "PosX": 325.6600036621094,
+      "PosY": -116.41000366210938,
+      "PosZ": -167.7100067138672,
+      "Name": "Anchor9"
+    },
+    {
+      "ID": 10,
+      "PosX": 1.3839999437332153,
+      "PosY": -152.86599731445312,
+      "PosZ": 108.34300231933594,
+      "Name": "Anchor10"
+    },
+    {
+      "ID": 11,
+      "PosY": -135.98699951171875,
+      "PosZ": -380.7149963378906,
+      "Name": "Anchor11"
+    },
+    {
+      "ID": 12,
+      "PosX": 776.260009765625,
+      "PosY": -105.9646987915039,
+      "PosZ": -653.25,
+      "Name": "Anchor12",
+      "RotY": 359.9128112792969
+    },
+    {
+      "ID": 13,
+      "PosX": -503.82000732421875,
+      "PosY": -92.94000244140625,
+      "PosZ": -284.32000732421875,
+      "Name": "Anchor13",
+      "RotY": 205.27110290527344,
+      "RotX": 5.761159896850586,
+      "RotZ": 2.3076279163360596,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 40.0
+      }
+    },
+    {
+      "ID": 14,
+      "PosX": -592.8800048828125,
+      "PosY": -92.87999725341797,
+      "PosZ": 330.3699951171875,
+      "Name": "Anchor14",
+      "RotY": 77.66697692871094,
+      "RotX": 7.74370813369751,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 40.0
+      }
+    },
+    {
+      "ID": 25,
+      "PosX": -838.5599975585938,
+      "PosY": -99.61000061035156,
+      "PosZ": 131.5,
+      "Name": "Anchor25",
+      "RotY": 197.87579345703125,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 40.0
+      }
+    },
+    {
+      "ID": 15,
+      "PosX": -513.323974609375,
+      "PosY": -98.10099792480469,
+      "PosZ": -311.1000061035156,
+      "Name": "Anchor15"
+    },
+    {
+      "ID": 16,
+      "PosX": -569.5170288085938,
+      "PosY": -96.33999633789062,
+      "PosZ": 335.52899169921875,
+      "Name": "Anchor16"
+    },
+    {
+      "ID": 17,
+      "PosX": 610.5881958007812,
+      "PosY": -85.10060119628906,
+      "PosZ": 103.42549896240234,
+      "Name": "Acc1UnlockCam",
+      "RotY": 268.6256103515625,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 50.0
+      }
+    },
+    {
+      "ID": 18,
+      "PosX": 1.1383750438690186,
+      "PosY": -96.91229248046875,
+      "PosZ": -262.75030517578125,
+      "Name": "Acc2UnlockCam",
+      "RotY": 0.41358500719070435,
+      "RotX": 357.66229248046875,
+      "RotZ": 0.0007309999782592058,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 50.0
+      }
+    },
+    {
+      "ID": 19,
+      "PosX": 776.1270141601562,
+      "PosY": -86.5,
+      "PosZ": -301.3999938964844,
+      "Name": "MainLine_Start"
+    },
+    {
+      "ID": 20,
+      "PosX": -0.699999988079071,
+      "PosY": -22.899999618530273,
+      "PosZ": 337.5,
+      "Name": "MainLine_End",
+      "RotY": 180.0
+    },
+    {
+      "ID": 21,
+      "PosX": 9.26785945892334,
+      "PosY": -92.46720886230469,
+      "PosZ": 108.95140075683594,
+      "Name": "MainLine_CrossBarrier",
+      "RotY": 180.0
+    },
+    {
+      "ID": 22,
+      "PosX": -1.4700000286102295,
+      "PosY": 4.329999923706055,
+      "PosZ": 433.29998779296875,
+      "Name": "MainLine_toEnd",
+      "RotY": 180.0
+    },
+    {
+      "ID": 23,
+      "PosX": 0.032248999923467636,
+      "PosY": -129.3300018310547,
+      "PosZ": -380.90350341796875,
+      "Name": "MainLine_DayEntry",
+      "RotY": 180.0
+    },
+    {
+      "ID": 24,
+      "PosX": -854.3829956054688,
+      "PosY": -103.18499755859375,
+      "PosZ": 106.91500091552734,
+      "Name": "Anchor24",
+      "RotY": 89.99993896484375
+    },
+    {
+      "ID": 27,
+      "PosX": 401.6000061035156,
+      "PosY": -89.0,
+      "PosZ": 104.0,
+      "Name": "Anchor27",
+      "RotY": 269.9997863769531
+    },
+    {
+      "ID": 26,
+      "PosX": 758.3900146484375,
+      "PosY": -88.41999816894531,
+      "PosZ": -681.2100219726562,
+      "Name": "Anchor26",
+      "RotY": 30.392810821533203,
+      "RotX": 13.066840171813965,
+      "RotZ": -3.999999989900971e-6,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 40.0
+      }
+    },
+    {
+      "ID": 28,
+      "PosX": 4.765999794006348,
+      "PosY": -137.31939697265625,
+      "PosZ": -386.9079895019531,
+      "Name": "Anchor28",
+      "RotY": 237.8509979248047
+    },
+    {
+      "ID": 29,
+      "PosX": 631.22998046875,
+      "PosY": -78.31999969482422,
+      "PosZ": 102.74720001220703,
+      "Name": "Anchor29"
+    },
+    {
+      "ID": 30,
+      "PosX": 633.8809814453125,
+      "PosY": -84.69999694824219,
+      "PosZ": 102.5,
+      "Name": "Reset",
+      "RotY": 270.00030517578125
+    },
+    {
+      "ID": 31,
+      "PosX": 701.0001220703125,
+      "PosY": -128.6811981201172,
+      "PosZ": 102.83000183105469,
+      "Name": "Recall_1",
+      "RotY": 90.0
+    },
+    {
+      "ID": 32,
+      "PosX": 466.010986328125,
+      "PosY": -115.61620330810547,
+      "PosZ": 285.74798583984375,
+      "Name": "Recall_2",
+      "RotY": 59.99995040893555
+    },
+    {
+      "ID": 33,
+      "PosX": 0.8960000276565552,
+      "PosY": -3.859998941421509,
+      "PosZ": 725.198974609375,
+      "Name": "Recall_3"
+    },
+    {
+      "ID": 34,
+      "PosX": 322.0690002441406,
+      "PosY": -117.51000213623047,
+      "PosZ": -162.61099243164062,
+      "Name": "Recall_4",
+      "RotY": 149.99989318847656
+    },
+    {
+      "ID": 35,
+      "PosX": 1.3859989643096924,
+      "PosY": -153.96719360351562,
+      "PosZ": 100.09700012207031,
+      "Name": "Recall_5"
+    },
+    {
+      "ID": 36,
+      "PosX": 0.08100099861621857,
+      "PosY": -137.31939697265625,
+      "PosZ": -387.6000061035156,
+      "Name": "Recall_6"
+    },
+    {
+      "ID": 37,
+      "PosX": 776.4879760742188,
+      "PosY": -99.74706268310547,
+      "PosZ": -667.3790893554688,
+      "Name": "Recall_7"
+    },
+    {
+      "ID": 38,
+      "PosX": -507.3494873046875,
+      "PosY": -99.24176788330078,
+      "PosZ": -311.1534118652344,
+      "Name": "Recall_8",
+      "RotY": 270.1499938964844
+    },
+    {
+      "ID": 39,
+      "PosX": -574.0145263671875,
+      "PosY": -97.40000915527344,
+      "PosZ": 331.2727966308594,
+      "Name": "Recall_9",
+      "RotY": 47.910179138183594
+    },
+    {
+      "ID": 40,
+      "PosX": -848.1099853515625,
+      "PosY": -104.18119812011719,
+      "PosZ": 106.95999908447266,
+      "Name": "Recall_10",
+      "RotY": 270.4800109863281
+    },
+    {
+      "ID": 41,
+      "PosX": 776.260009765625,
+      "PosY": -98.78070068359375,
+      "PosZ": -653.25,
+      "Name": "Anchor41"
+    },
+    {
+      "ID": 42,
+      "PosX": 686.0,
+      "PosY": -102.37999725341797,
+      "PosZ": 104.0,
+      "Name": "Anchor42",
+      "RotY": 269.9999084472656
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 776.260009765625,
+      "PosY": -106.37999725341797,
+      "PosZ": -653.25,
+      "Name": "Prop1",
+      "RotY": 359.9128112792969,
+      "PropID": 931,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Shape": "Box",
+          "Radius": 1.0,
+          "DimX": 21.0,
+          "DimY": 10.0,
+          "DimZ": 21.0,
+          "Offset": {
+            "x": 0.0,
+            "y": -5.0,
+            "z": 0.0
+          }
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 0,
+      "OverrideMapStateIcons": [
+        {}
+      ],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": 495.57501220703125,
+      "PosY": -132.0,
+      "PosZ": 103.96320343017578,
+      "Name": "Prop2",
+      "RotY": 90.0,
+      "Scale": {
+        "x": 10.0,
+        "y": 10.0,
+        "z": 10.0
+      },
+      "PropID": 104395,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "AccDuration",
+            "Value": 3.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "AccDuration_B",
+            "Value": 1.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "GE_CrossAccRing_",
+            "Value": "GE_CrossAccRing_1"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "GE_RevCrossAccRing_",
+            "Value": "GE_RevCrossAccRing_1"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 30.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": 298.3999938964844,
+      "PosY": -132.0,
+      "PosZ": 104.0,
+      "Name": "Prop3",
+      "RotY": 90.0,
+      "Scale": {
+        "x": 10.0,
+        "y": 10.0,
+        "z": 10.0
+      },
+      "PropID": 104395,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "AccDuration",
+            "Value": 1.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "AccDuration_B",
+            "Value": 3.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "GE_CrossAccRing_",
+            "Value": "GE_CrossAccRing_2"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "GE_RevCrossAccRing_",
+            "Value": "GE_RevCrossAccRing_2"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": -223.10000610351562,
+      "PosY": -132.0,
+      "PosZ": 104.0,
+      "Name": "Prop4",
+      "RotY": 90.0,
+      "Scale": {
+        "x": 10.0,
+        "y": 10.0,
+        "z": 10.0
+      },
+      "PropID": 104395,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "GE_CrossAccRing_",
+            "Value": "GE_CrossAccRing_3"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "GE_RevCrossAccRing_",
+            "Value": "GE_RevCrossAccRing_3"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300005,
+      "PosX": 707.739990234375,
+      "PosY": -128.69000244140625,
+      "PosZ": 102.78019714355469,
+      "Name": "Prop5",
+      "PropID": 104396,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "AircraftProp",
+            "Value": "7,300001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "CameraAnchor",
+            "Value": "LevelArea_P20482_F20482001_G7,Anchor1"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FinishLanding_GroupEvent",
+            "Value": "GE_FinishLanding_1"
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfig",
+            "Key": "LandingCurve",
+            "Value": {
+              "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+              "GroupID": 7,
+              "InstanceID": 1,
+              "Type": "Curve"
+            }
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ApronAnchor",
+            "Value": "LevelArea_P20482_F20482001_G7,Anchor6"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "GE_Recall",
+            "Value": "GE_Recall_1"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Recall_ChaAnchor",
+            "Value": "LevelArea_P20482_F20482001_G7,Recall_1"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 11.0
+        }
+      },
+      "StateConfigs": [],
+      "MappingInfoID": 10087,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300006,
+      "PosX": 471.447998046875,
+      "PosY": -115.61620330810547,
+      "PosZ": 288.8876037597656,
+      "Name": "Prop6",
+      "RotY": 329.9128112792969,
+      "PropID": 104396,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "AircraftProp",
+            "Value": "7,300001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "CameraAnchor",
+            "Value": "LevelArea_P20482_F20482001_G7,Anchor2"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FinishLanding_GroupEvent",
+            "Value": "GE_FinishLanding_2"
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfig",
+            "Key": "LandingCurve",
+            "Value": {
+              "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+              "GroupID": 7,
+              "InstanceID": 2,
+              "Type": "Curve"
+            }
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ApronAnchor",
+            "Value": "LevelArea_P20482_F20482001_G7,Anchor7"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "GE_Recall",
+            "Value": "GE_Recall_2"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Recall_ChaAnchor",
+            "Value": "LevelArea_P20482_F20482001_G7,Recall_2"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 11.0
+        }
+      },
+      "StateConfigs": [],
+      "MappingInfoID": 10087,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300007,
+      "PosX": 0.9100000262260437,
+      "PosY": -3.859998941421509,
+      "PosZ": 733.4329223632812,
+      "Name": "Prop7",
+      "PropID": 104401,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_Apron_02.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "AircraftProp",
+            "Value": "7,300001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FinishLanding_GroupEvent",
+            "Value": "GE_FinishLanding_3"
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfig",
+            "Key": "LandingCurve",
+            "Value": {
+              "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+              "GroupID": 7,
+              "InstanceID": 3,
+              "Type": "Curve"
+            }
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "GE_Recall",
+            "Value": "GE_Recall_3"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ApronAnchor",
+            "Value": "LevelArea_P20482_F20482001_G7,Anchor8"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "GE_SpecialApronLanding_",
+            "Value": "GE_SpecialApronLanding_3"
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "Phase",
+            "Value": 2
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Recall_ChaAnchor",
+            "Value": "LevelArea_P20482_F20482001_G7,Recall_3"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "RecallAcnhor_TravelShip",
+            "Value": "LevelArea_P20482_F20482001_G7,Anchor8"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 11.0
+        }
+      },
+      "StateConfigs": [],
+      "MappingInfoID": 10086,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300008,
+      "PosX": 325.6600036621094,
+      "PosY": -117.51000213623047,
+      "PosZ": -167.67999267578125,
+      "Name": "Prop8",
+      "RotY": 54.69606018066406,
+      "PropID": 104396,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "AircraftProp",
+            "Value": "7,300001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "CameraAnchor",
+            "Value": "LevelArea_P20482_F20482001_G7,Anchor3"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FinishLanding_GroupEvent",
+            "Value": "GE_FinishLanding_4"
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfig",
+            "Key": "LandingCurve",
+            "Value": {
+              "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+              "GroupID": 7,
+              "InstanceID": 4,
+              "Type": "Curve"
+            }
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ApronAnchor",
+            "Value": "LevelArea_P20482_F20482001_G7,Anchor9"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "GE_Recall",
+            "Value": "GE_Recall_4"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Recall_ChaAnchor",
+            "Value": "LevelArea_P20482_F20482001_G7,Recall_4"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 11.0
+        }
+      },
+      "StateConfigs": [],
+      "MappingInfoID": 10087,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300009,
+      "PosX": 1.3799999952316284,
+      "PosY": -153.96719360351562,
+      "PosZ": 108.30999755859375,
+      "Name": "Prop9",
+      "PropID": 104396,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "AircraftProp",
+            "Value": "7,300001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "CameraAnchor",
+            "Value": "LevelArea_P20482_F20482001_G7,Anchor4"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FinishLanding_GroupEvent",
+            "Value": "GE_FinishLanding_5"
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfig",
+            "Key": "LandingCurve",
+            "Value": {
+              "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+              "GroupID": 7,
+              "InstanceID": 5,
+              "Type": "Curve"
+            }
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ApronAnchor",
+            "Value": "LevelArea_P20482_F20482001_G7,Anchor10"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "GE_Recall",
+            "Value": "GE_Recall_5"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Recall_ChaAnchor",
+            "Value": "LevelArea_P20482_F20482001_G7,Recall_5"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 11.0
+        }
+      },
+      "StateConfigs": [],
+      "MappingInfoID": 10087,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300010,
+      "PosX": 0.019999999552965164,
+      "PosY": -137.3363037109375,
+      "PosZ": -380.760009765625,
+      "Name": "Prop10",
+      "Scale": {
+        "x": 0.8999999761581421,
+        "y": 0.8999999761581421,
+        "z": 0.8999999761581421
+      },
+      "PropID": 104396,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "AircraftProp",
+            "Value": "7,300001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "CameraAnchor",
+            "Value": "LevelArea_P20482_F20482001_G7,Anchor5"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FinishLanding_GroupEvent",
+            "Value": "GE_FinishLanding_6"
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfig",
+            "Key": "LandingCurve",
+            "Value": {
+              "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+              "GroupID": 7,
+              "InstanceID": 6,
+              "Type": "Curve"
+            }
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ApronAnchor",
+            "Value": "LevelArea_P20482_F20482001_G7,Anchor11"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "GE_Recall",
+            "Value": "GE_Recall_6"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Recall_ChaAnchor",
+            "Value": "LevelArea_P20482_F20482001_G7,Recall_6"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 11.0
+        }
+      },
+      "StateConfigs": [],
+      "MappingInfoID": 10087,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300011,
+      "PosX": 776.1500244140625,
+      "PosY": -106.73999786376953,
+      "PosZ": -653.3099975585938,
+      "Name": "Prop11",
+      "PropID": 104400,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_Apron_02.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "AircraftProp",
+            "Value": "7,300001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FinishLanding_GroupEvent",
+            "Value": "GE_FinishLanding_7"
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfig",
+            "Key": "LandingCurve",
+            "Value": {
+              "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+              "GroupID": 7,
+              "InstanceID": 7,
+              "Type": "Curve"
+            }
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "GE_Recall",
+            "Value": "GE_Recall_7"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ApronAnchor",
+            "Value": "LevelArea_P20482_F20482001_G7,Anchor12"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "GE_SpecialApronLanding_",
+            "Value": "GE_SpecialApronLanding_7"
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "ScreenEffType",
+            "Value": 1
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Recall_ChaAnchor",
+            "Value": "LevelArea_P20482_F20482001_G7,Recall_7"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "RecallAcnhor_TravelShip",
+            "Value": "LevelArea_P20482_F20482001_G7,Anchor41"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 11.0
+        },
+        "RaiseTrigger": {
+          "Shape": "Box",
+          "Radius": 1.0,
+          "DimX": 30.0,
+          "DimY": 40.0,
+          "DimZ": 60.0,
+          "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -15.0
+          }
+        }
+      },
+      "StateConfigs": [],
+      "MappingInfoID": 10086,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300012,
+      "PosX": -513.3267211914062,
+      "PosY": -99.24178314208984,
+      "PosZ": -311.1426086425781,
+      "Name": "Prop12",
+      "PropID": 104396,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "AircraftProp",
+            "Value": "7,300001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "CameraAnchor",
+            "Value": "LevelArea_P20482_F20482001_G7,Anchor13"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FinishLanding_GroupEvent",
+            "Value": "GE_FinishLanding_8"
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfig",
+            "Key": "LandingCurve",
+            "Value": {
+              "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+              "GroupID": 7,
+              "InstanceID": 8,
+              "Type": "Curve"
+            }
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ApronAnchor",
+            "Value": "LevelArea_P20482_F20482001_G7,Anchor15"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "GE_Recall",
+            "Value": "GE_Recall_8"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Recall_ChaAnchor",
+            "Value": "LevelArea_P20482_F20482001_G7,Recall_8"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 11.0
+        }
+      },
+      "StateConfigs": [],
+      "MappingInfoID": 10087,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300013,
+      "PosX": -569.510009765625,
+      "PosY": -97.40000915527344,
+      "PosZ": 335.489990234375,
+      "Name": "Prop13",
+      "RotY": 46.76662063598633,
+      "PropID": 104396,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "AircraftProp",
+            "Value": "7,300001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "CameraAnchor",
+            "Value": "LevelArea_P20482_F20482001_G7,Anchor14"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FinishLanding_GroupEvent",
+            "Value": "GE_FinishLanding_9"
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfig",
+            "Key": "LandingCurve",
+            "Value": {
+              "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+              "GroupID": 7,
+              "InstanceID": 9,
+              "Type": "Curve"
+            }
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ApronAnchor",
+            "Value": "LevelArea_P20482_F20482001_G7,Anchor16"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "GE_Recall",
+            "Value": "GE_Recall_9"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Recall_ChaAnchor",
+            "Value": "LevelArea_P20482_F20482001_G7,Recall_9"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 11.0
+        }
+      },
+      "StateConfigs": [],
+      "MappingInfoID": 10087,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300023,
+      "PosX": -854.5183715820312,
+      "PosY": -104.18119812011719,
+      "PosZ": 106.95999908447266,
+      "Name": "Prop23",
+      "RotY": 90.0,
+      "PropID": 104396,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "AircraftProp",
+            "Value": "7,300001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "CameraAnchor",
+            "Value": "LevelArea_P20482_F20482001_G7,Anchor25"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FinishLanding_GroupEvent",
+            "Value": "GE_FinishLanding_10"
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfig",
+            "Key": "LandingCurve",
+            "Value": {
+              "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+              "GroupID": 7,
+              "InstanceID": 11,
+              "Type": "Curve"
+            }
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ApronAnchor",
+            "Value": "LevelArea_P20482_F20482001_G7,Anchor24"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "GE_Recall",
+            "Value": "GE_Recall_10"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Recall_ChaAnchor",
+            "Value": "LevelArea_P20482_F20482001_G7,Recall_10"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 11.0
+        }
+      },
+      "StateConfigs": [],
+      "MappingInfoID": 10087,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300018,
+      "PosX": 0.4000000059604645,
+      "PosY": -136.8000030517578,
+      "PosZ": -150.3000030517578,
+      "Name": "Prop18",
+      "RotY": 180.0,
+      "RotX": 9.999994277954102,
+      "Scale": {
+        "x": 10.0,
+        "y": 10.0,
+        "z": 10.0
+      },
+      "PropID": 104395,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "AccDuration",
+            "Value": 5.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "AccDuration_B",
+            "Value": 1.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "GE_CrossAccRing_",
+            "Value": "GE_CrossAccRing_4"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "GE_RevCrossAccRing_",
+            "Value": "GE_RevCrossAccRing_4"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 30.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300019,
+      "PosX": 0.4000000059604645,
+      "PosY": -64.9000015258789,
+      "PosZ": 257.3999938964844,
+      "Name": "Prop19",
+      "RotY": 180.0,
+      "RotX": 9.999994277954102,
+      "Scale": {
+        "x": 10.0,
+        "y": 10.0,
+        "z": 10.0
+      },
+      "PropID": 104395,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "AccDuration_B",
+            "Value": 1.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "GE_CrossAccRing_",
+            "Value": "GE_CrossAccRing_5"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "GE_RevCrossAccRing_",
+            "Value": "GE_RevCrossAccRing_5"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 30.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300021,
+      "PosX": -1.5199999809265137,
+      "PosY": 2.4000000953674316,
+      "PosZ": 440.9700012207031,
+      "Name": "Prop21",
+      "Scale": {
+        "x": 38.64339828491211,
+        "y": 38.00661087036133,
+        "z": 1.0
+      },
+      "PropID": 104449,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300022,
+      "PosX": 774.989990234375,
+      "PosY": -85.61000061035156,
+      "PosZ": -327.04998779296875,
+      "Name": "Prop22",
+      "Scale": {
+        "x": 38.64339828491211,
+        "y": 38.00661087036133,
+        "z": 1.0
+      },
+      "PropID": 104449,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300014,
+      "PosX": 707.739990234375,
+      "PosY": -125.06999969482422,
+      "PosZ": 102.78019714355469,
+      "Name": "Prop14",
+      "PropID": 104293,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_Aircraft_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FinishLanding_GroupEvent",
+            "Value": "GE_FinishLanding_1"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 10089,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 385,
+      "OverrideMapStateIcons": [
+        {},
+        {
+          "State": "Open",
+          "IconID": 385
+        }
+      ],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideBoardShowList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300015,
+      "PosX": 471.447998046875,
+      "PosY": -112.23999786376953,
+      "PosZ": 288.8876037597656,
+      "Name": "Prop15",
+      "RotY": 329.9128112792969,
+      "PropID": 104293,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_Aircraft_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FinishLanding_GroupEvent",
+            "Value": "GE_FinishLanding_2"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 10089,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 385,
+      "OverrideMapStateIcons": [
+        {},
+        {
+          "State": "Open",
+          "IconID": 385
+        }
+      ],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideBoardShowList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300016,
+      "PosX": 0.9100000262260437,
+      "PosY": 2.1500000953674316,
+      "PosZ": 733.4329223632812,
+      "Name": "Prop16",
+      "PropID": 104293,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_Aircraft_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FinishLanding_GroupEvent",
+            "Value": "GE_FinishLanding_3"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 10089,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 385,
+      "OverrideMapStateIcons": [
+        {},
+        {
+          "State": "Open",
+          "IconID": 385
+        }
+      ],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideBoardShowList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300017,
+      "PosX": 325.6600036621094,
+      "PosY": -114.33999633789062,
+      "PosZ": -167.67999267578125,
+      "Name": "Prop17",
+      "RotY": 54.69606018066406,
+      "PropID": 104293,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_Aircraft_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FinishLanding_GroupEvent",
+            "Value": "GE_FinishLanding_4"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 10089,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 385,
+      "OverrideMapStateIcons": [
+        {},
+        {
+          "State": "Open",
+          "IconID": 385
+        }
+      ],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideBoardShowList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300020,
+      "PosX": 1.3799999952316284,
+      "PosY": -153.96719360351562,
+      "PosZ": 108.30999755859375,
+      "Name": "Prop20",
+      "PropID": 104293,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_Aircraft_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FinishLanding_GroupEvent",
+            "Value": "GE_FinishLanding_5"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 10089,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 385,
+      "OverrideMapStateIcons": [
+        {},
+        {
+          "State": "Open",
+          "IconID": 385
+        }
+      ],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideBoardShowList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300024,
+      "PosX": 0.019999999552965164,
+      "PosY": -133.75999450683594,
+      "PosZ": -380.760009765625,
+      "Name": "Prop24",
+      "PropID": 104293,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_Aircraft_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FinishLanding_GroupEvent",
+            "Value": "GE_FinishLanding_6"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 10089,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 385,
+      "OverrideMapStateIcons": [
+        {},
+        {
+          "State": "Open",
+          "IconID": 385
+        }
+      ],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideBoardShowList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300025,
+      "PosX": 776.1500244140625,
+      "PosY": -92.31999969482422,
+      "PosZ": -653.3099975585938,
+      "Name": "Prop25",
+      "PropID": 104293,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_Aircraft_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FinishLanding_GroupEvent",
+            "Value": "GE_FinishLanding_7"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 10089,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 385,
+      "OverrideMapStateIcons": [
+        {},
+        {
+          "State": "Open",
+          "IconID": 385
+        }
+      ],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideBoardShowList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300026,
+      "PosX": -513.3267211914062,
+      "PosY": -99.24178314208984,
+      "PosZ": -311.1426086425781,
+      "Name": "Prop26",
+      "PropID": 104293,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_Aircraft_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FinishLanding_GroupEvent",
+            "Value": "GE_FinishLanding_8"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 10089,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 385,
+      "OverrideMapStateIcons": [
+        {},
+        {
+          "State": "Open",
+          "IconID": 385
+        }
+      ],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideBoardShowList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300027,
+      "PosX": -569.510009765625,
+      "PosY": -97.40000915527344,
+      "PosZ": 335.489990234375,
+      "Name": "Prop27",
+      "RotY": 46.76662063598633,
+      "PropID": 104293,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_Aircraft_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FinishLanding_GroupEvent",
+            "Value": "GE_FinishLanding_9"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 10089,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 385,
+      "OverrideMapStateIcons": [
+        {},
+        {
+          "State": "Open",
+          "IconID": 385
+        }
+      ],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideBoardShowList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300028,
+      "PosX": -854.5183715820312,
+      "PosY": -104.18119812011719,
+      "PosZ": 106.95999908447266,
+      "Name": "Prop28",
+      "RotY": 90.0,
+      "PropID": 104293,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_Aircraft_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FinishLanding_GroupEvent",
+            "Value": "GE_FinishLanding_10"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 10089,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 385,
+      "OverrideMapStateIcons": [
+        {},
+        {
+          "State": "Open",
+          "IconID": 385
+        }
+      ],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideBoardShowList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosX": 788.5900268554688,
+      "PosY": -89.70999908447266,
+      "PosZ": -665.8300170898438,
+      "Name": "District1",
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 60.0,
+        "DimY": 40.0,
+        "DimZ": 60.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    },
+    {
+      "ID": 500002,
+      "PosX": 771.4000244140625,
+      "PosY": -100.06069946289062,
+      "PosZ": -527.5,
+      "Name": "District2",
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 100.0,
+        "DimY": 100.0,
+        "DimZ": 400.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    },
+    {
+      "ID": 500003,
+      "PosX": -1.0,
+      "PosY": 8.600000381469727,
+      "PosZ": 641.2999877929688,
+      "Name": "District3",
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 100.0,
+        "DimY": 100.0,
+        "DimZ": 400.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    },
+    {
+      "ID": 500004,
+      "PosX": 771.4000244140625,
+      "PosY": -100.06069946289062,
+      "PosZ": -623.2999877929688,
+      "Name": "District4",
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 100.0,
+        "DimY": 100.0,
+        "DimZ": 400.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    },
+    {
+      "ID": 500005,
+      "PosX": -1.0,
+      "PosY": 8.600000381469727,
+      "PosZ": 756.0999755859375,
+      "Name": "District5",
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 100.0,
+        "DimY": 100.0,
+        "DimZ": 400.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    },
+    {
+      "ID": 500006,
+      "PosX": 771.4000244140625,
+      "PosY": -100.06069946289062,
+      "PosZ": -492.79998779296875,
+      "Name": "District6",
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 80.0,
+        "DimY": 100.0,
+        "DimZ": 80.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    },
+    {
+      "ID": 500007,
+      "PosX": 771.4000244140625,
+      "PosY": -100.06069946289062,
+      "PosZ": -365.20001220703125,
+      "Name": "District7",
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 80.0,
+        "DimY": 100.0,
+        "DimZ": 80.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    },
+    {
+      "ID": 500008,
+      "PosX": 1.193969964981079,
+      "PosY": -27.3700008392334,
+      "PosZ": 307.70001220703125,
+      "Name": "District8",
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 188.1999969482422,
+        "DimY": 100.0,
+        "DimZ": 100.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    },
+    {
+      "ID": 500009,
+      "PosX": 0.550000011920929,
+      "PosY": 6.179999828338623,
+      "PosZ": 620.5,
+      "Name": "District9",
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 40.0,
+        "DimY": 20.0,
+        "DimZ": 90.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    },
+    {
+      "ID": 500010,
+      "PosX": 776.5399780273438,
+      "PosY": -84.04000091552734,
+      "PosZ": -434.8699951171875,
+      "Name": "District10",
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 20.0,
+        "DimY": 20.0,
+        "DimZ": 4.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    },
+    {
+      "ID": 500011,
+      "PosX": -1.100000023841858,
+      "PosY": -138.156494140625,
+      "PosZ": -367.6000061035156,
+      "Name": "District11",
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 60.0,
+        "DimY": 60.0,
+        "DimZ": 60.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [
+    {
+      "ID": 1,
+      "PosX": 708.0910034179688,
+      "PosY": -127.44999694824219,
+      "PosZ": 102.86540222167969,
+      "Name": "Curve1",
+      "RotY": 270.0,
+      "PointList": [
+        {
+          "Alias": "0",
+          "Position": {
+            "x": 0.0,
+            "y": 11.343000411987305,
+            "z": 0.0
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "1",
+          "ControlType": 1
+        },
+        {
+          "Alias": "2",
+          "ControlType": 1
+        }
+      ]
+    },
+    {
+      "ID": 2,
+      "PosX": 471.3800048828125,
+      "PosY": -114.56999969482422,
+      "PosZ": 289.0,
+      "Name": "Curve2",
+      "RotY": 238.94900512695312,
+      "PointList": [
+        {
+          "Alias": "0",
+          "Position": {
+            "x": 0.0,
+            "y": 18.98073959350586,
+            "z": 0.0
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "1",
+          "ControlType": 1
+        },
+        {
+          "Alias": "2",
+          "ControlType": 1
+        }
+      ]
+    },
+    {
+      "ID": 3,
+      "PosX": 0.20000000298023224,
+      "PosY": 3.1700000762939453,
+      "PosZ": 431.75,
+      "Name": "Curve3",
+      "RotY": 270.0,
+      "PointList": [
+        {
+          "Alias": "0",
+          "Position": {
+            "x": -2.724761962890625,
+            "y": 0.18573400378227234,
+            "z": 0.0
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "1",
+          "Position": {
+            "x": 301.63470458984375,
+            "y": -5.842379093170166,
+            "z": -0.3900449872016907
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -14.857419967651367,
+            "y": 1.0575790405273438,
+            "z": 0.0
+          },
+          "Control2": {
+            "x": 14.857419967651367,
+            "y": -1.0575790405273438,
+            "z": 0.0
+          }
+        },
+        {
+          "Alias": "2",
+          "Position": {
+            "x": 301.63470458984375,
+            "y": -5.842379093170166,
+            "z": -0.3900449872016907
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -14.857419967651367,
+            "y": 1.0575790405273438,
+            "z": 0.0
+          },
+          "Control2": {
+            "x": 14.857419967651367,
+            "y": -1.0575790405273438,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "ID": 4,
+      "PosX": 325.6600036621094,
+      "PosY": -116.41000366210938,
+      "PosZ": -167.7100067138672,
+      "Name": "Curve4",
+      "RotY": 327.4920959472656,
+      "PointList": [
+        {
+          "Alias": "0",
+          "Position": {
+            "x": 0.0,
+            "y": 19.227069854736328,
+            "z": 0.0
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "1",
+          "ControlType": 1
+        },
+        {
+          "Alias": "2",
+          "ControlType": 1
+        }
+      ]
+    },
+    {
+      "ID": 5,
+      "PosX": 1.3839999437332153,
+      "PosY": -152.86599731445312,
+      "PosZ": 108.34300231933594,
+      "Name": "Curve5",
+      "RotY": 355.8970947265625,
+      "PointList": [
+        {
+          "Alias": "0",
+          "Position": {
+            "x": 0.0,
+            "y": 18.557220458984375,
+            "z": 0.0
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "1",
+          "ControlType": 1
+        },
+        {
+          "Alias": "2",
+          "ControlType": 1
+        }
+      ]
+    },
+    {
+      "ID": 6,
+      "PosY": -135.99200439453125,
+      "PosZ": -380.7149963378906,
+      "Name": "Curve6",
+      "RotY": 0.16482900083065033,
+      "PointList": [
+        {
+          "Alias": "0",
+          "Position": {
+            "x": 0.0,
+            "y": 18.557220458984375,
+            "z": 0.0
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "1",
+          "ControlType": 1
+        },
+        {
+          "Alias": "2",
+          "ControlType": 1
+        }
+      ]
+    },
+    {
+      "ID": 7,
+      "PosX": 776.1599731445312,
+      "PosY": -81.48999786376953,
+      "PosZ": -293.20001220703125,
+      "Name": "Curve7",
+      "RotY": 180.0,
+      "PointList": [
+        {
+          "Alias": "0",
+          "Position": {
+            "x": -0.002196999965235591,
+            "y": 0.1857379972934723,
+            "z": 0.0
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "1",
+          "Position": {
+            "x": -0.04739399999380112,
+            "y": -4.910004138946533,
+            "z": 355.098388671875
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "2",
+          "Position": {
+            "x": -0.047394998371601105,
+            "y": -17.317859649658203,
+            "z": 360.34991455078125
+          },
+          "ControlType": 1
+        }
+      ]
+    },
+    {
+      "ID": 8,
+      "PosX": -513.323974609375,
+      "PosY": -98.10099792480469,
+      "PosZ": -311.1000061035156,
+      "Name": "Curve8",
+      "RotY": 270.0,
+      "PointList": [
+        {
+          "Alias": "0",
+          "Position": {
+            "x": 0.0,
+            "y": 18.557220458984375,
+            "z": 0.0
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "1",
+          "ControlType": 1
+        },
+        {
+          "Alias": "2",
+          "ControlType": 1
+        }
+      ]
+    },
+    {
+      "ID": 9,
+      "PosX": -569.5170288085938,
+      "PosY": -96.33999633789062,
+      "PosZ": 335.52899169921875,
+      "Name": "Curve9",
+      "RotY": 136.773193359375,
+      "PointList": [
+        {
+          "Alias": "0",
+          "Position": {
+            "x": 0.0,
+            "y": 18.557220458984375,
+            "z": 0.0
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "1",
+          "ControlType": 1
+        },
+        {
+          "Alias": "2",
+          "ControlType": 1
+        }
+      ]
+    },
+    {
+      "ID": 10,
+      "PosX": 776.260009765625,
+      "PosY": -105.99299621582031,
+      "PosZ": -653.25,
+      "Name": "Curve10",
+      "PointList": [
+        {
+          "Alias": "0",
+          "Position": {
+            "x": 0.0,
+            "y": 0.02827499993145466,
+            "z": 0.0
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "1",
+          "Position": {
+            "x": 0.0,
+            "y": 7.208922863006592,
+            "z": 0.0
+          },
+          "ControlType": 1
+        }
+      ]
+    },
+    {
+      "ID": 11,
+      "PosX": -854.3829956054688,
+      "PosY": -103.18499755859375,
+      "PosZ": 106.91500091552734,
+      "Name": "Curve11",
+      "RotY": 136.773193359375,
+      "PointList": [
+        {
+          "Alias": "0",
+          "Position": {
+            "x": 0.0,
+            "y": 18.557220458984375,
+            "z": 0.0
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "1",
+          "ControlType": 1
+        },
+        {
+          "Alias": "2",
+          "ControlType": 1
+        }
+      ]
+    }
+  ],
+  "LittleGameList": []
+}

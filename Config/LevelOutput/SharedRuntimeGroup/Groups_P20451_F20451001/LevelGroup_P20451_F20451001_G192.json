@@ -1,0 +1,499 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "DestructableGoldenSpear",
+  "LevelGraph": "Config/Level/GroupGraph/F20451001/Group_F20451001_G192.json",
+  "AreaAnchorName": "LevelArea_P20451_F20451001_G192",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "StreamingTemplateType": "None",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Gameplay",
+        "TagHash": -141571921
+      },
+      {
+        "Tag": "GameModule.EraFlip.State.Day",
+        "TagHash": 1090843668
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 214.51220703125,
+      "PosY": 40.786251068115234,
+      "PosZ": 234.97000122070312,
+      "Name": "Anchor1",
+      "RotY": 180.0
+    },
+    {
+      "ID": 2,
+      "PosX": 255.94549560546875,
+      "PosY": 35.02122116088867,
+      "PosZ": 212.33999633789062,
+      "Name": "Anchor2"
+    },
+    {
+      "ID": 3,
+      "PosX": 215.18690490722656,
+      "PosY": 21.24563980102539,
+      "PosZ": 231.5399932861328,
+      "Name": "Anchor3"
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 214.51220703125,
+      "PosY": 40.786251068115234,
+      "PosZ": 234.57000732421875,
+      "Name": "DestructibleItem",
+      "RotY": 180.0,
+      "PropID": 104010,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "RotationType"
+          }
+        ]
+      },
+      "CampID": 4,
+      "EventID": 20451401,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": true,
+      "HideInStory": true,
+      "PerformanceHideFlags": 7,
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": 214.51220703125,
+      "PosY": 40.786251068115234,
+      "PosZ": 234.57000732421875,
+      "Name": "Spear",
+      "RotY": 180.0,
+      "PropID": 104023,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_GoldenSpear_03.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedJsonConfig",
+            "Key": "CurveRef",
+            "Value": {
+              "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+              "GroupID": 192,
+              "InstanceID": 1,
+              "Type": "Curve"
+            }
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "AttachTargetRef",
+            "Value": "192,300001"
+          }
+        ]
+      },
+      "CampID": 4,
+      "EventID": 10000,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 10078,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": true,
+      "PerformanceHideFlags": 5,
+      "DisableDither": true,
+      "OverrideMapStateIcons": [
+        {
+          "State": "Open",
+          "IconID": 89
+        },
+        {
+          "IconID": 89
+        },
+        {
+          "State": "CustomState01",
+          "IconID": 89
+        },
+        {
+          "State": "CustomState02",
+          "IconID": 89,
+          "AnchorKey": "LevelArea_P20451_F20451001_G192,Anchor2"
+        },
+        {
+          "State": "CustomState03",
+          "IconID": 89,
+          "AnchorKey": "LevelArea_P20451_F20451001_G192,Anchor3"
+        },
+        {
+          "State": "CustomState04",
+          "IconID": 89
+        },
+        {
+          "State": "CustomState05",
+          "IconID": 89
+        },
+        {
+          "State": "Locked"
+        }
+      ],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": 215.4499969482422,
+      "PosY": 21.155160903930664,
+      "PosZ": 233.23919677734375,
+      "Name": "Treasure",
+      "RotY": 180.0,
+      "PropID": 60401,
+      "ValueSource": {
+        "Values": []
+      },
+      "CampID": 4,
+      "State": "Hidden",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "ChestID": 20451666,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": true,
+      "HideInStory": true,
+      "PerformanceHideFlags": 7,
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": 215.4499969482422,
+      "PosY": 21.155160903930664,
+      "PosZ": 233.23919677734375,
+      "Name": "TreasureIcon",
+      "RotY": 180.0,
+      "PropID": 211,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Maze/Chapter03/JigsawPuzzle/Maze_Prop_JigsawPuzzleTreasureGameplayIcon.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Chest",
+            "Value": "192,300003"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 10078,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [
+    {
+      "ID": 1,
+      "PosX": 214.51220703125,
+      "PosY": 40.786251068115234,
+      "PosZ": 234.57000732421875,
+      "Name": "Curve1",
+      "RotY": 180.0,
+      "PointList": [
+        {
+          "Alias": "01",
+          "Position": {
+            "x": 0.0,
+            "y": 0.5999990105628967,
+            "z": 0.0
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Control2": {
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -10.352910041809082,
+            "y": 0.4128420054912567,
+            "z": 0.4859920144081116
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 2.1070709228515625,
+            "y": 0.177265003323555,
+            "z": 0.0067900000140070915
+          },
+          "Control2": {
+            "x": -2.1070709228515625,
+            "y": -0.177265003323555,
+            "z": -0.0067900000140070915
+          }
+        },
+        {
+          "Position": {
+            "x": -36.90671920776367,
+            "y": -3.037842035293579,
+            "z": 4.615979194641113
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 1.8406219482421875,
+            "y": 0.4684560000896454,
+            "z": -1.3007349967956543
+          },
+          "Control2": {
+            "x": -1.8406219482421875,
+            "y": -0.4684560000896454,
+            "z": 1.3007349967956543
+          }
+        },
+        {
+          "Position": {
+            "x": -43.759220123291016,
+            "y": -4.046412944793701,
+            "z": 13.93964958190918
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 0.10754399746656418,
+            "y": 0.1357879936695099,
+            "z": -1.5452120304107666
+          },
+          "Control2": {
+            "x": -0.10754399746656418,
+            "y": -0.1357879936695099,
+            "z": 1.5452120304107666
+          }
+        },
+        {
+          "Alias": "02",
+          "Position": {
+            "x": -41.433319091796875,
+            "y": -5.765026092529297,
+            "z": 22.10342025756836
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -0.015026000328361988,
+            "y": 0.0,
+            "z": -0.7236179709434509
+          },
+          "Control2": {
+            "x": 0.015026000328361988,
+            "y": 0.0,
+            "z": 0.7236179709434509
+          }
+        },
+        {
+          "Position": {
+            "x": -41.40557098388672,
+            "y": -5.7650299072265625,
+            "z": 23.63360023498535
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -0.6000000238418579
+          },
+          "Control2": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.6000000238418579
+          }
+        },
+        {
+          "Position": {
+            "x": -40.7145881652832,
+            "y": -5.101593017578125,
+            "z": 28.478219985961914
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -0.51835697889328,
+            "y": 0.0,
+            "z": -1.3585970401763916
+          },
+          "Control2": {
+            "x": 0.51835697889328,
+            "y": 0.0,
+            "z": 1.3585970401763916
+          }
+        },
+        {
+          "Position": {
+            "x": -30.587419509887695,
+            "y": -5.633494853973389,
+            "z": 32.37382125854492
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -2.9379289150238037,
+            "y": 1.247836947441101,
+            "z": -0.22116099298000336
+          },
+          "Control2": {
+            "x": 2.9379289150238037,
+            "y": -1.247836947441101,
+            "z": 0.22116099298000336
+          }
+        },
+        {
+          "Position": {
+            "x": -18.52161979675293,
+            "y": -15.82960033416748,
+            "z": 19.741939544677734
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -1.0506290197372437,
+            "y": 0.603626012802124,
+            "z": 1.6510770320892334
+          },
+          "Control2": {
+            "x": 1.0506290197372437,
+            "y": -0.603626012802124,
+            "z": -1.6510770320892334
+          }
+        },
+        {
+          "Position": {
+            "x": -13.312390327453613,
+            "y": -17.577899932861328,
+            "z": 10.381179809570312
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -0.8525189757347107,
+            "y": 0.21183599531650543,
+            "z": 0.8169819712638855
+          },
+          "Control2": {
+            "x": 0.8525189757347107,
+            "y": -0.21183599531650543,
+            "z": -0.8169819712638855
+          }
+        },
+        {
+          "Position": {
+            "x": -3.6784980297088623,
+            "y": -19.54060935974121,
+            "z": 3.215301036834717
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -0.7089390158653259,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Control2": {
+            "x": 0.7089390158653259,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Alias": "03",
+          "Position": {
+            "x": -0.67466801404953,
+            "y": -19.54060935974121,
+            "z": 3.2153170108795166
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -0.7193760275840759,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Control2": {
+            "x": 0.7193760275840759,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ]
+    }
+  ],
+  "LittleGameList": []
+}

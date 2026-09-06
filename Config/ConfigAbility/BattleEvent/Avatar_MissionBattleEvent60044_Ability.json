@@ -1,0 +1,90 @@
+{
+  "AbilityList": [
+    {
+      "Name": "Avatar_MissionBattleEvent60044_Skill03_Phase01",
+      "TargetInfo": {
+        "TargetType": "SkillTargetEntityList"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AITryInsertUltra",
+          "ContinuousInsert": true
+        },
+        {
+          "$type": "RPG.GameCore.ActiveFarmElement",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvByCompareEnhancedID",
+          "TaskEnabled": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchFarmElementEntity"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AdvByIsInPhantomFrozen",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchModifierOwner"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AdvByIsInPhantomFrozen",
+          "TaskEnabled": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchSummonMonsters"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AddMissionMenuItem",
+          "TaskEnabled": true,
+          "MenuItemTextID": {
+            "Hash": -1,
+            "Hash64": 14
+          },
+          "DialoguePath": "arkTeamCenter\u0000\u0000\u0000\u0000�\u0016\u0002\f\u0001\u0010W5_AsatPramad_01�\u0016V\f\u0001\u0010W5_AsatPramad_00\f\u0001\u000eDark"
+        },
+        {
+          "$type": "RPG.GameCore.AdvByCompareCharacterID",
+          "TaskEnabled": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchUniqueNameEntity",
+            "UniqueName": "nter\u0000\u0000\u0000\u0000�\u0016\u0002\f\u0001\u0010W5_AsatPramad_00�\u0017��\u0003\u0004\f\u00016W5_AsatPramad_00 + W5_AsatPramad_01 + W5_AsatPramad_02\f\u0001\u0006Caste"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AdvCreateGroupEntity",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {},
+    {},
+    {
+      "DynamicStrings": {
+        "\u0000": "",
+        "": ""
+      }
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ]
+}

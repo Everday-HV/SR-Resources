@@ -1,0 +1,31 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.ActiveFMChannelSource",
+          "Active": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvByPlayerHide",
+          "TaskEnabled": true
+        }
+      ]
+    },
+    {}
+  ]
+}

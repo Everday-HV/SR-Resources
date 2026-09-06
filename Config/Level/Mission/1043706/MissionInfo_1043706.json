@@ -1,0 +1,390 @@
+{
+  "MainMissionID": 1043706,
+  "StartSubMissionList": [
+    104370601
+  ],
+  "FinishSubMissionList": [
+    104370618
+  ],
+  "MissionCustomValueList": [
+    {
+      "Index": 1,
+      "Name": "H1",
+      "Type": "ClientOnly",
+      "ValidValueParamList": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "Index": 5,
+      "Name": "H2",
+      "Type": "ClientOnly",
+      "ValidValueParamList": [
+        0,
+        1
+      ]
+    },
+    {
+      "Index": 6,
+      "Name": "H3",
+      "ValidValueParamList": [
+        0,
+        1
+      ]
+    },
+    {
+      "Index": 7,
+      "Name": "H4",
+      "Type": "ClientOnly",
+      "ValidValueParamList": [
+        0,
+        1
+      ]
+    }
+  ],
+  "SubMissionRelationList": [
+    {
+      "MonitorSubMissionID": 104370648,
+      "MonitoredSubMissionIDList": [
+        104370647,
+        104370646
+      ]
+    },
+    {
+      "MonitorSubMissionID": 104370635,
+      "MonitoredSubMissionIDList": [
+        104370607,
+        104370636,
+        104370637
+      ]
+    },
+    {
+      "MonitorSubMissionID": 104370651,
+      "MonitoredSubMissionIDList": [
+        104370652,
+        104370653,
+        104370654
+      ]
+    }
+  ],
+  "UseAssistWayPoint": true,
+  "AssistWayPointPackList": [
+    {
+      "AssistWayPointFloorID": 20481001,
+      "AssistWayPointRegionID": 14,
+      "AssistWayPointList": [
+        {
+          "WayPointType": "Prop",
+          "WayPointGroupID": 39,
+          "WayPointEntityID": 300001,
+          "SubmissionID": 104370607,
+          "SkipWhenSubMissionFinish": true,
+          "DistanceCondition": {
+            "OverrideRangeMin": 5
+          },
+          "FinishConditionMain": {
+            "ConditionPackList": []
+          }
+        },
+        {
+          "WayPointType": "Prop",
+          "WayPointGroupID": 112,
+          "WayPointEntityID": 300001,
+          "SubmissionID": 104370607,
+          "SkipWhenSubMissionFinish": true,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "CanBacktrace": true,
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointGroupPropertyCondition",
+                    "TargetGroupProperty": {
+                      "ID": 1,
+                      "Name": "SGP_PuzzleState",
+                      "DefaultValue": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "Prop",
+          "WayPointGroupID": 151,
+          "WayPointEntityID": 300001,
+          "SubmissionID": 104370607,
+          "SkipWhenSubMissionFinish": true,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "CanBacktrace": true,
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointPropStateCondition",
+                    "TargetPropState": "Open"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "Prop",
+          "WayPointGroupID": 39,
+          "WayPointEntityID": 300001,
+          "SubmissionID": 104370636,
+          "SkipWhenSubMissionFinish": true,
+          "DistanceCondition": {
+            "UseOverrideRangeMin": true,
+            "OverrideRangeMin": 5
+          },
+          "FinishConditionMain": {
+            "ConditionPackList": []
+          }
+        },
+        {
+          "WayPointType": "Prop",
+          "WayPointGroupID": 39,
+          "WayPointEntityID": 300005,
+          "SubmissionID": 104370636,
+          "SkipWhenSubMissionFinish": true,
+          "DistanceCondition": {
+            "UseOverrideRangeMin": true,
+            "OverrideRangeMin": 5
+          },
+          "FinishConditionMain": {}
+        },
+        {
+          "WayPointType": "Prop",
+          "WayPointGroupID": 151,
+          "WayPointEntityID": 300002,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "CanBacktrace": true,
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointPropStateCondition",
+                    "TargetPropState": "Open"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "Prop",
+          "WayPointGroupID": 73,
+          "WayPointEntityID": 300003,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "CanBacktrace": true,
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointGroupPropertyCondition",
+                    "TargetGroupProperty": {
+                      "ID": 1,
+                      "Name": "Floor",
+                      "DefaultValue": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "Prop",
+          "WayPointGroupID": 39,
+          "WayPointEntityID": 300001,
+          "SubmissionID": 104370637,
+          "SkipWhenSubMissionFinish": true,
+          "DistanceCondition": {
+            "UseOverrideRangeMin": true,
+            "OverrideRangeMin": 5
+          },
+          "FinishConditionMain": {}
+        },
+        {
+          "WayPointType": "Prop",
+          "WayPointGroupID": 151,
+          "WayPointEntityID": 300004,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "CanBacktrace": true,
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointPropStateCondition",
+                    "TargetPropState": "Open"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "AssistWayPointFloorID": 20481001,
+      "AssistWayPointRegionID": 17,
+      "AssistWayPointList": [
+        {
+          "WayPointType": "Prop",
+          "WayPointGroupID": 48,
+          "WayPointEntityID": 300002,
+          "SubmissionID": 104370652,
+          "SkipWhenSubMissionFinish": true,
+          "DistanceCondition": {
+            "UseOverrideRangeMin": true,
+            "OverrideRangeMin": 5
+          },
+          "FinishConditionMain": {}
+        },
+        {
+          "WayPointType": "Prop",
+          "WayPointGroupID": 48,
+          "WayPointEntityID": 300003,
+          "SubmissionID": 104370652,
+          "SkipWhenSubMissionFinish": true,
+          "DistanceCondition": {
+            "UseOverrideRangeMin": true,
+            "OverrideRangeMin": 5
+          },
+          "FinishConditionMain": {
+            "ConditionPackList": []
+          }
+        },
+        {
+          "WayPointType": "Prop",
+          "WayPointGroupID": 152,
+          "WayPointEntityID": 300001,
+          "SubmissionID": 104370652,
+          "SkipWhenSubMissionFinish": true,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "CanBacktrace": true,
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointPropStateCondition"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "Prop",
+          "WayPointGroupID": 48,
+          "WayPointEntityID": 300011,
+          "SubmissionID": 104370653,
+          "SkipWhenSubMissionFinish": true,
+          "DistanceCondition": {
+            "UseOverrideRangeMin": true,
+            "OverrideRangeMin": 5
+          },
+          "FinishConditionMain": {}
+        },
+        {
+          "WayPointType": "Prop",
+          "WayPointGroupID": 48,
+          "WayPointEntityID": 300010,
+          "SubmissionID": 104370653,
+          "SkipWhenSubMissionFinish": true,
+          "DistanceCondition": {},
+          "FinishConditionMain": {}
+        },
+        {
+          "WayPointType": "Prop",
+          "WayPointGroupID": 152,
+          "WayPointEntityID": 300002,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "CanBacktrace": true,
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointPropStateCondition"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "Prop",
+          "WayPointGroupID": 113,
+          "WayPointEntityID": 300001,
+          "SubmissionID": 104370654,
+          "SkipWhenSubMissionFinish": true,
+          "UseDistance": false,
+          "DistanceCondition": {
+            "OverrideRangeMin": 5
+          },
+          "CanBacktrace": true,
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointGroupPropertyCondition",
+                    "TargetGroupProperty": {
+                      "ID": 1,
+                      "Name": "SGP_PuzzleState",
+                      "DefaultValue": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "Prop",
+          "WayPointGroupID": 152,
+          "WayPointEntityID": 300004,
+          "SubmissionID": 104370654,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "CanBacktrace": true,
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointPropStateCondition"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

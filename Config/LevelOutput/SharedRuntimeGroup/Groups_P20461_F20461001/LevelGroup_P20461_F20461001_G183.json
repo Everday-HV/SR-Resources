@@ -1,0 +1,832 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "SwitchMascot",
+  "LevelGraph": "Config/Level/GroupGraph/F20461001/Group_F20461001_G183.json",
+  "AreaAnchorName": "LevelArea_P20461_F20461001_G183",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "SavedValueName": "FSV_Z0Entrance183",
+        "Value": 1
+      }
+    ],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "ChestCam",
+        "Value": "LevelArea_P20461_F20461001_G183,ChestCam"
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "StreamingTemplateType": "None",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Gameplay",
+        "TagHash": -141571921
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -12.477999687194824,
+      "PosY": 189.26600646972656,
+      "PosZ": -140.74600219726562,
+      "Name": "ChestCam",
+      "RotY": 104.80879974365234,
+      "RotX": 0.9138820171356201,
+      "RotZ": 0.6766149997711182,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 40.0
+      }
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -1.2269999980926514,
+      "PosY": 187.55650329589844,
+      "PosZ": -142.36199951171875,
+      "Name": "Prop1",
+      "RotY": 269.9999084472656,
+      "PropID": 104391,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PuzzlePath",
+            "Value": "Props/Outputs/Chap04/SwitchHand/SwitchMascot_Puzzle_4.prefab"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 10088,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DisableDither": true,
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -2.120224952697754,
+      "PosY": 187.4635009765625,
+      "PosZ": -146.24180603027344,
+      "Name": "Prop2",
+      "RotY": 297.6607971191406,
+      "RotX": 18.32209014892578,
+      "RotZ": 3.2567739486694336,
+      "PropID": 60402,
+      "ValueSource": {},
+      "CampID": 4,
+      "State": "Hidden",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "ChestID": 20461673,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": -2.055000066757202,
+      "PosY": 187.25999450683594,
+      "PosZ": -146.26300048828125,
+      "Name": "Prop3",
+      "RotY": 297.6607971191406,
+      "RotX": 18.32209014892578,
+      "RotZ": 3.2567739486694336,
+      "PropID": 120,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_MascotInteract_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "GE_DevourChest_",
+            "Value": "GE_DevourChest_300002"
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 3.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": true,
+      "HideInStory": true,
+      "PerformanceHideFlags": 15,
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [
+    {
+      "ID": 1,
+      "PosX": -24.93199920654297,
+      "PosY": 169.02000427246094,
+      "PosZ": -210.93299865722656,
+      "Name": "Curve1",
+      "RotY": 315.1319885253906,
+      "PointList": [
+        {
+          "Alias": "0",
+          "Position": {
+            "x": -4.079552173614502,
+            "y": 0.0,
+            "z": 5.696000099182129
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "1",
+          "Position": {
+            "x": -1.9116990566253662,
+            "y": 0.07090800255537033,
+            "z": 2.456223964691162
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "2",
+          "Position": {
+            "x": -1.4025009870529175,
+            "y": 0.14181500673294067,
+            "z": 1.6030620336532593
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "3",
+          "Position": {
+            "x": -0.696054995059967,
+            "y": 0.28363001346588135,
+            "z": 0.7156990170478821
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "4",
+          "Position": {
+            "x": 0.0,
+            "y": 0.5672299861907959,
+            "z": 0.0
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "5",
+          "Position": {
+            "x": 13.93418025970459,
+            "y": 8.699493408203125,
+            "z": -5.75909423828125
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "6",
+          "Position": {
+            "x": 29.49371910095215,
+            "y": 18.130979537963867,
+            "z": 5.522139072418213
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "7",
+          "Position": {
+            "x": 63.52857971191406,
+            "y": 22.026569366455078,
+            "z": 33.444149017333984
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "8",
+          "Position": {
+            "x": 62.33850860595703,
+            "y": 20.241880416870117,
+            "z": 39.568641662597656
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "9",
+          "Position": {
+            "x": 71.07936096191406,
+            "y": 20.241880416870117,
+            "z": 39.56863021850586
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "10",
+          "Position": {
+            "x": 71.07937622070312,
+            "y": 22.56856918334961,
+            "z": 30.456819534301758
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "11",
+          "Position": {
+            "x": 63.71099090576172,
+            "y": 24.952640533447266,
+            "z": 33.4223518371582
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "12",
+          "Position": {
+            "x": 53.481651306152344,
+            "y": 37.28374099731445,
+            "z": 60.73263168334961
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "13",
+          "Position": {
+            "x": 59.53055953979492,
+            "y": 37.28374099731445,
+            "z": 109.61180114746094
+          },
+          "ControlType": 1
+        }
+      ]
+    },
+    {
+      "ID": 2,
+      "PosX": -23.777790069580078,
+      "PosY": 232.7480926513672,
+      "PosZ": -107.4000015258789,
+      "IsDelete": true,
+      "Name": "Curve2",
+      "PointList": [
+        {
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          },
+          "ControlType": 1
+        },
+        {
+          "Position": {
+            "x": -33.70077133178711,
+            "y": 0.0,
+            "z": 21.942920684814453
+          },
+          "ControlType": 1
+        },
+        {
+          "Position": {
+            "x": 2.227897882461548,
+            "y": 0.0,
+            "z": 51.42237091064453
+          },
+          "ControlType": 1
+        },
+        {
+          "Position": {
+            "x": 23.328039169311523,
+            "y": 0.0,
+            "z": 34.53097152709961
+          },
+          "ControlType": 1
+        },
+        {
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          },
+          "ControlType": 1
+        }
+      ]
+    },
+    {
+      "ID": 3,
+      "PosX": -24.93199920654297,
+      "PosY": 169.02000427246094,
+      "PosZ": -210.93299865722656,
+      "Name": "Curve3",
+      "RotY": 315.1319885253906,
+      "PointList": [
+        {
+          "Alias": "1",
+          "Position": {
+            "x": -2.815851926803589,
+            "y": 0.07090800255537033,
+            "z": 3.5543370246887207
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "2",
+          "Position": {
+            "x": -1.4025009870529175,
+            "y": 0.14181500673294067,
+            "z": 1.6030620336532593
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "3",
+          "Position": {
+            "x": -0.696054995059967,
+            "y": 0.28363001346588135,
+            "z": 0.7156990170478821
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "4",
+          "Position": {
+            "x": 0.0,
+            "y": 0.5672299861907959,
+            "z": 0.0
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "5",
+          "Position": {
+            "x": 13.93418025970459,
+            "y": 8.699493408203125,
+            "z": -5.75909423828125
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "6",
+          "Position": {
+            "x": 29.49371910095215,
+            "y": 18.130979537963867,
+            "z": 5.522139072418213
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "7",
+          "Position": {
+            "x": 63.52857971191406,
+            "y": 22.026569366455078,
+            "z": 33.444149017333984
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "8",
+          "Position": {
+            "x": 62.33850860595703,
+            "y": 20.241880416870117,
+            "z": 39.568641662597656
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "9",
+          "Position": {
+            "x": 71.07936096191406,
+            "y": 20.241880416870117,
+            "z": 39.56863021850586
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "10",
+          "Position": {
+            "x": 71.07937622070312,
+            "y": 22.56856918334961,
+            "z": 30.456819534301758
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "11",
+          "Position": {
+            "x": 63.71099090576172,
+            "y": 24.952640533447266,
+            "z": 33.4223518371582
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "12",
+          "Position": {
+            "x": 53.481651306152344,
+            "y": 37.28374099731445,
+            "z": 60.73263168334961
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "13",
+          "Position": {
+            "x": 59.53055953979492,
+            "y": 37.28374099731445,
+            "z": 109.61180114746094
+          },
+          "ControlType": 1
+        }
+      ]
+    },
+    {
+      "ID": 4,
+      "PosX": -24.93199920654297,
+      "PosY": 169.02000427246094,
+      "PosZ": -210.93299865722656,
+      "Name": "Curve4",
+      "RotY": 315.1319885253906,
+      "PointList": [
+        {
+          "Alias": "2",
+          "Position": {
+            "x": -1.6217509508132935,
+            "y": 0.14181500673294067,
+            "z": 2.1011250019073486
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "3",
+          "Position": {
+            "x": -0.696054995059967,
+            "y": 0.28363001346588135,
+            "z": 0.7156990170478821
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "4",
+          "Position": {
+            "x": 0.0,
+            "y": 0.5672299861907959,
+            "z": 0.0
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "5",
+          "Position": {
+            "x": 13.93418025970459,
+            "y": 8.699493408203125,
+            "z": -5.75909423828125
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "6",
+          "Position": {
+            "x": 29.49371910095215,
+            "y": 18.130979537963867,
+            "z": 5.522139072418213
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "7",
+          "Position": {
+            "x": 63.52857971191406,
+            "y": 22.026569366455078,
+            "z": 33.444149017333984
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "8",
+          "Position": {
+            "x": 62.33850860595703,
+            "y": 20.241880416870117,
+            "z": 39.568641662597656
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "9",
+          "Position": {
+            "x": 71.07936096191406,
+            "y": 20.241880416870117,
+            "z": 39.56863021850586
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "10",
+          "Position": {
+            "x": 71.07937622070312,
+            "y": 22.56856918334961,
+            "z": 30.456819534301758
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "11",
+          "Position": {
+            "x": 63.71099090576172,
+            "y": 24.952640533447266,
+            "z": 33.4223518371582
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "12",
+          "Position": {
+            "x": 53.481651306152344,
+            "y": 37.28374099731445,
+            "z": 60.73263168334961
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "13",
+          "Position": {
+            "x": 59.53055953979492,
+            "y": 37.28374099731445,
+            "z": 109.61180114746094
+          },
+          "ControlType": 1
+        }
+      ]
+    },
+    {
+      "ID": 5,
+      "PosX": -24.93199920654297,
+      "PosY": 169.02000427246094,
+      "PosZ": -210.93299865722656,
+      "Name": "Curve5",
+      "RotY": 315.1319885253906,
+      "PointList": [
+        {
+          "Alias": "3",
+          "Position": {
+            "x": -1.1583800315856934,
+            "y": 0.28363001346588135,
+            "z": 1.2725449800491333
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "4",
+          "Position": {
+            "x": 0.0,
+            "y": 0.5672299861907959,
+            "z": 0.0
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "5",
+          "Position": {
+            "x": 13.93418025970459,
+            "y": 8.699493408203125,
+            "z": -5.75909423828125
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "6",
+          "Position": {
+            "x": 29.49371910095215,
+            "y": 18.130979537963867,
+            "z": 5.522139072418213
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "7",
+          "Position": {
+            "x": 63.52857971191406,
+            "y": 22.026569366455078,
+            "z": 33.444149017333984
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "8",
+          "Position": {
+            "x": 62.33850860595703,
+            "y": 20.241880416870117,
+            "z": 39.568641662597656
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "9",
+          "Position": {
+            "x": 71.07936096191406,
+            "y": 20.241880416870117,
+            "z": 39.56863021850586
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "10",
+          "Position": {
+            "x": 71.07937622070312,
+            "y": 22.56856918334961,
+            "z": 30.456819534301758
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "11",
+          "Position": {
+            "x": 63.71099090576172,
+            "y": 24.952640533447266,
+            "z": 33.4223518371582
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "12",
+          "Position": {
+            "x": 53.481651306152344,
+            "y": 37.28374099731445,
+            "z": 60.73263168334961
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "13",
+          "Position": {
+            "x": 59.53055953979492,
+            "y": 37.28374099731445,
+            "z": 109.61180114746094
+          },
+          "ControlType": 1
+        }
+      ]
+    },
+    {
+      "ID": 6,
+      "PosX": -24.93199920654297,
+      "PosY": 169.02000427246094,
+      "PosZ": -210.93299865722656,
+      "Name": "Curve6",
+      "RotY": 315.1319885253906,
+      "PointList": [
+        {
+          "Alias": "4",
+          "Position": {
+            "x": 1.2963989973068237,
+            "y": 0.7174990177154541,
+            "z": -1.498824954032898
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "5",
+          "Position": {
+            "x": 13.93418025970459,
+            "y": 8.699493408203125,
+            "z": -5.75909423828125
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "6",
+          "Position": {
+            "x": 29.49371910095215,
+            "y": 18.130979537963867,
+            "z": 5.522139072418213
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "7",
+          "Position": {
+            "x": 63.52857971191406,
+            "y": 22.026569366455078,
+            "z": 33.444149017333984
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "8",
+          "Position": {
+            "x": 62.33850860595703,
+            "y": 20.241880416870117,
+            "z": 39.568641662597656
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "9",
+          "Position": {
+            "x": 71.07936096191406,
+            "y": 20.241880416870117,
+            "z": 39.56863021850586
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "10",
+          "Position": {
+            "x": 71.07937622070312,
+            "y": 22.56856918334961,
+            "z": 30.456819534301758
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "11",
+          "Position": {
+            "x": 63.71099090576172,
+            "y": 24.952640533447266,
+            "z": 33.4223518371582
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "12",
+          "Position": {
+            "x": 53.481651306152344,
+            "y": 37.28374099731445,
+            "z": 60.73263168334961
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "13",
+          "Position": {
+            "x": 59.53055953979492,
+            "y": 37.28374099731445,
+            "z": 109.61180114746094
+          },
+          "ControlType": 1
+        }
+      ]
+    }
+  ],
+  "LittleGameList": []
+}

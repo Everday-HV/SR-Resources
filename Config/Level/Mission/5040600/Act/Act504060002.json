@@ -1,0 +1,45 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.ActiveFMChannelReceiver",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AddReShaReactProp",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AddMissionMenuItem",
+          "MenuItemTextID": {
+            "Hash": 24,
+            "Hash64": 48
+          },
+          "DialoguePath": "\bNPC_Male��/�\u000f\u0002ű��\u0001�\u0001\f}��\u0018�\u000f\u0002\u0002\u0007\u0000\u0000\u0000\u0000Ʊ��\u0001\u0000\u0000\u0000\u0000�\t\u0000"
+        }
+      ]
+    },
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    }
+  ]
+}

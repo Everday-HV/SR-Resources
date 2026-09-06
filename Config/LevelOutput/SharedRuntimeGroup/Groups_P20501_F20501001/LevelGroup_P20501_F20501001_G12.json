@@ -1,0 +1,423 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Anchor",
+  "AreaAnchorName": "LevelArea_P20501_F20501001_G12",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.AnchorPoint",
+        "TagHash": -1743222658
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosY": 0.8087949752807617,
+      "PosZ": -65.97799682617188,
+      "Name": "CheckPoint01",
+      "RotY": 0.00003199999991920777
+    },
+    {
+      "ID": 2,
+      "PosX": -0.7419739961624146,
+      "PosY": -0.020333999767899513,
+      "PosZ": -16.930110931396484,
+      "Name": "CheckPoint02"
+    },
+    {
+      "ID": 3,
+      "PosX": -57.279998779296875,
+      "PosY": 1.0000009536743164,
+      "PosZ": -4.089354991912842,
+      "Name": "CheckPoint03",
+      "RotY": 270.0
+    },
+    {
+      "ID": 4,
+      "PosX": -0.09553299844264984,
+      "PosY": 1.0000040531158447,
+      "PosZ": 36.960758209228516,
+      "Name": "CheckPoint04"
+    },
+    {
+      "ID": 5,
+      "PosX": 44.19491958618164,
+      "PosY": 7.000001907348633,
+      "PosZ": -50.705101013183594,
+      "Name": "CheckPoint05",
+      "RotY": 62.083438873291016
+    },
+    {
+      "ID": 6,
+      "PosX": 102.86000061035156,
+      "PosY": 6.999997138977051,
+      "PosZ": 114.8499984741211,
+      "Name": "CheckPoint06",
+      "RotY": 242.2073974609375
+    },
+    {
+      "ID": 7,
+      "PosX": 40.72100067138672,
+      "PosY": 6.9999871253967285,
+      "PosZ": 43.75600051879883,
+      "Name": "CheckPoint07",
+      "RotY": 90.0
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 8.483412742614746,
+      "PosY": 0.8391169905662537,
+      "PosZ": -69.57798767089844,
+      "Name": "Prop1",
+      "PropID": 101,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "AnchorType"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "CheckPointEnable",
+      "CustomTriggerMap": {
+        "CustomTrigger_Spring": {
+          "Radius": 16.0,
+          "Offset": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "Server": true
+        }
+      },
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "AnchorGroupID": 12,
+      "AnchorID": 1,
+      "MappingInfoID": 2050101,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": 7.53203821182251,
+      "PosY": -0.020336000248789787,
+      "PosZ": -11.950579643249512,
+      "Name": "Prop2",
+      "PropID": 101,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "AnchorType"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "CheckPointDisable",
+      "CustomTriggerMap": {
+        "CustomTrigger_Spring": {
+          "Shape": "Box",
+          "Radius": 22.0,
+          "DimX": 40.0,
+          "DimY": 4.0,
+          "DimZ": 40.0,
+          "Offset": {
+            "x": -10.0,
+            "y": 1.0,
+            "z": 0.5
+          },
+          "Server": true
+        }
+      },
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "AnchorGroupID": 12,
+      "AnchorID": 2,
+      "MappingInfoID": 2050102,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": -51.13999938964844,
+      "PosY": 1.0000050067901611,
+      "PosZ": -0.5199999809265137,
+      "Name": "Prop3",
+      "PropID": 101,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "AnchorType"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "CheckPointDisable",
+      "CustomTriggerMap": {
+        "CustomTrigger_Spring": {
+          "Shape": "Box",
+          "Radius": 10.0,
+          "DimX": 24.0,
+          "DimY": 4.0,
+          "DimZ": 10.0,
+          "Offset": {
+            "x": -4.0,
+            "y": 1.0,
+            "z": -3.0
+          },
+          "Server": true
+        }
+      },
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "AnchorGroupID": 12,
+      "AnchorID": 3,
+      "MappingInfoID": 2050103,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": -6.070000171661377,
+      "PosY": 1.0000029802322388,
+      "PosZ": 30.639999389648438,
+      "Name": "Prop4",
+      "PropID": 101,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "AnchorType"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "CheckPointDisable",
+      "CustomTriggerMap": {
+        "CustomTrigger_Spring": {
+          "Shape": "Box",
+          "Radius": 12.0,
+          "DimX": 20.0,
+          "DimY": 5.0,
+          "DimZ": 20.0,
+          "Offset": {
+            "x": 5.0,
+            "y": 1.0,
+            "z": 8.0
+          },
+          "Server": true
+        }
+      },
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "AnchorGroupID": 12,
+      "AnchorID": 4,
+      "MappingInfoID": 2050104,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300005,
+      "PosX": 42.00699996948242,
+      "PosY": 7.000000953674316,
+      "PosZ": -48.053001403808594,
+      "Name": "Prop5",
+      "PropID": 101,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "AnchorType"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "CheckPointDisable",
+      "CustomTriggerMap": {
+        "CustomTrigger_Spring": {
+          "Shape": "Box",
+          "Radius": 11.0,
+          "DimX": 30.0,
+          "DimY": 4.0,
+          "DimZ": 10.0,
+          "Offset": {
+            "x": -3.0,
+            "y": 1.0,
+            "z": -4.5
+          },
+          "Server": true
+        }
+      },
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "AnchorGroupID": 12,
+      "AnchorID": 5,
+      "MappingInfoID": 2050105,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300006,
+      "PosX": 99.86299896240234,
+      "PosY": 6.999995231628418,
+      "PosZ": 116.66500091552734,
+      "Name": "Prop6",
+      "RotY": 88.47477722167969,
+      "PropID": 101,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "AnchorType"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "CheckPointDisable",
+      "CustomTriggerMap": {
+        "CustomTrigger_Spring": {
+          "Radius": 35.0,
+          "Offset": {
+            "x": -5.0,
+            "y": 1.0,
+            "z": 3.0
+          },
+          "Server": true
+        }
+      },
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "AnchorGroupID": 12,
+      "AnchorID": 6,
+      "MappingInfoID": 2050106,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300007,
+      "PosX": 37.33700180053711,
+      "PosY": 7.019990921020508,
+      "PosZ": 40.698001861572266,
+      "Name": "Prop7",
+      "PropID": 101,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "AnchorType"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "CheckPointDisable",
+      "CustomTriggerMap": {
+        "CustomTrigger_Spring": {
+          "Shape": "Box",
+          "Radius": 11.0,
+          "DimX": 24.0,
+          "DimY": 4.0,
+          "DimZ": 20.0,
+          "Offset": {
+            "x": 11.0,
+            "y": 1.0,
+            "z": -2.0
+          },
+          "Server": true
+        }
+      },
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "AnchorGroupID": 12,
+      "AnchorID": 7,
+      "MappingInfoID": 2050107,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

@@ -1,0 +1,101 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AddTargetStancePreshowConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": false
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AddBuffPerform"
+        },
+        {
+          "$type": "RPG.GameCore.AddEntityToTeamFormation"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveCommonSkillPool"
+        },
+        {
+          "$type": "RPG.GameCore.AbortInsertAbility",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview",
+          "TaskEnabled": true,
+          "Mode": "-51",
+          "Offset": 59
+        },
+        {
+          "$type": "RPG.GameCore.AdvByRollShopResult",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchFarmElementEntity"
+          },
+          "TargetResult": "-51"
+        },
+        {
+          "$type": "RPG.GameCore.AdvByIsInPhantomFrozen",
+          "TaskEnabled": true,
+          "Inverse": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchBattleEventEntityList"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AddMissionMenuItem",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchPropFarmElement"
+          },
+          "MenuItemTextID": {
+            "Hash": -25,
+            "Hash64": 48
+          },
+          "DialoguePath": "02004_G182\u0007Anchor3\u0001\u0000\u001e\u0001\u000bLocalPlayer\u0004\u001fLevelArea_P102"
+        }
+      ]
+    },
+    {}
+  ]
+}

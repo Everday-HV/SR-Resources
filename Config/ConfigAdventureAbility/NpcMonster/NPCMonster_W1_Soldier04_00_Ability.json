@@ -1,0 +1,40 @@
+{
+  "AbilityList": [
+    {
+      "Name": "MazeMonster_W1_Soldier04_00_MazeAttack",
+      "TargetInfo": {
+        "TargetType": "SkillPointEntity"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchTaskActionTarget"
+          },
+          "ResetToIdle": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvTrackNpcPlayerHide",
+          "Hide": true
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview",
+          "TaskEnabled": true,
+          "Mode": "-58"
+        },
+        {
+          "$type": "RPG.GameCore.AdvDestroyEntityAsync",
+          "TaskEnabled": true,
+          "InstanceIDList": [
+            6,
+            65,
+            116
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "AbilityList": [
+    {
+      "Name": "Monster_W4_Serpent_01_IF_Return_Camera",
+      "TargetInfo": {
+        "TargetType": "Caster"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview",
+          "Offset": -1
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview",
+          "TaskEnabled": true,
+          "Mode": "-58"
+        },
+        {
+          "$type": "RPG.GameCore.AdvDestroyEntityAsync",
+          "TaskEnabled": true,
+          "InstanceIDList": [
+            102,
+            8038,
+            3896,
+            1679109,
+            102,
+            30,
+            1601,
+            1,
+            6,
+            67,
+            97,
+            115,
+            116,
+            101,
+            114,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            7936,
+            0,
+            0,
+            0,
+            0,
+            2,
+            2,
+            2,
+            12,
+            1,
+            38,
+            65,
+            108,
+            108,
+            68,
+            97,
+            114,
+            107,
+            84,
+            101,
+            97,
+            109,
+            87,
+            105,
+            116,
+            104,
+            65,
+            108,
+            108,
+            68
+          ]
+        }
+      ]
+    }
+  ]
+}

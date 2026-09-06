@@ -1,0 +1,74 @@
+{
+  "AbilityList": [
+    {
+      "Name": "FakePlayer_MiniHero_NoBattle",
+      "TargetInfo": {
+        "TargetType": "Caster"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.AddAdventureModifier",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
+          "ModifierName": "ADV_Modifier_MazeCommon_MiniHero_NoBattle"
+        }
+      ]
+    },
+    {
+      "Name": "FakePlayer_MiniHero_HitKillSelf",
+      "TargetInfo": {
+        "TargetType": "Caster"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.AddAdventureModifier",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
+          "ModifierName": "ADV_Modifier_MazeCommon_DeDead"
+        }
+      ]
+    },
+    {
+      "Name": "FakePlayer_MiniHero_KillMonster",
+      "TargetInfo": {
+        "TargetType": "Caster"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.AddAdventureModifier",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
+          "ModifierName": "ADV_Modifier_MazeCommon_Dead"
+        }
+      ]
+    },
+    {
+      "Name": "FakePlayer_MiniHero_UltarAtk01",
+      "TargetInfo": {
+        "TargetType": "SkillPointEntityOrNone"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveTrackCamera",
+          "LevelAreaCameraKey": {
+            "Key": ""
+          }
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ],
+      "OnAbort": []
+    },
+    {}
+  ]
+}

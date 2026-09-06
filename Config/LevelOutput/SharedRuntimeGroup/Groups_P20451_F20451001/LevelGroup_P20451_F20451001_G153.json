@@ -1,0 +1,306 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Final_Elevator",
+  "LevelGraph": "Config/Level/GroupGraph/F20451001/Group_F20451001_G153.json",
+  "AreaAnchorName": "LevelArea_P20451_F20451001_G153",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "GroupPropertyMap": {
+    "1": {
+      "ID": 1,
+      "Name": "Lock",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    }
+  },
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Connection",
+        "TagHash": -295833477
+      },
+      {
+        "Tag": "GameModule.EraFlip.State.Day",
+        "TagHash": 1090843668
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 173.19000244140625,
+      "PosY": -70.12242126464844,
+      "PosZ": 210.0,
+      "Name": "FloorAnchor1"
+    },
+    {
+      "ID": 2,
+      "PosX": 173.8000030517578,
+      "PosY": 22.170000076293945,
+      "PosZ": 210.47900390625,
+      "Name": "FloorAnchor2"
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300003,
+      "PosX": 173.19000244140625,
+      "PosY": -70.12242126464844,
+      "PosZ": 210.0,
+      "Name": "1stElevatorDoor",
+      "PropID": 104014,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "IsOnGround",
+            "Value": 1
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "CanOPDuringLock",
+            "Value": 1
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": 173.8000030517578,
+      "PosY": 22.170000076293945,
+      "PosZ": 210.47900390625,
+      "Name": "2ndElevatorDoor",
+      "PropID": 104014,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "IsOnGround",
+            "Value": 1
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "CanOPDuringLock",
+            "Value": 1
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300001,
+      "PosX": 173.19000244140625,
+      "PosY": -70.12242126464844,
+      "PosZ": 210.0,
+      "Name": "Elevator",
+      "RotY": 270.0000915527344,
+      "PropID": 104001,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "MoveType",
+            "Value": 1
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "MoveParam",
+            "Value": 4.5
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Anchor02",
+            "Value": "LevelArea_P20451_F20451001_G153,FloorAnchor2"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Anchor01",
+            "Value": "LevelArea_P20451_F20451001_G153,FloorAnchor1"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "LockToast",
+            "Value": "MazeText_Maze_Prop_A01_ElevatorCtrl_02"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "EnterTrigger": {
+          "Radius": 10.5
+        },
+        "LeaveTrigger": {
+          "Radius": 12.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": 173.8000030517578,
+      "PosY": 22.2189998626709,
+      "PosZ": 210.47900390625,
+      "Name": "Elevator",
+      "RotY": 315.0000915527344,
+      "PropID": 104001,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "MoveType",
+            "Value": 1
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "MoveParam",
+            "Value": 4.5
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Anchor02",
+            "Value": "LevelArea_P20451_F20451001_G153,FloorAnchor2"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Anchor01",
+            "Value": "LevelArea_P20451_F20451001_G153,FloorAnchor1"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "LockToast",
+            "Value": "MazeText_Maze_Prop_A01_ElevatorCtrl_02"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [
+    {
+      "ID": 1,
+      "PosX": 173.19000244140625,
+      "PosY": -70.12242126464844,
+      "PosZ": 210.0,
+      "Name": "District1",
+      "RotY": 270.0000915527344,
+      "Trigger": {
+        "Shape": "Polygon",
+        "Radius": 7.0,
+        "DimX": 1.0,
+        "DimY": 100.0,
+        "DimZ": 1.0,
+        "PointList": [
+          {
+            "x": -8.798737525939941,
+            "y": -9.715117454528809
+          },
+          {
+            "x": -8.775703430175781,
+            "y": 9.454920768737793
+          },
+          {
+            "x": 10.592530250549316,
+            "y": 9.48939037322998
+          },
+          {
+            "x": 10.507120132446289,
+            "y": -9.657276153564453
+          }
+        ]
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

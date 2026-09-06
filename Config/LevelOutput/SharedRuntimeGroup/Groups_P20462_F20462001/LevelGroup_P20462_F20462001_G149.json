@@ -1,0 +1,275 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Tpl_Bug_Normal",
+  "LevelGraph": "Config/Level/GroupTemplateGraph/Puzzle/Bug_New/Bug_Normal.json",
+  "AreaAnchorName": "LevelArea_P20462_F20462001_G149",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "IsPendedUnload": true,
+  "LoadSide": "Server",
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedStringList",
+        "Key": "SimpleTalkList",
+        "Value": [
+          "342100201 ",
+          "342100202"
+        ]
+      },
+      {
+        "$type": "RPG.GameCore.SharedStringList",
+        "Key": "SimpleTalkList02",
+        "Value": [
+          "342100203"
+        ]
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Gameplay",
+        "TagHash": -141571921
+      },
+      {
+        "Tag": "GameModule.EraFlip.State.Day",
+        "TagHash": 1090843668
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 23.37700080871582,
+      "PosY": -117.20980072021484,
+      "PosZ": -481.760009765625,
+      "Name": "Prop1",
+      "RotY": 119.64289855957031,
+      "PropID": 104136,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_CollectSample_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedStringList",
+            "Key": "BubbleTalkList",
+            "Value": [
+              "342100909"
+            ]
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "Flyfire？",
+            "Value": 1.0
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "EventClose",
+      "EventID": 20462703,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 3.0,
+          "DimX": 2.0,
+          "DimY": 2.0,
+          "DimZ": 2.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideBoardShowList": [
+        8
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": 20.65999984741211,
+      "PosY": -117.68219757080078,
+      "PosZ": -481.44500732421875,
+      "Name": "Prop2",
+      "RotY": 106.53009796142578,
+      "PropID": 211,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_CollectSampleAnchor_01.json",
+      "ValueSource": {
+        "Values": []
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 2471,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 276,
+      "OverrideMapStateIcons": [
+        {
+          "IconID": 276
+        }
+      ],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": 22.85099983215332,
+      "PosY": -115.94499969482422,
+      "PosZ": -484.5260009765625,
+      "Name": "Prop3",
+      "RotY": 97.93875885009766,
+      "RotX": 356.3127136230469,
+      "RotZ": 359.3876953125,
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.5
+      },
+      "PropID": 103074,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_Text3D_03.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "SDFTextID",
+            "Value": 404016003
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": 23.401500701904297,
+      "PosY": -117.11900329589844,
+      "PosZ": -481.7619934082031,
+      "Name": "Prop4",
+      "PropID": 100,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "OverrideButtonText",
+            "Value": "MazeText_Maze_OrigamiBird_Normal_PullOut"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "OverrideButtonIcon",
+            "Value": "SpriteOutput/TalkIcon/PickUpIcon.png"
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "DefaultIsOverrideButton"
+          },
+          {
+            "$type": "RPG.GameCore.SharedStringList",
+            "Key": "BubbleTalkList",
+            "Value": [
+              "404011001"
+            ]
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "AttachedObject",
+            "Value": "149,300006"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideBoardShowList": [
+        8
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {
+        "VCFollowOffset": {
+          "x": -7.690000057220459,
+          "y": 0.46000000834465027,
+          "z": 0.02800000086426735
+        },
+        "VCLookAtOffset": {
+          "x": 5.599999904632568,
+          "y": 1.8300000429153442,
+          "z": -3.990000009536743
+        }
+      },
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

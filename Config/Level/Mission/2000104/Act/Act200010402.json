@@ -1,0 +1,49 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveVirtualCamera",
+          "AreaName": "MainMission_2000301",
+          "AnchorName": "Camera_2000104_01",
+          "WaitBlendFinish": true,
+          "BlendConfig": {
+            "ExportToJson": true,
+            "BlendType": "Cut",
+            "BlendTime": 2.0
+          }
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortInsertAbility",
+          "TargetFilter": {
+            "$type": "RPG.GameCore.TargetFetchAbilityTargetLeader"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.ActivityElationHideCutIn",
+          "TaskEnabled": true
+        }
+      ]
+    }
+  ]
+}

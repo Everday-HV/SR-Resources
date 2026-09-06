@@ -1,0 +1,103 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Tpl_MainMission1054305_03",
+  "Category": "Mission",
+  "LevelGraph": "Config/Level/GroupTemplateGraph/04_Mission/Mission_ProtectAreaAndTransmit.json",
+  "AreaAnchorName": "LevelArea_P20531_F20531001_G126",
+  "SaveType": "Reset",
+  "OwnerMainMissionID": 1054305,
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedInt",
+        "Key": "InTrigger",
+        "Value": 1
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "PerformanceID_String",
+        "Value": "105430523"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "LevelAreaKey",
+        "Value": "LevelArea_P20531_F20531001_G126,Anchor1"
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -260.7959899902344,
+      "PosY": 74.90206909179688,
+      "PosZ": -35.21609878540039,
+      "Name": "Anchor1",
+      "RotY": 215.13980102539062,
+      "Usage": "Actor"
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -247.93479919433594,
+      "PosY": 72.85357666015625,
+      "PosZ": -23.19420051574707,
+      "Name": "Prop1",
+      "RotY": 279.0799865722656,
+      "PropID": 100,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "MissionTrigger": {
+          "Radius": 8.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosX": 21.8799991607666,
+      "PosY": 190.3083038330078,
+      "PosZ": 56.459999084472656,
+      "Name": "District1",
+      "RotY": 279.0799865722656,
+      "Trigger": {
+        "Shape": "GeometrySphere",
+        "Radius": 17.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

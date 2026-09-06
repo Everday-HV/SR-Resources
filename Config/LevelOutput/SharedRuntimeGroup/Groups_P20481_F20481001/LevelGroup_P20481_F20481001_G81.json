@@ -1,0 +1,166 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "AltarTeleport",
+  "LevelGraph": "Config/Level/GroupGraph/F20481001/Group_F20481001_G81.json",
+  "AreaAnchorName": "LevelArea_P20481_F20481001_G81",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "SavedValueName": "FSV_SubmitRune",
+        "Value": 1
+      }
+    ],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "StreamingTemplateType": "None",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.TeleportEntrance",
+        "TagHash": -818745016
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 133.0500030517578,
+      "PosY": 59.434959411621094,
+      "PosZ": 362.010009765625,
+      "Name": "Anchor1",
+      "RotY": 342.0
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 68.0199966430664,
+      "PosY": 185.1898956298828,
+      "PosZ": 399.489990234375,
+      "IsDelete": true,
+      "Name": "TeleportDoor",
+      "RotY": 163.16259765625,
+      "PropID": 104169,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_TTDoor_02.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "InteractText",
+            "Value": "MazeText_GuixuGarden"
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "TextureIndex",
+            "Value": 4
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "AltarPoint",
+            "Value": "LevelArea_P20481_F20481001_G81,Anchor1"
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 1.5,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 2041100,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 99,
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": 71.5899429321289,
+      "PosY": 185.2333984375,
+      "PosZ": 396.2898864746094,
+      "Name": "Prop2",
+      "RotY": 202.98550415039062,
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_Guixu3FTeleport_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "InteractText",
+            "Value": "MazeText_GuixuGarden"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TeleportPoint",
+            "Value": "LevelArea_P20481_F20481001_G81,Anchor1"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TeleportToast",
+            "Value": "MazeText_GuixuGardenToast"
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 2.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

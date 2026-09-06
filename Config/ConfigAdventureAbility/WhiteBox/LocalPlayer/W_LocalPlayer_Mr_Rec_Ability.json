@@ -1,0 +1,26 @@
+{
+  "AbilityList": [
+    {
+      "Name": "W_LocalPlayer_Mr_Rec_NormalAtk01",
+      "TargetInfo": {
+        "TargetType": "SkillPointEntityOrNone"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveTrackCamera",
+          "LevelAreaCameraKey": {
+            "Key": ""
+          }
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ],
+      "OnAbort": []
+    },
+    {}
+  ]
+}

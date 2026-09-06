@@ -1,0 +1,37 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AdvNpcFaceToPlayer",
+          "GroupID": 14,
+          "GroupNpcID": 400001,
+          "TryFaceToFace": false,
+          "OnlyPlayerFaceToNpc": true,
+          "StopLookAtOnGraphEnd": false,
+          "TurnBackOnGraphEnd": false,
+          "FinishImmadiate": true,
+          "ForceToStandBy": false
+        }
+      ]
+    },
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill",
+          "ResetToIdle": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvClientChangePropState",
+          "FromState": "-53",
+          "CanChangeServerProp": true,
+          "CanChangeFromAnyState": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvByCompareCharacterID",
+          "TaskEnabled": true
+        }
+      ]
+    },
+    {
+      "IsLoop": true,
+      "Order": -27
+    },
+    {},
+    {
+      "IsLoop": true,
+      "Order": 24
+    },
+    {
+      "Order": 24
+    },
+    {
+      "IsLoop": true,
+      "Order": -963
+    },
+    {
+      "Order": 1
+    },
+    {
+      "IsLoop": false,
+      "Order": 0,
+      "TaskList": []
+    },
+    {},
+    {},
+    {},
+    {}
+  ]
+}

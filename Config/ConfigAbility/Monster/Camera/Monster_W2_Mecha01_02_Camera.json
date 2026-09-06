@@ -1,0 +1,36 @@
+{
+  "AbilityList": [
+    {
+      "Name": "Monster_W2_Mecha01_02_Skill01_Camera",
+      "TargetInfo": {
+        "TargetType": "SkillTargetEntityList"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AddReShaReactProp"
+        },
+        {
+          "$type": "RPG.GameCore.ActivateServerGameplayCounter"
+        },
+        {
+          "$type": "RPG.GameCore.AdvByCheckWindowPermCodes",
+          "TaskEnabled": true,
+          "Inverse": true,
+          "EntityID": {
+            "Value": "1\u0000�ɘ\b�\u001d\u0010�\u0018��\u0018\u000e\u0001ff�ף�\u0000\u0000\u0000@\u0000\u0000�?\u0000\u0000 @R�\u001e?\u0000\u0000\u0000\u0000\n�#<"
+          },
+          "MatchMask": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        }
+      ]
+    }
+  ]
+}

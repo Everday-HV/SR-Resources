@@ -1,0 +1,44 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvGameplayTrackNpcStart",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AbortInsertAbility",
+          "AbilityName": "\u0000\u0000\u0000\u0000�ˬ"
+        },
+        {
+          "$type": "RPG.GameCore.AdvSetColliderGroupState"
+        }
+      ]
+    },
+    {},
+    {},
+    {},
+    {
+      "IsLoop": false,
+      "Order": 0,
+      "TaskList": []
+    },
+    {},
+    {
+      "Order": 0
+    },
+    {},
+    {}
+  ]
+}

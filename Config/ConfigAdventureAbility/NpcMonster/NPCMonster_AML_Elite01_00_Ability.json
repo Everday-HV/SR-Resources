@@ -1,0 +1,46 @@
+{
+  "AbilityList": [
+    {
+      "Name": "MazeMonster_AML_Elite01_00_NormalAtk01",
+      "TargetInfo": {
+        "TargetType": "SkillPointEntity"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveFarmElement",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AddTimelineMenuItem",
+          "TaskEnabled": true,
+          "PerformanceType": "58",
+          "PerformanceID": 101
+        },
+        {
+          "$type": "RPG.GameCore.AdvCreateGroupEntity",
+          "IsOverrideArtModelOffset": true,
+          "OverrideArtModelOffset": {
+            "x": 2.8183640817293853e+20,
+            "y": 9.434773283444503e-38,
+            "z": 2.575814428559313e-38
+          }
+        },
+        {
+          "$type": "RPG.GameCore.ActivityElationHideCutIn",
+          "TaskEnabled": true
+        }
+      ]
+    },
+    {
+      "Name": "ityTargetEntity\u0000\u0000\u0000���Q\u0000����\u0013\u0000�����\u0003\u0000�����<\u0000��̙\u0003\u0000����\u0013\u0000������\u0001�\u001d\u000e\f\u0001\u0006Caster\u0006Attack\u0000����(�\u0002�\u0001\f\u0001\bAllEnemy���=\u0002\u0019",
+      "OnRemove": [],
+      "DynamicValues": {
+        "Floats": {}
+      },
+      "DynamicStrings": {}
+    }
+  ]
+}

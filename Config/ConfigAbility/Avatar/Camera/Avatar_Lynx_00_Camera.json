@@ -1,0 +1,68 @@
+{
+  "AbilityList": [
+    {
+      "Name": "Avatar_Lynx_00_Skill01_Camera",
+      "TargetInfo": {
+        "TargetType": "SkillTargetEntityList"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AdaptEntityPosition"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveFMChannelReceiver",
+          "ReceiverName": {
+            "Value": "ull�\u001d\u000e5\u0000\u0007Skill01\u0000��[�\u001d\u0010�\b�� \u000e\u0001���?�(\u001c�)\\���p}?q=��\u001f�+�\u0000\u0000\u0000\u0000\u0000\u0000�?\u0000\u0000@@*\u0010\u0016BlendCut_1110_attack_1��\u0019?�\u001d\u000e5\u0000\u0007Skill01\u0000"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveShotCameraTemplate",
+          "TaskEnabled": true
+        }
+      ]
+    },
+    {
+      "Name": "@�(",
+      "TargetInfo": {
+        "MinTargetCount": -3936
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvByTargetEntityType"
+        },
+        {
+          "$type": "RPG.GameCore.AdvByTargetEntityType"
+        },
+        {
+          "$type": "RPG.GameCore.AdvByTargetEntityType"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": true
+        }
+      ],
+      "DynamicValues": {
+        "Floats": {}
+      }
+    },
+    {},
+    {}
+  ]
+}

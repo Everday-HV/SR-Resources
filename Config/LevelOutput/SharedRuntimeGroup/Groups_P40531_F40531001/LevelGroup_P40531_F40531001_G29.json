@@ -1,0 +1,98 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "sound_broadcast",
+  "AreaAnchorName": "LevelArea_P40531_F40531001_G29",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Audio.Sound",
+        "TagHash": 1757672304
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosX": -69.18000030517578,
+      "PosY": 9.34000015258789,
+      "PosZ": 177.5500030517578,
+      "Name": "District1",
+      "RotY": 225.6999969482422,
+      "Trigger": {
+        "Shape": "Polygon",
+        "Radius": 1.0,
+        "DimX": 60.0,
+        "DimY": 30.0,
+        "DimZ": 60.0,
+        "PointList": [
+          {
+            "x": -17.365619659423828,
+            "y": -16.343219757080078
+          },
+          {
+            "x": -4.582380771636963,
+            "y": 17.84695053100586
+          },
+          {
+            "x": 4.828678131103516,
+            "y": 17.436260223388672
+          },
+          {
+            "x": 5.419023036956787,
+            "y": -14.702799797058105
+          }
+        ]
+      },
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_vo_ambient_w5_v430_broadcast_guangbo_103",
+        "PlayEventCD": 30.0,
+        "TransformList": [
+          {
+            "Position": {
+              "x": -72.57647705078125,
+              "y": 38.310001373291016,
+              "z": 168.1156005859375
+            },
+            "Forward": {
+              "x": 0.0008730000117793679,
+              "y": 0.0,
+              "z": -1.0
+            },
+            "Up": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0
+            }
+          }
+        ]
+      },
+      "CanTriggerByFakeAvatar": true,
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

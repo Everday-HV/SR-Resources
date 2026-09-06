@@ -1,0 +1,84 @@
+{
+  "GroupsMap": {
+    "BattleEvent20030_Ultra": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourcePropertyFormation",
+            "ValueList": [
+              {
+                "ValueName": "CurrentHP",
+                "Property": "CurrentHP"
+              }
+            ],
+            "Expression": {
+              "IsDynamic": true,
+              "PostfixExpr": {
+                "OpCodes": "AQAR",
+                "FixedValues": [],
+                "DynamicHashes": [
+                  244246377
+                ]
+              },
+              "Expr": "Var(244246377)"
+            }
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 1.0
+                },
+                "xmax": {
+                  "Value": 100000.0
+                },
+                "ymax": {
+                  "Value": 100000.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourcePropertyFormation",
+            "ValueList": [
+              {
+                "ValueName": "Shield",
+                "Property": "Shield"
+              }
+            ],
+            "Expression": {
+              "IsDynamic": true,
+              "PostfixExpr": {
+                "OpCodes": "AQAR",
+                "FixedValues": [],
+                "DynamicHashes": [
+                  -239767697
+                ]
+              },
+              "Expr": "Var(-239767697)"
+            }
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 1.0
+                },
+                "xmax": {
+                  "Value": 100000.0
+                },
+                "ymax": {
+                  "Value": 100000.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

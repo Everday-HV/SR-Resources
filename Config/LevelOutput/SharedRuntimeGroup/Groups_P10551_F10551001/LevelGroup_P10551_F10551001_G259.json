@@ -1,0 +1,220 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "DestructableItem",
+  "AreaAnchorName": "LevelArea_P10551_F10551001_G259",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "GroupRefreshID": 1002,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Destructible",
+        "TagHash": -80793007
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 127.44390106201172,
+      "PosY": -488.29998779296875,
+      "PosZ": -427.768310546875,
+      "Name": "DestructibleItem",
+      "RotY": 193.2364959716797,
+      "RotX": -9.999999974752427e-7,
+      "RotZ": 180.0,
+      "PropID": 105202,
+      "ValueSource": {},
+      "CampID": 4,
+      "EventID": 10001,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {
+        "Resident01": {
+          "EffectPath": "Effects/Eff_Prefab/Eff_Scene/InteractiveProp/Eff_Chap05_Prop_MPBox_01_Idle_Lod0.prefab",
+          "IsOverrideFollowTargetAlways": true,
+          "FollowTargetAlways": true
+        },
+        "Hit01": {
+          "EffectPath": "Effects/Eff_Prefab/Eff_Scene/InteractiveProp/Eff_Chap05_Prop_MPBox_01_Hit_Lod0.prefab",
+          "IsOverrideFollowTargetAlways": true,
+          "FollowTargetAlways": true
+        }
+      },
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": 141.0428924560547,
+      "PosY": -488.29998779296875,
+      "PosZ": -394.9700927734375,
+      "Name": "DestructibleItem",
+      "RotY": 267.50738525390625,
+      "RotX": 3.000000106112566e-6,
+      "RotZ": 180.0,
+      "PropID": 105203,
+      "ValueSource": {},
+      "CampID": 4,
+      "EventID": 10002,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {
+        "Resident01": {
+          "EffectPath": "Effects/Eff_Prefab/Eff_Scene/InteractiveProp/Eff_Chap05_Prop_HPBox_01_Idle_Lod0.prefab",
+          "IsOverrideFollowTargetAlways": true,
+          "FollowTargetAlways": true
+        },
+        "Hit01": {
+          "EffectPath": "Effects/Eff_Prefab/Eff_Scene/InteractiveProp/Eff_Chap05_Prop_HPBox_01_Hit_Lod0.prefab",
+          "IsOverrideFollowTargetAlways": true,
+          "FollowTargetAlways": true
+        }
+      },
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300009,
+      "PosX": 144.01699829101562,
+      "PosY": -493.84100341796875,
+      "PosZ": -411.3970031738281,
+      "Name": "DestructibleItem",
+      "RotY": 88.14009857177734,
+      "RotX": 326.96630859375,
+      "RotZ": 180.0,
+      "PropID": 105193,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "Type",
+            "Value": 1
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "Colour",
+            "Value": 1
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "AngleThreshold",
+            "Value": 15.0
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "EventClose",
+      "EventID": 10551401,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "CloseToTrigger": {
+          "Radius": 1.0,
+          "Offset": {
+            "x": 0.0,
+            "y": 2.0,
+            "z": 0.0
+          }
+        },
+        "LeaveTrigger": {
+          "Radius": 1.5,
+          "Offset": {
+            "x": 0.0,
+            "y": 2.0,
+            "z": 0.0
+          }
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300012,
+      "PosX": 141.33999633789062,
+      "PosY": -488.5,
+      "PosZ": -410.0899963378906,
+      "Name": "DestructibleItem",
+      "RotY": 128.89720153808594,
+      "RotX": 4.999999873689376e-6,
+      "RotZ": 180.0,
+      "PropID": 105193,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "Type"
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "Colour",
+            "Value": 1
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "EventClose",
+      "EventID": 10551401,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

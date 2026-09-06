@@ -1,0 +1,258 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "SwitchHand",
+  "LevelGraph": "Config/Level/GroupGraph/F20482001/Group_F20482001_G2.json",
+  "AreaAnchorName": "LevelArea_P20482_F20482001_G2",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "CameraAnchor",
+        "Value": "LevelArea_P20482_F20482001_G2,Anchor1"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "PullBackAnchor",
+        "Value": "LevelArea_P20482_F20482001_G2,Anchor4"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "SwitchHandConsole",
+        "Value": "2,300001"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "PullBackArea",
+        "Value": "LevelArea_P20482_F20482001_G2"
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "StreamingTemplateType": "None",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Gameplay",
+        "TagHash": -141571921
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 791.0499877929688,
+      "PosY": -87.12999725341797,
+      "PosZ": -668.760009765625,
+      "Name": "Anchor1",
+      "RotY": 137.4853057861328,
+      "RotX": 21.253049850463867,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 40.0
+      }
+    },
+    {
+      "ID": 2,
+      "PosX": 812.4299926757812,
+      "PosY": -95.5250015258789,
+      "PosZ": -664.2689819335938,
+      "Name": "Anchor2",
+      "Usage": "GamePlay"
+    },
+    {
+      "ID": 3,
+      "PosX": 802.5700073242188,
+      "PosY": -91.45999908447266,
+      "PosZ": -663.25,
+      "Name": "Anchor3",
+      "RotY": 90.00005340576172,
+      "RotX": 9.298637390136719,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 40.0
+      }
+    },
+    {
+      "ID": 4,
+      "PosX": 749.9130249023438,
+      "PosY": -89.6780014038086,
+      "PosZ": -626.85302734375,
+      "Name": "Anchor4",
+      "RotY": 147.22149658203125
+    },
+    {
+      "ID": 5,
+      "PosX": 801.757080078125,
+      "PosY": -93.9997329711914,
+      "PosZ": -682.9669189453125,
+      "Name": "Anchor5",
+      "RotY": 269.1615905761719
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 802.0900268554688,
+      "PosY": -93.90303039550781,
+      "PosZ": -678.2100219726562,
+      "Name": "Prop1",
+      "RotY": 135.0,
+      "PropID": 104097,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PuzzlePath",
+            "Value": "Props/Outputs/Chap04/SwitchHand/SwitchHand_Puzzle_28.prefab"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "SwitchHandEntity",
+            "Value": "2,300002"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FCV_SwitchHand_PuzzleID",
+            "Value": "FCV_SwitchHand_P28"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 10077,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": 744.9739990234375,
+      "PosY": -91.5459976196289,
+      "PosZ": -632.4660034179688,
+      "Name": "Prop2",
+      "RotY": 157.293701171875,
+      "RotX": 9.983358383178711,
+      "RotZ": 356.2478942871094,
+      "PropID": 104089,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "IsTrackRealtimePositionInMap": true
+    },
+    {
+      "ID": 300004,
+      "PosX": 812.4299926757812,
+      "PosY": -94.34300231933594,
+      "PosZ": -663.77001953125,
+      "Name": "Prop4",
+      "PropID": 104101,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "LiftAnchor",
+            "Value": "LevelArea_P20482_F20482001_G2,Anchor2"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "CameraAnchor",
+            "Value": "LevelArea_P20482_F20482001_G2,Anchor3"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FCV_SwitchHand_PuzzleID",
+            "Value": "FCV_SwitchHand_P28"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosX": 779.5,
+      "PosY": -89.70999908447266,
+      "PosZ": -679.7999877929688,
+      "Name": "District1",
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 40.0,
+        "DimY": 40.0,
+        "DimZ": 40.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

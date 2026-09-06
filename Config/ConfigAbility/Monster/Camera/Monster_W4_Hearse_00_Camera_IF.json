@@ -1,0 +1,30 @@
+{
+  "AbilityList": [
+    {
+      "Name": "Monster_W4_Hearse_00_IF_Skill01_Camera",
+      "TargetInfo": {
+        "TargetType": "AllEnemy"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.AITryInsertUltra",
+          "ContinuousInsert": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvByIsInPhantomFrozen",
+          "TaskEnabled": true,
+          "Inverse": true
+        }
+      ]
+    }
+  ]
+}

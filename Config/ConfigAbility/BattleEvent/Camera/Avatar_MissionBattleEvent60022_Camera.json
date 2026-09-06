@@ -1,0 +1,26 @@
+{
+  "AbilityList": [
+    {
+      "Name": "Avatar_MissionBattleEvent60022_Skill03_Camera",
+      "TargetInfo": {
+        "TargetType": "InherentTargetEntity"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.AITryInsertUltra",
+          "TaskEnabled": true,
+          "ContinuousInsert": true
+        }
+      ]
+    }
+  ]
+}

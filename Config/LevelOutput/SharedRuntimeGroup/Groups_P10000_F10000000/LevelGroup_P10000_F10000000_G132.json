@@ -1,0 +1,142 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "MainMission2010201_01",
+  "Category": "Mission",
+  "AreaAnchorName": "LevelArea_P10000_F10000000_G132",
+  "SaveType": "Reset",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "Type": "SubMission",
+        "ID": 201020101
+      },
+      {
+        "Type": "SubMission",
+        "Phase": "Finish",
+        "ID": 201020101
+      }
+    ],
+    "Operation": "Or"
+  },
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "Type": "SubMission",
+        "Phase": "Finish",
+        "ID": 201020104
+      }
+    ]
+  },
+  "OwnerMainMissionID": 2010201,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": 5.946000099182129,
+      "PosY": -6.000000212225132e-6,
+      "PosZ": 7.968999862670898,
+      "Name": "NPC1",
+      "RotY": 93.0999984741211,
+      "NPCID": 1001,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 310010209,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "Dialog": {
+        "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G132/DialogueMain_F10000000_G132_N400001.json",
+        "PackList": []
+      },
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {},
+        "CaptureDistanceTolerance": 10.0
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400002,
+      "PosX": 6.990301132202148,
+      "PosY": 1.633370041847229,
+      "PosZ": 11.010749816894531,
+      "Name": "NPC2",
+      "NPCID": 100,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [],
+      "TalkDialogGroupIDList": [],
+      "OverrideSeriesID": 100201,
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 10.0
+      }
+    },
+    {
+      "ID": 400003,
+      "PosX": 6.990301132202148,
+      "PosY": 1.633370041847229,
+      "PosZ": 11.010749816894531,
+      "Name": "NPC3",
+      "NPCID": 100,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [],
+      "TalkDialogGroupIDList": [],
+      "OverrideSeriesID": 100301,
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 10.0
+      }
+    },
+    {
+      "ID": 400004,
+      "PosX": 4.119999885559082,
+      "PosY": -4.999999873689376e-6,
+      "PosZ": 6.043000221252441,
+      "Name": "NPC4",
+      "NPCID": 100,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "AdditiveResidentEffect": [],
+      "OverrideSeriesID": 132001,
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    }
+  ],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

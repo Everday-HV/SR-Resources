@@ -1,0 +1,45 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortInsertAbility",
+          "TaskEnabled": true,
+          "TargetFilter": {
+            "$type": "RPG.GameCore.TargetQuery",
+            "Source": {
+              "$type": "RPG.GameCore.TargetFetchRogueMagicScepterList"
+            },
+            "TeamTypeMask": "80"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AdvCharacterSetMotionBlendTime",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvByRollShopResult",
+          "Inverse": true
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {},
+    {}
+  ]
+}

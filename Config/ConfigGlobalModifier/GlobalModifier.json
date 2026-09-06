@@ -1,0 +1,85 @@
+{
+  "ModifierMap": {
+    "MGM_Endurance_00": {
+      "BehaviorFlagList": [
+        "EnduranceEnemyOnly"
+      ]
+    },
+    "MGM_LockHP1": {
+      "AdditionConfig": {
+        "SubModifierList": [
+          {
+            "Name": "MGM_LockHP1_Sub",
+            "TargetType": {
+              "$type": "RPG.GameCore.TargetAlias",
+              "Alias": "ModifierOwnerEntityAllTeammate"
+            },
+            "IsHaloStatus": true
+          }
+        ]
+      }
+    },
+    "MGM_LockHP1_Sub": {
+      "_CallbackList": [
+        {
+          "Event": "OnStack",
+          "CallbackConfig": [
+            {
+              "$type": "RPG.GameCore.TaskConfig"
+            }
+          ]
+        }
+      ]
+    },
+    "": {},
+    "BattleEventAbility_Challenge_Month_35_Fix": {
+      "_CallbackList": [
+        {
+          "Event": "OnStack",
+          "CallbackConfig": [
+            {
+              "$type": "RPG.GameCore.AddModifier",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "BattleAllEntity"
+              },
+              "ModifierName": {
+                "Value": "BattleEventAbility_Challenge_Month_35_FixSub"
+              }
+            }
+          ]
+        },
+        {
+          "Event": "OnListenCharacterCreate",
+          "CallbackConfig": [
+            {
+              "$type": "RPG.GameCore.AddModifier",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "ParamEntity"
+              },
+              "ModifierName": {
+                "Value": "BattleEventAbility_Challenge_Month_35_FixSub"
+              }
+            }
+          ]
+        },
+        {
+          "Event": "OnListenBattleEventCreate",
+          "CallbackConfig": [
+            {
+              "$type": "RPG.GameCore.AddModifier",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "ParamEntity"
+              },
+              "ModifierName": {
+                "Value": "BattleEventAbility_Challenge_Month_35_FixSub"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

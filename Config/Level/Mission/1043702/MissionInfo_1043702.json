@@ -1,0 +1,102 @@
+{
+  "MainMissionID": 1043702,
+  "StartSubMissionList": [
+    104370201
+  ],
+  "FinishSubMissionList": [
+    104370236
+  ],
+  "MissionCustomValueList": [
+    {
+      "Index": 1,
+      "Name": "BBB",
+      "Type": "Former",
+      "ValidValueParamList": [
+        1,
+        2
+      ]
+    },
+    {
+      "Index": 2,
+      "Name": "CCC",
+      "Type": "Former",
+      "ValidValueParamList": [
+        1,
+        2
+      ]
+    }
+  ],
+  "SubMissionRelationList": [],
+  "UseAssistWayPoint": true,
+  "AssistWayPointPackList": [
+    {
+      "AssistWayPointFloorID": 20482001,
+      "AssistWayPointRegionID": 1,
+      "AssistWayPointList": [
+        {
+          "WayPointType": "Prop",
+          "WayPointGroupID": 3,
+          "WayPointEntityID": 300001,
+          "SubmissionID": 104370203,
+          "SkipWhenSubMissionFinish": true,
+          "DistanceCondition": {},
+          "CanBacktrace": true,
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointPropStateCondition",
+                    "TargetPropState": "CustomState02"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "Prop",
+          "WayPointGroupID": 3,
+          "WayPointEntityID": 300001,
+          "SubmissionID": 104370204,
+          "SkipWhenSubMissionFinish": true,
+          "DistanceCondition": {},
+          "CanBacktrace": true,
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointPropStateCondition",
+                    "TargetPropState": "CustomState03"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "Prop",
+          "WayPointGroupID": 3,
+          "WayPointEntityID": 300001,
+          "SubmissionID": 104370240,
+          "SkipWhenSubMissionFinish": true,
+          "DistanceCondition": {},
+          "CanBacktrace": true,
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointPropStateCondition",
+                    "TargetPropState": "CustomState04"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

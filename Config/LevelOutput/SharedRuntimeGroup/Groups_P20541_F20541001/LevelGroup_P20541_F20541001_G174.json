@@ -1,0 +1,578 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "5D_B401_StellarJadeMiner",
+  "LevelGraph": "Config/Level/GroupGraph/F20541001/Group_F20541001_G174.json",
+  "AreaAnchorName": "LevelArea_P20541_F20541001_G174",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "GroupPropertyMap": {
+    "21": {
+      "ID": 21,
+      "Name": "LG_110001_UIActive",
+      "MaxValue": 1
+    },
+    "1420": {
+      "ID": 1420,
+      "Name": "LG_110001__65_ChestStateS_Auto",
+      "Side": "ServerClient",
+      "DefaultValue": 3,
+      "MaxValue": 3
+    },
+    "1481": {
+      "ID": 1481,
+      "Name": "LG_110001__64_ChestStateS_Auto",
+      "Side": "ServerClient",
+      "MaxValue": 3
+    },
+    "1499": {
+      "ID": 1499,
+      "Name": "LG_110001__175_MapIconState_Auto",
+      "Side": "ServerClient",
+      "MaxValue": 2
+    },
+    "1520": {
+      "ID": 1520,
+      "Name": "LG_110001_TutorialEmoji",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "1521": {
+      "ID": 1521,
+      "Name": "LG_110001_IDToiletSave",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "1522": {
+      "ID": 1522,
+      "Name": "LG_110001_IDEmoji1Save",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "1523": {
+      "ID": 1523,
+      "Name": "LG_110001_IDChenlingCageSave",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "1524": {
+      "ID": 1524,
+      "Name": "LG_110001_IDPianoSave",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "1525": {
+      "ID": 1525,
+      "Name": "LG_110001_IDTreasureSave",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "1526": {
+      "ID": 1526,
+      "Name": "LG_110001_IDTrashSave",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "1527": {
+      "ID": 1527,
+      "Name": "LG_110001_IDBowlSave",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "1528": {
+      "ID": 1528,
+      "Name": "LG_110001_IDTTrashSave",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "1529": {
+      "ID": 1529,
+      "Name": "LG_110001_IDTEmojiSave",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "1530": {
+      "ID": 1530,
+      "Name": "LG_110001_IDTRockSave",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "1531": {
+      "ID": 1531,
+      "Name": "LG_110001_EmojiRescued",
+      "Side": "ServerClient",
+      "MaxValue": 3
+    }
+  },
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Gameplay",
+        "TagHash": -141571921
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -214.67599487304688,
+      "PosY": -205.8695068359375,
+      "PosZ": 845.5349731445312,
+      "Name": "Entrance",
+      "RotY": 75.27320861816406
+    },
+    {
+      "ID": 2,
+      "PosX": -186.84500122070312,
+      "PosY": -205.71389770507812,
+      "PosZ": 866.4420166015625,
+      "Name": "Exit",
+      "RotY": 251.49200439453125
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -213.13360595703125,
+      "PosY": -205.7899932861328,
+      "PosZ": 845.9860229492188,
+      "Name": "Entrance",
+      "RotY": 251.4293975830078,
+      "RotX": 9.999999747378752e-6,
+      "PropID": 105006,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TargetFDLevel",
+            "Value": "110001,2"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ExitListenLevelRef",
+            "Value": "174,110001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FDPipeExitEntity",
+            "Value": "110001,2"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -185.72300720214844,
+      "PosY": -205.960693359375,
+      "PosZ": 865.8939819335938,
+      "Name": "Exit",
+      "RotY": 299.9999084472656,
+      "PropID": 105032,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap05/InitLevelGraph_Prop_Chap05_FDPipeEntry_03.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ExitListenLevelRef",
+            "Value": "174,110001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FDPipeExitEntity",
+            "Value": "110001,5"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": -213.67999267578125,
+      "PosY": -205.37010192871094,
+      "PosZ": 845.7979736328125,
+      "Name": "Prop3",
+      "RotY": 253.49220275878906,
+      "PropID": 105142,
+      "ValueSource": {
+        "Values": []
+      },
+      "CampID": 4,
+      "State": "EventClose",
+      "EventID": 20541708,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": -214.1461944580078,
+      "PosY": -206.00039672851562,
+      "PosZ": 845.6610107421875,
+      "Name": "MapIcon",
+      "PropID": 138,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 2390,
+      "SubMapID": 20541101,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 400,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300005,
+      "PosX": -181.4868927001953,
+      "PosY": -214.01690673828125,
+      "PosZ": 856.0717163085938,
+      "Name": "P1",
+      "RotY": 94.11125946044922,
+      "RotX": 328.7450866699219,
+      "RotZ": -6.000000212225132e-6,
+      "PropID": 100,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": {
+        "BlockAlias": "MD01",
+        "PrefabAlias": "5DSJM0",
+        "UseOverridePos": false
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300006,
+      "PosX": -186.50570678710938,
+      "PosY": -215.02589416503906,
+      "PosZ": 856.3195190429688,
+      "Name": "P2",
+      "RotY": 59.06187057495117,
+      "RotX": 325.2239990234375,
+      "PropID": 100,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": {
+        "BlockAlias": "MD01",
+        "PrefabAlias": "5DSJM1",
+        "UseOverridePos": false
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300007,
+      "PosX": -185.1699981689453,
+      "PosY": -215.63999938964844,
+      "PosZ": 849.1300048828125,
+      "Name": "P3",
+      "RotY": 14.680990219116211,
+      "RotX": 24.136110305786133,
+      "RotZ": 316.7554016113281,
+      "PropID": 100,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": {
+        "BlockAlias": "MD01",
+        "PrefabAlias": "5DSJM2",
+        "UseOverridePos": false
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": [
+    {
+      "ID": 110001,
+      "PosX": -182.37579345703125,
+      "PosY": -207.8179931640625,
+      "PosZ": 858.8065795898438,
+      "Name": "5D-StellarJadeMiner",
+      "RotY": 180.0,
+      "GameType": "FiveDim",
+      "LevelConfigPath": "Config/Gameplays/LittleGame/FiveDim/Level/Version_440/Map_B401/B401_StellarJadeMiner.json",
+      "LevelVarBinding": {
+        "Bindings": [
+          {
+            "LevelVarName": "Exit",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {
+              "GroupID": 174,
+              "InstanceID": 2
+            }
+          },
+          {
+            "LevelVarName": "Enchance",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {
+              "GroupID": 174,
+              "InstanceID": 1
+            }
+          },
+          {
+            "LevelVarName": "UIActive",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001_UIActive",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo",
+              "ResetOnExit": true
+            }
+          },
+          {
+            "LevelVarName": "EmojiRescued",
+            "BindingType": "GroupProperty",
+            "GroupPropertyName": "LG_110001_EmojiRescued",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "TutorialEmoji",
+            "BindingType": "GroupProperty",
+            "GroupPropertyName": "LG_110001_TutorialEmoji",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "IDToiletSave",
+            "BindingType": "GroupProperty",
+            "GroupPropertyName": "LG_110001_IDToiletSave",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "IDEmoji1Save",
+            "BindingType": "GroupProperty",
+            "GroupPropertyName": "LG_110001_IDEmoji1Save",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "IDChenlingCageSave",
+            "BindingType": "GroupProperty",
+            "GroupPropertyName": "LG_110001_IDChenlingCageSave",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "IDPianoSave",
+            "BindingType": "GroupProperty",
+            "GroupPropertyName": "LG_110001_IDPianoSave",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "IDTreasureSave",
+            "BindingType": "GroupProperty",
+            "GroupPropertyName": "LG_110001_IDTreasureSave",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "IDTrashSave",
+            "BindingType": "GroupProperty",
+            "GroupPropertyName": "LG_110001_IDTrashSave",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "IDBowlSave",
+            "BindingType": "GroupProperty",
+            "GroupPropertyName": "LG_110001_IDBowlSave",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "IDTTrashSave",
+            "BindingType": "GroupProperty",
+            "GroupPropertyName": "LG_110001_IDTTrashSave",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "IDTEmojiSave",
+            "BindingType": "GroupProperty",
+            "GroupPropertyName": "LG_110001_IDTEmojiSave",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "IDTRockSave",
+            "BindingType": "GroupProperty",
+            "GroupPropertyName": "LG_110001_IDTRockSave",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_65_ChestStateS_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__65_ChestStateS_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_64_ChestStateS_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__64_ChestStateS_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_175_MapIconState_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__175_MapIconState_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          }
+        ]
+      },
+      "GroupsToKeepOnEnter": [],
+      "NavInfo": {
+        "LittleGameConnectList": [
+          {
+            "LevelGroupID": 174,
+            "LevelInstanceID": 300001,
+            "LittleGameEntityID": 2,
+            "ConditionInfos": []
+          },
+          {
+            "ConnectionType": "Exit",
+            "LevelGroupID": 174,
+            "LevelInstanceID": 300001,
+            "LittleGameEntityID": 5,
+            "ConditionInfos": []
+          }
+        ]
+      },
+      "RequireMissionInfo": {
+        "RequireSubMissionIDList": []
+      },
+      "MinimapFogIDList": [
+        174010000,
+        174010100,
+        174010200
+      ]
+    }
+  ]
+}

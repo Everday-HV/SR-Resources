@@ -1,0 +1,173 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "MainMission1054410_08",
+  "Category": "Mission",
+  "LevelGraph": "Config/Level/GroupGraph/F20541001/Group_F20541001_G46.json",
+  "AreaAnchorName": "LevelArea_P20541_F20541001_G46",
+  "SaveType": "Reset",
+  "OwnerMainMissionID": 1054410,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "StreamingTemplateType": "None",
+  "ConflictWhiteList": [],
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -203.6699981689453,
+      "PosY": -206.0001983642578,
+      "PosZ": 785.4299926757812,
+      "Name": "Prop1",
+      "RotY": 343.7799987792969,
+      "PropID": 100,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "MissionTrigger": {
+          "Shape": "Box",
+          "Radius": 5.0,
+          "DimX": 10.0,
+          "DimY": 4.0,
+          "DimZ": 6.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": true,
+      "HideInStory": true,
+      "PerformanceHideFlags": 15,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -216.47039794921875,
+      "PosY": -206.0001983642578,
+      "PosZ": 822.326171875,
+      "Name": "Prop2",
+      "PropID": 142,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "TagOverrideConfig": {
+        "Mode": "Override",
+        "OverrideTags": {
+          "List": [
+            {
+              "Tag": "Prop.Component.SmellPath",
+              "TagHash": 1845774580
+            }
+          ]
+        },
+        "AdditiveTags": {},
+        "SubtractiveTags": {}
+      },
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "TagOverrideComponents": {
+        "TagComponents": [
+          {
+            "$type": "RPG.GameCore.PropSmellPathComponent",
+            "Tag": {
+              "Tag": "Prop.Component.SmellPath",
+              "TagHash": 1845774580
+            },
+            "GraphNodes": [
+              {
+                "x": -219.2946014404297,
+                "y": -205.30020141601562,
+                "z": 825.5706176757812
+              },
+              {
+                "x": -217.5050048828125,
+                "y": -205.30020141601562,
+                "z": 796.3281860351562
+              },
+              {
+                "x": -210.889404296875,
+                "y": -205.30020141601562,
+                "z": 784.8563232421875
+              },
+              {
+                "x": -205.35650634765625,
+                "y": -205.30020141601562,
+                "z": 800.2501220703125
+              },
+              {
+                "x": -208.84019470214844,
+                "y": -204.62359619140625,
+                "z": 820.9581298828125
+              }
+            ],
+            "GraphEdges": [
+              {
+                "NodeIndexA": 1,
+                "NodeIndexB": 2,
+                "AssistantNodes": []
+              },
+              {
+                "NodeIndexA": 4,
+                "NodeIndexB": 3,
+                "AssistantNodes": []
+              },
+              {
+                "NodeIndexA": 3,
+                "NodeIndexB": 1,
+                "AssistantNodes": []
+              },
+              {
+                "NodeIndexA": 4,
+                "AssistantNodes": []
+              }
+            ],
+            "SmellCurvePrefabPath": "Gameplays/SmellPath/Smell_Path_3_370.prefab",
+            "CornerSmellCurvePrefabPath": "Gameplays/SmellPath/Smell_Path_4_370.prefab",
+            "SmellPathEndPos": {
+              "x": -210.19000244140625,
+              "y": -206.0001983642578,
+              "z": 785.04541015625
+            },
+            "SmellGenGap": 8.0,
+            "SmellControlPointNoise": {
+              "x": 0.6000000238418579,
+              "y": 0.6000000238418579,
+              "z": 0.6000000238418579
+            }
+          }
+        ]
+      },
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

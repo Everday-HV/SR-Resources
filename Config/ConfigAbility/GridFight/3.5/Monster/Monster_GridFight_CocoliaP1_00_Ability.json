@@ -1,0 +1,37 @@
+{
+  "AbilityList": [
+    {
+      "Name": "Monster_GridFight_CocoliaP1_00_Initiate",
+      "TargetInfo": {
+        "TargetType": "Caster"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.AddModifier",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
+          "ModifierName": {
+            "Value": "MMonster_GridFight_CocoliaP1_00_Revive"
+          }
+        }
+      ]
+    }
+  ],
+  "GlobalModifiers": {
+    "MMonster_GridFight_CocoliaP1_00_Revive": {
+      "_CallbackList": [
+        {
+          "Event": "OnLimboWaitHeal",
+          "Priority": -90,
+          "CallbackConfig": [
+            {
+              "$type": "RPG.GameCore.TaskConfig"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,555 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "SwitchHand_Prop_SideMission",
+  "LevelGraph": "Config/Level/GroupGraph/F20462001/Group_F20462001_G184.json",
+  "AreaAnchorName": "LevelArea_P20462_F20462001_G184",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "SavedValueName": "SceneStateByMainMission",
+        "Value": 1
+      }
+    ],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "GroupPropertyMap": {
+    "1": {
+      "ID": 1,
+      "Name": "NormalCorrectNum",
+      "MaxValue": 4
+    },
+    "2": {
+      "ID": 2,
+      "Name": "BugCorrectNum",
+      "MaxValue": 4
+    },
+    "3": {
+      "ID": 3,
+      "Name": "NormalFinish",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "4": {
+      "ID": 4,
+      "Name": "BugFinish",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    }
+  },
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "MainMissonSpCam",
+        "Value": "LevelArea_P20462_F20462001_G44,Anchor1"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "NormalShowCam",
+        "Value": "LevelArea_P20462_F20462001_G184,AnchorNormalAnswer"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "CamRight",
+        "Value": "LevelArea_P20462_F20462001_G184,AnchorRight"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "CamLeftTop",
+        "Value": "LevelArea_P20462_F20462001_G184,AnchorLeftTop"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "CamLeftDown",
+        "Value": "LevelArea_P20462_F20462001_G184,AnchorLeftDown"
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "StreamingTemplateType": "None",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Gameplay",
+        "TagHash": -141571921
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -735.9517211914062,
+      "PosY": -49.167579650878906,
+      "PosZ": -488.4508056640625,
+      "Name": "AnchorNormalAnswer",
+      "RotY": 180.6280975341797,
+      "RotX": 15.744589805603027,
+      "RotZ": 0.00279300007969141,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 45.0
+      }
+    },
+    {
+      "ID": 2,
+      "PosX": -709.005615234375,
+      "PosY": -28.585119247436523,
+      "PosZ": -215.81350708007812,
+      "Name": "AnchorRight",
+      "RotY": 310.42718505859375,
+      "RotX": 24.064319610595703,
+      "RotZ": -0.00023799999326001853,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 40.0
+      }
+    },
+    {
+      "ID": 3,
+      "PosX": -737.6149291992188,
+      "PosY": -31.075389862060547,
+      "PosZ": -522.3983154296875,
+      "Name": "AnchorLeftTop",
+      "RotY": 359.7587890625,
+      "RotX": 19.76712989807129,
+      "RotZ": 0.00002300000051036477,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 50.0
+      }
+    },
+    {
+      "ID": 4,
+      "PosX": -747.5869140625,
+      "PosY": -48.85334014892578,
+      "PosZ": -486.0588073730469,
+      "Name": "AnchorLeftDown",
+      "RotY": 135.4871063232422,
+      "RotX": 42.76546859741211,
+      "RotZ": -0.0038610000628978014,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 62.0
+      }
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -729.2630004882812,
+      "PosY": -43.2599983215332,
+      "PosZ": -504.1199951171875,
+      "Name": "Prop1",
+      "PropID": 104433,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_CPUCore_02.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "CorrectAnswer_Normal",
+            "Value": 5.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "CorrectAnswer_Bug",
+            "Value": 1.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "NormalAns_FCV",
+            "Value": "FCV_Core1Correct_Normal"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "BugAns_FCV",
+            "Value": "FCV_Core1Correct_Bug"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -743.3900146484375,
+      "PosY": -43.2599983215332,
+      "PosZ": -504.1199951171875,
+      "Name": "Prop2",
+      "PropID": 104433,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_CPUCore_02.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "CorrectAnswer_Normal",
+            "Value": 6.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "CorrectAnswer_Bug",
+            "Value": 2.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "NormalAns_FCV",
+            "Value": "FCV_Core2Correct_Normal"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "BugAns_FCV",
+            "Value": "FCV_Core2Correct_Bug"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": -729.2630004882812,
+      "PosY": -43.2599983215332,
+      "PosZ": -489.5899963378906,
+      "Name": "Prop3",
+      "PropID": 104433,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_CPUCore_02.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "CorrectAnswer_Normal",
+            "Value": 4.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "CorrectAnswer_Bug"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "NormalAns_FCV",
+            "Value": "FCV_Core3Correct_Normal"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "BugAns_FCV",
+            "Value": "FCV_Core3Correct_Bug"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": -743.4500122070312,
+      "PosY": -43.2599983215332,
+      "PosZ": -489.5929870605469,
+      "Name": "Prop4",
+      "PropID": 104433,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_CPUCore_02.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "CorrectAnswer_Normal",
+            "Value": 3.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "CorrectAnswer_Bug",
+            "Value": 3.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "NormalAns_FCV",
+            "Value": "FCV_Core4Correct_Normal"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "BugAns_FCV",
+            "Value": "FCV_Core4Correct_Bug"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300005,
+      "PosX": -737.22998046875,
+      "PosY": -58.603919982910156,
+      "PosZ": -496.8900146484375,
+      "Name": "Prop5",
+      "PropID": 104432,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300006,
+      "PosX": -736.5999755859375,
+      "PosY": -43.130001068115234,
+      "PosZ": -190.6300048828125,
+      "Name": "Prop6",
+      "PropID": 104433,
+      "IsOverrideInitLevelGraph": true,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "CorrectAnswer_Normal",
+            "Value": 5.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "CorrectAnswer_Bug",
+            "Value": 1.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "NormalAns_FCV",
+            "Value": "FCV_Core1Correct_Normal"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "BugAns_FCV",
+            "Value": "FCV_Core1Correct_Bug"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300007,
+      "PosX": -736.4500122070312,
+      "PosY": -58.6038703918457,
+      "PosZ": -488.468994140625,
+      "Name": "Prop7",
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20462001/LG_Prop_F20462001_G82_300002.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ToastTextmap",
+            "Value": "MazePuzzle_TombSideMission_CPUGuideToast"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 2.7200000286102295
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300008,
+      "PosX": -736.4500122070312,
+      "PosY": -58.6038703918457,
+      "PosZ": -506.79998779296875,
+      "Name": "Prop8",
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20462001/LG_Prop_F20462001_G82_300002.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "ToastTextmap",
+            "Value": "MazePuzzle_TombSideMission_CPUGuideToast"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 2.7200000286102295
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosX": -739.7999877929688,
+      "PosY": -18.600000381469727,
+      "PosZ": -495.0,
+      "Name": "District1",
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 80.0,
+        "DimY": 60.0,
+        "DimZ": 80.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

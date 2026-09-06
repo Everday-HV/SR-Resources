@@ -1,0 +1,735 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "SwitchMascotProp",
+  "LevelGraph": "Config/Level/GroupGraph/F20461001/Group_F20461001_G3.json",
+  "AreaAnchorName": "LevelArea_P20461_F20461001_G3",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "SurfaceLevel_2F",
+        "Value": "LevelArea_P20461_F20461001_G3,2F"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "SurfaceLevel_1F",
+        "Value": "LevelArea_P20461_F20461001_G3,1F"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "SurfaceLevel_0F",
+        "Value": "LevelArea_P20461_F20461001_G3,0F"
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "StreamingTemplateType": "None",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Gameplay",
+        "TagHash": -141571921
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [
+    {
+      "ID": 200001,
+      "PosX": -52.68986892700195,
+      "PosY": 340.0,
+      "PosZ": 334.8135070800781,
+      "Name": "Monster1",
+      "RotY": 331.99481201171875,
+      "NPCMonsterID": 4052010,
+      "AIConfig": {
+        "PathwayList": [
+          {
+            "UseOwnerGroup": true,
+            "UseGroup": 3,
+            "UseID": 4,
+            "StartAt": 7
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "AIVariableSource": {},
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "CampID": 3,
+      "BattleArea": {},
+      "IsSkipEventID": true,
+      "BoardShowList": [],
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 200002,
+      "PosX": -15.715180397033691,
+      "PosY": 339.90301513671875,
+      "PosZ": 379.9281921386719,
+      "Name": "Monster2",
+      "RotY": 14.188920021057129,
+      "NPCMonsterID": 4052010,
+      "AIConfig": {
+        "PathwayList": [
+          {
+            "UseOwnerGroup": true,
+            "UseGroup": 3,
+            "UseID": 1,
+            "StartAt": 1
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "AIVariableSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.AIVariableFloat",
+            "Name": "Int_PatrolType",
+            "IsPrivate": false,
+            "Value": 1.0
+          }
+        ]
+      },
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "CampID": 3,
+      "BattleArea": {},
+      "IsSkipEventID": true,
+      "BoardShowList": [],
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 200003,
+      "PosX": -14.424079895019531,
+      "PosY": 339.90301513671875,
+      "PosZ": 378.6925048828125,
+      "Name": "Monster3",
+      "RotY": 8.661940574645996,
+      "NPCMonsterID": 4052010,
+      "AIConfig": {
+        "PathwayList": [
+          {
+            "UseOwnerGroup": true,
+            "UseGroup": 3,
+            "UseID": 2,
+            "StartAt": 4
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "AIVariableSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.AIVariableFloat",
+            "Name": "Int_PatrolType",
+            "IsPrivate": false,
+            "Value": 1.0
+          }
+        ]
+      },
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "CampID": 3,
+      "BattleArea": {},
+      "IsSkipEventID": true,
+      "BoardShowList": [],
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 200004,
+      "PosX": -13.157999992370605,
+      "PosY": 339.90301513671875,
+      "PosZ": 378.47698974609375,
+      "Name": "Monster4",
+      "RotY": 38.64958953857422,
+      "NPCMonsterID": 4052010,
+      "AIConfig": {
+        "PathwayList": [
+          {
+            "UseOwnerGroup": true,
+            "UseGroup": 3,
+            "UseID": 3,
+            "StartAt": 6
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "AIVariableSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.AIVariableFloat",
+            "Name": "Int_PatrolType",
+            "IsPrivate": false,
+            "Value": 1.0
+          }
+        ]
+      },
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "CampID": 3,
+      "BattleArea": {},
+      "IsSkipEventID": true,
+      "BoardShowList": [],
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 200005,
+      "PosX": -63.967559814453125,
+      "PosY": 339.9997863769531,
+      "PosZ": 354.5869140625,
+      "Name": "Monster5",
+      "RotY": 187.04080200195312,
+      "NPCMonsterID": 4052010,
+      "AIConfig": {
+        "PathwayList": [
+          {
+            "UseOwnerGroup": true,
+            "UseGroup": 3,
+            "UseID": 5,
+            "StartAt": 10
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "AIVariableSource": {},
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "CampID": 3,
+      "BattleArea": {},
+      "IsSkipEventID": true,
+      "BoardShowList": [],
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 200006,
+      "PosX": -71.91999816894531,
+      "PosY": 339.9997863769531,
+      "PosZ": 365.6600036621094,
+      "Name": "Monster6",
+      "RotY": 14.188920021057129,
+      "NPCMonsterID": 4052010,
+      "AIConfig": {
+        "PathwayList": [
+          {
+            "UseOwnerGroup": true,
+            "UseGroup": 3,
+            "UseID": 6,
+            "StartAt": 13
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "AIVariableSource": {},
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "CampID": 3,
+      "BattleArea": {},
+      "IsSkipEventID": true,
+      "BoardShowList": [],
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -57.279998779296875,
+      "PosY": 348.9988098144531,
+      "PosZ": 392.5799865722656,
+      "Name": "DestructibleItem",
+      "RotY": 217.68170166015625,
+      "PropID": 104394,
+      "LoadOnInitial": false,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "RotationType"
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "Colour",
+            "Value": 1
+          }
+        ]
+      },
+      "CampID": 4,
+      "EventID": 10000,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -24.950000762939453,
+      "PosY": 348.9986877441406,
+      "PosZ": 392.6600036621094,
+      "Name": "DestructibleItem",
+      "RotY": 231.19180297851562,
+      "PropID": 104394,
+      "LoadOnInitial": false,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "RotationType"
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "Colour",
+            "Value": 1
+          }
+        ]
+      },
+      "CampID": 4,
+      "EventID": 10000,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": -14.979330062866211,
+      "PosY": 341.75,
+      "PosZ": 371.4778137207031,
+      "Name": "DestructibleItem",
+      "RotY": 315.9359130859375,
+      "PropID": 104394,
+      "LoadOnInitial": false,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "RotationType"
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "Colour",
+            "Value": 1
+          }
+        ]
+      },
+      "CampID": 4,
+      "EventID": 10000,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": -16.59609031677246,
+      "PosY": 341.75,
+      "PosZ": 369.9130859375,
+      "Name": "DestructibleItem",
+      "RotY": 315.9359130859375,
+      "PropID": 104394,
+      "LoadOnInitial": false,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "RotationType"
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "Colour",
+            "Value": 1
+          }
+        ]
+      },
+      "CampID": 4,
+      "EventID": 10000,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300005,
+      "PosX": -34.46207046508789,
+      "PosY": 329.9100036621094,
+      "PosZ": 360.1549987792969,
+      "Name": "DestructibleItem",
+      "RotY": 66.19183349609375,
+      "PropID": 104394,
+      "LoadOnInitial": false,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "RotationType"
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "Colour",
+            "Value": 1
+          }
+        ]
+      },
+      "CampID": 4,
+      "EventID": 10000,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300006,
+      "PosX": -69.62615966796875,
+      "PosY": 340.0,
+      "PosZ": 381.7421875,
+      "Name": "DestructibleItem",
+      "RotY": 104.84239959716797,
+      "PropID": 104394,
+      "LoadOnInitial": false,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "RotationType"
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "Colour",
+            "Value": 1
+          }
+        ]
+      },
+      "CampID": 4,
+      "EventID": 10000,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300007,
+      "PosX": -92.25202941894531,
+      "PosY": 348.9988098144531,
+      "PosZ": 361.07989501953125,
+      "Name": "Box",
+      "PropID": 104037,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": -15.670430183410645,
+      "PosY": 340.0849914550781,
+      "PosZ": 379.684814453125
+    },
+    {
+      "ID": 2,
+      "PosX": -21.22473907470703,
+      "PosY": 340.0849914550781,
+      "PosZ": 376.9621887207031
+    },
+    {
+      "ID": 3,
+      "PosX": -14.184000015258789,
+      "PosY": 339.9997863769531,
+      "PosZ": 378.7799987792969
+    },
+    {
+      "ID": 4,
+      "PosX": -20.117700576782227,
+      "PosY": 340.0849914550781,
+      "PosZ": 374.8174133300781
+    },
+    {
+      "ID": 5,
+      "PosX": -12.990679740905762,
+      "PosY": 339.9997863769531,
+      "PosZ": 377.0828857421875
+    },
+    {
+      "ID": 6,
+      "PosX": -20.0485897064209,
+      "PosY": 340.0849914550781,
+      "PosZ": 372.673095703125
+    },
+    {
+      "ID": 7,
+      "PosX": -52.59199905395508,
+      "PosY": 340.0,
+      "PosZ": 334.8389892578125
+    },
+    {
+      "ID": 8,
+      "PosX": -47.25899887084961,
+      "PosY": 340.0,
+      "PosZ": 340.029296875
+    },
+    {
+      "ID": 9,
+      "PosX": -54.321998596191406,
+      "PosY": 340.08489990234375,
+      "PosZ": 347.781005859375
+    },
+    {
+      "ID": 10,
+      "PosX": -64.94000244140625,
+      "PosY": 340.0,
+      "PosZ": 353.2699890136719
+    },
+    {
+      "ID": 11,
+      "PosX": -60.66999816894531,
+      "PosY": 340.0000915527344,
+      "PosZ": 356.6400146484375
+    },
+    {
+      "ID": 12,
+      "PosX": -64.37000274658203,
+      "PosY": 340.0,
+      "PosZ": 361.010009765625
+    },
+    {
+      "ID": 13,
+      "PosX": -71.87799835205078,
+      "PosY": 339.9997863769531,
+      "PosZ": 365.5580139160156
+    },
+    {
+      "ID": 14,
+      "PosX": -78.16000366210938,
+      "PosY": 339.9997863769531,
+      "PosZ": 371.8500061035156
+    },
+    {
+      "ID": 15,
+      "PosX": -70.06999969482422,
+      "PosY": 339.9997863769531,
+      "PosZ": 379.9100036621094
+    },
+    {
+      "ID": 16,
+      "PosX": -29.389999389648438,
+      "PosY": 340.0849914550781,
+      "PosZ": 383.47100830078125
+    },
+    {
+      "ID": 17,
+      "PosX": -32.28300094604492,
+      "PosY": 340.0849914550781,
+      "PosZ": 385.7959899902344
+    },
+    {
+      "ID": 18,
+      "PosX": -35.452999114990234,
+      "PosY": 340.0849914550781,
+      "PosZ": 388.8940124511719
+    }
+  ],
+  "PathwayList": [
+    {
+      "ID": 1,
+      "PosX": -32.00516891479492,
+      "PosY": 340.0,
+      "PosZ": 390.2255859375,
+      "Name": "Pathway1",
+      "WaypointIDList": [
+        1,
+        2,
+        16
+      ]
+    },
+    {
+      "ID": 2,
+      "PosX": -27.474239349365234,
+      "PosY": 348.9981994628906,
+      "PosZ": 378.2762145996094,
+      "Name": "Pathway2",
+      "WaypointIDList": [
+        3,
+        4,
+        17
+      ]
+    },
+    {
+      "ID": 3,
+      "PosX": -25.88970947265625,
+      "PosY": 340.05670166015625,
+      "PosZ": 384.4619140625,
+      "Name": "Pathway3",
+      "WaypointIDList": [
+        5,
+        6,
+        18
+      ]
+    },
+    {
+      "ID": 4,
+      "PosX": -55.21144104003906,
+      "PosY": 340.0,
+      "PosZ": 336.7892150878906,
+      "Name": "Pathway4",
+      "WaypointIDList": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "ID": 5,
+      "PosX": -55.21144104003906,
+      "PosY": 340.0,
+      "PosZ": 336.7892150878906,
+      "Name": "Pathway5",
+      "WaypointIDList": [
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "ID": 6,
+      "PosX": -55.21144104003906,
+      "PosY": 340.0,
+      "PosZ": 336.7892150878906,
+      "Name": "Pathway6",
+      "WaypointIDList": [
+        13,
+        14,
+        15
+      ]
+    }
+  ],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

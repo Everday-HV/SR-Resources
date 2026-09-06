@@ -1,0 +1,25 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AITryInsertUltra"
+        },
+        {
+          "$type": "RPG.GameCore.AbortInsertAbility",
+          "TargetFilter": {
+            "$type": "RPG.GameCore.RtBattleTargetCameraFocusTarget"
+          },
+          "AbilityName": "\u0005�ј�\u0001\t\u0001�"
+        }
+      ]
+    },
+    {
+      "IsLoop": true
+    }
+  ]
+}

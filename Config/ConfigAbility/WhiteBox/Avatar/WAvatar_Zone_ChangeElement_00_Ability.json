@@ -1,0 +1,63 @@
+{
+  "AbilityList": [
+    {
+      "Name": "WAvatar_Zone_ChangeElement_00_Skill01_Phase01",
+      "TargetInfo": {
+        "TargetType": "SkillTargetEntityList"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveFarmElement",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AddTimelineMenuItem",
+          "TaskEnabled": true,
+          "PerformanceType": "58",
+          "PerformanceID": 101
+        },
+        {
+          "$type": "RPG.GameCore.AdvCreateGroupEntity",
+          "OverrideArtModelOffset": {
+            "x": 9.803529576172388e+32,
+            "y": 4.4655885231633137e+30,
+            "z": 1.8519042323970665e+28
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AdvByRollShopResult",
+          "TaskEnabled": true,
+          "Inverse": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchRogueMagicScepterList"
+          },
+          "TargetResult": "-52"
+        },
+        {
+          "$type": "RPG.GameCore.AdvByRollShopResult",
+          "TaskEnabled": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchSummonUnit",
+            "UniqueName": {
+              "Custom": true,
+              "Value": "_00_Skill01_Phase02\u0001�\u001b2\f\u0001\u0006Caster\u0004 Avatar_Tribbie_00_Skill01_Camera\u0001�\f\u0004\u0004�\u001bh\u0007Skill01\u0000����@\u0000����)�\u0015,\f\u0001\u0006Caster\u0002\u0001\u0006Weapon\u0000"
+            },
+            "SummonUnitID": 0,
+            "FetchType": "All"
+          }
+        }
+      ]
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "GlobalModifiers": {}
+}

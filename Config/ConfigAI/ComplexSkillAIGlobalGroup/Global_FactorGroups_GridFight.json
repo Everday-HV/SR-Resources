@@ -1,0 +1,226 @@
+{
+  "GroupsMap": {
+    "Base_GridFight_SingleHeal": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourcePropertyCompareRatio",
+            "PropertyTypeA": "CurrentHP",
+            "PropertyTypeB": "MaxHP"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 1500.0
+                },
+                "xmax": {
+                  "Value": 0.40000000037252903
+                },
+                "ymax": {
+                  "Value": 1100.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.40000000037252903
+                },
+                "ymin": {
+                  "Value": 1100.0
+                },
+                "xmax": {
+                  "Value": 0.6000000005587935
+                },
+                "ymax": {
+                  "Value": 800.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.6000000005587935
+                },
+                "ymin": {
+                  "Value": 800.0
+                },
+                "xmax": {
+                  "Value": 0.7000000006519258
+                },
+                "ymax": {
+                  "Value": 100.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.7000000006519258
+                },
+                "ymin": {
+                  "Value": 50.0
+                },
+                "xmax": {
+                  "Value": 1.0
+                },
+                "ymax": {
+                  "Value": 1.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Base_GridFight_SingleShield": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceAITag",
+            "DynamicValueKey": "AggroNeed"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmin": {
+                  "Value": 1.0
+                },
+                "ymin": {
+                  "Value": 30.0
+                },
+                "xmax": {
+                  "Value": 10.0
+                },
+                "ymax": {
+                  "Value": 90.0
+                }
+              },
+              {
+                "xmax": {
+                  "Value": 1.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "CombineOperator": "Mul",
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIContainModifier",
+            "ModifilerName": "MAvatar_March7th_00_BPSkill_Shield"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 1.0
+                },
+                "xmax": {
+                  "Value": 0.5000000004656613
+                },
+                "ymax": {
+                  "Value": 1.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "xmax": {
+                  "Value": 1.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourcePropertyCompareRatio",
+            "PropertyTypeA": "CurrentHP",
+            "PropertyTypeB": "MaxHP"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 110.0
+                },
+                "xmax": {
+                  "Value": 0.5000000004656613
+                },
+                "ymax": {
+                  "Value": 90.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "ymin": {
+                  "Value": 95.0
+                },
+                "xmax": {
+                  "Value": 0.7500000006984919
+                },
+                "ymax": {
+                  "Value": 90.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.7500000006984919
+                },
+                "ymin": {
+                  "Value": 50.0
+                },
+                "xmax": {
+                  "Value": 1.0
+                },
+                "ymax": {
+                  "Value": 1.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "CombineOperator": "Mul",
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIContainModifier",
+            "ModifilerName": "MAvatar_March7th_00_BPSkill_Shield"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 1.0
+                },
+                "xmax": {
+                  "Value": 0.5000000004656613
+                },
+                "ymax": {
+                  "Value": 1.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "ymin": {
+                  "Value": 0.20000000018626451
+                },
+                "xmax": {
+                  "Value": 1.0
+                },
+                "ymax": {
+                  "Value": 0.20000000018626451
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

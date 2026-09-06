@@ -1,0 +1,213 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "MainMission1054500_05",
+  "Category": "Mission",
+  "LevelGraph": "Config/Level/GroupGraph/F20541001/Group_F20541001_G120.json",
+  "AreaAnchorName": "LevelArea_P20541_F20541001_G120",
+  "SaveType": "Reset",
+  "OwnerMainMissionID": 1054500,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "StreamingTemplateType": "None",
+  "ConflictWhiteList": [],
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -484.4872131347656,
+      "PosY": 340.2703857421875,
+      "PosZ": -361.7807922363281,
+      "Name": "Prop1",
+      "PropID": 100,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "MissionTrigger": {
+          "Radius": 16.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -480.6199951171875,
+      "PosY": 340.5021057128906,
+      "PosZ": -357.4200134277344,
+      "Name": "Prop2",
+      "RotY": 343.6838073730469,
+      "PropID": 100,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "MissionTrigger": {
+          "Shape": "Box",
+          "Radius": 5.650000095367432,
+          "DimX": 7.5,
+          "DimY": 6.949999809265137,
+          "DimZ": 28.90999984741211
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": -489.0,
+      "PosY": 339.30108642578125,
+      "PosZ": -363.4200134277344
+    },
+    {
+      "ID": 2,
+      "PosX": -500.7699890136719,
+      "PosY": 341.6319885253906,
+      "PosZ": -361.6199951171875
+    },
+    {
+      "ID": 3,
+      "PosX": -490.15301513671875,
+      "PosY": 339.6086120605469,
+      "PosZ": -361.9100036621094
+    },
+    {
+      "ID": 4,
+      "PosX": -497.260009765625,
+      "PosY": 340.92730712890625,
+      "PosZ": -361.45001220703125
+    }
+  ],
+  "PathwayList": [
+    {
+      "ID": 1,
+      "PosX": -485.8078918457031,
+      "PosY": 340.9065856933594,
+      "PosZ": -364.1664123535156,
+      "Name": "Pathway1",
+      "WaypointIDList": [
+        1,
+        2
+      ]
+    },
+    {
+      "ID": 2,
+      "PosX": -485.8078918457031,
+      "PosY": 340.9065856933594,
+      "PosZ": -364.1664123535156,
+      "Name": "Pathway2",
+      "WaypointIDList": [
+        3,
+        4
+      ]
+    }
+  ],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": -485.9805908203125,
+      "PosY": 338.9967041015625,
+      "PosZ": -363.1612854003906,
+      "Name": "NPC1",
+      "NPCID": 15202,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultBlendShapeConfigName": "Sad02",
+      "DefaultLookAtMode": "Closed",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100020289,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "OverrideSpawn": true,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": false
+        },
+        "TryCapture": false
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400002,
+      "PosX": -486.3789978027344,
+      "PosY": 339.1534118652344,
+      "PosZ": -362.72198486328125,
+      "Name": "NPC2",
+      "NPCID": 15178,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultBlendShapeConfigName": "Sad02",
+      "DefaultLookAtMode": "Closed",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100010243,
+      "AdditiveResidentEffect": [
+        {
+          "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_Tantao_Loop.prefab",
+          "IsAttachToTargetEntity": true,
+          "AttachPoint": "Root",
+          "PositionOffset": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        }
+      ],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "OverrideSpawn": true,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": false
+        },
+        "TryCapture": false
+      },
+      "ModelPresetConfig": {}
+    }
+  ],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

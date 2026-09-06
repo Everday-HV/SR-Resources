@@ -1,0 +1,136 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {
+      "Order": 247745
+    },
+    {},
+    {},
+    {},
+    {},
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill"
+        },
+        {
+          "$type": "RPG.GameCore.AdvCreateEntityAsync",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvByTriggeredTrackedSearch",
+          "Inverse": true,
+          "CheckTime": 2.9147517732752704e-11
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill"
+        },
+        {
+          "$type": "RPG.GameCore.AdvDisablePlayerLockTarget",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvByIsInPhantomFrozen",
+          "Inverse": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchBattleEventEntityList"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": false
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "EGAIKBNEPOG"
+        },
+        {
+          "$type": "RPG.GameCore.AddEntityToTeamFormation"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AddDynamicEntityParam",
+          "ReadTargetType": {
+            "$type": "RPG.GameCore.TargetFetchSummonUnit",
+            "Summoner": {
+              "$type": "RPG.GameCore.TargetFetchSummonUnit",
+              "SummonUnitID": 65,
+              "FetchType": "57"
+            },
+            "SummonUnitID": 101
+          },
+          "ParamTargetType": {
+            "$type": "RPG.GameCore.TargetFetchRogueMagicScepterList"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AdvByCheckGameMode",
+          "Inverse": true
+        },
+        {
+          "$type": "RPG.GameCore.AddPamMenuItem",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvByInCustomZone",
+          "Inverse": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchBattleEventEntityList"
+          }
+        }
+      ]
+    },
+    {
+      "IsLoop": true
+    },
+    {},
+    {}
+  ]
+}

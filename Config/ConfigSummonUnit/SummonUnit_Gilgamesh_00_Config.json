@@ -1,0 +1,34 @@
+{
+  "GroupConfigName": "Field",
+  "ConfigEntityPath": "Config/ConfigEntity/SummonUnit/SummonUnit_Common_TeamField_Entity.json",
+  "ResidentEffects": [
+    {
+      "$type": "RPG.GameCore.TriggerEffect",
+      "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Gilgamesh_00/Eff_Avatar_Gilgamesh_00_MazeSkill_Lock_az_2.prefab",
+      "ForceSimulateImmediately": false
+    }
+  ],
+  "OnCreate": [
+    {
+      "$type": "RPG.GameCore.TaskConfig"
+    },
+    {
+      "$type": "RPG.GameCore.TaskConfig"
+    },
+    {
+      "$type": "RPG.GameCore.ActiveFarmElement",
+      "TaskEnabled": true
+    },
+    {
+      "$type": "RPG.GameCore.AddTimelineMenuItem",
+      "TaskEnabled": true,
+      "PerformanceType": "58",
+      "PerformanceID": 101
+    }
+  ],
+  "TriggerConfig": {
+    "SoundTrigger": {
+      "EnterTriggerWaitTime": 1.684219146537083e+22
+    }
+  }
+}

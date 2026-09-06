@@ -1,0 +1,307 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "MainMission1054602_MainMission_1054602_12",
+  "Category": "Mission",
+  "LevelGraph": "Config/Level/GroupGraph/F20561001/Group_F20561001_G235.json",
+  "AreaAnchorName": "LevelArea_P20561_F20561001_G235",
+  "SaveType": "Reset",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "Type": "SubMission",
+        "ID": 105460212
+      }
+    ]
+  },
+  "OwnerMainMissionID": 1054602,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 137.10000610351562,
+      "PosY": -3.0949249267578125,
+      "PosZ": -195.64999389648438,
+      "Name": "Anchor1",
+      "RotY": 145.1226043701172
+    },
+    {
+      "ID": 2,
+      "PosX": 130.57000732421875,
+      "PosY": 14.699999809265137,
+      "PosZ": -208.63999938964844,
+      "Name": "Anchor2"
+    },
+    {
+      "ID": 3,
+      "PosX": 145.31790161132812,
+      "PosY": -0.8026340007781982,
+      "PosZ": -199.94619750976562,
+      "Name": "Anchor3",
+      "RotY": 175.46690368652344,
+      "RotX": 10.00514030456543,
+      "RotZ": 0.005030999891459942,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 40.0
+      }
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 130.27999877929688,
+      "PosY": -3.0949249267578125,
+      "PosZ": -198.74000549316406,
+      "Name": "Prop1",
+      "PropID": 100,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "MissionTrigger": {
+          "Radius": 6.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": 130.1439971923828,
+      "PosY": -2.954927921295166,
+      "PosZ": -200.80599975585938,
+      "Name": "NPC1",
+      "RotY": 191.9958038330078,
+      "NPCID": 15640,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultLookAtMode": "LookTarget",
+      "DefaultLookAtTargetInfo": {
+        "TargetType": "Anchor",
+        "GroupID": 235,
+        "InstanceID": 2
+      },
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "OverrideNPCName": {
+        "Hash": -2011445723,
+        "Hash64": 3408858218254133564
+      },
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100010231,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400002,
+      "PosX": 129.69400024414062,
+      "PosY": -2.9549429416656494,
+      "PosZ": -199.8520050048828,
+      "Name": "NPC2",
+      "RotY": 179.83120727539062,
+      "NPCID": 3225,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "IsOverrideAtlasEmotion": true,
+      "OverrideAtlasEmotion": {
+        "EmotionIndex": 12
+      },
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultAnimationType": "FreeStyleGraph",
+      "FreeStyleAnimGraphName": "Strech_Jump_Throw",
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "ChenLing_00_Body_00"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400003,
+      "PosX": 131.47999572753906,
+      "PosY": -3.0499989986419678,
+      "PosZ": -202.5399932861328,
+      "Name": "NPC3",
+      "RotY": 326.51361083984375,
+      "NPCID": 3225,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "IsOverrideAtlasEmotion": true,
+      "OverrideAtlasEmotion": {
+        "EmotionIndex": 12
+      },
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultAnimationType": "FreeStyleGraph",
+      "FreeStyleAnimGraphName": "Jump_StandBy",
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "ChenLing_00_Body_05",
+        "NPC_Special_ChenLing_00_007"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400004,
+      "PosX": 130.64999389648438,
+      "PosY": -3.0499989986419678,
+      "PosZ": -203.75999450683594,
+      "Name": "NPC4",
+      "RotY": 4.388501167297363,
+      "NPCID": 3225,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "IsOverrideAtlasEmotion": true,
+      "OverrideAtlasEmotion": {
+        "EmotionIndex": 12
+      },
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultAnimationType": "FreeStyleGraph",
+      "FreeStyleAnimGraphName": "Stretch_Jump",
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "ChenLing_00_Body_07",
+        "NPC_Special_ChenLing_00_007"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400005,
+      "PosX": 128.88999938964844,
+      "PosY": -2.9549429416656494,
+      "PosZ": -203.47999572753906,
+      "Name": "NPC5",
+      "RotY": 43.12382888793945,
+      "NPCID": 3225,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "IsOverrideAtlasEmotion": true,
+      "OverrideAtlasEmotion": {
+        "EmotionIndex": 12
+      },
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultAnimationType": "FreeStyleGraph",
+      "FreeStyleAnimGraphName": "Strech_StandBy",
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "ChenLing_00_Body_06",
+        "NPC_Special_ChenLing_00_011"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400006,
+      "PosX": 131.4320068359375,
+      "PosY": -2.9549241065979004,
+      "PosZ": -200.71099853515625,
+      "Name": "NPC6",
+      "RotY": 237.85800170898438,
+      "NPCID": 3225,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "IsOverrideAtlasEmotion": true,
+      "OverrideAtlasEmotion": {
+        "EmotionIndex": 12
+      },
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultAnimationType": "FreeStyleGraph",
+      "FreeStyleAnimGraphName": "Strech_Jump_Throw",
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "ChenLing_00_Body_00",
+        "NPC_Special_ChenLing_00_035"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    }
+  ],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

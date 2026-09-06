@@ -1,0 +1,350 @@
+{
+  "FloorID": 30138001,
+  "StartAnchorID": 1,
+  "StageData": "Stages/Outputs/Chapter03/Stages/Chap03_ADV_P07_StageData/Chap03_ADV_P07_StageData.stage",
+  "LayerToAreaMask": [
+    8,
+    16,
+    32
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P10307_F10307001.json",
+  "RegionConfigPath": "Config/LevelOutput/Region/FloorRegion_P10307_F10307001.json",
+  "CustomValues": [
+    {
+      "$type": "RPG.GameCore.FloorCustomFloatConfig",
+      "ID": 10001,
+      "Name": "FCV_ShowSwarm1"
+    },
+    {
+      "$type": "RPG.GameCore.FloorCustomFloatConfig",
+      "ID": 10002,
+      "Name": "FCV_ShowSwarm2"
+    },
+    {
+      "$type": "RPG.GameCore.FloorCustomBoolConfig",
+      "ID": 10003,
+      "Name": "IsIsometricReset",
+      "DefaultValue": true
+    },
+    {
+      "$type": "RPG.GameCore.FloorCustomBoolConfig",
+      "ID": 10004,
+      "Name": "IsInIsometric"
+    },
+    {
+      "$type": "RPG.GameCore.FloorCustomBoolConfig",
+      "ID": 10005,
+      "Name": "IsIsometricZoomIn"
+    },
+    {
+      "$type": "RPG.GameCore.FloorCustomBoolConfig",
+      "ID": 10006,
+      "Name": "IsometricEffectFlag"
+    },
+    {
+      "$type": "RPG.GameCore.FloorCustomBoolConfig",
+      "ID": 10007,
+      "Name": "Isometric_CanSwipeCam"
+    },
+    {
+      "$type": "RPG.GameCore.FloorCustomFloatConfig",
+      "ID": 10008,
+      "Name": "FCV_CurrentRotatePartState"
+    },
+    {
+      "$type": "RPG.GameCore.FloorCustomFloatConfig",
+      "ID": 10009,
+      "Name": "FCV_StairsChoose"
+    }
+  ],
+  "GroupInstanceList": [
+    {
+      "ID": 1,
+      "Name": "DefaultGroup",
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30138_F30138001/LevelGroup_P30138_F30138001_G1.json"
+    },
+    {
+      "ID": 2,
+      "Name": "sound_reverb",
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30138_F30138001/LevelGroup_P30138_F30138001_G2.json"
+    },
+    {
+      "ID": 3,
+      "Name": "sound_01",
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30138_F30138001/LevelGroup_P30138_F30138001_G3.json"
+    },
+    {
+      "ID": 4,
+      "Name": "Contents",
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30138_F30138001/LevelGroup_P30138_F30138001_G4.json"
+    },
+    {
+      "ID": 5,
+      "Name": "Contents",
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30138_F30138001/LevelGroup_P30138_F30138001_G5.json"
+    },
+    {
+      "ID": 6,
+      "Name": "Door",
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30138_F30138001/LevelGroup_P30138_F30138001_G6.json"
+    },
+    {
+      "ID": 7,
+      "Name": "ChangeStageState_Swarm",
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30138_F30138001/LevelGroup_P30138_F30138001_G7.json"
+    },
+    {
+      "ID": 8,
+      "Name": "DefaultBGM",
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30138_F30138001/LevelGroup_P30138_F30138001_G8.json"
+    }
+  ],
+  "DimensionList": [
+    {
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter03/EnviroProfile/Chap03_CloseView_ADV_P07_Night_01.enviroProfile.asset",
+      "BattleAreaList": [
+        {
+          "ID": 1,
+          "Name": "BattleArea1",
+          "Tags": [
+            "BattleArea01"
+          ],
+          "TagContainer": {
+            "List": []
+          },
+          "PropsGroupID": 1,
+          "AudienceGroupIDList": [],
+          "PrefetchMainMissionList": [],
+          "PrefetchSubMissionList": [],
+          "UnifiedBattleAreaID": 1030701
+        },
+        {
+          "ID": 2,
+          "Name": "BattleArea2",
+          "Tags": [
+            "BattleArea01"
+          ],
+          "TagContainer": {},
+          "AudioEnterEvent": [
+            "Ev_WwiseMatrixReverb_VO_22_gainianxing_zhong"
+          ],
+          "PropsGroupID": 1,
+          "AudienceGroupIDList": [],
+          "PrefetchMainMissionList": [],
+          "PrefetchSubMissionList": [],
+          "UnifiedBattleAreaID": 2033203,
+          "IsOverrideUnifiedConfigAudio": true
+        },
+        {
+          "ID": 3,
+          "Name": "BattleArea3",
+          "Tags": [
+            "BattleArea01"
+          ],
+          "TagContainer": {},
+          "PropsGroupID": 1,
+          "AudienceGroupIDList": [],
+          "PrefetchMainMissionList": [],
+          "PrefetchSubMissionList": [],
+          "UnifiedBattleAreaID": 2031301
+        }
+      ],
+      "ConstValues": [
+        {
+          "$type": "RPG.GameCore.FloorTargetAgentConfig",
+          "ID": 1,
+          "Name": "gongguan_xiaofangjian_fanyu"
+        },
+        {
+          "$type": "RPG.GameCore.FloorTargetAgentConfig",
+          "ID": 2,
+          "Name": "gongguan_xiaofangjian_tongxie"
+        },
+        {
+          "$type": "RPG.GameCore.FloorTargetAgentConfig",
+          "ID": 3,
+          "Name": "gongguan_datang"
+        },
+        {
+          "$type": "RPG.GameCore.FloorTargetAgentConfig",
+          "ID": 4,
+          "Name": "huilang_fanyu"
+        },
+        {
+          "$type": "RPG.GameCore.FloorTargetAgentConfig",
+          "ID": 5,
+          "Name": "huilang_tongxie"
+        },
+        {
+          "$type": "RPG.GameCore.FloorTargetAgentConfig",
+          "ID": 6,
+          "Name": "tiantai_rukou"
+        }
+      ],
+      "SavedValues": [
+        {
+          "ID": 1,
+          "Name": "FSV_IsRoomBroken",
+          "DefaultValue": 1,
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "MaxValue": 1
+        },
+        {
+          "ID": 2,
+          "Name": "FSV_ShowStageAddition",
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "MaxValue": 1
+        },
+        {
+          "ID": 3,
+          "Name": "FSV_StairsChoose",
+          "AllowedValues": [
+            0,
+            1,
+            2
+          ],
+          "MaxValue": 2
+        },
+        {
+          "ID": 4,
+          "Name": "FSV_ShowSwarm1",
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "MaxValue": 1
+        },
+        {
+          "ID": 5,
+          "Name": "FSV_ShowSwarm2",
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "MaxValue": 1
+        },
+        {
+          "ID": 6,
+          "Name": "FSV_Clock1",
+          "AllowedValues": [],
+          "MaxValue": 5
+        },
+        {
+          "ID": 7,
+          "Name": "FSV_Clock2",
+          "AllowedValues": [],
+          "MaxValue": 5
+        },
+        {
+          "ID": 8,
+          "Name": "FSV_Clock3",
+          "AllowedValues": [],
+          "MaxValue": 5
+        },
+        {
+          "ID": 9,
+          "Name": "FSV_ClockAll",
+          "AllowedValues": [],
+          "MaxValue": 5
+        },
+        {
+          "ID": 10,
+          "Name": "FSV_IsometricChooseFinish",
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "MaxValue": 1
+        },
+        {
+          "ID": 11,
+          "Name": "IsInIsometric",
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "MaxValue": 1
+        },
+        {
+          "ID": 12,
+          "Name": "IsIsometricReset",
+          "DefaultValue": 1,
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "MaxValue": 1
+        },
+        {
+          "ID": 13,
+          "Name": "SceneStateByMainMission",
+          "AllowedValues": [],
+          "MaxValue": 1
+        }
+      ],
+      "IsExclusiveSaveMapSection": true,
+      "GroupIndexList": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "ExclusiveSavedGroupIDList": [],
+      "StartAnchorID": 1
+    }
+  ],
+  "GroupInstanceCommonMap": {
+    "1": {
+      "SaveType": "Reset",
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true
+    },
+    "2": {
+      "SaveType": "Reset",
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true
+    },
+    "3": {
+      "SaveType": "Reset",
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true
+    },
+    "4": {
+      "Category": "Custom",
+      "IsHoyoGroup": true,
+      "LoadSide": "Server"
+    },
+    "5": {
+      "Category": "Custom",
+      "IsHoyoGroup": true,
+      "LoadSide": "Server"
+    },
+    "6": {
+      "SaveType": "Reset",
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true
+    },
+    "7": {
+      "SaveType": "Permanent",
+      "IsHoyoGroup": true,
+      "LoadSide": "Server"
+    },
+    "8": {
+      "SaveType": "Reset",
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true
+    }
+  },
+  "ValidSubmapList": [],
+  "IsRestartLevelGraph": true
+}

@@ -1,0 +1,164 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "MainMission1033811_06",
+  "Category": "Mission",
+  "LevelGraph": "Config/Level/GroupGraph/F40483001/Group_F40483001_G40.json",
+  "AreaAnchorName": "LevelArea_P40483_F40483001_G40",
+  "SaveType": "Reset",
+  "IsPendedUnload": true,
+  "OwnerMainMissionID": 1033811,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 6.874000072479248,
+      "PosY": -16.88096046447754,
+      "PosZ": 69.91699981689453,
+      "Name": "Anchor1"
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": 5.506999969482422,
+      "PosY": -16.88096046447754,
+      "PosZ": 67.17500305175781,
+      "Name": "NPC1",
+      "RotY": 204.52169799804688,
+      "NPCID": 1322,
+      "LevelGraph": "Config/Level/LevelInstanceGraph/F40483001/LG_NPC_F40483001_G40_400001.json",
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultLookAtMode": "Closed",
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 314160000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "OverrideSpawn": true,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": false,
+          "NeedFadeIn": false
+        },
+        "TryCapture": false
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400002,
+      "PosX": 4.9670000076293945,
+      "PosY": -16.42289924621582,
+      "PosZ": 65.86699676513672,
+      "Name": "NPC2",
+      "RotY": 20.080970764160156,
+      "NPCID": 1006,
+      "LevelGraph": "Config/Level/LevelInstanceGraph/F40483001/LG_NPC_F40483001_G40_400002.json",
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultLookAtMode": "LookTarget",
+      "DefaultLookAtTargetInfo": {
+        "GroupID": 40,
+        "InstanceID": 400001,
+        "LookAtAttachPoint": "LookAtPoint"
+      },
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 310060210,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "OverrideSpawn": true,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": false,
+          "NeedFadeIn": false
+        },
+        "TryCapture": false
+      },
+      "ModelPresetConfig": {}
+    }
+  ],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [
+    {
+      "ID": 1,
+      "PosX": 5.506999969482422,
+      "PosY": -16.88096046447754,
+      "PosZ": 67.17500305175781,
+      "Name": "SmartObject1",
+      "RotY": 204.52169799804688,
+      "SlotList": [
+        {
+          "PointList": [
+            {
+              "PosX": -4.999999873689376e-6,
+              "PosY": 1.9999999949504854e-6,
+              "PosZ": -1.9999999949504854e-6,
+              "RestartMode": "RestartFromSO",
+              "RootTask": {
+                "$type": "RPG.GameCore.SO_Sequence",
+                "WaitMessages": [],
+                "Tasks": [
+                  {
+                    "$type": "RPG.GameCore.SO_FaceTo",
+                    "AnchorGroupId": 40,
+                    "AnchorPointId": 1
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_TriggerGroupEvent",
+                    "EventName": "TriggerFadeOut_G40"
+                  }
+                ]
+              }
+            },
+            {
+              "PosX": -0.3140009939670563,
+              "PosY": -0.05096999928355217,
+              "PosZ": -5.151003837585449,
+              "RotY": 155.47830200195312,
+              "RestartMode": "RestartFromSO",
+              "RootTask": {
+                "$type": "RPG.GameCore.SO_Sequence",
+                "WaitMessages": [],
+                "Tasks": [
+                  {
+                    "$type": "RPG.GameCore.SO_MoveTo",
+                    "MoveStance": "Walk",
+                    "SkipStartTurn": true
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "CommonPointList": []
+    }
+  ],
+  "CurveList": [],
+  "LittleGameList": []
+}

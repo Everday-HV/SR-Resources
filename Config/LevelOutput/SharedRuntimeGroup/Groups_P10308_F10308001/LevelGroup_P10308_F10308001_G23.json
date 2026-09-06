@@ -1,0 +1,76 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Sound_01",
+  "AreaAnchorName": "LevelArea_P10308_F10308001_G23",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Audio.Sound",
+        "TagHash": 1757672304
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosY": -7.480000019073486,
+      "PosZ": -183.0,
+      "Name": "DistrictGenerator0",
+      "Trigger": {
+        "Shape": "Polygon",
+        "Radius": 1.0,
+        "DimY": 25.0,
+        "PointList": [
+          {
+            "x": 22.456029891967773,
+            "y": 13.463520050048828
+          },
+          {
+            "x": 22.58827018737793,
+            "y": -13.860260009765625
+          },
+          {
+            "x": -23.11724090576172,
+            "y": -13.992509841918945
+          },
+          {
+            "x": -23.11724090576172,
+            "y": 13.463520050048828
+          }
+        ]
+      },
+      "OnEnterAudioState": [
+        {
+          "GroupName": "StateGroup_City_Penocony_Dahlia",
+          "StateName": "State_Room_Small"
+        }
+      ],
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

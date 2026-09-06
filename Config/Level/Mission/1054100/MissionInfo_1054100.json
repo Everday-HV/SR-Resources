@@ -1,0 +1,891 @@
+{
+  "MainMissionID": 1054100,
+  "StartSubMissionList": [
+    105410001
+  ],
+  "FinishSubMissionList": [
+    105410030
+  ],
+  "MissionCustomValueList": [
+    {
+      "Index": 1,
+      "Name": "MeOrTea",
+      "Type": "Former",
+      "ValidValueParamList": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "SubMissionRelationList": [
+    {
+      "MonitorSubMissionID": 105410034,
+      "MonitoredSubMissionIDList": [
+        105410035,
+        105410036
+      ]
+    }
+  ],
+  "UseAssistWayPoint": true,
+  "AssistWayPointPackList": [
+    {
+      "AssistWayPointFloorID": 20513001,
+      "AssistWayPointRegionID": 1,
+      "AssistWayPointLittleGameConditionList": [
+        {
+          "AssistWayPointLittleGameGroupID": 7,
+          "AssistWayPointLittleGameEntityID": 110001
+        },
+        {
+          "AssistWayPointLittleGameGroupID": 7,
+          "AssistWayPointLittleGameEntityID": 110002
+        },
+        {
+          "AssistWayPointLittleGameGroupID": 7,
+          "AssistWayPointLittleGameEntityID": 110004
+        },
+        {
+          "AssistWayPointLittleGameGroupID": 7,
+          "AssistWayPointLittleGameEntityID": 110005
+        },
+        {
+          "AssistWayPointLittleGameGroupID": 26,
+          "AssistWayPointLittleGameEntityID": 110001
+        }
+      ],
+      "AssistWayPointList": [
+        {
+          "WayPointType": "LittleGame",
+          "WayPointGroupID": 7,
+          "WayPointEntityID": 110001,
+          "WayPointLittleGameEntityID": 106,
+          "SubmissionID": 105410049,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointGroupPropertyCondition",
+                    "ValidateInBacktrace": false,
+                    "TargetGroupProperty": {
+                      "ID": 4917,
+                      "Name": "LG_110001__106_LeverSwitchState_Auto"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "LittleGame",
+          "WayPointGroupID": 7,
+          "WayPointEntityID": 110001,
+          "WayPointLittleGameEntityID": 93,
+          "SubmissionID": 105410049,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointGroupPropertyCondition",
+                    "ValidateInBacktrace": false,
+                    "TargetGroupProperty": {
+                      "ID": 5217,
+                      "Name": "LG_110001_BombTrigger2",
+                      "DefaultValue": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "LittleGame",
+          "WayPointGroupID": 7,
+          "WayPointEntityID": 110001,
+          "WayPointLittleGameEntityID": 93,
+          "SubmissionID": 105410049,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointGroupPropertyCondition",
+                    "ValidateInBacktrace": false,
+                    "TargetGroupProperty": {
+                      "ID": 5217,
+                      "Name": "LG_110001_BombTrigger2",
+                      "DefaultValue": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "LittleGame",
+          "WayPointGroupID": 7,
+          "WayPointEntityID": 110001,
+          "WayPointLittleGameEntityID": 77,
+          "SubmissionID": 105410049,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointGroupPropertyCondition",
+                    "ValidateInBacktrace": false,
+                    "TargetGroupProperty": {
+                      "ID": 5216,
+                      "Name": "LG_110001_BombTrigger1",
+                      "DefaultValue": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "LittleGame",
+          "WayPointGroupID": 7,
+          "WayPointEntityID": 110001,
+          "WayPointLittleGameEntityID": 77,
+          "SubmissionID": 105410049,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointGroupPropertyCondition",
+                    "ValidateInBacktrace": false,
+                    "TargetGroupProperty": {
+                      "ID": 5216,
+                      "Name": "LG_110001_BombTrigger1",
+                      "DefaultValue": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "LittleGame",
+          "WayPointGroupID": 7,
+          "WayPointEntityID": 110001,
+          "WayPointLittleGameEntityID": 70,
+          "SubmissionID": 105410049,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointFCVCondition",
+                    "Operator": "Or",
+                    "ValidateInBacktrace": false,
+                    "TargetFCV": {
+                      "$type": "RPG.GameCore.FloorCustomFloatConfig",
+                      "ID": 10015,
+                      "Name": "FCV_ReEnterBuild_StartIndex",
+                      "DefaultValue": 4.0
+                    }
+                  },
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointFCVCondition",
+                    "Operator": "Or",
+                    "TargetFCV": {
+                      "$type": "RPG.GameCore.FloorCustomFloatConfig",
+                      "ID": 10015,
+                      "Name": "FCV_ReEnterBuild_StartIndex",
+                      "DefaultValue": 5.0
+                    }
+                  },
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointFCVCondition",
+                    "Operator": "Or",
+                    "TargetFCV": {
+                      "$type": "RPG.GameCore.FloorCustomFloatConfig",
+                      "ID": 10015,
+                      "Name": "FCV_ReEnterBuild_StartIndex",
+                      "DefaultValue": 6.0
+                    }
+                  },
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointFCVCondition",
+                    "Operator": "Or",
+                    "TargetFCV": {
+                      "$type": "RPG.GameCore.FloorCustomFloatConfig",
+                      "ID": 10015,
+                      "Name": "FCV_ReEnterBuild_StartIndex",
+                      "DefaultValue": 7.0
+                    }
+                  },
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointFCVCondition",
+                    "Operator": "Or",
+                    "TargetFCV": {
+                      "$type": "RPG.GameCore.FloorCustomFloatConfig",
+                      "ID": 10015,
+                      "Name": "FCV_ReEnterBuild_StartIndex",
+                      "DefaultValue": 8.0
+                    }
+                  },
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointFCVCondition",
+                    "Operator": "Or",
+                    "TargetFCV": {
+                      "$type": "RPG.GameCore.FloorCustomFloatConfig",
+                      "ID": 10015,
+                      "Name": "FCV_ReEnterBuild_StartIndex",
+                      "DefaultValue": 9.0
+                    }
+                  },
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointFCVCondition",
+                    "Operator": "Or",
+                    "TargetFCV": {
+                      "$type": "RPG.GameCore.FloorCustomFloatConfig",
+                      "ID": 10015,
+                      "Name": "FCV_ReEnterBuild_StartIndex",
+                      "DefaultValue": 10.0
+                    }
+                  },
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointFCVCondition",
+                    "Operator": "Or",
+                    "TargetFCV": {
+                      "$type": "RPG.GameCore.FloorCustomFloatConfig",
+                      "ID": 10015,
+                      "Name": "FCV_ReEnterBuild_StartIndex",
+                      "DefaultValue": 11.0
+                    }
+                  },
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointFCVCondition",
+                    "TargetFCV": {
+                      "$type": "RPG.GameCore.FloorCustomFloatConfig",
+                      "ID": 10015,
+                      "Name": "FCV_ReEnterBuild_StartIndex",
+                      "DefaultValue": 12.0
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "LittleGame",
+          "WayPointGroupID": 7,
+          "WayPointEntityID": 110005,
+          "WayPointLittleGameEntityID": 94,
+          "SubmissionID": 105410049,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointGroupPropertyCondition",
+                    "ValidateInBacktrace": false,
+                    "TargetGroupProperty": {
+                      "ID": 5478,
+                      "Name": "LG_110005__94_PressureSwitchState_Auto",
+                      "DefaultValue": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "LittleGame",
+          "WayPointGroupID": 7,
+          "WayPointEntityID": 110005,
+          "WayPointLittleGameEntityID": 103,
+          "SubmissionID": 105410049,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointGroupPropertyCondition",
+                    "ValidateInBacktrace": false,
+                    "TargetGroupProperty": {
+                      "ID": 5477,
+                      "Name": "LG_110005__103_PressureSwitchState_Auto",
+                      "DefaultValue": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "LittleGame",
+          "WayPointGroupID": 7,
+          "WayPointEntityID": 110005,
+          "WayPointLittleGameEntityID": 83,
+          "SubmissionID": 105410049,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointGroupPropertyCondition",
+                    "ValidateInBacktrace": false,
+                    "TargetGroupProperty": {
+                      "ID": 5476,
+                      "Name": "LG_110005__83_PressureSwitchState_Auto",
+                      "DefaultValue": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "LittleGame",
+          "WayPointGroupID": 7,
+          "WayPointEntityID": 110005,
+          "WayPointLittleGameEntityID": 173,
+          "SubmissionID": 105410049,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointGroupPropertyCondition",
+                    "ValidateInBacktrace": false,
+                    "TargetGroupProperty": {
+                      "ID": 5475,
+                      "Name": "LG_110005__173_PressureSwitchState_Auto",
+                      "DefaultValue": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "LittleGame",
+          "WayPointGroupID": 7,
+          "WayPointEntityID": 110005,
+          "WayPointLittleGameEntityID": 115,
+          "SubmissionID": 105410049,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointGroupPropertyCondition",
+                    "ValidateInBacktrace": false,
+                    "TargetGroupProperty": {
+                      "ID": 5472,
+                      "Name": "LG_110005__115_PressureSwitchState_Auto",
+                      "DefaultValue": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "LittleGame",
+          "WayPointGroupID": 7,
+          "WayPointEntityID": 110005,
+          "WayPointLittleGameEntityID": 12,
+          "SubmissionID": 105410049,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointGroupPropertyCondition",
+                    "ValidateInBacktrace": false,
+                    "TargetGroupProperty": {
+                      "ID": 5095,
+                      "Name": "LG_110005__12_LeverSwitchState_Auto"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "LittleGame",
+          "WayPointGroupID": 7,
+          "WayPointEntityID": 110005,
+          "WayPointLittleGameEntityID": 12,
+          "SubmissionID": 105410049,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointGroupPropertyCondition",
+                    "ValidateInBacktrace": false,
+                    "TargetGroupProperty": {
+                      "ID": 5095,
+                      "Name": "LG_110005__12_LeverSwitchState_Auto"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "LittleGame",
+          "WayPointGroupID": 7,
+          "WayPointEntityID": 110005,
+          "WayPointLittleGameEntityID": 4,
+          "SubmissionID": 105410049,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointGroupPropertyCondition",
+                    "ValidateInBacktrace": false,
+                    "TargetGroupProperty": {
+                      "ID": 5463,
+                      "Name": "LG_110005__4_LeverSwitchState_Auto"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "LittleGame",
+          "WayPointGroupID": 7,
+          "WayPointEntityID": 110005,
+          "WayPointLittleGameEntityID": 4,
+          "SubmissionID": 105410049,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointGroupPropertyCondition",
+                    "ValidateInBacktrace": false,
+                    "TargetGroupProperty": {
+                      "ID": 5463,
+                      "Name": "LG_110005__4_LeverSwitchState_Auto"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "LittleGame",
+          "WayPointGroupID": 7,
+          "WayPointEntityID": 110005,
+          "WayPointLittleGameEntityID": 6,
+          "SubmissionID": 105410049,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointFCVCondition",
+                    "Operator": "Or",
+                    "TargetFCV": {
+                      "$type": "RPG.GameCore.FloorCustomFloatConfig",
+                      "ID": 10015,
+                      "Name": "FCV_ReEnterBuild_StartIndex",
+                      "DefaultValue": 7.0
+                    }
+                  },
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointFCVCondition",
+                    "Operator": "Or",
+                    "TargetFCV": {
+                      "$type": "RPG.GameCore.FloorCustomFloatConfig",
+                      "ID": 10015,
+                      "Name": "FCV_ReEnterBuild_StartIndex",
+                      "DefaultValue": 8.0
+                    }
+                  },
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointFCVCondition",
+                    "Operator": "Or",
+                    "TargetFCV": {
+                      "$type": "RPG.GameCore.FloorCustomFloatConfig",
+                      "ID": 10015,
+                      "Name": "FCV_ReEnterBuild_StartIndex",
+                      "DefaultValue": 9.0
+                    }
+                  },
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointFCVCondition",
+                    "Operator": "Or",
+                    "TargetFCV": {
+                      "$type": "RPG.GameCore.FloorCustomFloatConfig",
+                      "ID": 10015,
+                      "Name": "FCV_ReEnterBuild_StartIndex",
+                      "DefaultValue": 10.0
+                    }
+                  },
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointFCVCondition",
+                    "Operator": "Or",
+                    "TargetFCV": {
+                      "$type": "RPG.GameCore.FloorCustomFloatConfig",
+                      "ID": 10015,
+                      "Name": "FCV_ReEnterBuild_StartIndex",
+                      "DefaultValue": 11.0
+                    }
+                  },
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointFCVCondition",
+                    "TargetFCV": {
+                      "$type": "RPG.GameCore.FloorCustomFloatConfig",
+                      "ID": 10015,
+                      "Name": "FCV_ReEnterBuild_StartIndex",
+                      "DefaultValue": 12.0
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "LittleGame",
+          "WayPointGroupID": 7,
+          "WayPointEntityID": 110004,
+          "WayPointLittleGameEntityID": 115,
+          "SubmissionID": 105410049,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointGroupPropertyCondition",
+                    "ValidateInBacktrace": false,
+                    "TargetGroupProperty": {
+                      "ID": 5481,
+                      "Name": "LG_110004__115_LeverSwitchState_Auto"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "LittleGame",
+          "WayPointGroupID": 7,
+          "WayPointEntityID": 110004,
+          "WayPointLittleGameEntityID": 11,
+          "SubmissionID": 105410049,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointGroupPropertyCondition",
+                    "ValidateInBacktrace": false,
+                    "TargetGroupProperty": {
+                      "ID": 5464,
+                      "Name": "LG_110004_BombTrigger1",
+                      "DefaultValue": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "LittleGame",
+          "WayPointGroupID": 7,
+          "WayPointEntityID": 110004,
+          "WayPointLittleGameEntityID": 11,
+          "SubmissionID": 105410049,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointGroupPropertyCondition",
+                    "ValidateInBacktrace": false,
+                    "TargetGroupProperty": {
+                      "ID": 5464,
+                      "Name": "LG_110004_BombTrigger1",
+                      "DefaultValue": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "LittleGame",
+          "WayPointGroupID": 7,
+          "WayPointEntityID": 110004,
+          "WayPointLittleGameEntityID": 120,
+          "SubmissionID": 105410049,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointGroupPropertyCondition",
+                    "ValidateInBacktrace": false,
+                    "TargetGroupProperty": {
+                      "ID": 5465,
+                      "Name": "LG_110004__120_LeverSwitchState_Auto"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "LittleGame",
+          "WayPointGroupID": 7,
+          "WayPointEntityID": 110004,
+          "WayPointLittleGameEntityID": 120,
+          "SubmissionID": 105410049,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointGroupPropertyCondition",
+                    "ValidateInBacktrace": false,
+                    "TargetGroupProperty": {
+                      "ID": 5465,
+                      "Name": "LG_110004__120_LeverSwitchState_Auto"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "LittleGame",
+          "WayPointGroupID": 7,
+          "WayPointEntityID": 110004,
+          "WayPointLittleGameEntityID": 126,
+          "SubmissionID": 105410049,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointFCVCondition",
+                    "Operator": "Or",
+                    "TargetFCV": {
+                      "$type": "RPG.GameCore.FloorCustomFloatConfig",
+                      "ID": 10015,
+                      "Name": "FCV_ReEnterBuild_StartIndex",
+                      "DefaultValue": 10.0
+                    }
+                  },
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointFCVCondition",
+                    "Operator": "Or",
+                    "TargetFCV": {
+                      "$type": "RPG.GameCore.FloorCustomFloatConfig",
+                      "ID": 10015,
+                      "Name": "FCV_ReEnterBuild_StartIndex",
+                      "DefaultValue": 11.0
+                    }
+                  },
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointFCVCondition",
+                    "TargetFCV": {
+                      "$type": "RPG.GameCore.FloorCustomFloatConfig",
+                      "ID": 10015,
+                      "Name": "FCV_ReEnterBuild_StartIndex",
+                      "DefaultValue": 12.0
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "LittleGame",
+          "WayPointGroupID": 7,
+          "WayPointEntityID": 110002,
+          "WayPointLittleGameEntityID": 84,
+          "SubmissionID": 105410049,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointGroupPropertyCondition",
+                    "ValidateInBacktrace": false,
+                    "TargetGroupProperty": {
+                      "ID": 5466,
+                      "Name": "LG_110002_WeaponSetupDone",
+                      "DefaultValue": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "LittleGame",
+          "WayPointGroupID": 7,
+          "WayPointEntityID": 110002,
+          "WayPointLittleGameEntityID": 78,
+          "SubmissionID": 105410049,
+          "UseDistance": false,
+          "DistanceCondition": {},
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": [
+                  {
+                    "$type": "RPG.GameCore.AssistWayPointGroupPropertyCondition",
+                    "ValidateInBacktrace": false,
+                    "TargetGroupProperty": {
+                      "ID": 5203,
+                      "Name": "GP_Server_BuildPhase",
+                      "DefaultValue": 9
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "WayPointType": "LittleGame",
+          "WayPointGroupID": 26,
+          "WayPointEntityID": 110001,
+          "WayPointLittleGameEntityID": 3,
+          "SubmissionID": 105410049,
+          "DistanceCondition": {},
+          "CanBacktrace": true,
+          "FinishConditionMain": {
+            "ConditionPackList": [
+              {
+                "ConditionList": []
+              }
+            ]
+          }
+        }
+      ],
+      "AssistWayPointFastCompleteList": [
+        {
+          "StartIndex": 1,
+          "EndIndex": 1,
+          "TeleportTargetID": 21
+        },
+        {
+          "StartIndex": 3,
+          "EndIndex": 3,
+          "TeleportTargetID": 59
+        },
+        {
+          "StartIndex": 6,
+          "EndIndex": 8,
+          "TeleportTargetID": 16
+        },
+        {
+          "StartIndex": 9,
+          "EndIndex": 10,
+          "UseOverrideTriggerTime": true,
+          "TriggerTime": 40.0,
+          "TeleportTargetID": 22
+        },
+        {
+          "StartIndex": 15,
+          "EndIndex": 15,
+          "TeleportTargetID": 6
+        },
+        {
+          "StartIndex": 17,
+          "EndIndex": 17,
+          "TeleportTargetID": 21
+        },
+        {
+          "StartIndex": 19,
+          "EndIndex": 19,
+          "TriggerTime": 60.0,
+          "TeleportTargetID": 120
+        },
+        {
+          "StartIndex": 24,
+          "EndIndex": 24,
+          "UseOverrideTriggerTime": true,
+          "TriggerTime": 80.0,
+          "TeleportTargetID": 3
+        }
+      ]
+    }
+  ]
+}

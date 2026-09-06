@@ -1,0 +1,100 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "MainMission1043674_02",
+  "Category": "Mission",
+  "LevelGraph": "Config/Level/GroupGraph/F40463001/Group_F40463001_G6.json",
+  "AreaAnchorName": "LevelArea_P40463_F40463001_G6",
+  "SaveType": "Reset",
+  "OwnerMainMissionID": 1043674,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -54.04999923706055,
+      "PosY": 0.03414500132203102,
+      "PosZ": 103.95999908447266,
+      "Name": "Anchor1",
+      "RotY": 318.8998107910156
+    },
+    {
+      "ID": 2,
+      "PosX": -53.4010009765625,
+      "PosY": 1.5099999904632568,
+      "PosZ": 105.80000305175781,
+      "Name": "Anchor2"
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -53.38454055786133,
+      "PosY": 0.29414498805999756,
+      "PosZ": 105.8761978149414,
+      "Name": "Prop1",
+      "RotY": 197.37289428710938,
+      "PropID": 930,
+      "ValueSource": {},
+      "Trigger": {
+        "Radius": 1.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0
+      },
+      "CampID": 4,
+      "State": "CustomState01",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "MissionTrigger": {
+          "Radius": 8.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": true,
+      "HideInStory": true,
+      "PerformanceHideFlags": 7,
+      "Dialog": {
+        "LevelGraph": "Config/Level/PropDialogue/P40463/F40463001_G6/DialogueMain_F40463001_G6_P300001.json",
+        "PackList": [],
+        "EnableCondition": {
+          "Conditions": [
+            {
+              "Type": "SubMission",
+              "Phase": "Finish",
+              "ID": 104367402
+            }
+          ]
+        }
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "InteractTitle": {
+        "Hash": 278713937,
+        "Hash64": 16304550243505668348
+      },
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

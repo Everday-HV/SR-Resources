@@ -1,0 +1,720 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "SwitchMascot",
+  "LevelGraph": "Config/Level/GroupGraph/F20461001/Group_F20461001_G56.json",
+  "AreaAnchorName": "LevelArea_P20461_F20461001_G56",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "SavedValueName": "FSV_LoadR2Mascot",
+        "Value": 1
+      }
+    ],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "CameraAnchor",
+        "Value": "LevelArea_P20461_F20461001_G56,ChestCamera"
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "StreamingTemplateType": "None",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Gameplay",
+        "TagHash": -141571921
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 128.61900329589844,
+      "PosY": 200.41000366210938,
+      "PosZ": 266.00799560546875,
+      "Name": "ChestCamera",
+      "RotY": 38.90568923950195,
+      "RotX": 9.080063819885254,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 45.0
+      }
+    },
+    {
+      "ID": 2,
+      "PosX": 129.58999633789062,
+      "PosY": 198.36000061035156,
+      "PosZ": 276.0799865722656,
+      "Name": "Anchor2"
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 132.1779022216797,
+      "PosY": 196.6759033203125,
+      "PosZ": 274.4518127441406,
+      "Name": "Prop1",
+      "RotY": 220.24420166015625,
+      "PropID": 104391,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "PuzzlePath",
+            "Value": "Props/Outputs/Chap04/SwitchHand/SwitchMascot_Puzzle_2.prefab"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 10088,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DisableDither": true,
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": 105.71800231933594,
+      "PosY": 186.9949951171875,
+      "PosZ": 271.3789978027344,
+      "Name": "Prop2",
+      "RotY": 315.1319885253906,
+      "PropID": 104080,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_FlyingPiggy_Mascot.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "MovingType"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "FlyingSpeed",
+            "Value": 5.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfig",
+            "Key": "CurveRef",
+            "Value": {
+              "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+              "GroupID": 56,
+              "InstanceID": 1,
+              "Type": "Curve"
+            }
+          }
+        ]
+      },
+      "CampID": 4,
+      "EventID": 10000,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": 90.25,
+      "PosY": 198.85000610351562,
+      "PosZ": 243.02999877929688,
+      "Name": "Prop3",
+      "RotY": 315.1319885253906,
+      "PropID": 104080,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_FlyingPiggy_Mascot.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "MovingType",
+            "Value": 1
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "FlyingSpeed",
+            "Value": 5.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfig",
+            "Key": "CurveRef",
+            "Value": {
+              "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+              "GroupID": 56,
+              "InstanceID": 2,
+              "Type": "Curve"
+            }
+          }
+        ]
+      },
+      "CampID": 4,
+      "EventID": 10000,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": 84.66116333007812,
+      "PosY": 188.69000244140625,
+      "PosZ": 243.87269592285156,
+      "Name": "Prop4",
+      "RotY": 30.131940841674805,
+      "PropID": 104080,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_FlyingPiggy_Mascot.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "MovingType",
+            "Value": 1
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "FlyingSpeed",
+            "Value": 5.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfig",
+            "Key": "CurveRef",
+            "Value": {
+              "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+              "GroupID": 56,
+              "InstanceID": 3,
+              "Type": "Curve"
+            }
+          }
+        ]
+      },
+      "CampID": 4,
+      "EventID": 10000,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300005,
+      "PosX": 138.42999267578125,
+      "PosY": 196.78250122070312,
+      "PosZ": 268.62359619140625,
+      "Name": "Prop5",
+      "Scale": {
+        "x": 0.3499999940395355,
+        "y": 0.3499999940395355,
+        "z": 0.3499999940395355
+      },
+      "PropID": 104061,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_HandCoin_02.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "AttachTarget",
+            "Value": "56,300002"
+          }
+        ]
+      },
+      "CampID": 4,
+      "EventID": 10401412,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300006,
+      "PosX": 138.42999267578125,
+      "PosY": 196.78250122070312,
+      "PosZ": 268.62359619140625,
+      "Name": "Prop6",
+      "Scale": {
+        "x": 0.3499999940395355,
+        "y": 0.3499999940395355,
+        "z": 0.3499999940395355
+      },
+      "PropID": 104061,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_HandCoin_02.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "AttachTarget",
+            "Value": "56,300003"
+          }
+        ]
+      },
+      "CampID": 4,
+      "EventID": 10401412,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300007,
+      "PosX": 138.42999267578125,
+      "PosY": 196.78250122070312,
+      "PosZ": 268.62359619140625,
+      "Name": "Prop7",
+      "Scale": {
+        "x": 0.3499999940395355,
+        "y": 0.3499999940395355,
+        "z": 0.3499999940395355
+      },
+      "PropID": 104061,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_HandCoin_02.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "AttachTarget",
+            "Value": "56,300004"
+          }
+        ]
+      },
+      "CampID": 4,
+      "EventID": 10401412,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300008,
+      "PosX": 134.4969940185547,
+      "PosY": 198.23300170898438,
+      "PosZ": 272.65899658203125,
+      "Name": "Prop8",
+      "RotY": 221.2086944580078,
+      "PropID": 60402,
+      "ValueSource": {},
+      "CampID": 4,
+      "State": "Hidden",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "ChestID": 20461672,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300009,
+      "PosX": 134.4969940185547,
+      "PosY": 198.08200073242188,
+      "PosZ": 272.65899658203125,
+      "Name": "Prop9",
+      "RotY": 221.2086944580078,
+      "PropID": 120,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_MascotInteract_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "GE_DevourChest_",
+            "Value": "GE_DevourChest_300008"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": true,
+      "HideInStory": true,
+      "PerformanceHideFlags": 15,
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300010,
+      "PosX": 124.50199890136719,
+      "PosY": 199.7949981689453,
+      "PosZ": 279.53900146484375,
+      "Name": "Prop10",
+      "PropID": 104402,
+      "LoadOnInitial": false,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_SwitchMascotPickup_02.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "BulletAnchor",
+            "Value": "LevelArea_P20461_F20461001_G56,Anchor2"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Radius": 2.5
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [
+    {
+      "ID": 1,
+      "PosX": 96.21299743652344,
+      "PosY": 198.5399932861328,
+      "PosZ": 248.21099853515625,
+      "Name": "Curve1",
+      "RotY": 315.1319885253906,
+      "PointList": [
+        {
+          "Alias": "0",
+          "Position": {
+            "x": 23.08098030090332,
+            "y": -11.545000076293945,
+            "z": 9.714391708374023
+          },
+          "ControlType": 1
+        }
+      ]
+    },
+    {
+      "ID": 2,
+      "PosX": 123.20819854736328,
+      "PosY": 202.58999633789062,
+      "PosZ": 264.23150634765625,
+      "Name": "Curve2",
+      "RotY": 315.1319885253906,
+      "PointList": [
+        {
+          "Alias": "0",
+          "Position": {
+            "x": -2.9161629676818848,
+            "y": 0.0,
+            "z": 10.85947036743164
+          },
+          "ControlType": 1
+        },
+        {
+          "Alias": "1",
+          "Position": {
+            "x": 0.3540720045566559,
+            "y": 0.0,
+            "z": 1.1830509901046753
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 1.5630559921264648,
+            "y": 0.0,
+            "z": 5.126372814178467
+          },
+          "Control2": {
+            "x": -1.5630559921264648,
+            "y": 0.0,
+            "z": -5.126372814178467
+          }
+        },
+        {
+          "Alias": "2",
+          "Position": {
+            "x": -7.5686140060424805,
+            "y": 0.0,
+            "z": -6.426085948944092
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 7.000000096013537e-6,
+            "y": 0.0,
+            "z": 2.8659980297088623
+          },
+          "Control2": {
+            "x": -7.000000096013537e-6,
+            "y": 0.0,
+            "z": -2.8659980297088623
+          }
+        },
+        {
+          "Alias": "3",
+          "Position": {
+            "x": -17.68177032470703,
+            "y": 0.0,
+            "z": -7.016541957855225
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 2.8000450134277344,
+            "y": 0.0,
+            "z": -4.007774829864502
+          },
+          "Control2": {
+            "x": -2.8000450134277344,
+            "y": 0.0,
+            "z": 4.007774829864502
+          }
+        },
+        {
+          "Alias": "4",
+          "Position": {
+            "x": -26.823890686035156,
+            "y": 5.6225738525390625,
+            "z": -0.7116460204124451
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -5.7759552001953125,
+            "y": -5.018661022186279,
+            "z": -6.00248908996582
+          },
+          "Control2": {
+            "x": 5.7759552001953125,
+            "y": 5.018661022186279,
+            "z": 6.00248908996582
+          }
+        },
+        {
+          "Alias": "5",
+          "Position": {
+            "x": -2.9161629676818848,
+            "y": 0.0,
+            "z": 10.85947036743164
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -23.445640563964844,
+            "y": 0.0,
+            "z": 17.141429901123047
+          },
+          "Control2": {
+            "x": 23.445640563964844,
+            "y": 0.0,
+            "z": -17.141429901123047
+          }
+        }
+      ]
+    },
+    {
+      "ID": 3,
+      "PosX": 84.5,
+      "PosY": 188.99000549316406,
+      "PosZ": 244.2902069091797,
+      "Name": "Curve3",
+      "PointList": [
+        {
+          "Alias": "0",
+          "Position": {
+            "x": 0.0,
+            "y": 3.3097989559173584,
+            "z": 1.0
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Control2": {
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Alias": "1",
+          "Position": {
+            "x": 6.886040210723877,
+            "y": 3.309813976287842,
+            "z": -5.4835357666015625
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -0.7396759986877441,
+            "y": -1.9999999949504854e-6,
+            "z": 0.6384890079498291
+          },
+          "Control2": {
+            "x": 0.7396759986877441,
+            "y": 1.9999999949504854e-6,
+            "z": -0.6384890079498291
+          }
+        },
+        {
+          "Alias": "2",
+          "Position": {
+            "x": 0.0,
+            "y": 3.3097989559173584,
+            "z": 1.0
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Control2": {
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ]
+    }
+  ],
+  "LittleGameList": []
+}

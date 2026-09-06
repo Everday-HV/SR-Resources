@@ -1,0 +1,198 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "MainMission1043706_17",
+  "Category": "Mission",
+  "LevelGraph": "Config/Level/GroupGraph/F20481001/Group_F20481001_G148.json",
+  "AreaAnchorName": "LevelArea_P20481_F20481001_G148",
+  "SaveType": "Reset",
+  "OwnerMainMissionID": 1043706,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "StreamingTemplateType": "None",
+  "ConflictWhiteList": [],
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 43.826419830322266,
+      "PosY": -782.646728515625,
+      "PosZ": -269.5765075683594,
+      "Name": "Anchor1"
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 153.1320037841797,
+      "PosY": 183.13189697265625,
+      "PosZ": 249.4010009765625,
+      "Name": "Prop1",
+      "RotY": 35.09999084472656,
+      "PropID": 100,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "MissionTrigger": {
+          "Radius": 7.21999979019165
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": 126.3499984741211,
+      "PosY": 179.35060119628906,
+      "PosZ": 269.760009765625,
+      "Name": "Prop2",
+      "RotY": 35.09999084472656,
+      "PropID": 100,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "MissionTrigger": {
+          "Radius": 7.21999979019165
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": 155.59800720214844,
+      "PosY": 183.13259887695312,
+      "PosZ": 252.10009765625
+    },
+    {
+      "ID": 2,
+      "PosX": 139.11000061035156,
+      "PosY": 179.34939575195312,
+      "PosZ": 261.25
+    },
+    {
+      "ID": 3,
+      "PosX": 130.226806640625,
+      "PosY": 179.34930419921875,
+      "PosZ": 266.798095703125
+    }
+  ],
+  "PathwayList": [
+    {
+      "ID": 1,
+      "PosX": 153.75399780273438,
+      "PosY": 183.12159729003906,
+      "PosZ": 253.69639587402344,
+      "Name": "Pathway1",
+      "WaypointIDList": [
+        1,
+        2
+      ]
+    },
+    {
+      "ID": 2,
+      "PosX": 137.24229431152344,
+      "PosY": 179.33749389648438,
+      "PosZ": 262.8601989746094,
+      "Name": "Pathway2",
+      "WaypointIDList": [
+        2,
+        3
+      ]
+    },
+    {
+      "ID": 3,
+      "PosX": 137.24229431152344,
+      "PosY": 179.33749389648438,
+      "PosZ": 262.8601989746094,
+      "Name": "Pathway3",
+      "WaypointIDList": [
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": 148.72300720214844,
+      "PosY": 182.5635986328125,
+      "PosZ": 256.1719970703125,
+      "Name": "NPC1",
+      "RotY": 300.1642150878906,
+      "NPCID": 14308,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100040000,
+      "AdditiveResidentEffect": [
+        {
+          "EffectPath": "Effects/Eff_Prefab/Eff_NPC/Normal/Common/Eff_Normal_Child_Common_StoryCrystal.prefab",
+          "AttachPoint": "Root",
+          "ForceSimulateImmediately": false
+        }
+      ],
+      "IsNeedFade": true,
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "StoryCrystal_Child"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SFXOnLoad": "Ev_sfx_npc_common_StoryCrystal_loop",
+      "SpawnConfig": {
+        "OverrideSpawn": true,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": false
+        },
+        "TryCapture": false
+      },
+      "ModelPresetConfig": {}
+    }
+  ],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

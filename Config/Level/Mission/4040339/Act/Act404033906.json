@@ -1,0 +1,118 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AdvNpcFaceToPlayer"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortInsertAbility",
+          "TaskEnabled": true,
+          "TargetFilter": {
+            "$type": "RPG.GameCore.AdvGroupFetchTargetByStringList"
+          }
+        }
+      ]
+    },
+    {
+      "Order": 15,
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.AdvByRollShopResult",
+          "Inverse": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchTurnOwnerEntity"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AdvCreateGroupEntity",
+          "TaskEnabled": true,
+          "OverrideArtModelOffset": {
+            "x": 6.450643907918163e-10,
+            "y": 1.2983933800802157e+19,
+            "z": 4.1023007213425444e-8
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AddMissionMenuItem",
+          "MenuIconType": {
+            "EnumIndex": 24,
+            "Value": 24
+          },
+          "MenuItemTextID": {
+            "Hash": -25,
+            "Hash64": 95
+          },
+          "DialoguePath": "86\u0007Anchor4�\u0010\u0006\u0004\u0000����@\u0000����@\u0004�\u000f\u0002\u0004\u0006ӣ��\u0001���>\u0006ԣ��\u0001���>�\u000f\u0002\u0004\u0006ѣ��\u0001���>\u0006ң��\u0001"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortModifierPhasePerform",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.ActiveVirtualCamera_PerformanceTransition",
+          "AreaName": "LevelArea_P10304_F10304001_G86",
+          "AnchorName": "Anchor4",
+          "IsActive": false
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill",
+          "ResetToIdle": true
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
+  ]
+}

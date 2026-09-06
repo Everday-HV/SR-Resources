@@ -1,0 +1,288 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "MainMission1054410_07",
+  "Category": "Mission",
+  "LevelGraph": "Config/Level/GroupGraph/F20541001/Group_F20541001_G42.json",
+  "AreaAnchorName": "LevelArea_P20541_F20541001_G42",
+  "SaveType": "Reset",
+  "OwnerMainMissionID": 1054410,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "StreamingTemplateType": "None",
+  "ConflictWhiteList": [],
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -221.8760986328125,
+      "PosY": -206.0001983642578,
+      "PosZ": 825.2567749023438,
+      "Name": "Anchor1",
+      "RotY": 158.6999969482422
+    },
+    {
+      "ID": 2,
+      "PosX": -223.38400268554688,
+      "PosY": -203.3820037841797,
+      "PosZ": 826.7860107421875,
+      "Name": "Anchor2",
+      "RotY": 173.9633026123047,
+      "RotX": 1.9053510427474976,
+      "RotZ": 0.28553399443626404,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 21.0
+      }
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -222.72999572753906,
+      "PosY": -206.0001983642578,
+      "PosZ": 824.552001953125,
+      "Name": "Prop1",
+      "RotY": 344.98541259765625,
+      "PropID": 100,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "MissionTrigger": {
+          "Shape": "Box",
+          "Radius": 8.0,
+          "DimX": 6.0,
+          "DimY": 6.0,
+          "DimZ": 5.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "HideInCutScene": true,
+      "HideInStory": true,
+      "PerformanceHideFlags": 15,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -222.89810180664062,
+      "PosY": -206.0001983642578,
+      "PosZ": 824.586669921875,
+      "Name": "Prop2",
+      "PropID": 142,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "PerformanceHideFlags": 4,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "TagOverrideConfig": {
+        "Mode": "Override",
+        "OverrideTags": {
+          "List": [
+            {
+              "Tag": "Prop.Component.SmellPath",
+              "TagHash": 1845774580
+            }
+          ]
+        },
+        "AdditiveTags": {},
+        "SubtractiveTags": {}
+      },
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "TagOverrideComponents": {
+        "TagComponents": [
+          {
+            "$type": "RPG.GameCore.PropSmellPathComponent",
+            "Tag": {
+              "Tag": "Prop.Component.SmellPath",
+              "TagHash": 1845774580
+            },
+            "GraphNodes": [
+              {
+                "x": -225.65899658203125,
+                "y": -205.30020141601562,
+                "z": 832.1146850585938
+              },
+              {
+                "x": -218.26480102539062,
+                "y": -205.30039978027344,
+                "z": 849.0134887695312
+              },
+              {
+                "x": -221.62570190429688,
+                "y": -205.30020141601562,
+                "z": 822.658203125
+              }
+            ],
+            "GraphEdges": [
+              {
+                "NodeIndexA": 1,
+                "AssistantNodes": []
+              },
+              {
+                "NodeIndexB": 2,
+                "AssistantNodes": []
+              }
+            ],
+            "SmellCurvePrefabPath": "Gameplays/SmellPath/Smell_Path_3_370.prefab",
+            "CornerSmellCurvePrefabPath": "Gameplays/SmellPath/Smell_Path_4_370.prefab",
+            "SmellPathEndPos": {
+              "x": -222.98370361328125,
+              "y": -206.0001983642578,
+              "z": 823.0780029296875
+            },
+            "StartSmellLength": 6.0,
+            "EndSmellLength": 6.0,
+            "SmellGenGap": 8.0,
+            "SmellControlPointNoise": {
+              "x": 0.6000000238418579,
+              "y": 0.6000000238418579,
+              "z": 0.6000000238418579
+            }
+          }
+        ]
+      },
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": -222.67149353027344,
+      "PosY": -206.0001983642578,
+      "PosZ": 828.48876953125,
+      "IsDelete": true,
+      "Name": "Prop3",
+      "PropID": 142,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "TagOverrideConfig": {
+        "Mode": "Override",
+        "OverrideTags": {
+          "List": [
+            {
+              "Tag": "Prop.Component.SmellPath",
+              "TagHash": 1845774580
+            }
+          ]
+        },
+        "AdditiveTags": {},
+        "SubtractiveTags": {}
+      },
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "TagOverrideComponents": {
+        "TagComponents": [
+          {
+            "$type": "RPG.GameCore.PropSmellPathComponent",
+            "Tag": {
+              "Tag": "Prop.Component.SmellPath",
+              "TagHash": 1845774580
+            },
+            "GraphNodes": [
+              {
+                "x": -225.72149658203125,
+                "y": -205.30020141601562,
+                "z": 835.2719116210938
+              },
+              {
+                "x": -222.8311004638672,
+                "y": -205.30020141601562,
+                "z": 824.7058715820312
+              }
+            ],
+            "GraphEdges": [
+              {
+                "NodeIndexB": 1,
+                "AssistantNodes": []
+              }
+            ],
+            "SmellCurvePrefabPath": "Gameplays/SmellPath/Smell_Path_3_370.prefab",
+            "CornerSmellCurvePrefabPath": "Gameplays/SmellPath/Smell_Path_4_370.prefab",
+            "SmellPathEndPos": {
+              "x": -222.78160095214844,
+              "y": -206.0001983642578,
+              "z": 821.8231811523438
+            },
+            "SmellGenGap": 8.0,
+            "SmellControlPointNoise": {
+              "x": 0.6000000238418579,
+              "y": 0.6000000238418579,
+              "z": 0.6000000238418579
+            }
+          }
+        ]
+      },
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": -222.2584991455078,
+      "PosY": -206.0001983642578,
+      "PosZ": 822.7882080078125,
+      "IsDelete": true,
+      "Name": "NPC1",
+      "RotY": 152.27000427246094,
+      "NPCID": 1505,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 315050000,
+      "AdditiveResidentEffect": [],
+      "IsNeedFade": true,
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    }
+  ],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

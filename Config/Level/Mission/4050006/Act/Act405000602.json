@@ -1,0 +1,73 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {},
+    {
+      "IsLoop": false,
+      "Order": 0,
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.AddDynamicEntityParam",
+          "ReadTargetType": {
+            "$type": "RPG.GameCore.TargetFetchSummonUnit",
+            "Summoner": {
+              "$type": "RPG.GameCore.TargetFetchSummonUnit",
+              "SummonUnitID": 65,
+              "FetchType": "57"
+            },
+            "SummonUnitID": 101
+          },
+          "ParamTargetType": {
+            "$type": "RPG.GameCore.TargetFetchRogueMagicScepterList"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AdvByCheckGameMode",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AddMissionMenuItem",
+          "MenuItemTextID": {
+            "Hash": 24,
+            "Hash64": 95
+          },
+          "DialoguePath": "10000000_G63\u0007Anchor4\u001e\u0001\u000bLocalPlayer\u0004\u001eLevelArea_P10000_F10000000_G63\u0004\u0007An"
+        }
+      ]
+    },
+    {
+      "IsLoop": true,
+      "Order": -56
+    },
+    {
+      "Order": -25
+    },
+    {
+      "Order": 82369
+    },
+    {},
+    {}
+  ]
+}

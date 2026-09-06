@@ -1,0 +1,34 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": false
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveFMChannelReceiver",
+          "TaskEnabled": true,
+          "ReceiverName": {
+            "Custom": true,
+            "Value": "00002\bNPC_Male���/�\u0007�\u0011\n355-400002\bNPC_Maleؑ�/�\u000f\u0002\b\u0007\u0000"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {}
+  ]
+}

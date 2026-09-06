@@ -1,0 +1,161 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Teleport",
+  "AreaAnchorName": "LevelArea_P20513_F20513001_G141",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "SavedValueName": "FSV_LiftOpen",
+        "Value": 1
+      }
+    ],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.SceneConfig",
+        "TagHash": 520707853
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -86.02999877929688,
+      "PosY": -15.563870429992676,
+      "PosZ": -76.06999969482422,
+      "Name": "ZZ_Etrance1"
+    },
+    {
+      "ID": 2,
+      "PosX": -204.14529418945312,
+      "PosY": -13.697770118713379,
+      "PosZ": -56.87150955200195,
+      "Name": "Store_Entrance",
+      "RotY": 180.29209899902344
+    },
+    {
+      "ID": 3,
+      "PosX": -88.56062316894531,
+      "PosY": -15.015000343322754,
+      "PosZ": -32.78379821777344,
+      "Name": "Anchor3",
+      "RotY": 180.0
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -204.0489959716797,
+      "PosY": -12.297769546508789,
+      "PosZ": -53.542999267578125,
+      "Name": "Dev_EnterZZ",
+      "RotY": 1.5848239660263062,
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F10441001/LG_Prop_F10441001_G1_300001.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TargetAnchor",
+            "Value": "LevelArea_P20513_F20513001_G141,ZZ_Etrance1"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Hint",
+            "Value": "B103_Interact_EnterOffice"
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 3.0,
+        "DimX": 12.0,
+        "DimY": 5.0,
+        "DimZ": 2.5
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 98,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -86.24600219726562,
+      "PosY": -14.133210182189941,
+      "PosZ": -78.59600067138672,
+      "Name": "Dev_ExitZZ",
+      "RotY": 0.5585899949073792,
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F10441001/LG_Prop_F10441001_G1_300001.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TargetAnchor",
+            "Value": "LevelArea_P20513_F20513001_G141,Store_Entrance"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Hint",
+            "Value": "B103_Interact_EnterStore"
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 3.0,
+        "DimX": 12.0,
+        "DimY": 5.0,
+        "DimZ": 2.5
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 98,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

@@ -1,0 +1,49 @@
+{
+  "AbilityList": [
+    {
+      "Name": "Monster_Boss_Cocolia_RL_Weapon_Skill04_Camera",
+      "TargetInfo": {
+        "TargetType": "SkillTargetEntityList"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview",
+          "Mode": "6"
+        },
+        {
+          "$type": "RPG.GameCore.AITryInsertUltra",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvCharacterSetMotionBlendTime",
+          "RunGaitLerpTime": 4.3597890872730174e+27,
+          "WalkGaitLerpTime": 1.0947944590100503e+21
+        },
+        {
+          "$type": "RPG.GameCore.AdvByRollShopResult",
+          "Inverse": true
+        },
+        {
+          "$type": "RPG.GameCore.ActiveShotCameraTemplate",
+          "TaskEnabled": false,
+          "IsActive": true,
+          "FirstTarget": {
+            "$type": "RPG.GameCore.TargetFetchNextTurnOwnerEntity"
+          },
+          "BlendConfig": {
+            "ExportToJson": true,
+            "CustomCurveName": "04\u0000ؙ��,�\u001d\u0010�\b���\u0010\u000e\u0018Monster_Common_Range_AOE\f\u0001\bAllEnemy\u0000\u0000\u0000\u0000\u0000\u0000\u0000@\u0000\u0000��\n�#<\f\u0001\rAllTeamMember\u0000\u0000�?\u0000���\u0010\f\u0001\bAllEnemy�G",
+            "BlendTime": -3.382106053551048e-11,
+            "FOVSmoothDampTime": -71.87505340576172
+          }
+        }
+      ]
+    }
+  ]
+}

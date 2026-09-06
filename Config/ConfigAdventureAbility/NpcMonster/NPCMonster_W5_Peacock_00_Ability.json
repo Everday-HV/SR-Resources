@@ -1,0 +1,39 @@
+{
+  "AbilityList": [
+    {
+      "Name": "MazeMonster_W5_Peacock_00_MazeAttack",
+      "TargetInfo": {
+        "TargetType": "SkillPointEntity"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveFarmElement",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AddTimelineMenuItem",
+          "TaskEnabled": true,
+          "PerformanceType": "58",
+          "PerformanceID": 101
+        },
+        {
+          "$type": "RPG.GameCore.AdvCreateGroupEntity",
+          "IsOverrideArtModelOffset": true,
+          "OverrideArtModelOffset": {
+            "x": 2.8183640817293853e+20,
+            "y": -0.00003061758980038576,
+            "z": 2.572406470694075e-38
+          }
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview",
+          "TaskEnabled": true,
+          "Mode": "-58"
+        }
+      ]
+    }
+  ]
+}

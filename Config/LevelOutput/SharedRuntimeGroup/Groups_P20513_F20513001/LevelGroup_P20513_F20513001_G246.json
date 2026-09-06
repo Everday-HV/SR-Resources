@@ -1,0 +1,124 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Default_Shelter",
+  "Category": "Atmosphere",
+  "LevelGraph": "Config/Level/GroupGraph/F20513001/Group_F20513001_G246.json",
+  "AreaAnchorName": "LevelArea_P20513_F20513001_G246",
+  "AtmosphereCondition": {
+    "Conditions": [
+      {
+        "$type": "RPG.GameCore.LevelGroupSubMissionCompleteCondition",
+        "SubMissionID": 105441003
+      }
+    ]
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "GroupPropertyMap": {
+    "1": {
+      "ID": 1,
+      "Name": "Toast",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    }
+  },
+  "ValueSource": {},
+  "ConflictIDList": [
+    105460200,
+    105460300
+  ],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.Interactable",
+        "TagHash": 597667137
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [
+    {
+      "ID": 1,
+      "PosX": -157.39999389648438,
+      "PosY": 0.800000011920929,
+      "PosZ": 33.0,
+      "Name": "District1",
+      "RotY": 358.7593078613281,
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 300.0,
+        "DimY": 200.0,
+        "DimZ": 500.0,
+        "PointList": [
+          {
+            "x": 34.30691146850586,
+            "y": -35.35831832885742
+          },
+          {
+            "x": -41.25355911254883,
+            "y": -34.84703063964844
+          },
+          {
+            "x": -41.400489807128906,
+            "y": -17.02703094482422
+          },
+          {
+            "x": -47.68878936767578,
+            "y": -15.475259780883789
+          },
+          {
+            "x": -46.83641052246094,
+            "y": 19.549480438232422
+          },
+          {
+            "x": -38.25653076171875,
+            "y": 21.323970794677734
+          },
+          {
+            "x": -38.010250091552734,
+            "y": 35.14299011230469
+          },
+          {
+            "x": 37.44525146484375,
+            "y": 34.15559005737305
+          },
+          {
+            "x": 39.67272186279297,
+            "y": 20.424209594726562
+          },
+          {
+            "x": 54.54051971435547,
+            "y": 19.62080955505371
+          },
+          {
+            "x": 54.387569427490234,
+            "y": -18.327800750732422
+          },
+          {
+            "x": 37.31462097167969,
+            "y": -19.02454948425293
+          }
+        ]
+      },
+      "DistrictType": "Level",
+      "LevelGraph": "Config/Level/Maze/MazeMissionToast/MainMissionToast.json",
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

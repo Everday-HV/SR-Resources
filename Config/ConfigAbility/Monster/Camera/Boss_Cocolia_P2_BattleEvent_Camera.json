@@ -1,0 +1,53 @@
+{
+  "AbilityList": [
+    {
+      "Name": "Boss_cocolia_P2_Skill01_BattleEvent_Skill01_Camera",
+      "TargetInfo": {
+        "TargetType": "SkillTargetEntityList"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill",
+          "TargetType": {
+            "$type": "RPG.GameCore.RtBattleTargetFetchGridByTag"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AITryInsertUltra",
+          "ContinuousInsert": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvByIsInPhantomFrozen",
+          "TaskEnabled": true,
+          "Inverse": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvCreateGroupEntity",
+          "InstanceIDList": [
+            12,
+            1,
+            6,
+            67,
+            97,
+            115,
+            116
+          ],
+          "SkipCreated": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvCreateGroupEntity",
+          "TaskEnabled": true,
+          "IsOverrideArtModelOffset": true,
+          "OverrideArtModelOffset": {
+            "x": 57.107791900634766,
+            "y": -0.00012207207328174263,
+            "z": -1.504729985534789e-36
+          }
+        }
+      ]
+    }
+  ]
+}

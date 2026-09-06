@@ -1,0 +1,38 @@
+{
+  "AbilityList": [
+    {
+      "Name": "MazeMonster_W1_Soldier01_01_NormalAtk01",
+      "TargetInfo": {
+        "TargetType": "SkillPointEntity"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveFarmElement",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AddTimelineMenuItem",
+          "TaskEnabled": true,
+          "PerformanceType": "58",
+          "PerformanceID": 101
+        },
+        {
+          "$type": "RPG.GameCore.AdvCreateGroupEntity",
+          "IsOverrideArtModelOffset": true,
+          "OverrideArtModelOffset": {
+            "x": 2.8183640817293853e+20,
+            "y": 9.434773283444503e-38,
+            "z": 2.575814428559313e-38
+          }
+        },
+        {
+          "$type": "RPG.GameCore.ActivityElationHideCutIn",
+          "TaskEnabled": true
+        }
+      ]
+    }
+  ]
+}

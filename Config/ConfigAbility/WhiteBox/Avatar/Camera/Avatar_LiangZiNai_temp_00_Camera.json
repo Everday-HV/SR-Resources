@@ -1,0 +1,106 @@
+{
+  "AbilityList": [
+    {
+      "Name": "Avatar_LiangZiNai_temp_00_Skill01_Camera",
+      "TargetInfo": {
+        "TargetType": "SkillTargetEntityList"
+      },
+      "OnStart": []
+    },
+    {
+      "Name": "Avatar_LiangZiNai_temp_00_Skill02_Camera",
+      "TargetInfo": {
+        "TargetType": "SkillTargetEntityList"
+      },
+      "OnStart": []
+    },
+    {
+      "Name": "Avatar_LiangZiNai_temp_00_Skill03_Camera",
+      "TargetInfo": {
+        "TargetType": "SkillTargetEntityList"
+      },
+      "OnStart": []
+    },
+    {
+      "Name": "Avatar_LiangZiNai_temp_00_SkillLink_Camera",
+      "TargetInfo": {
+        "TargetType": "StanceBreakTargetEntity"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AddEntityToTeamFormation",
+          "TaskEnabled": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchRogueMagicScepterList"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AdvByIsInPhantomFrozen",
+          "TaskEnabled": true,
+          "Inverse": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvCreateGroupEntity",
+          "TaskEnabled": true,
+          "IsOverrideArtModelOffset": true,
+          "OverrideArtModelOffset": {
+            "x": 1.7748669693112312e+28,
+            "y": 1.2695751803162067e+19,
+            "z": 1.4219078983957348e+19
+          },
+          "InstanceIDList": [
+            105,
+            109,
+            101,
+            76,
+            105,
+            110,
+            101,
+            12,
+            1,
+            6,
+            67,
+            97,
+            115,
+            116,
+            101,
+            114,
+            12,
+            1,
+            19,
+            65,
+            98,
+            105,
+            108,
+            105,
+            116,
+            121,
+            84,
+            97,
+            114,
+            103,
+            101,
+            116,
+            69,
+            110,
+            116,
+            105,
+            116,
+            121,
+            1,
+            2,
+            2,
+            2
+          ],
+          "SkipCreated": true
+        }
+      ]
+    }
+  ]
+}

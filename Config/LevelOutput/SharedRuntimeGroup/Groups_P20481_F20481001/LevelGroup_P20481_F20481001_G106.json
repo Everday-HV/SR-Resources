@@ -1,0 +1,380 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "PlayingRoom1End",
+  "LevelGraph": "Config/Level/GroupGraph/F20481001/Group_F20481001_G106.json",
+  "AreaAnchorName": "LevelArea_P20481_F20481001_G106",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "SavedValueName": "FSV_PlayingRoom1Stage",
+        "Value": 5
+      }
+    ],
+    "Operation": "And"
+  },
+  "IsPendedLoad": true,
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.SceneConfig",
+        "TagHash": 520707853
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -122.1780014038086,
+      "PosY": 215.783203125,
+      "PosZ": 155.2310028076172,
+      "Name": "Prop1",
+      "RotY": 315.0,
+      "PropID": 104325,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_KindlingGearAlways_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "RuneID_01",
+            "Value": 919
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfig",
+            "Key": "EffectCurve",
+            "Value": {
+              "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+              "GroupID": 106,
+              "InstanceID": 1,
+              "Type": "Curve"
+            }
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "CanInteract"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -103.64800262451172,
+      "PosY": 221.57420349121094,
+      "PosZ": 163.48500061035156,
+      "Name": "Prop2",
+      "RotY": 135.0,
+      "PropID": 104325,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_KindlingGearAlways_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "RuneID_01",
+            "Value": 920
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfig",
+            "Key": "EffectCurve",
+            "Value": {
+              "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+              "GroupID": 106,
+              "InstanceID": 2,
+              "Type": "Curve"
+            }
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "CanInteract"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": -110.7699966430664,
+      "PosY": 215.5500030517578,
+      "PosZ": 160.94000244140625,
+      "Name": "Prop3",
+      "Scale": {
+        "x": 1.2999999523162842,
+        "y": 1.2999999523162842,
+        "z": 1.2999999523162842
+      },
+      "PropID": 104324,
+      "ValueSource": {},
+      "CampID": 4,
+      "State": "Locked",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "MissionTrigger": {
+          "Radius": 0.009999999776482582
+        },
+        "InteractTrigger": {
+          "Radius": 0.009999999776482582
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": -110.69300079345703,
+      "PosY": 222.40899658203125,
+      "PosZ": 118.37000274658203,
+      "Name": "Prop4",
+      "PropID": 104325,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_KindlingGearAlways_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "RuneID_01",
+            "Value": 921
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfig",
+            "Key": "EffectCurve",
+            "Value": {
+              "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+              "GroupID": 106,
+              "InstanceID": 3,
+              "Type": "Curve"
+            }
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt",
+            "Key": "CanInteract"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [
+    {
+      "ID": 1,
+      "PosX": -122.15599822998047,
+      "PosY": 215.783203125,
+      "PosZ": 155.0989990234375,
+      "Name": "Curve1",
+      "PointList": [
+        {
+          "Position": {
+            "x": 11.38599967956543,
+            "y": 2.1667940616607666,
+            "z": 5.841002941131592
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 2.7298359870910645,
+            "y": -3.0524749755859375,
+            "z": -8.355621337890625
+          },
+          "Control2": {
+            "x": -2.7298359870910645,
+            "y": 3.0524749755859375,
+            "z": 8.355621337890625
+          }
+        },
+        {
+          "Position": {
+            "x": -0.02200300060212612,
+            "y": 1.3997960090637207,
+            "z": 0.1320039927959442
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 3.5153350830078125,
+            "y": 2.3699491024017334,
+            "z": 8.812774658203125
+          },
+          "Control2": {
+            "x": -3.5153350830078125,
+            "y": -2.3699491024017334,
+            "z": -8.812774658203125
+          }
+        }
+      ]
+    },
+    {
+      "ID": 2,
+      "PosX": -103.62799835205078,
+      "PosY": 221.57420349121094,
+      "PosZ": 163.37399291992188,
+      "Name": "Curve2",
+      "PointList": [
+        {
+          "Position": {
+            "x": -7.141997814178467,
+            "y": -3.624207019805908,
+            "z": -2.433990001678467
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -3.309295892715454,
+            "y": -3.3939208984375,
+            "z": -4.9876861572265625
+          },
+          "Control2": {
+            "x": 3.309295892715454,
+            "y": 3.3939208984375,
+            "z": 4.9876861572265625
+          }
+        },
+        {
+          "Position": {
+            "x": -0.020004000514745712,
+            "y": 1.3997960090637207,
+            "z": 0.11100800335407257
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -2.159430980682373,
+            "y": 2.052947998046875,
+            "z": 6.561539173126221
+          },
+          "Control2": {
+            "x": 2.159430980682373,
+            "y": -2.052947998046875,
+            "z": -6.561539173126221
+          }
+        }
+      ]
+    },
+    {
+      "ID": 3,
+      "PosX": -110.69300079345703,
+      "PosY": 222.40899658203125,
+      "PosZ": 118.37000274658203,
+      "Name": "Curve3",
+      "PointList": [
+        {
+          "Position": {
+            "x": -0.07699599862098694,
+            "y": -4.459000110626221,
+            "z": 42.56999969482422
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 5.563354015350342,
+            "y": -7.592164039611816,
+            "z": 13.795379638671875
+          },
+          "Control2": {
+            "x": -5.563354015350342,
+            "y": 7.592164039611816,
+            "z": -13.795379638671875
+          }
+        },
+        {
+          "Position": {
+            "x": 0.0,
+            "y": 1.3997960090637207,
+            "z": 0.0
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": -6.425117015838623,
+            "y": 9.051682472229004,
+            "z": 17.72956085205078
+          },
+          "Control2": {
+            "x": 6.425117015838623,
+            "y": -9.051682472229004,
+            "z": -17.72956085205078
+          }
+        }
+      ]
+    }
+  ],
+  "LittleGameList": []
+}

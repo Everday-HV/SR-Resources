@@ -1,0 +1,119 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Sound",
+  "AreaAnchorName": "LevelArea_P10552_F10552001_G2",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "SavedValueName": "2nd_Floor_State"
+      }
+    ],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Audio.Sound",
+        "TagHash": 1757672304
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosX": 0.6000000238418579,
+      "PosY": 168.3000030517578,
+      "PosZ": 6.300000190734863,
+      "Name": "DistrictGenerator0",
+      "Trigger": {
+        "Shape": "Polygon",
+        "Radius": 1.0,
+        "DimY": 80.0,
+        "PointList": [
+          {
+            "x": -60.0,
+            "y": -60.0
+          },
+          {
+            "x": -60.0,
+            "y": 60.0
+          },
+          {
+            "x": 60.0,
+            "y": 60.0
+          },
+          {
+            "x": 60.0,
+            "y": -60.0
+          }
+        ]
+      },
+      "OnEnterAudioState": [
+        {
+          "GroupName": "StateGroup_City_Planarcadia_Astropolis",
+          "StateName": "State_Kong_Meeting"
+        }
+      ],
+      "CanTriggerByFakeAvatar": true,
+      "ValueSource": {}
+    },
+    {
+      "ID": 500002,
+      "PosY": -25.299999237060547,
+      "PosZ": -3.700000047683716,
+      "Name": "DistrictGenerator1",
+      "Trigger": {
+        "Shape": "Polygon",
+        "Radius": 1.0,
+        "DimY": 96.0,
+        "PointList": [
+          {
+            "x": -100.0,
+            "y": -100.0
+          },
+          {
+            "x": -100.0,
+            "y": 100.0
+          },
+          {
+            "x": 100.0,
+            "y": 100.0
+          },
+          {
+            "x": 100.0,
+            "y": -100.0
+          }
+        ]
+      },
+      "OnEnterAudioState": [
+        {
+          "GroupName": "StateGroup_City_Planarcadia_Astropolis",
+          "StateName": "State_Kong_Arrive"
+        }
+      ],
+      "CanTriggerByFakeAvatar": true,
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

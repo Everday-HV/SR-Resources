@@ -1,0 +1,52 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AdvIsometricSetZoomState"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvNpcRide",
+          "TaskEnabled": true
+        }
+      ]
+    },
+    {},
+    {},
+    {
+      "IsLoop": true,
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.ActivateServerGameplayCounter"
+        }
+      ]
+    },
+    {},
+    {},
+    {},
+    {},
+    {
+      "IsLoop": false
+    },
+    {},
+    {},
+    {},
+    {
+      "IsLoop": true
+    }
+  ]
+}

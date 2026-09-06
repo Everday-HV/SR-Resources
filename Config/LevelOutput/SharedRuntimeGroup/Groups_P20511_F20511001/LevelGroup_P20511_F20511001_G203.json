@@ -1,0 +1,363 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "MoveGroup1",
+  "AreaAnchorName": "LevelArea_P20511_F20511001_G203",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "SavedValueName": "SceneStateByMainMission",
+        "Value": 1
+      }
+    ],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Connection",
+        "TagHash": -295833477
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 145.8509979248047,
+      "PosY": 4.616755962371826,
+      "PosZ": -0.010999999940395355,
+      "Name": "Anchor1",
+      "RotY": 270.0
+    },
+    {
+      "ID": 2,
+      "PosX": 422.3760986328125,
+      "PosY": 25.934659957885742,
+      "PosZ": -317.1499938964844,
+      "Name": "Anchor2"
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300003,
+      "PosX": 426.1400146484375,
+      "PosY": 25.934659957885742,
+      "PosZ": -319.22100830078125,
+      "Name": "1F_Stair_Enter",
+      "Scale": {
+        "x": 0.5271080136299133,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20511001/LG_Prop_F20511001_G203_300003.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TargetAnchor",
+            "Value": "LevelArea_P20511_F20511001_G203,Anchor1"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Shape": "Box",
+          "Radius": 2.0,
+          "DimX": 6.0,
+          "DimY": 5.0,
+          "DimZ": 1.0,
+          "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "EnterTrigger": {
+          "Shape": "Box",
+          "Radius": 5.0,
+          "DimX": 6.0,
+          "DimY": 5.0,
+          "DimZ": 3.0,
+          "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.5
+          }
+        },
+        "LeaveTrigger": {
+          "Shape": "Box",
+          "Radius": 7.0,
+          "DimX": 6.0,
+          "DimY": 5.0,
+          "DimZ": 5.0,
+          "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 2.5
+          }
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": 149.61300659179688,
+      "PosY": 4.616755962371826,
+      "PosZ": -0.03999999910593033,
+      "Name": "1F_Stair_Enter",
+      "RotY": 270.0,
+      "Scale": {
+        "x": 0.5617200136184692,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20511001/LG_Prop_F20511001_G203_300004.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TargetAnchor",
+            "Value": "LevelArea_P20511_F20511001_G203,Anchor2"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Shape": "Box",
+          "Radius": 2.0,
+          "DimX": 6.0,
+          "DimY": 5.0,
+          "DimZ": 1.0,
+          "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "EnterTrigger": {
+          "Shape": "Box",
+          "Radius": 5.0,
+          "DimX": 6.0,
+          "DimY": 5.0,
+          "DimZ": 3.0,
+          "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.5
+          }
+        },
+        "LeaveTrigger": {
+          "Shape": "Box",
+          "Radius": 7.0,
+          "DimX": 6.0,
+          "DimY": 5.0,
+          "DimZ": 5.0,
+          "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 2.5
+          }
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300001,
+      "PosX": 409.3599853515625,
+      "PosY": 25.934659957885742,
+      "PosZ": -319.22100830078125,
+      "Name": "1F_Stair_Enter",
+      "Scale": {
+        "x": 0.7907670140266418,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20511001/LG_Prop_F20511001_G203_300003.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TargetAnchor",
+            "Value": "LevelArea_P20511_F20511001_G203,Anchor1"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Shape": "Box",
+          "Radius": 2.0,
+          "DimX": 6.0,
+          "DimY": 5.0,
+          "DimZ": 1.0,
+          "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "EnterTrigger": {
+          "Shape": "Box",
+          "Radius": 5.0,
+          "DimX": 6.0,
+          "DimY": 5.0,
+          "DimZ": 3.0,
+          "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.5
+          }
+        },
+        "LeaveTrigger": {
+          "Shape": "Box",
+          "Radius": 7.0,
+          "DimX": 6.0,
+          "DimY": 5.0,
+          "DimZ": 5.0,
+          "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 2.5
+          }
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": 149.61300659179688,
+      "PosY": 4.616755962371826,
+      "PosZ": 16.766000747680664,
+      "Name": "1F_Stair_Enter",
+      "RotY": 270.0,
+      "Scale": {
+        "x": 1.0144100189208984,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20511001/LG_Prop_F20511001_G203_300004.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TargetAnchor",
+            "Value": "LevelArea_P20511_F20511001_G203,Anchor2"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "Shape": "Box",
+          "Radius": 2.0,
+          "DimX": 6.0,
+          "DimY": 5.0,
+          "DimZ": 1.0,
+          "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.5
+          }
+        },
+        "EnterTrigger": {
+          "Shape": "Box",
+          "Radius": 5.0,
+          "DimX": 6.0,
+          "DimY": 5.0,
+          "DimZ": 3.0,
+          "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.5
+          }
+        },
+        "LeaveTrigger": {
+          "Shape": "Box",
+          "Radius": 7.0,
+          "DimX": 6.0,
+          "DimY": 5.0,
+          "DimZ": 5.0,
+          "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 2.5
+          }
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

@@ -1,0 +1,301 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "spring",
+  "LevelGraph": "Config/Level/GroupGraph/F20451001/Group_F20451001_G39.json",
+  "AreaAnchorName": "LevelArea_P20451_F20451001_G39",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "GroupPropertyMap": {
+    "1": {
+      "ID": 1,
+      "Name": "InDistrict",
+      "MaxValue": 1
+    }
+  },
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "StreamingTemplateType": "None",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Connection",
+        "TagHash": -295833477
+      },
+      {
+        "Tag": "Group.Level.Gameplay",
+        "TagHash": -141571921
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 321.3800048828125,
+      "PosY": -70.14369201660156,
+      "PosZ": 209.9499969482422,
+      "Name": "Prop1",
+      "RotY": 270.0,
+      "PropID": 104311,
+      "ValueSource": {
+        "Values": []
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DisableDither": true,
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "TagOverrideComponents": {
+        "TagComponents": [
+          {
+            "$type": "RPG.GameCore.PropTagTimeRewindEntityComponent",
+            "Tag": {
+              "Tag": "Prop.Component.TimeRewindEntity",
+              "TagHash": 532483231
+            },
+            "EnablePersistence": false,
+            "EnableOverrideEraStateType": true,
+            "InitState": "L1_Rotate",
+            "LookAtAttachPoint": "FocusPoint",
+            "LockRangeOverride": 20.0,
+            "MaxRewindTimeOverride": 3.0,
+            "SelectTargetAttachPoint": "SelectPoint",
+            "AnimStateOverride": [],
+            "TimeRewindAnimEventJson": "Config/Gameplays/TimeRewind/TimeRewinder_SpringStatue.json",
+            "EnableLoopRewindControl": true,
+            "ConstraintLoopRewindTime": true,
+            "FoundationAndBallBind": {},
+            "DestructibleBridgeBind": {},
+            "ContainerAndSeedBind": {},
+            "PerformanceSplitObjectBind": {}
+          }
+        ]
+      },
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": 243.39999389648438,
+      "PosY": -90.06999969482422,
+      "PosZ": 216.75,
+      "Name": "Prop2",
+      "RotY": 96.95691680908203,
+      "PropID": 104412,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": 261.42999267578125,
+      "PosY": -81.25,
+      "PosZ": 217.11000061035156,
+      "Name": "Prop3",
+      "RotY": 4.892704963684082,
+      "PropID": 104016,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20451001/LG_Prop_F20451001_G39_300003.json",
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 10081,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "TagOverrideComponents": {
+        "TagComponents": [
+          {
+            "$type": "RPG.GameCore.PropTagBindTimeRewindControllerComponent",
+            "Tag": {
+              "Tag": "Prop.Component.TimeRewindControlTypeSwitcher",
+              "TagHash": 1739204748
+            },
+            "ControlPropIDs": [
+              300001
+            ],
+            "OpenDistrictID": 500001,
+            "EffectDistrictID": 500001,
+            "ScanEffRange": 50.0,
+            "StateChangeCutInSpreadEff": true
+          }
+        ]
+      },
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": 299.5105895996094,
+      "PosY": -46.06039810180664,
+      "PosZ": 195.47999572753906,
+      "Name": "Prop4",
+      "RotY": 182.35569763183594,
+      "PropID": 104016,
+      "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "MappingInfoID": 10081,
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "TagOverrideComponents": {
+        "TagComponents": [
+          {
+            "$type": "RPG.GameCore.PropTagBindTimeRewindControllerComponent",
+            "Tag": {
+              "Tag": "Prop.Component.TimeRewindControlTypeSwitcher",
+              "TagHash": 1739204748
+            },
+            "ControlPropIDs": [
+              300001
+            ],
+            "OpenDistrictID": 500001,
+            "EffectDistrictID": 500001,
+            "ScanEffRange": 50.0,
+            "StateChangeCutInSpreadEff": true
+          }
+        ]
+      },
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosX": 245.36000061035156,
+      "PosY": -67.80000305175781,
+      "PosZ": 218.69349670410156,
+      "Name": "District1",
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 200.0,
+        "DimY": 50.0,
+        "DimZ": 150.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    },
+    {
+      "ID": 500002,
+      "PosX": 286.8900146484375,
+      "PosY": -85.0,
+      "PosZ": 218.69349670410156,
+      "Name": "District2",
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 80.0,
+        "DimY": 80.0,
+        "DimZ": 100.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    },
+    {
+      "ID": 500003,
+      "PosX": 279.5199890136719,
+      "PosY": -79.05000305175781,
+      "PosZ": 207.35000610351562,
+      "Name": "District3",
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 65.0,
+        "DimY": 14.0,
+        "DimZ": 18.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    },
+    {
+      "ID": 500004,
+      "PosX": 306.0895080566406,
+      "PosY": -89.97998809814453,
+      "PosZ": 169.41000366210938,
+      "Name": "District4",
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 20.0,
+        "DimY": 5.0,
+        "DimZ": 20.0
+      },
+      "DistrictType": "Level",
+      "LevelGraph": "Config/Level/LevelInstanceGraph/F20451001/LG_Prop_F20451001_G39_500004.json",
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

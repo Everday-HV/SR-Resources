@@ -1,0 +1,652 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "NishaGroupMid",
+  "LevelGraph": "Config/Level/GroupGraph/F20462001/Group_F20462001_G42.json",
+  "AreaAnchorName": "LevelArea_P20462_F20462001_G42",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "GroupPropertyMap": {
+    "2": {
+      "ID": 2,
+      "Name": "EraFlipState",
+      "DefaultValue": 1,
+      "MaxValue": 1
+    },
+    "1": {
+      "ID": 1,
+      "Name": "IsFinish",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "3": {
+      "ID": 3,
+      "Name": "Rune1",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "4": {
+      "ID": 4,
+      "Name": "Rune2",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "5": {
+      "ID": 5,
+      "Name": "Rune3",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    }
+  },
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "RunePosAnchor01",
+        "Value": "LevelArea_P20462_F20462001_G42,AnchorRune1Pos"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "RunePosAnchor02",
+        "Value": "LevelArea_P20462_F20462001_G42,AnchorRune2Pos"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "RunePosAnchor03",
+        "Value": "LevelArea_P20462_F20462001_G42,AnchorRune3Pos"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "Rune1AimPos",
+        "Value": "LevelArea_P20462_F20462001_G42,Anchor6"
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "StreamingTemplateType": "None",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Gameplay",
+        "TagHash": -141571921
+      },
+      {
+        "Tag": "GameModule.EraFlip.State.Day",
+        "TagHash": 1090843668
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -0.48210200667381287,
+      "PosY": -95.84356689453125,
+      "PosZ": -464.8251953125,
+      "Name": "AnchorRune1Pos",
+      "RotY": 179.35369873046875
+    },
+    {
+      "ID": 2,
+      "PosX": 11.014140129089355,
+      "PosY": -111.66639709472656,
+      "PosZ": -485.80810546875,
+      "Name": "Anchor2",
+      "RotY": 207.54820251464844,
+      "RotX": 17.119659423828125,
+      "RotZ": 0.04891800135374069,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 45.0
+      }
+    },
+    {
+      "ID": 3,
+      "PosX": -0.20763500034809113,
+      "PosY": -115.6395034790039,
+      "PosZ": -514.0899047851562,
+      "Name": "Anchor3",
+      "RotX": 344.8399963378906,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 57.70000076293945
+      }
+    },
+    {
+      "ID": 4,
+      "PosX": 7.368862152099609,
+      "PosY": -120.11239624023438,
+      "PosZ": -497.4231872558594,
+      "Name": "Anchor4",
+      "RotY": 342.0874938964844,
+      "RotX": 8.52548599243164,
+      "RotZ": 0.000018999999156221747,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 58.79999923706055
+      }
+    },
+    {
+      "ID": 5,
+      "PosY": -120.7300033569336,
+      "PosZ": -465.0830078125,
+      "Name": "Anchor5"
+    },
+    {
+      "ID": 6,
+      "PosX": 0.10457099974155426,
+      "PosY": -115.20770263671875,
+      "PosZ": -516.834228515625,
+      "Name": "Anchor6",
+      "RotY": 359.35369873046875,
+      "RotX": 339.5797119140625,
+      "RotZ": 0.012051999568939209,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 55.0
+      }
+    },
+    {
+      "ID": 7,
+      "PosX": -14.784090042114258,
+      "PosY": -115.9447021484375,
+      "PosZ": -486.9836120605469,
+      "Name": "Anchor7",
+      "RotY": 273.185302734375,
+      "RotX": 338.2734069824219,
+      "RotZ": 0.011893999762833118,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 55.0
+      }
+    },
+    {
+      "ID": 8,
+      "PosX": 19.368999481201172,
+      "PosY": -115.98400115966797,
+      "PosZ": -478.5589904785156,
+      "Name": "Anchor8",
+      "RotY": 177.9134979248047,
+      "RotX": 345.802001953125,
+      "RotZ": 0.012019000016152859,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 50.0
+      }
+    },
+    {
+      "ID": 9,
+      "PosX": -12.525230407714844,
+      "PosY": -111.66580200195312,
+      "PosZ": -504.0609130859375,
+      "Name": "AnchorRune1Show",
+      "RotY": 19.837949752807617,
+      "RotX": 350.0303955078125,
+      "RotZ": 0.006409999914467335,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 50.0
+      }
+    },
+    {
+      "ID": 10,
+      "PosX": 14.168219566345215,
+      "PosY": -109.7791976928711,
+      "PosZ": -493.8431091308594,
+      "Name": "AnchorRune2Show",
+      "RotY": 288.4314880371094,
+      "RotX": 2.4062418937683105,
+      "RotZ": 0.008630000054836273,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 50.0
+      }
+    },
+    {
+      "ID": 11,
+      "PosX": 17.219999313354492,
+      "PosY": -112.97000122070312,
+      "PosZ": -461.1400146484375,
+      "Name": "AnchorRune3Show",
+      "RotY": 187.75360107421875,
+      "RotX": 1.714468002319336,
+      "RotZ": 0.12097399681806564,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 50.0
+      }
+    },
+    {
+      "ID": 18,
+      "PosY": -112.12079620361328,
+      "PosZ": -470.216796875,
+      "Name": "AnchorRune3ShowB",
+      "RotY": 180.0,
+      "RotX": 18.18600082397461,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 50.0
+      }
+    },
+    {
+      "ID": 12,
+      "PosX": -15.010649681091309,
+      "PosY": -115.0989990234375,
+      "PosZ": -507.5357971191406,
+      "Name": "AnchorRuneAllFinishShow",
+      "RotY": 34.591190338134766,
+      "RotX": 9.969307899475098,
+      "RotZ": 0.009504999965429306,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 50.0
+      }
+    },
+    {
+      "ID": 13,
+      "PosX": -30.038299560546875,
+      "PosY": -109.85669708251953,
+      "PosZ": -486.13470458984375,
+      "Name": "AnchorRune2Pos",
+      "RotY": 150.368896484375,
+      "RotX": 320.1391906738281,
+      "RotZ": 202.4553985595703,
+      "Usage": "GamePlay"
+    },
+    {
+      "ID": 14,
+      "PosX": 20.31999969482422,
+      "PosY": -109.37000274658203,
+      "PosZ": -504.67999267578125,
+      "Name": "AnchorRune3Pos",
+      "RotY": 357.91351318359375
+    },
+    {
+      "ID": 15,
+      "PosX": 0.05000000074505806,
+      "PosY": -95.5199966430664,
+      "PosZ": -465.489990234375,
+      "Name": "Rune1GuideAnchor"
+    },
+    {
+      "ID": 16,
+      "PosX": -23.190000534057617,
+      "PosY": -113.51000213623047,
+      "PosZ": -486.4570007324219,
+      "Name": "Rune2GuideAnchor"
+    },
+    {
+      "ID": 17,
+      "PosX": 19.170000076293945,
+      "PosY": -107.80999755859375,
+      "PosZ": -516.030029296875,
+      "Name": "Rune3GuideAnchor"
+    },
+    {
+      "ID": 19,
+      "PosY": -112.12079620361328,
+      "PosZ": -470.216796875,
+      "Name": "AnchorRune3ShowBFocus",
+      "RotY": 180.0,
+      "RotX": 15.391900062561035,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 32.400001525878906
+      }
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300008,
+      "PosX": 0.019999999552965164,
+      "PosY": -126.5813980102539,
+      "PosZ": -486.32598876953125,
+      "Name": "Prop8",
+      "RotY": 180.0,
+      "PropID": 104357,
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "GatherEffStartAnchor",
+            "Value": "LevelArea_P20462_F20462001_G42,Anchor1"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "FlowDuration",
+            "Value": 3.0
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "CustomState01",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "DownloadTrigger": {
+          "Radius": 4.0,
+          "DimX": 1.0,
+          "DimY": 1.0,
+          "DimZ": 1.0,
+          "Offset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.6399999856948853
+          }
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": -0.04237399995326996,
+      "PosY": -126.65470123291016,
+      "PosZ": -490.7820129394531,
+      "Name": "Prop4",
+      "PropID": 104329,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_NishastagaTitanTomb_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "CameraName",
+            "Value": "LevelArea_P20462_F20462001_G42,Anchor6"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "IsTSCRune",
+            "Value": 1.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "IsWholeFade",
+            "Value": 2.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FinishShowCamName",
+            "Value": "LevelArea_P20462_F20462001_G42,AnchorRune1Show"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300007,
+      "PosX": -1.8470540046691895,
+      "PosY": -115.11900329589844,
+      "PosZ": -487.19061279296875,
+      "Name": "Prop7",
+      "PropID": 104346,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_NishastagaTitanTomb_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "CameraName",
+            "Value": "LevelArea_P20462_F20462001_G42,Anchor7"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "IsTSCRune",
+            "Value": 1.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "IsWholeFade",
+            "Value": 1.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FinishShowCamName",
+            "Value": "LevelArea_P20462_F20462001_G42,AnchorRune2Show"
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300006,
+      "PosX": -0.13666200637817383,
+      "PosY": -126.5813980102539,
+      "PosZ": -489.5426940917969,
+      "Name": "Prop6",
+      "PropID": 104347,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_NishastagaTitanTomb_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "CameraName",
+            "Value": "LevelArea_P20462_F20462001_G42,Anchor8"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "IsTSCRune",
+            "Value": 1.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "IsWholeFade",
+            "Value": 1.0
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "FinishShowCamName",
+            "Value": "LevelArea_P20462_F20462001_G42,AnchorRune3Show"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "IsFinalRune"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat",
+            "Key": "SpecialRuneType",
+            "Value": 1.0
+          }
+        ]
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300010,
+      "PosY": -6.929999828338623,
+      "PosZ": -0.44999998807907104,
+      "Name": "Prop10",
+      "PropID": 104361,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": {
+        "BlockAlias": "Block_EntryHallReal",
+        "PrefabAlias": "HideDoor",
+        "UseOverridePos": false
+      },
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300005,
+      "PosX": -1.5924030542373657,
+      "PosY": -125.01429748535156,
+      "PosZ": -482.86279296875,
+      "Name": "Prop5",
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_A602LightBridge_01.json",
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": {
+        "BlockAlias": "Block_EntryHallReal",
+        "PrefabAlias": "EntryHall_Bridge",
+        "UseOverridePos": false
+      },
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300001,
+      "PosX": -0.12518300116062164,
+      "PosY": -126.80599975585938,
+      "PosZ": -477.25,
+      "Name": "Prop1",
+      "Scale": {
+        "x": 2.0,
+        "y": 1.0,
+        "z": 2.0
+      },
+      "PropID": 102,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "IsClientOnly": true,
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

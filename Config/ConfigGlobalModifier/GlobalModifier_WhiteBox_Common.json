@@ -1,0 +1,37 @@
+{
+  "ModifierMap": {
+    "WMCommon_DOT_ThunderCurse": {
+      "Stacking": "ReplaceByCaster",
+      "DynamicValues": {
+        "Floats": {
+          "{\"Hash\":33051896}": {
+            "ReadInfo": {
+              "Type": "None",
+              "Key": null,
+              "Index": 0
+            }
+          },
+          "{\"Hash\":-1060106919}": {
+            "ReadInfo": {
+              "Type": "None",
+              "Key": null,
+              "Index": 0
+            }
+          }
+        }
+      },
+      "LifeStepMoment": "ModifierPhase1End",
+      "UseSnapshotEntity": true,
+      "_CallbackList": [
+        {
+          "Event": "OnAfterBeingAttacked",
+          "CallbackConfig": [
+            {
+              "$type": "RPG.GameCore.TaskConfig"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

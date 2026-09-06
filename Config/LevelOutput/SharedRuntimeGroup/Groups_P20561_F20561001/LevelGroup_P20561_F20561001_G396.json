@@ -1,0 +1,218 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "ShuttleCar",
+  "LevelGraph": "Config/Level/GroupGraph/F20561001/Group_F20561001_G396.json",
+  "AreaAnchorName": "LevelArea_P20561_F20561001_G396",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Connection",
+        "TagHash": -295833477
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 230.6699981689453,
+      "PosY": 16.17530059814453,
+      "PosZ": -204.17739868164062,
+      "Name": "CarCameraAnchor1",
+      "RotY": 60.0,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 40.0
+      }
+    },
+    {
+      "ID": 2,
+      "PosX": 60.93600082397461,
+      "PosY": 13.869999885559082,
+      "PosZ": -33.50299835205078,
+      "Name": "CarCameraAnchor2",
+      "RotY": 130.0,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 40.0
+      }
+    },
+    {
+      "ID": 3,
+      "PosX": 65.88999938964844,
+      "PosY": 11.603529930114746,
+      "PosZ": -35.45000076293945,
+      "Name": "TargetAnchor1",
+      "RotY": 340.0
+    },
+    {
+      "ID": 4,
+      "PosX": 234.19000244140625,
+      "PosY": 13.899999618530273,
+      "PosZ": -200.0,
+      "Name": "TargetAnchor2",
+      "RotY": 270.0
+    },
+    {
+      "ID": 5,
+      "PosX": 244.0,
+      "PosY": 16.17530059814453,
+      "PosZ": -212.22999572753906,
+      "Name": "CarCameraAnchor3",
+      "RotY": 315.0,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 40.0
+      }
+    },
+    {
+      "ID": 6,
+      "PosX": 57.470001220703125,
+      "PosY": 13.869999885559082,
+      "PosZ": -49.2400016784668,
+      "Name": "CarCameraAnchor4",
+      "RotY": 25.0,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 40.0
+      }
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 238.41799926757812,
+      "PosY": 14.406999588012695,
+      "PosZ": -200.30999755859375,
+      "Name": "Prop1",
+      "PropID": 105306,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap05/InitLevelGraph_Prop_Chap05_WorkLineTeleportRacingCar_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "DesAnchor",
+            "Value": "LevelArea_P20561_F20561001_G396,TargetAnchor1"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "CameraAnchor",
+            "Value": "LevelArea_P20561_F20561001_G396,CarCameraAnchor1"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "CameraAnchor2",
+            "Value": "LevelArea_P20561_F20561001_G396,CarCameraAnchor3"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "MissionTrigger": {
+          "Radius": 1.0
+        },
+        "InteractTrigger": {
+          "Radius": 6.0,
+          "DimX": 1.0,
+          "DimY": 1.0,
+          "DimZ": 1.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": 67.177001953125,
+      "PosY": 12.130000114440918,
+      "PosZ": -39.867000579833984,
+      "Name": "Prop2",
+      "RotY": 70.0,
+      "PropID": 105306,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap05/InitLevelGraph_Prop_Chap05_WorkLineTeleportRacingCar_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "DesAnchor",
+            "Value": "LevelArea_P20561_F20561001_G396,TargetAnchor2"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "CameraAnchor",
+            "Value": "LevelArea_P20561_F20561001_G396,CarCameraAnchor2"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "CameraAnchor2",
+            "Value": "LevelArea_P20561_F20561001_G396,CarCameraAnchor4"
+          }
+        ]
+      },
+      "CampID": 4,
+      "State": "Open",
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "MissionTrigger": {
+          "Radius": 1.0
+        },
+        "InteractTrigger": {
+          "Radius": 6.0,
+          "DimX": 1.0,
+          "DimY": 1.0,
+          "DimZ": 1.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

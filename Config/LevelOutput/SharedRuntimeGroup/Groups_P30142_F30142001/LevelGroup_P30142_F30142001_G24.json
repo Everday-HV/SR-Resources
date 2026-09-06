@@ -1,0 +1,82 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Sound_Broadcast_02",
+  "AreaAnchorName": "LevelArea_P30142_F30142001_G24",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Audio.Sound",
+        "TagHash": 1757672304
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "IsDelete": true,
+      "Name": "District1"
+    },
+    {
+      "ID": 500002,
+      "PosX": -30.719999313354492,
+      "PosY": 187.64419555664062,
+      "PosZ": -21.170000076293945,
+      "Name": "District1",
+      "RotY": 21.600000381469727,
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 1.0,
+        "DimX": 40.0,
+        "DimY": 10.0,
+        "DimZ": 15.0
+      },
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_vo_ambient_w5_v420_broadcast_laba",
+        "TransformList": [
+          {
+            "Position": {
+              "x": -18.598939895629883,
+              "y": 186.9741973876953,
+              "z": -28.434179306030273
+            },
+            "Forward": {
+              "x": -0.1045290008187294,
+              "y": 0.0,
+              "z": 0.994521975517273
+            },
+            "Up": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0
+            }
+          }
+        ]
+      },
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

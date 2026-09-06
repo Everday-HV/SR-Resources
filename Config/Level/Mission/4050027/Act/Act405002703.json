@@ -1,0 +1,48 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AdvNpcFaceToPlayer",
+          "TurnBackOnGraphEnd": false
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveShotCameraTemplate",
+          "FirstTarget": {
+            "$type": "RPG.GameCore.TargetFetchRogueMagicScepterList"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AdvAttachEntityToPropEX",
+          "TaskEnabled": true,
+          "AttachedPointName": {
+            "Custom": true,
+            "Key": "n_Pam\u0012NPC_Special_Pam_00����\u0003�\u000f\u0002\u0002\u0002�ޟ�\u0001�\u001e\u0000�\u0007�\u0011\u000ePamMission_Pam\u0012NPC_Special_Pam_00򡔭\u0003�\u000f\u0002\u0004\u0002�ޟ�\u0001\u0002�ޟ�\u0001�\u001e\u0000�\t\u0000\u0004\u0004�\u001e"
+          },
+          "RotationOffset": {
+            "x": 9.9297130220828e-40,
+            "y": 0,
+            "z": 0
+          },
+          "IsStop": 0
+        },
+        {},
+        {}
+      ]
+    },
+    {}
+  ]
+}

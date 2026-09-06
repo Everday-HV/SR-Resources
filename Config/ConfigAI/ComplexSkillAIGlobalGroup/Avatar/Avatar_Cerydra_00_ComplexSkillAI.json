@@ -1,0 +1,162 @@
+{
+  "GroupsMap": {
+    "AddNP_Cerydra_TargetAndBP_BPPreCheck": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIBattleGlobalData",
+            "DataType": "TeamBoostPoint"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 0.5000000004656613
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "xmax": {
+                  "Value": 1.5000000004656613
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 1.5000000004656613
+                },
+                "xmax": {
+                  "Value": 2.5000000004656613
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 2.5000000004656613
+                },
+                "ymin": {
+                  "Value": 200.0
+                },
+                "xmax": {
+                  "Value": 3.5000000004656613
+                },
+                "ymax": {
+                  "Value": 200.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 3.5000000004656613
+                },
+                "ymin": {
+                  "Value": 500.0
+                },
+                "xmax": {
+                  "Value": 4.0
+                },
+                "ymax": {
+                  "Value": 500.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "CombineOperator": "Mul",
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAIContainModifier",
+            "ModifilerName": "MAvatar_Cerydra_00_Skill02_Target"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "xmax": {
+                  "Value": 0.5000000004656613
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 0.5000000004656613
+                },
+                "ymin": {
+                  "Value": 1.0
+                },
+                "xmax": {
+                  "Value": 1.0
+                },
+                "ymax": {
+                  "Value": 1.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "AddpP_Cerydra_CompareDPTWithDamageCarry_BPTarget": {
+      "Factors": [
+        {
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceValueInTeamRatio",
+            "ValueType": "WeightedTotalPower"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 60.0
+                },
+                "xmax": {
+                  "Value": 100.0
+                },
+                "ymax": {
+                  "Value": 100.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "CombineOperator": "Mul",
+          "Source": {
+            "$type": "RPG.GameCore.ComplexSkillAISourceAITag",
+            "DynamicValueKey": "DamageCarry"
+          },
+          "Mapper": {
+            "$type": "RPG.GameCore.ComplexSkillAIMapperMultiRange",
+            "Ranges": [
+              {
+                "ymin": {
+                  "Value": 0.010000000009313226
+                },
+                "xmax": {
+                  "Value": 10.0
+                },
+                "ymax": {
+                  "Value": 1.0
+                }
+              },
+              {
+                "xmin": {
+                  "Value": 10.0
+                },
+                "ymin": {
+                  "Value": 1.0
+                },
+                "xmax": {
+                  "Value": 100.0
+                },
+                "ymax": {
+                  "Value": 10.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

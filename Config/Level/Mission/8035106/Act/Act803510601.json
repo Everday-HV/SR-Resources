@@ -1,0 +1,234 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig",
+          "TaskEnabled": false
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview",
+          "Mode": "65218125",
+          "Offset": 1794
+        },
+        {
+          "$type": "RPG.GameCore.AbortInsertAbility",
+          "AbilityName": "Wait_Option_803510601_11"
+        }
+      ]
+    },
+    {
+      "IsLoop": true,
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill"
+        }
+      ]
+    },
+    {
+      "IsLoop": true,
+      "Order": -53,
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.AdvByInCustomZone",
+          "TaskEnabled": true,
+          "Inverse": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchTimeRewindStrikeSource"
+          },
+          "CustomZoneName": "_803510601_11�\u000f\u0006\u0006\u0000\r����\u0003(\u0002\u0016TalkSentence_835160104\u0000\r����\u0003(\u0002\u0016TalkSentence_835160108\u0000\r����\u0003(\b\u0016TalkSentence_835160"
+        },
+        {
+          "$type": "RPG.GameCore.AddModifier",
+          "TaskEnabled": true,
+          "ReferenceModifierName": "\u0005",
+          "LifeStepImmediately": true
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchNone"
+          },
+          "ResetToIdle": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvCharacterLerpAnimRunPoseParam",
+          "TaskEnabled": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchUnstageTarget"
+          },
+          "LerpTime": 6.712585070478221e+22
+        },
+        {
+          "$type": "RPG.GameCore.AdvByInCustomZone",
+          "CustomZoneName": "5160104�\u000f\u0002\u0006\u0006����\u0003���>\u0006����\u0003���>\u0006����\u0003���>�\u001c\u0002\u0004\u0018Wait_",
+          "ReturnArtUnload": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvClientChangePropState",
+          "FromState": "-53",
+          "CanChangeServerProp": true,
+          "CanChangeFromAnyState": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvByInCustomZone",
+          "CustomZoneName": "3510601_11\u0005\u0001\u0006�\u001d\u0002\u0004\u0016TalkSentence_835160108�\u000f\u0002\u0004\u0006���",
+          "ReturnArtUnload": true
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AbortTargetSkill"
+        },
+        {
+          "$type": "RPG.GameCore.AdvByCompareEnhancedID",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvDestroyEntityAsync",
+          "TaskEnabled": true,
+          "NeedDisappear": true,
+          "InstanceIDList": [
+            105,
+            111,
+            110,
+            95,
+            56,
+            48,
+            51,
+            53,
+            49,
+            48,
+            54,
+            48,
+            49,
+            95,
+            49,
+            49,
+            5,
+            1,
+            6,
+            3785,
+            2,
+            4,
+            22,
+            84,
+            97,
+            108,
+            107,
+            83,
+            101,
+            110,
+            116,
+            101,
+            110,
+            99,
+            101,
+            95,
+            56,
+            51,
+            53,
+            49,
+            54,
+            48,
+            49,
+            49,
+            49,
+            1925,
+            2,
+            2,
+            6,
+            835160111,
+            130436250,
+            1261,
+            0,
+            4,
+            4,
+            3854,
+            0,
+            1360
+          ],
+          "AdvancedSpawnList": []
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {},
+    {}
+  ],
+  "Type": {}
+}

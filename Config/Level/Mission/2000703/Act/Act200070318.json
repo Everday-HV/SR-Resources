@@ -1,0 +1,69 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AddMazeBuffBinding"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveVirtualCamera",
+          "TaskEnabled": true,
+          "AreaName": "Wolf_200070318\u0000\u0000\u0000\u0007\u0000\u0000\u0000\u0000\u0000\u001b\u0000 \u0000\u0000\u0000\u0000\u0000\u0006\u001eLevelArea_P40003_F40003001_G16\u0007Anchor9\u0001\u0000\u001e\u0001\u000bLocalPlayer\u0004\u001eLevelArea_P40003_F4",
+          "IsEntryPointCamera": true,
+          "SelectFollowTargetType": "24"
+        },
+        {
+          "$type": "RPG.GameCore.AddMissionMenuItem",
+          "TaskEnabled": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchBattleEventEntityList"
+          },
+          "MenuItemTextID": {
+            "Hash": -48,
+            "Hash64": 71
+          },
+          "DialoguePath": "6\u0004\bAnchor10\u0001\u0000�\u000e��\u001e\u0000\u0000�����>\u0000\u0000\u0000\u000f\u0000\u0000\u0000\u0000\u0000\u0000;\u0000 \u0000\u0000\u0000\u0000\u0000\u0000\u0007\u0000\u001eL"
+        },
+        {
+          "$type": "RPG.GameCore.AdvByRollShopResult",
+          "Inverse": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchTurnOwnerEntity"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AdvCreateGroupEntity",
+          "TaskEnabled": true,
+          "OverrideArtModelOffset": {
+            "x": 6.559783272130915e-10,
+            "y": 1.2911872908229345e+19,
+            "z": 6.410271202739182e-10
+          }
+        }
+      ]
+    },
+    {}
+  ]
+}

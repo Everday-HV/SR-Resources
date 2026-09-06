@@ -1,0 +1,61 @@
+{
+  "AbilityList": [
+    {
+      "Name": "WMonster_W1_GSMecha_02_Skill01_Phase01",
+      "TargetInfo": {
+        "TargetType": "SkillTargetEntityList"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveFarmElement",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.AddTimelineMenuItem",
+          "TaskEnabled": true,
+          "PerformanceType": "58",
+          "PerformanceID": 101
+        },
+        {
+          "$type": "RPG.GameCore.AdvCreateGroupEntity",
+          "OverrideArtModelOffset": {
+            "x": 6.354978300960856e+28,
+            "y": 7.214917023275089e+22,
+            "z": 3.1340872119756114e-9
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AdvByInCustomZone",
+          "TaskEnabled": true,
+          "Inverse": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchSummonUnit",
+            "UniqueName": {},
+            "Summoner": {
+              "$type": "RPG.GameCore.TargetFetchRogueMagicScepterList"
+            }
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AddMissionMenuItem",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchPropFarmElement"
+          },
+          "MenuItemTextID": {
+            "Hash": -54,
+            "Hash64": 105
+          },
+          "DialoguePath": "l01_Phase02\u0001�\u001b2\f\u0001\u0006Caster\u0004%WMonster_W1_GSMecha_02_Skill01_Camera\u0001�\u001e\u0002\u0000����0�\f\u0004\u0004�\u000f\u000e�\u0002<\f\u0001\u0006Caster\f\u0001\u0013AbilityTarget"
+        }
+      ]
+    },
+    {
+      "Name": "tity\u0002\u0000�����\u0003\u0002�\r�\u0003\f\u0001\u0006Caster\u0007Skill01\u0000����@\u0000����9\u0004�a\f\u0001\u0013AbilityTargetEntity\u0001\u0000��̙�\u0001\u0000����\u0007\u0000����\u0013�a\f\u0001\rTeamFormation\u0001",
+      "OnAdd": [],
+      "DynamicStrings": {}
+    }
+  ]
+}

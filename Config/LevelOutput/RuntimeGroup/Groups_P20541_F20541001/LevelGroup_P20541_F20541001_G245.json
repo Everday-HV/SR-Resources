@@ -1,0 +1,157 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "TempTeleport",
+  "AreaAnchorName": "LevelArea_P20541_F20541001_G245",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "StreamingTemplateType": "None",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.TeleportEntrance",
+        "TagHash": -818745016
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 588.2589111328125,
+      "PosY": 636.7849731445312,
+      "PosZ": -302.7720031738281,
+      "Name": "Anchor1",
+      "RotY": 351.4012145996094
+    },
+    {
+      "ID": 2,
+      "PosX": 303.2099914550781,
+      "PosY": 25.071529388427734,
+      "PosZ": 138.4499969482422,
+      "Name": "Anchor2",
+      "RotY": 246.45140075683594
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -407.1300048828125,
+      "PosY": 348.60888671875,
+      "PosZ": -426.7099914550781,
+      "Name": "Prop1",
+      "RotY": 287.0321960449219,
+      "PropID": 105032,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_Guixu3FTeleport_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "InteractText",
+            "Value": "MazePuzzle_FD_Interact_Portal"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TeleportPoint",
+            "Value": "LevelArea_P20541_F20541001_G245,Anchor1"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TeleportToast",
+            "Value": "MazeText_GuixuGardenToast"
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 2.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": 606.9439697265625,
+      "PosY": 648.1851196289062,
+      "PosZ": -317.0299987792969,
+      "Name": "Prop2",
+      "RotY": 79.0294189453125,
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/Props/Chap04/InitLevelGraph_Prop_Chap04_Guixu3FTeleport_01.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "InteractText",
+            "Value": "MazePuzzle_FD_Interact_Portal"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TeleportPoint",
+            "Value": "LevelArea_P20541_F20541001_G245,Anchor2"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TeleportToast",
+            "Value": "MazeText_GuixuGardenToast"
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 2.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

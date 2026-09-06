@@ -1,0 +1,140 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Sound_Broadcast_01",
+  "AreaAnchorName": "LevelArea_P30142_F30142001_G21",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "SavedValueName": "SceneStateByMainMission"
+      }
+    ],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Audio.Sound",
+        "TagHash": 1757672304
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [
+    {
+      "ID": 500002,
+      "PosX": 0.5199999809265137,
+      "PosY": 118.43000030517578,
+      "Name": "District01",
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 1.0,
+        "DimX": 45.0,
+        "DimY": 10.0,
+        "DimZ": 45.0
+      },
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_vo_ambient_w5_v420_broadcast_dianshitaguangbo_101",
+        "PlayEventCD": 20.0,
+        "TransformList": [
+          {
+            "Position": {
+              "x": 1.0199999809265137,
+              "y": 121.12999725341797,
+              "z": 0.5600000023841858
+            },
+            "Forward": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "Up": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0
+            }
+          }
+        ]
+      },
+      "ValueSource": {}
+    },
+    {
+      "ID": 500001,
+      "PosX": -23.020000457763672,
+      "PosY": 184.94000244140625,
+      "PosZ": -0.14000000059604645,
+      "Name": "District1",
+      "Scale": {
+        "x": 30.0,
+        "y": 15.0,
+        "z": 35.0
+      },
+      "Trigger": {
+        "Radius": 1.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0
+      },
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_vo_ambient_w5_v420_broadcast_laba",
+        "PlayEventCD": 6.0,
+        "TransformList": [
+          {
+            "Position": {
+              "x": -19.165000915527344,
+              "y": 187.56500244140625,
+              "z": -28.07349967956543
+            },
+            "Forward": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "Up": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0
+            }
+          },
+          {
+            "Position": {
+              "x": -18.964000701904297,
+              "y": 186.8574981689453,
+              "z": 28.486499786376953
+            },
+            "Forward": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "Up": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0
+            }
+          }
+        ]
+      },
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

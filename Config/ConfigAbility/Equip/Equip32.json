@@ -1,0 +1,80 @@
+{
+  "AbilityList": [
+    {
+      "Name": "Ability22004",
+      "TargetInfo": {
+        "TargetType": "Caster"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.AddModifier",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
+          "ModifierName": {
+            "Value": "MEquip_22004_Main"
+          }
+        }
+      ],
+      "DynamicValues": {
+        "Floats": {
+          "{\"Hash\":-1063950616}": {
+            "ReadInfo": {
+              "Type": "SkillEquip",
+              "Key": "",
+              "Index": 1
+            }
+          }
+        }
+      },
+      "Modifiers": {
+        "MEquip_22004_Main": {
+          "DynamicValues": {
+            "Floats": {
+              "{\"Hash\":-1071456406}": {
+                "ReadInfo": {
+                  "Type": "None",
+                  "Key": null,
+                  "Index": 0
+                }
+              }
+            }
+          },
+          "_CallbackList": [
+            {
+              "Event": "OnBeforeHitAll",
+              "CallbackConfig": [
+                {
+                  "$type": "RPG.GameCore.TaskConfig"
+                },
+                {
+                  "$type": "RPG.GameCore.ActiveFMChannelReceiver",
+                  "TaskEnabled": true,
+                  "ReceiverName": {
+                    "Custom": true,
+                    "Value": "Count\u0004\f\u0001\u000bParamEntity\f\u0001\u0013ModifierOwnerEntity\u0002�\u000f\u0006�\u0001�\u0001\f\u0001\u0013ModifierOwnerEntity\u0004\n_WeakCount\u0004\u0002\u0000�����\u0003\u0002�\u0015\u0018\u0000�����\u0003\u0004\n_"
+                  },
+                  "Active": true
+                },
+                {
+                  "$type": "RPG.GameCore.AdvByRollShopResult",
+                  "TaskEnabled": true
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Name": "unt�\r�� \u0000\u0001\u0006\u0001\u0000\u0001\u0001\u0004\u0011\u0000\u0002����\u0007����\u0007�\u0002\fAbility23040\u0001\u0002\u00021\n\f\u0001\u0006Caster\u0004\u0011MEquip_23040_Main\u0005���;\u0000\u0000\u0000\u0003\u0000\u0002����\b\u0000\u0000\u0000\u0003\u0000\u0004����\u0005\u0000\u0000\u0000\u0003\u0000\u0006�",
+      "TargetInfo": {
+        "AllowUnselectableTarget": false
+      },
+      "DynamicStrings": {}
+    },
+    {}
+  ],
+  "GlobalModifiers": {}
+}

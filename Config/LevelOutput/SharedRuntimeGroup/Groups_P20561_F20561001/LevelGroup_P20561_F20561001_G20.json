@@ -1,0 +1,218 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Crowd",
+  "Category": "Atmosphere",
+  "AreaAnchorName": "LevelArea_P20561_F20561001_G20",
+  "SaveType": "Reset",
+  "AtmosphereCondition": {
+    "Conditions": [
+      {
+        "$type": "RPG.GameCore.LevelGroupAtmosphereMainMissionCompleteCondition",
+        "MainMissionID": 1054604
+      }
+    ]
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.Crowd",
+        "TagHash": -581694062
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": -13.010000228881836,
+      "PosY": 12.875020027160645,
+      "PosZ": 30.889999389648438,
+      "Name": "NPC1",
+      "RotY": 52.021209716796875,
+      "NPCID": 3225,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "IsOverrideAtlasEmotion": true,
+      "OverrideAtlasEmotion": {
+        "EmotionIndex": 12
+      },
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900420000,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "ChenLing_00_Body_00",
+        "NPC_Special_ChenLing_00_034"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    }
+  ],
+  "CrowdList": [
+    {
+      "ID": 1,
+      "PosX": 185.4434051513672,
+      "PosY": 13.890000343322754,
+      "PosZ": -191.75869750976562,
+      "Name": "Crowd1",
+      "MemberList": [
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "PPX_boy_Low",
+          "UniqueName": "20_1_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.23100000619888306,
+            "y": 0.039000000804662704,
+            "z": 0.7440000176429749
+          },
+          "LocalRotationY": 162.6479949951172,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040298
+        },
+        {
+          "Identity": "IPC_P35-P40",
+          "FeatureID": "Lady_High",
+          "UniqueName": "20_1_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.07882700115442276,
+            "y": -9.999999974752427e-7,
+            "z": -0.5723879933357239
+          },
+          "LocalRotationY": 351.1330871582031,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020231
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.1549140065908432,
+        "y": 0.019500000402331352,
+        "z": 0.0858059972524643
+      }
+    },
+    {
+      "ID": 2,
+      "PosX": 185.16700744628906,
+      "PosY": 13.889989852905273,
+      "PosZ": -207.2550048828125,
+      "Name": "Crowd2",
+      "MemberList": [
+        {
+          "Identity": "IPC_P41+",
+          "FeatureID": "Male_Super",
+          "UniqueName": "20_2_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.7482150197029114,
+            "y": 0.0,
+            "z": 0.1419370025396347
+          },
+          "LocalRotationY": 255.55909729003906,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010000
+        },
+        {
+          "Identity": "IPC_P16-P34",
+          "FeatureID": "Lady_Low",
+          "UniqueName": "20_2_03",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.15399999916553497,
+            "y": 0.0,
+            "z": -0.1889999955892563
+          },
+          "LocalRotationY": 73.6198501586914,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020228
+        }
+      ],
+      "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F20561001/MunicipalChatConfig_F20561001_0030.json",
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "20_2_03"
+        },
+        {
+          "UniqueName": "2",
+          "CrowdUniqueName": "20_2_02"
+        }
+      ],
+      "TriggerRudius": 5.0,
+      "InteractPerformanceTriggerRadius": 2.5,
+      "CenterPos": {
+        "x": 0.297107994556427,
+        "y": 0.0,
+        "z": -0.023531999439001083
+      }
+    },
+    {
+      "ID": 3,
+      "PosX": 189.9846954345703,
+      "PosY": 13.889989852905273,
+      "PosZ": -205.21409606933594,
+      "Name": "Crowd3",
+      "RotY": 161.2884063720703,
+      "MemberList": [
+        {
+          "Identity": "W5_OfficePeole",
+          "FeatureID": "Miss_Office_Cat",
+          "UniqueName": "20_3_03",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.4410000145435333,
+            "y": 0.0,
+            "z": 0.3569999933242798
+          },
+          "LocalRotationY": 291.88519287109375,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020222
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.4410000145435333,
+        "y": 0.0,
+        "z": 0.3569999933242798
+      }
+    }
+  ],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

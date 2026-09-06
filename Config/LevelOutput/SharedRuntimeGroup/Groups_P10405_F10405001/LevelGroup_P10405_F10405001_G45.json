@@ -1,0 +1,240 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "MainMission1043710_02",
+  "Category": "Mission",
+  "LevelGraph": "Config/Level/GroupGraph/F10405001/Group_F10405001_G45.json",
+  "AreaAnchorName": "LevelArea_P10405_F10405001_G45",
+  "SaveType": "Reset",
+  "OwnerMainMissionID": 1043710,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "StreamingTemplateType": "None",
+  "ConflictWhiteList": [],
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": 412.79901123046875,
+      "PosY": 170.1782989501953,
+      "PosZ": 95.80000305175781,
+      "Name": "Anchor1"
+    },
+    {
+      "ID": 2,
+      "PosX": 413.56201171875,
+      "PosY": 170.16299438476562,
+      "PosZ": 99.1619873046875,
+      "Name": "Anchor2",
+      "RotY": 197.99000549316406
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 412.9100036621094,
+      "PosY": 170.16299438476562,
+      "PosZ": 96.19000244140625,
+      "Name": "Prop1",
+      "PropID": 104092,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosX": 412.9100036621094,
+      "PosY": 170.16299438476562,
+      "PosZ": 96.19000244140625,
+      "Name": "District1",
+      "Trigger": {
+        "Shape": "GeometrySphere",
+        "Radius": 25.040000915527344,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    },
+    {
+      "ID": 500002,
+      "PosX": 412.9100036621094,
+      "PosY": 170.16299438476562,
+      "PosZ": 96.19000244140625,
+      "Name": "District2",
+      "Trigger": {
+        "Shape": "GeometrySphere",
+        "Radius": 6.53000020980835,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": 409.1890869140625,
+      "PosY": 170.16299438476562,
+      "PosZ": 96.72126007080078,
+      "Name": "NPC1",
+      "RotY": 208.74899291992188,
+      "NPCID": 1002,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultLookAtMode": "LookTarget",
+      "DefaultLookAtTargetInfo": {
+        "GroupID": 45,
+        "InstanceID": 400002,
+        "LookAtAttachPoint": "Head"
+      },
+      "BoardShowList": [
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 310020000,
+      "AdditiveResidentEffect": [
+        {
+          "EffectPath": "Effects/Eff_Prefab/Eff_NPC/Normal/Common/Eff_Normal_Male_Common_StoryCrystal.prefab",
+          "AttachPoint": "Root"
+        }
+      ],
+      "IsNeedFade": true,
+      "InitialHiddenNodeList": [],
+      "Dialog": {
+        "LevelGraph": "Config/Level/NPCDialogue/P10405/F10405001_G45/DialogueMain_F10405001_G45_N400001.json",
+        "PackList": []
+      },
+      "OverrideReplaceMaterialKeyList": [
+        "StoryCrystal_DanHeng_00"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SFXOnLoad": "Ev_sfx_npc_common_StoryCrystal_loop",
+      "SpawnConfig": {
+        "OverrideSpawn": true,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": false
+        },
+        "TryCapture": false
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400002,
+      "PosX": 408.7961120605469,
+      "PosY": 170.285400390625,
+      "PosZ": 95.84026336669922,
+      "Name": "NPC2",
+      "RotY": 298.1789855957031,
+      "RotX": 288.2139892578125,
+      "RotZ": 105.31800079345703,
+      "NPCID": 1991,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultLookAtMode": "Closed",
+      "BoardShowList": [],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 380010000,
+      "AdditiveResidentEffect": [
+        {
+          "EffectPath": "Effects/Eff_Prefab/Eff_NPC/Normal/Common/Eff_Normal_Male_Common_StoryCrystal.prefab",
+          "AttachPoint": "Root"
+        }
+      ],
+      "IsNeedFade": true,
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "StoryCrystal_PlayerBoy_00"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SFXOnLoad": "Ev_sfx_npc_common_StoryCrystal_loop",
+      "SpawnConfig": {
+        "OverrideSpawn": true,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": false
+        },
+        "TryCapture": false
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400003,
+      "PosX": 412.55999755859375,
+      "PosY": 170.1999969482422,
+      "PosZ": 96.58200073242188,
+      "Name": "NPC3",
+      "RotY": 245.10800170898438,
+      "NPCID": 4002,
+      "LoadOnInitial": false,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 900310000,
+      "AdditiveResidentEffect": [
+        {
+          "EffectPath": "Effects/Eff_Prefab/Eff_NPC/Servant/Eff_Servant_PlayerBoyServant_30_StoryCrystal.prefab",
+          "AttachPoint": "Root"
+        }
+      ],
+      "IsNeedFade": true,
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "StoryCrystal_PlayerBoyServant_30"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SFXOnLoad": "Ev_sfx_npc_common_StoryCrystal_loop",
+      "SpawnConfig": {
+        "OverrideSpawn": true,
+        "EntitySpawnConfig": {
+          "NeedBlackIn": false
+        },
+        "TryCapture": false
+      },
+      "ModelPresetConfig": {}
+    }
+  ],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

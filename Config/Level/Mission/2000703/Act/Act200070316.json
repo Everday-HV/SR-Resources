@@ -1,0 +1,105 @@
+{
+  "OnInitSequece": [],
+  "OnStartSequece": [
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AddMazeBuffBinding"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        }
+      ]
+    },
+    {},
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.AdvBlockRewardToast"
+        },
+        {
+          "$type": "RPG.GameCore.AddTimelineMenuItem",
+          "TaskEnabled": true,
+          "MenuIconType": {
+            "EnumIndex": -53,
+            "Value": 54
+          },
+          "MenuItemID": 87,
+          "MenuItemTextID": {
+            "Hash": -56,
+            "Hash64": 108
+          },
+          "DialoguePath": "_00\u0000\u0000\u0000\u000e\u0000�����\b\u0000�������\t\u0000\u001b\u0000 \u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0006\u001eLevelArea_P40003_F40003001_G16\u0007Anchor8\u0001\u0000\u001e\u0001\u000bLocalPlayer\u0004\u001eLevelAre",
+          "PerformanceID": 97
+        },
+        {
+          "$type": "RPG.GameCore.AdvByInCustomZone",
+          "ReturnArtUnload": true
+        },
+        {
+          "$type": "RPG.GameCore.AddMissionMenuItem",
+          "MenuItemTextID": {
+            "Hash": 24,
+            "Hash64": 51
+          },
+          "DialoguePath": "F40003001_G16\u0004\u0007Anchor3\u0001\u0000�\u000e��\u001e\u0000\u0000�����>\u0000\u0000\u0000\u000f\u0000\u0000�����\b\u0000�������\t\u0000;\u0000 \u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0007\u0000\u001eLevelArea_P40003_F40"
+        },
+        {
+          "$type": "RPG.GameCore.AddMissionMenuItem",
+          "MenuItemTextID": {
+            "Hash": -26,
+            "Hash64": 48
+          },
+          "DialoguePath": "1_G16\u0007Anchor8\u0001\u0000\u001f\u0000\u0001\u000bLocalPlayer\u0004\u001eLevelArea_P40003"
+        },
+        {
+          "$type": "RPG.GameCore.AdvByInCustomZone",
+          "Inverse": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchBattleEventEntityList"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AddMissionMenuItem",
+          "TaskEnabled": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchBattleEventEntityList"
+          },
+          "MenuItemTextID": {
+            "Hash": -48,
+            "Hash64": 71
+          },
+          "DialoguePath": "6\u0004\u0007Anchor3\u0001\u0000�\u0001�\u0004\u001d\u0005\u0004\u0003\u0000�����\b\u0000�����Ú\f \u0005\u0004\u0003\u0000�����\b\u0000�"
+        }
+      ]
+    },
+    {},
+    {
+      "IsLoop": true
+    },
+    {
+      "Order": 327
+    },
+    {},
+    {},
+    {}
+  ]
+}

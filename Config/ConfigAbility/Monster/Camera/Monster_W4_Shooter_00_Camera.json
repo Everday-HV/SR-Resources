@@ -1,0 +1,223 @@
+{
+  "AbilityList": [
+    {
+      "Name": "Monster_W4_Shooter_00_Skill01_Camera",
+      "TargetInfo": {
+        "TargetType": "AllEnemy"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActiveActionCountDown",
+          "TaskEnabled": true,
+          "Enable": true
+        }
+      ]
+    },
+    {
+      "TargetInfo": {
+        "TargetType": "58",
+        "AllowUnselectableTarget": true
+      },
+      "OnAdd": [
+        {
+          "$type": "RPG.GameCore.AdvByInCustomZone",
+          "TaskEnabled": true,
+          "Inverse": true
+        },
+        {
+          "$type": "RPG.GameCore.AdvCharacterSteerToInputDir",
+          "TaskEnabled": true,
+          "AnimStateName": "UseSkill\f\u0001\u0006Caster\u0001\u0000\u0000��\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\f\u0001\bAllEnemy\u0000\u0000�Bף��\u0000\u0000�@���=���=\u0000\u0000�\u001a\f\u0001\u0006Caster\nף<\\�\u0002?ף��\f\u0001\bAllEne",
+          "NormalizedTimeEnd": -0.00005018098818254657,
+          "MinRotationSpeed": -152003690889216.0
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.AddGridFightTargetEquip",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchAbilityTarget"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AdvCharacterSetMotionBlendTime",
+          "TaskEnabled": true,
+          "RunGaitLerpTime": 2.2870805909536034e+20
+        },
+        {
+          "$type": "RPG.GameCore.AdvCreateGroupEntityV2",
+          "OverrideArtModelOffset": {
+            "x": 1.0224363205791499e+27,
+            "y": 1.9080235875670426e+17,
+            "z": 1.1573953818521118e-31
+          },
+          "SkipCreated": true
+        },
+        {
+          "$type": "RPG.GameCore.AddFinishMissionData_SelectConsumeItem",
+          "TaskEnabled": true,
+          "SubmissionID": 115,
+          "ItemSelect": [
+            {
+              "Item1": 114,
+              "Item3": 87
+            },
+            {
+              "Item1": 116,
+              "TriggerCustomString": "AllEnemyWithAllUnselectable\u0001\u0000�\u001d\u000e5\u0000\u0007Skill01\u0000����\u0018�\u001d\u0010�\u0018�\u001a\u0006\u0002\f\u0001\u000fLightTeamCenter�Q���\u001e\u0005@\u0000\u0000��\f\u0001\u000fLightTeamCente"
+            },
+            {
+              "Item2": 113
+            },
+            {
+              "Item1": 26,
+              "Item3": 64,
+              "TriggerCustomString": "\ng@\u0000\u0000\u0000\u0000�\u001a\f\u0001\u0006Caster=\n7@=\n�?H�?\f\u0001\bAllEnemy��ѿ��\t�\u0000\u0000\u0000\u0000*\u0002\u0010Blend"
+            },
+            {
+              "Item1": 70,
+              "Item2": 97,
+              "Item3": 115,
+              "TriggerCustomString": "ToSlow��*>\u0016\f\u0001%CasterWithAllEnemyWithAllUnselectable\u0001\u0000\u0013)Monster_W4_Shooter_00_Skill01_Camera_Weak\u0001\b\u0004�\u001d\u0010�\u0018�ʛ\u0014\b\u0017Monste"
+            },
+            {
+              "Item2": 95
+            },
+            {
+              "Item1": 111,
+              "Item2": 109
+            },
+            {
+              "Item1": 111,
+              "Item3": 110,
+              "TriggerCustomString": "UseSkill\f\u0001\u0006Caster\u0001\u0000\u0000��\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\f\u0001\u0015SkillTargetEntityList\u0000\u0000�Bף��\u0000\u0000�@���=���=\u0000\u0000�\u001a\f\u0001\u0006Caster\nף<\\�\u0002?"
+            },
+            {
+              "Item1": 1,
+              "Item2": 21,
+              "Item3": 83
+            },
+            {
+              "Item1": 105,
+              "Item2": 108,
+              "TriggerCustomString": "TargetEntityListR�\u001e?\nף�\u0000\u0000\u0000\u0000*\u0002\u0010Blend_FastToSlow)\\\u000f=\u0002\f\u0001%CasterWithAllEnemyWithAllUnselectable�\u001d\u000e5\u0000\u0007Skill01\u0000��"
+            },
+            {
+              "Item3": 0,
+              "TriggerCustomString": 0
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+          ]
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "OnRemove": [],
+      "DynamicValues": {},
+      "DynamicStrings": {}
+    }
+  ]
+}

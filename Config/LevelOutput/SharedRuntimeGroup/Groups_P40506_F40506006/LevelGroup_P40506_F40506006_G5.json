@@ -1,0 +1,179 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Door",
+  "AreaAnchorName": "LevelArea_P40506_F40506006_G5",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "Env_Interior",
+        "Value": "Stages/Outputs/Chapter05/EnviroProfile/Chap05_CloseView_ADV_B001_Day_01_VarientG.enviroProfile.asset"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString",
+        "Key": "Env_Exterior",
+        "Value": "Stages/Outputs/Chapter05/EnviroProfile/Chap05_CloseView_ADV_B001_Day_01_VarientS.enviroProfile.asset"
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Connection",
+        "TagHash": -295833477
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -50.95800018310547,
+      "PosY": 0.9980059862136841,
+      "PosZ": -45.04899978637695,
+      "Name": "Anchor1"
+    },
+    {
+      "ID": 2,
+      "PosX": -51.06999969482422,
+      "PosY": 1.0000009536743164,
+      "PosZ": -49.35100173950195,
+      "Name": "Anchor2",
+      "RotY": 180.00010681152344
+    },
+    {
+      "ID": 3,
+      "PosX": -50.87900161743164,
+      "PosY": 2.492000102996826,
+      "PosZ": -50.71099853515625,
+      "Name": "Anchor3",
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 55.0
+      }
+    },
+    {
+      "ID": 5,
+      "PosX": -51.04100036621094,
+      "PosY": 2.4660000801086426,
+      "PosZ": -43.27899932861328,
+      "Name": "Anchor5",
+      "RotY": 180.0,
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter",
+        "fov": 55.0
+      }
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300016,
+      "PosX": 38.417999267578125,
+      "PosY": 1.0100020170211792,
+      "PosZ": 40.733001708984375,
+      "Name": "Prop16",
+      "RotY": -0.00003099999958067201,
+      "PropID": 105001,
+      "ValueSource": {
+        "Values": []
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300022,
+      "PosX": 51.58100128173828,
+      "PosY": 1.0100020170211792,
+      "PosZ": 40.733001708984375,
+      "Name": "Prop22",
+      "RotY": 0.000037999998312443495,
+      "PropID": 105001,
+      "ValueSource": {
+        "Values": []
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosX": 79.44000244140625,
+      "PosY": 9.196999549865723,
+      "PosZ": 109.33000183105469,
+      "Name": "District1",
+      "RotY": 5.000000953674316,
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 35.0,
+        "DimY": 5.0,
+        "DimZ": 20.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    },
+    {
+      "ID": 500002,
+      "PosX": 87.0,
+      "PosY": 9.420000076293945,
+      "PosZ": 105.70999908447266,
+      "Name": "District2",
+      "Trigger": {
+        "Shape": "GeometryBox",
+        "Radius": 1.0,
+        "DimX": 17.8799991607666,
+        "DimY": 5.0,
+        "DimZ": 12.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

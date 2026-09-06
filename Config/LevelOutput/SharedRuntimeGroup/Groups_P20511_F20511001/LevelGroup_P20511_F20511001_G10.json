@@ -1,0 +1,203 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "Area01FDGroup",
+  "LevelGraph": "Config/Level/GroupGraph/F20511001/Group_F20511001_G10.json",
+  "AreaAnchorName": "LevelArea_P20511_F20511001_G10",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "GroupPropertyMap": {
+    "11": {
+      "ID": 11,
+      "Name": "LG_110001__8_FogState_Auto",
+      "Side": "ServerClient",
+      "MaxValue": 1
+    },
+    "12": {
+      "ID": 12,
+      "Name": "LG_110001__61_ChestStateS_Auto",
+      "Side": "ServerClient",
+      "DefaultValue": 1,
+      "MaxValue": 3
+    }
+  },
+  "ValueSource": {
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedJsonConfig",
+        "Key": "CurveTest",
+        "Value": {
+          "$type": "RPG.GameCore.GameLevelObjectRefConfig",
+          "GroupID": 10,
+          "InstanceID": 1,
+          "Type": "Curve"
+        }
+      }
+    ]
+  },
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Gameplay",
+        "TagHash": -141571921
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [
+    {
+      "ID": 1,
+      "PosX": 151.8800048828125,
+      "PosY": 4.482641220092773,
+      "PosZ": 33.66999816894531,
+      "Name": "Curve1",
+      "PointList": [
+        {
+          "Alias": "Point1",
+          "Position": {
+            "x": 0.3190160095691681,
+            "y": -0.6614519953727722,
+            "z": -33.867000579833984
+          },
+          "ControlType": 1,
+          "Control1": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 4.172430992126465
+          },
+          "Control2": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -4.172430992126465
+          }
+        },
+        {
+          "Alias": "Point2",
+          "Position": {
+            "x": 0.37571701407432556,
+            "y": 0.0,
+            "z": -106.88839721679688
+          },
+          "ControlType": 2,
+          "Control1": {
+            "x": -0.13517799973487854,
+            "y": -0.13189999759197235,
+            "z": 15.187549591064453
+          },
+          "Control2": {
+            "x": 4.092803955078125,
+            "y": 4.438182830810547,
+            "z": -134.91659545898438
+          }
+        },
+        {
+          "Alias": "Point3",
+          "Position": {
+            "x": 65.66414642333984,
+            "y": 14.673359870910645,
+            "z": -306.6304016113281
+          },
+          "ControlType": 2,
+          "Control1": {
+            "x": -13.46815013885498,
+            "y": -1.768936038017273,
+            "z": 13.50512981414795
+          },
+          "Control2": {
+            "x": 33.88528060913086,
+            "y": 3.7708590030670166,
+            "z": -27.314699172973633
+          }
+        },
+        {
+          "Alias": "Point4",
+          "Position": {
+            "x": 269.3695068359375,
+            "y": 21.508939743041992,
+            "z": -355.6510925292969
+          },
+          "ControlType": 2,
+          "Control1": {
+            "x": -148.15989685058594,
+            "y": 0.20819899439811707,
+            "z": -8.94305419921875
+          },
+          "Control2": {
+            "x": 7.331055164337158,
+            "y": 0.0,
+            "z": -0.08953899890184402
+          }
+        }
+      ]
+    }
+  ],
+  "LittleGameList": [
+    {
+      "ID": 110001,
+      "PosX": 379.7200012207031,
+      "PosY": 294.7200012207031,
+      "PosZ": 4.400000095367432,
+      "Name": "LittleGame1",
+      "RotY": 90.0,
+      "RotX": -1.9999999949504854e-6,
+      "RotZ": 340.5657043457031,
+      "GameType": "FiveDim",
+      "LevelConfigPath": "Config/Gameplays/LittleGame/FiveDim/Level/Version_410/Map_B101/B101_CommonLevel_4.json",
+      "LevelVarBinding": {
+        "Bindings": [
+          {
+            "LevelVarName": "_8_FogState_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__8_FogState_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          },
+          {
+            "LevelVarName": "_61_ChestStateS_Auto",
+            "BindingType": "GroupProperty",
+            "EntityRefValue": {},
+            "LevelEntityRefValue": {},
+            "GroupPropertyName": "LG_110001__61_ChestStateS_Auto",
+            "ExtraInfo": {
+              "$type": "RPG.GameCore.FiveDimLevelVarBindingExtraInfo"
+            }
+          }
+        ]
+      },
+      "HideAllEntityOnEnter": true,
+      "GroupsToKeepOnEnter": [],
+      "NavInfo": {
+        "LittleGameConnectList": []
+      },
+      "RequireMissionInfo": {
+        "RequireSubMissionIDList": []
+      },
+      "MinimapFogIDList": [
+        10010000,
+        10010001,
+        10010002
+      ]
+    }
+  ]
+}

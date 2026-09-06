@@ -1,0 +1,259 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "DefaultGroup",
+  "AreaAnchorName": "LevelArea_P20513_F20513001_G1",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.SceneConfig",
+        "TagHash": 520707853
+      }
+    ]
+  },
+  "AnchorList": [
+    {
+      "ID": 1,
+      "PosX": -204.02000427246094,
+      "PosY": -16.966140747070312,
+      "PosZ": -110.27999877929688,
+      "Name": "PlayerStart"
+    },
+    {
+      "ID": 2,
+      "PosX": -86.02999877929688,
+      "PosY": -15.563870429992676,
+      "PosZ": -76.06999969482422,
+      "Name": "ZZ_Etrance1"
+    },
+    {
+      "ID": 3,
+      "PosX": 247.6240997314453,
+      "PosY": -14.184989929199219,
+      "PosZ": -160.8000030517578,
+      "IsDelete": true,
+      "Name": "ZZ_Etrance2"
+    },
+    {
+      "ID": 4,
+      "PosX": -204.14529418945312,
+      "PosY": -13.697770118713379,
+      "PosZ": -56.87150955200195,
+      "Name": "Store_Entrance",
+      "RotY": 180.29209899902344
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": -203.91000366210938,
+      "PosY": -12.697770118713379,
+      "PosZ": -54.25,
+      "IsDelete": true,
+      "Name": "Dev_EnterZZ",
+      "RotY": 1.5848239660263062,
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F10441001/LG_Prop_F10441001_G1_300001.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TargetAnchor",
+            "Value": "LevelArea_P20513_F20513001_G1,ZZ_Etrance1"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Hint",
+            "Value": "ALMX_EnterMijing"
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 3.0,
+        "DimX": 12.0,
+        "DimY": 5.0,
+        "DimZ": 2.5
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 98,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": -194.38999938964844,
+      "PosY": -25.170000076293945,
+      "PosZ": -71.94000244140625,
+      "IsDelete": true,
+      "Name": "Dev_EnterZZ",
+      "RotY": 348.7658996582031,
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F10441001/LG_Prop_F10441001_G1_300001.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TargetAnchor",
+            "Value": "LevelArea_P20513_F20513001_G1,ZZ_Etrance2"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Hint",
+            "Value": "ALMX_EnterMijing"
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 3.0,
+        "DimX": 12.0,
+        "DimY": 5.0,
+        "DimZ": 2.5
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 98,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300003,
+      "PosX": -86.81999969482422,
+      "PosY": -14.563209533691406,
+      "PosZ": -77.4000015258789,
+      "IsDelete": true,
+      "Name": "Dev_ExitZZ",
+      "RotY": 0.5585899949073792,
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F10441001/LG_Prop_F10441001_G1_300001.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TargetAnchor",
+            "Value": "LevelArea_P20513_F20513001_G1,Store_Entrance"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Hint",
+            "Value": "ALMX_EnterMijing"
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 3.0,
+        "DimX": 12.0,
+        "DimY": 5.0,
+        "DimZ": 2.5
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 98,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300004,
+      "PosX": 247.0518035888672,
+      "PosY": -14.184989929199219,
+      "PosZ": -103.67240142822266,
+      "IsDelete": true,
+      "Name": "Dev_ExitZZ",
+      "RotY": 348.7658996582031,
+      "PropID": 100,
+      "IsOverrideInitLevelGraph": true,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F10441001/LG_Prop_F10441001_G1_300001.json",
+      "ValueSource": {
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "TargetAnchor",
+            "Value": "LevelArea_P20513_F20513001_G1,Store_Entrance"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString",
+            "Key": "Hint",
+            "Value": "ALMX_EnterMijing"
+          }
+        ]
+      },
+      "Trigger": {
+        "Radius": 3.0,
+        "DimX": 12.0,
+        "DimY": 5.0,
+        "DimZ": 2.5
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "OverrideMapIconType": 98,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

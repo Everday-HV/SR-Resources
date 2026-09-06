@@ -1,0 +1,1296 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "MainMission1040610_Atmosphere",
+  "LevelGraph": "Config/Level/GroupGraph/F20451001/Group_F20451001_G211.json",
+  "AreaAnchorName": "LevelArea_P20451_F20451001_G211",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "SavedValueName": "SceneStateByMainMission"
+      },
+      {
+        "SavedValueName": "SubStateByMainMission"
+      }
+    ],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [
+    115,
+    116,
+    117
+  ],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere",
+        "TagHash": -140174765
+      }
+    ]
+  },
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "ID": 300001,
+      "PosX": 445.7099914550781,
+      "PosY": 58.58000183105469,
+      "PosZ": 146.77999877929688,
+      "Name": "Prop1",
+      "RotY": 65.69999694824219,
+      "PropID": 100,
+      "ValueSource": {},
+      "Trigger": {
+        "Radius": 3.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0
+      },
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "Dialog": {
+        "LevelGraph": "Config/Level/PropDialogue/P20451/F20451001_G211/DialogueMain_F20451001_G211_P300001.json",
+        "PackList": []
+      },
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 7
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "InteractTitle": {
+        "Hash": 278713937,
+        "Hash64": 16304550243505668348
+      },
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": 338.5899963378906,
+      "PosY": 70.68041229248047,
+      "PosZ": 163.47999572753906,
+      "Name": "Prop2",
+      "PropID": 100,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "MissionTrigger": {
+          "Radius": 10.0
+        }
+      },
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "InteractIconType": {
+        "EnumIndex": 20,
+        "Value": 0
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "OverrideAdvEffectMap": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    }
+  ],
+  "DistrictList": [
+    {
+      "ID": 500001,
+      "PosX": 338.5899963378906,
+      "PosY": 70.68041229248047,
+      "PosZ": 163.47999572753906,
+      "Name": "District1",
+      "Trigger": {
+        "Shape": "GeometrySphere",
+        "Radius": 50.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0
+      },
+      "DistrictType": "Level",
+      "ValueSource": {}
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "ID": 400001,
+      "PosX": 339.5050964355469,
+      "PosY": 70.68041229248047,
+      "PosZ": 164.15460205078125,
+      "Name": "NPC1",
+      "RotY": 159.31260681152344,
+      "NPCID": 14137,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultLookAtMode": "Closed",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100010295,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400002,
+      "PosX": 340.93231201171875,
+      "PosY": 70.64306640625,
+      "PosZ": 163.65879821777344,
+      "Name": "NPC2",
+      "RotY": 279.38128662109375,
+      "NPCID": 14235,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultLookAtMode": "Closed",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100020355,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400003,
+      "PosX": 341.347900390625,
+      "PosY": 70.64306640625,
+      "PosZ": 162.42050170898438,
+      "Name": "NPC3",
+      "RotY": 318.80950927734375,
+      "NPCID": 14145,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultLookAtMode": "Closed",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100010222,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400004,
+      "PosX": 338.72479248046875,
+      "PosY": 70.68041229248047,
+      "PosZ": 163.0092010498047,
+      "Name": "NPC4",
+      "RotY": 37.5714111328125,
+      "NPCID": 14201,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultLookAtMode": "Closed",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100020345,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400005,
+      "PosX": 337.6017150878906,
+      "PosY": 71.17063903808594,
+      "PosZ": 164.04949951171875,
+      "Name": "NPC5",
+      "RotY": 91.81289672851562,
+      "NPCID": 14234,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultLookAtMode": "Closed",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100020309,
+      "AdditiveResidentEffect": [],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400006,
+      "PosX": 339.5050964355469,
+      "PosY": 70.68041229248047,
+      "PosZ": 164.15460205078125,
+      "Name": "NPC6",
+      "RotY": 159.31260681152344,
+      "NPCID": 14137,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultLookAtMode": "Closed",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100010295,
+      "AdditiveResidentEffect": [
+        {
+          "EffectPath": "Effects/Eff_Prefab/Eff_NPC/Normal/Common/Eff_Normal_Male_Common_StoryCrystal.prefab",
+          "AttachPoint": "Root"
+        }
+      ],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "StoryCrystal_Male"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SFXOnLoad": "Ev_sfx_npc_common_StoryCrystal_loop",
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400007,
+      "PosX": 340.93231201171875,
+      "PosY": 70.64306640625,
+      "PosZ": 163.65879821777344,
+      "Name": "NPC7",
+      "RotY": 279.38128662109375,
+      "NPCID": 14235,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultLookAtMode": "Closed",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100020355,
+      "AdditiveResidentEffect": [
+        {
+          "EffectPath": "Effects/Eff_Prefab/Eff_NPC/Normal/Common/Eff_Normal_Lady_Common_StoryCrystal.prefab",
+          "AttachPoint": "Root"
+        }
+      ],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "StoryCrystal_Lady"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SFXOnLoad": "Ev_sfx_npc_common_StoryCrystal_loop",
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400008,
+      "PosX": 341.347900390625,
+      "PosY": 70.64306640625,
+      "PosZ": 162.42050170898438,
+      "Name": "NPC8",
+      "RotY": 318.80950927734375,
+      "NPCID": 14145,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultLookAtMode": "Closed",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100010222,
+      "AdditiveResidentEffect": [
+        {
+          "EffectPath": "Effects/Eff_Prefab/Eff_NPC/Normal/Common/Eff_Normal_Male_Common_StoryCrystal.prefab",
+          "AttachPoint": "Root"
+        }
+      ],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "StoryCrystal_Male"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SFXOnLoad": "Ev_sfx_npc_common_StoryCrystal_loop",
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400009,
+      "PosX": 338.72479248046875,
+      "PosY": 70.68041229248047,
+      "PosZ": 163.0092010498047,
+      "Name": "NPC9",
+      "RotY": 37.5714111328125,
+      "NPCID": 14201,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultLookAtMode": "Closed",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100020345,
+      "AdditiveResidentEffect": [
+        {
+          "EffectPath": "Effects/Eff_Prefab/Eff_NPC/Normal/Common/Eff_Normal_Lady_Common_StoryCrystal.prefab",
+          "AttachPoint": "Root"
+        }
+      ],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "StoryCrystal_Lady"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SFXOnLoad": "Ev_sfx_npc_common_StoryCrystal_loop",
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    },
+    {
+      "ID": 400010,
+      "PosX": 337.6017150878906,
+      "PosY": 71.17063903808594,
+      "PosZ": 164.04949951171875,
+      "Name": "NPC10",
+      "RotY": 91.81289672851562,
+      "NPCID": 14234,
+      "ValueSource": {},
+      "StaticNPC": true,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultLookAtMode": "Closed",
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100020309,
+      "AdditiveResidentEffect": [
+        {
+          "EffectPath": "Effects/Eff_Prefab/Eff_NPC/Normal/Common/Eff_Normal_Lady_Common_StoryCrystal.prefab",
+          "AttachPoint": "Root"
+        }
+      ],
+      "InitialHiddenNodeList": [],
+      "OverrideReplaceMaterialKeyList": [
+        "StoryCrystal_Lady"
+      ],
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SFXOnLoad": "Ev_sfx_npc_common_StoryCrystal_loop",
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "ModelPresetConfig": {}
+    }
+  ],
+  "CrowdList": [
+    {
+      "ID": 1,
+      "PosX": 160.22000122070312,
+      "PosY": 29.476680755615234,
+      "PosZ": 255.97000122070312,
+      "Name": "Crowd1",
+      "RotY": 163.10000610351562,
+      "MemberList": [
+        {
+          "Identity": "SoldierPeople",
+          "FeatureID": "SoldierMale",
+          "UniqueName": "211_1_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.6300029754638672,
+            "y": 0.0,
+            "z": 1.0999939441680908
+          },
+          "LocalRotationY": 164.8000030517578,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100050410
+        },
+        {
+          "Identity": "SoldierPeople",
+          "FeatureID": "SoldierLady",
+          "UniqueName": "211_1_02",
+          "LookAtTarget": "211_1_01",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.0499999523162842,
+            "y": 0.0,
+            "z": -1.4399960041046143
+          },
+          "LocalRotationY": 348.6000061035156,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020355
+        },
+        {
+          "Identity": "SeaPeople",
+          "FeatureID": "Male_Sea",
+          "UniqueName": "211_1_03",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.3099919855594635,
+            "y": 0.0,
+            "z": 0.2599950134754181
+          },
+          "LocalRotationY": 256.6000061035156,
+          "PossessionConfig": {
+            "Name": "Possession_DrinksInTray_A_01"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010369
+        },
+        {
+          "Identity": "DownPeople",
+          "FeatureID": "DownPeople_Lady",
+          "UniqueName": "211_1_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 1.5290039777755737,
+            "y": 0.0,
+            "z": 0.7079939842224121
+          },
+          "LocalRotationY": 206.1999969482422,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020488
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "8_6_01"
+        },
+        {
+          "UniqueName": "2",
+          "CrowdUniqueName": "8_6_02"
+        }
+      ],
+      "CenterPos": {
+        "x": -0.21025200188159943,
+        "y": 0.0,
+        "z": 0.15699699521064758
+      }
+    },
+    {
+      "ID": 2,
+      "PosX": 115.44999694824219,
+      "PosY": 24.760009765625,
+      "PosZ": 197.19000244140625,
+      "Name": "Crowd2",
+      "RotY": 270.6099853515625,
+      "MemberList": [
+        {
+          "Identity": "UpPeople",
+          "FeatureID": "UpPeople_Male",
+          "UniqueName": "211_2_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.8903809785842896,
+            "y": 0.0,
+            "z": 1.7865450382232666
+          },
+          "LocalRotationY": 214.60000610351562,
+          "PossessionConfig": {
+            "Name": "Possession_AmphoreusGlass_A_02_Male"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010384
+        },
+        {
+          "Identity": "UpPeople",
+          "FeatureID": "UpPeople_Lady",
+          "UniqueName": "211_2_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.5484939813613892,
+            "y": 0.0,
+            "z": 0.9240970015525818
+          },
+          "LocalRotationY": 44.56032943725586,
+          "PossessionConfig": {
+            "Name": "Possession_AmphoreusGlass_A_01_Male"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020318
+        },
+        {
+          "Identity": "DownPeople",
+          "FeatureID": "DownPeople_Male",
+          "UniqueName": "211_2_03",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.28999799489974976,
+            "y": 0.0,
+            "z": 0.3700079917907715
+          },
+          "LocalRotationY": 329.03009033203125,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010355
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.9096239805221558,
+        "y": 0.0,
+        "z": 1.0268830060958862
+      }
+    },
+    {
+      "ID": 3,
+      "PosX": 120.86000061035156,
+      "PosY": 27.242109298706055,
+      "PosZ": 185.0500030517578,
+      "Name": "Crowd3",
+      "RotY": 288.20831298828125,
+      "MemberList": [
+        {
+          "Identity": "UpPeople",
+          "FeatureID": "UpPeople_Male",
+          "UniqueName": "211_3_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.8903809785842896,
+            "y": 0.0,
+            "z": 1.7865450382232666
+          },
+          "LocalRotationY": 230.13360595703125,
+          "PossessionConfig": {
+            "Name": "Possession_AmphoreusGlass_A_01_Male"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010384
+        },
+        {
+          "Identity": "UpPeople",
+          "FeatureID": "UpPeople_Lady",
+          "UniqueName": "211_3_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.1110000610351562,
+            "y": 0.0,
+            "z": 0.8739929795265198
+          },
+          "LocalRotationY": 64.39219665527344,
+          "PossessionConfig": {
+            "Name": "Possession_AmphoreusGlass_A_02_Lady"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020318
+        },
+        {
+          "Identity": "DownPeople",
+          "FeatureID": "DownPeople_Lady",
+          "UniqueName": "211_3_03",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 1.5459949970245361,
+            "y": 0.0,
+            "z": 0.8760049939155579
+          },
+          "LocalRotationY": 90.13388061523438,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020309
+        },
+        {
+          "Identity": "DownPeople",
+          "FeatureID": "DownPeople_Male",
+          "UniqueName": "211_3_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.25968700647354126,
+            "y": 0.0,
+            "z": -0.7695189714431763
+          },
+          "LocalRotationY": 219.91050720214844,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010358
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.42876800894737244,
+        "y": 0.0,
+        "z": 0.691756010055542
+      }
+    },
+    {
+      "ID": 4,
+      "PosX": 139.30299377441406,
+      "PosY": 27.242040634155273,
+      "PosZ": 179.56399536132812,
+      "Name": "Crowd4",
+      "RotY": 182.2301025390625,
+      "MemberList": [
+        {
+          "Identity": "UpPeople",
+          "FeatureID": "UpPeople_Male",
+          "UniqueName": "211_4_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.8903809785842896,
+            "y": 0.0,
+            "z": 1.7865450382232666
+          },
+          "LocalRotationY": 230.13360595703125,
+          "PossessionConfig": {
+            "Name": "Possession_MineralGlass_A_01"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010384
+        },
+        {
+          "Identity": "UpPeople",
+          "FeatureID": "UpPeople_Lady",
+          "UniqueName": "211_4_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.1110000610351562,
+            "y": 0.0,
+            "z": 0.8739929795265198
+          },
+          "LocalRotationY": 64.39219665527344,
+          "PossessionConfig": {
+            "Name": "Possession_MineralGlass_A_03"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020318
+        },
+        {
+          "Identity": "DownPeople",
+          "FeatureID": "DownPeople_Lady",
+          "UniqueName": "211_4_03",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 1.545997977256775,
+            "y": 0.0,
+            "z": 0.8760070204734802
+          },
+          "LocalRotationY": 90.13388061523438,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020309
+        },
+        {
+          "Identity": "DownPeople",
+          "FeatureID": "DownPeople_Male",
+          "UniqueName": "211_4_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.2596819996833801,
+            "y": 0.0,
+            "z": -0.7695159912109375
+          },
+          "LocalRotationY": 219.91050720214844,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010358
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.42876601219177246,
+        "y": 0.0,
+        "z": 0.6917570233345032
+      }
+    },
+    {
+      "ID": 5,
+      "PosX": 131.47000122070312,
+      "PosY": 24.757789611816406,
+      "PosZ": 198.41000366210938,
+      "Name": "Crowd5",
+      "RotY": 111.08159637451172,
+      "MemberList": [
+        {
+          "Identity": "UpPeople",
+          "FeatureID": "UpPeople_Male",
+          "UniqueName": "211_5_01",
+          "LookAtTarget": "211_5_02",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.399996042251587,
+            "y": 0.0,
+            "z": 2.4589970111846924
+          },
+          "LocalRotationY": 139.45840454101562,
+          "PossessionConfig": {
+            "Name": "Possession_AmphoreusGlass_A_02_Male"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010364
+        },
+        {
+          "Identity": "UpPeople",
+          "FeatureID": "UpPeople_Lady",
+          "UniqueName": "211_5_02",
+          "LookAtTarget": "211_5_01",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -1.5980039834976196,
+            "y": 0.0,
+            "z": 1.5709999799728394
+          },
+          "LocalRotationY": 113.6729965209961,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020301
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "8_19_01"
+        },
+        {
+          "UniqueName": "2",
+          "CrowdUniqueName": "8_19_02"
+        }
+      ],
+      "CenterPos": {
+        "x": -1.4989999532699585,
+        "y": 0.0,
+        "z": 2.014997959136963
+      }
+    },
+    {
+      "ID": 6,
+      "PosX": 102.88600158691406,
+      "PosY": 28.572729110717773,
+      "PosZ": 183.21299743652344,
+      "Name": "Crowd6",
+      "RotY": 197.67990112304688,
+      "MemberList": [
+        {
+          "Identity": "UpPeople",
+          "FeatureID": "UpPeople_Male",
+          "UniqueName": "211_6_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.8903809785842896,
+            "y": 0.0,
+            "z": 1.7865450382232666
+          },
+          "LocalRotationY": 230.13360595703125,
+          "PossessionConfig": {
+            "Name": "Possession_AmphoreusGlass_A_01_Male"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010384
+        },
+        {
+          "Identity": "UpPeople",
+          "FeatureID": "UpPeople_Lady",
+          "UniqueName": "211_6_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -2.1110000610351562,
+            "y": 0.0,
+            "z": 0.8739929795265198
+          },
+          "LocalRotationY": 64.39219665527344,
+          "PossessionConfig": {
+            "Name": "Possession_AmphoreusGlass_A_02_Lady"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020318
+        },
+        {
+          "Identity": "DownPeople",
+          "FeatureID": "DownPeople_Lady",
+          "UniqueName": "211_6_03",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 1.545997977256775,
+            "y": 0.0,
+            "z": 0.8760070204734802
+          },
+          "LocalRotationY": 90.13388061523438,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020309
+        },
+        {
+          "Identity": "DownPeople",
+          "FeatureID": "DownPeople_Male",
+          "UniqueName": "211_6_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.2596819996833801,
+            "y": 0.0,
+            "z": -0.7695159912109375
+          },
+          "LocalRotationY": 219.91050720214844,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010358
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": -0.42876601219177246,
+        "y": 0.0,
+        "z": 0.6917570233345032
+      }
+    },
+    {
+      "ID": 7,
+      "PosX": 127.9197998046875,
+      "PosY": 27.239810943603516,
+      "PosZ": 184.90780639648438,
+      "Name": "Crowd7",
+      "RotY": 129.6143035888672,
+      "MemberList": [
+        {
+          "Identity": "DownPeople",
+          "FeatureID": "DownPeople_Male",
+          "UniqueName": "211_7_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.21000100672245026,
+            "y": 0.0,
+            "z": -2.039999008178711
+          },
+          "PossessionConfig": {
+            "Name": "Possession_DrinksInTray_A_01"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010369
+        },
+        {
+          "Identity": "UpPeople",
+          "FeatureID": "UpPeople_Lady",
+          "UniqueName": "211_7_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.7513859868049622,
+            "y": 0.0,
+            "z": 0.24836599826812744
+          },
+          "LocalRotationY": 74.11237335205078,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020355
+        },
+        {
+          "Identity": "UpPeople",
+          "FeatureID": "UpPeople_Male",
+          "UniqueName": "211_7_03",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.8430989980697632,
+            "y": 0.0,
+            "z": 1.524988055229187
+          },
+          "LocalRotationY": 220.58030700683594,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010296
+        },
+        {
+          "Identity": "DownPeople",
+          "FeatureID": "DownPeople_Lady",
+          "UniqueName": "211_7_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 2.091372013092041,
+            "y": 0.0,
+            "z": -0.628495991230011
+          },
+          "LocalRotationY": 309.7673034667969,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020345
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": 0.5982720255851746,
+        "y": 0.0,
+        "z": -0.22378499805927277
+      }
+    },
+    {
+      "ID": 8,
+      "PosX": 147.7830047607422,
+      "PosY": 27.223270416259766,
+      "PosZ": 230.56500244140625,
+      "Name": "Crowd8",
+      "RotY": 348.1332092285156,
+      "MemberList": [
+        {
+          "Identity": "DownPeople",
+          "FeatureID": "DownPeople_Male",
+          "UniqueName": "211_8_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.9040060043334961,
+            "y": 0.0,
+            "z": -1.918004035949707
+          },
+          "PossessionConfig": {
+            "Name": "Possession_DrinksInTray_A_01"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010369
+        },
+        {
+          "Identity": "UpPeople",
+          "FeatureID": "UpPeople_OldMale",
+          "UniqueName": "211_8_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.18399299681186676,
+            "y": 0.0,
+            "z": -0.12900200486183167
+          },
+          "LocalRotationY": 74.11237335205078,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030222
+        },
+        {
+          "Identity": "UpPeople",
+          "FeatureID": "UpPeople_Male",
+          "UniqueName": "211_8_03",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 1.41000497341156,
+            "y": 0.0,
+            "z": 0.6509960293769836
+          },
+          "LocalRotationY": 247.89340209960938,
+          "PossessionConfig": {
+            "Name": "Possession_MineralGlass_A_03"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010384
+        },
+        {
+          "Identity": "DownPeople",
+          "FeatureID": "DownPeople_Lady",
+          "UniqueName": "211_8_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 2.0913729667663574,
+            "y": 0.06332799792289734,
+            "z": -0.6284930109977722
+          },
+          "LocalRotationY": 309.7673034667969,
+          "PossessionConfig": {
+            "Name": "Possession_MineralGlass_A_01"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020318
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "8_28_02"
+        }
+      ],
+      "CenterPos": {
+        "x": 1.1473439931869507,
+        "y": 0.015831999480724335,
+        "z": -0.5061259865760803
+      }
+    },
+    {
+      "ID": 9,
+      "PosX": 80.16899871826172,
+      "PosY": 29.49382972717285,
+      "PosZ": 208.88800048828125,
+      "Name": "Crowd9",
+      "RotY": 129.6143035888672,
+      "MemberList": [
+        {
+          "Identity": "DownPeople",
+          "FeatureID": "DownPeople_Male",
+          "UniqueName": "211_9_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.7700200080871582,
+            "y": 0.039000000804662704,
+            "z": 2.3520050048828125
+          },
+          "LocalRotationY": 239.26010131835938,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010488
+        },
+        {
+          "Identity": "UpPeople",
+          "FeatureID": "UpPeople_Lady",
+          "UniqueName": "211_9_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.9760029911994934,
+            "y": 0.0,
+            "z": 1.8259929418563843
+          },
+          "LocalRotationY": 74.11237335205078,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020210
+        },
+        {
+          "Identity": "UpPeople",
+          "FeatureID": "UpPeople_Male",
+          "UniqueName": "211_9_03",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.18599699437618256,
+            "y": 0.0,
+            "z": 2.5840020179748535
+          },
+          "LocalRotationY": 26.551820755004883,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010386
+        },
+        {
+          "Identity": "DownPeople",
+          "FeatureID": "DownPeople_Lady",
+          "UniqueName": "211_9_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.6640030145645142,
+            "y": 0.0,
+            "z": 0.44600701332092285
+          },
+          "LocalRotationY": 355.5419006347656,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020237
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [],
+      "CenterPos": {
+        "x": 0.0680060014128685,
+        "y": 0.009750000201165676,
+        "z": 1.802001953125
+      }
+    },
+    {
+      "ID": 10,
+      "PosX": 120.8280029296875,
+      "PosY": 24.75632095336914,
+      "PosZ": 201.80999755859375,
+      "Name": "Crowd10",
+      "RotY": 129.6143035888672,
+      "MemberList": [
+        {
+          "Identity": "DownPeople",
+          "FeatureID": "DownPeople_Male",
+          "UniqueName": "211_10_01",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.21000100672245026,
+            "y": 0.0,
+            "z": -2.039999008178711
+          },
+          "LocalRotationY": 5.177278995513916,
+          "PossessionConfig": {
+            "Name": "Possession_CakesInTray_B_01"
+          },
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010369
+        },
+        {
+          "Identity": "UpPeople",
+          "FeatureID": "UpPeople_Lady",
+          "UniqueName": "211_10_02",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": -0.548005998134613,
+            "y": 0.0,
+            "z": -1.2180010080337524
+          },
+          "LocalRotationY": 59.87678909301758,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020355
+        },
+        {
+          "Identity": "UpPeople",
+          "FeatureID": "UpPeople_Male",
+          "UniqueName": "211_10_03",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 0.41599899530410767,
+            "y": 0.0,
+            "z": -0.6660019755363464
+          },
+          "LocalRotationY": 190.2180938720703,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010491
+        },
+        {
+          "Identity": "DownPeople",
+          "FeatureID": "DownPeople_Lady",
+          "UniqueName": "211_10_04",
+          "LookAtMode": "Closed",
+          "LookAtAnchor": {},
+          "LookAtPosition": {},
+          "LocalPosition": {
+            "x": 1.2209930419921875,
+            "y": 0.0,
+            "z": -1.4970029592514038
+          },
+          "LocalRotationY": 313.45721435546875,
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020345
+        }
+      ],
+      "NewMunicipalChatCrowdInfos": [
+        {
+          "UniqueName": "1",
+          "CrowdUniqueName": "8_30_03"
+        }
+      ],
+      "CenterPos": {
+        "x": 0.3247469961643219,
+        "y": 0.0,
+        "z": -1.3552509546279907
+      }
+    }
+  ],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
+}

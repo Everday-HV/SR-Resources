@@ -1,0 +1,19 @@
+{
+  "AbilityList": [
+    {
+      "Name": "W_BodyPartTest_PassiveSkill01",
+      "TargetInfo": {
+        "TargetType": "Caster"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TaskConfig"
+        },
+        {
+          "$type": "RPG.GameCore.ActionCountDownPreview",
+          "Mode": "-48"
+        }
+      ]
+    }
+  ]
+}
